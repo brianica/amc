@@ -70,14 +70,19 @@ create policy "own problem logs" on problem_logs
   );
 
 -- Give every new sign-up a profile row without a round-trip from the app.
-create function handle_new_user() returns trigger
+-- Schema-qualified throughout: this runs inside GoTrue's own transaction, so an
+-- unexpected search_path here would break sign-up rather than fail visibly.
+create function public.handle_new_user() returns trigger
   language plpgsql security definer set search_path = '' as $$
 begin
   insert into public.profiles (id, display_name)
-  values (new.id, coalesce(new.raw_user_meta_data->>'full_name', split_part(new.email, '@', 1)));
+  values (new.id, coalesce(new.raw_user_meta_data->>'full_name', split_part(new.email, '@', 1)))
+  -- A profile that somehow already exists must not turn into "Database error
+  -- saving new user", which would lock the account out of sign-in entirely.
+  on conflict (id) do nothing;
   return new;
 end;
 $$;
 
 create trigger on_auth_user_created
-  after insert on auth.users for each row execute function handle_new_user();
+  after insert on auth.users for each row execute function public.handle_new_user();
