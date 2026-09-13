@@ -119,7 +119,9 @@ export function LogForm({ exam, examLabel }: { exam: ExamFile; examLabel: string
 
         {error && <p className="text-sm text-wrong">{error}</p>}
 
-        <div className="grid gap-1 sm:grid-cols-2">
+        {/* Column-major so the numbers run 1-13 down the left and 14-25 down the
+            right, the way they sit on a paper answer sheet. */}
+        <div className="grid gap-1 sm:grid-flow-col sm:grid-cols-2 sm:[grid-template-rows:repeat(13,minmax(0,1fr))]">
           {answers.map((answer, i) => (
             <div key={i} className="flex items-center gap-2 rounded px-1 py-0.5">
               <span className="w-6 text-right text-sm tabular-nums text-muted">{i + 1}</span>

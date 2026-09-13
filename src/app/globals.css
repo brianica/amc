@@ -10,6 +10,27 @@
   --correct: #2f7a52;
   --wrong: #b03a2e;
   --blank: #a6791f;
+
+  /* Data-visualisation roles. Categorical slots 1-4 and the sequential blue ramp
+     are the validated reference palette, checked against this app's own surfaces
+     with the dataviz validator (all gates pass in both modes). */
+  --viz-1: #2a78d6;
+  --viz-2: #eb6834;
+  --viz-3: #1baf7a;
+  --viz-4: #eda100;
+  --viz-none: #c3c2b7;
+  --viz-grid: #e1e0d9;
+  --viz-axis: #c3c2b7;
+  /* Sequential blue, light->dark as accuracy rises. Each step carries the ink
+     colour that clears contrast on it, because the ramp's lightness direction
+     flips between themes and the cell must not have to guess. */
+  --seq-0: #f2f5f9;
+  --seq-1: #b7d3f6;  --seq-1-ink: #0b0b0b;
+  --seq-2: #86b6ef;  --seq-2-ink: #0b0b0b;
+  --seq-3: #5598e7;  --seq-3-ink: #0b0b0b;
+  --seq-4: #2a78d6;  --seq-4-ink: #ffffff;
+  --seq-5: #1c5cab;  --seq-5-ink: #ffffff;
+  --seq-6: #104281;  --seq-6-ink: #ffffff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,6 +44,24 @@
     --correct: #6cc08d;
     --wrong: #e8806f;
     --blank: #d8ab4a;
+
+    --viz-1: #3987e5;
+    --viz-2: #d95926;
+    --viz-3: #199e70;
+    --viz-4: #c98500;
+    --viz-none: #4a4842;
+    --viz-grid: #2c2c2a;
+    --viz-axis: #383835;
+    /* On the dark surface the near-zero end is the step nearest the surface, so
+       the ramp runs dark->light. Widened from the light ramp's span: a narrow
+       range on a dark ground reads as one flat colour. */
+    --seq-0: #232733;
+    --seq-1: #0d366b;  --seq-1-ink: #ffffff;
+    --seq-2: #104281;  --seq-2-ink: #ffffff;
+    --seq-3: #184f95;  --seq-3-ink: #ffffff;
+    --seq-4: #256abf;  --seq-4-ink: #ffffff;
+    --seq-5: #3987e5;  --seq-5-ink: #0b0b0b;
+    --seq-6: #86b6ef;  --seq-6-ink: #0b0b0b;
   }
 }
 
@@ -36,6 +75,11 @@
   --color-correct: var(--correct);
   --color-wrong: var(--wrong);
   --color-blank: var(--blank);
+  --color-viz-1: var(--viz-1);
+  --color-viz-2: var(--viz-2);
+  --color-viz-3: var(--viz-3);
+  --color-viz-4: var(--viz-4);
+  --color-viz-none: var(--viz-none);
 }
 
 body {
