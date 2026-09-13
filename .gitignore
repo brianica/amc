@@ -4,3 +4,7 @@ pipeline/.out/
 .env
 .env.local
 .DS_Store
+.next/
+.dev-data/
+next-env.d.ts
+tsconfig.tsbuildinfo

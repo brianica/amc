@@ -7,16 +7,31 @@
     "extract": "tsx pipeline/src/extract-cli.ts",
     "classify": "tsx pipeline/src/classify.ts",
     "validate": "tsx pipeline/src/validate.ts",
-    "test": "vitest run"
+    "test": "vitest run",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
     "@types/node": "^26.5.1",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^4.3.3",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2",
     "vitest": "^2.1.8"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.125.0",
+    "@supabase/ssr": "^0.12.7",
+    "@supabase/supabase-js": "^2.116.0",
+    "next": "^15.5.25",
+    "playwright": "^1.63.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "server-only": "^0.0.1",
     "zod": "^4.6.4"
   }
 }
