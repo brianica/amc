@@ -1,0 +1,6 @@
+node_modules/
+pipeline/.cache/
+pipeline/.out/
+.env
+.env.local
+.DS_Store

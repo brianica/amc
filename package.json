@@ -1,0 +1,22 @@
+{
+  "name": "amc-diagnostic",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch": "tsx pipeline/src/fetch.ts",
+    "extract": "tsx pipeline/src/extract-cli.ts",
+    "classify": "tsx pipeline/src/classify.ts",
+    "validate": "tsx pipeline/src/validate.ts",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^26.5.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.125.0",
+    "zod": "^4.6.4"
+  }
+}

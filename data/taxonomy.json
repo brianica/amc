@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "note": "Every problem gets exactly one area (clean denominator for accuracy rates) and 1-3 subtopics (specific enough to name a study target).",
+  "areas": [
+    {
+      "id": "algebra",
+      "label": "Algebra",
+      "subtopics": [
+        { "id": "linear-systems", "label": "Linear equations & systems" },
+        { "id": "quadratics-vieta", "label": "Quadratics & Vieta's formulas" },
+        { "id": "polynomials", "label": "Higher-degree polynomials & roots" },
+        { "id": "functions", "label": "Functions & functional equations" },
+        { "id": "sequences-series", "label": "Sequences & series" },
+        { "id": "inequalities", "label": "Inequalities & AM-GM" },
+        { "id": "logs-exponents", "label": "Logarithms & exponents" },
+        { "id": "complex-numbers", "label": "Complex numbers" },
+        { "id": "rates-work-mixture", "label": "Rates, work & mixture problems" },
+        { "id": "absolute-value", "label": "Absolute value & piecewise" },
+        { "id": "radicals", "label": "Radicals & surds" }
+      ]
+    },
+    {
+      "id": "geometry",
+      "label": "Geometry",
+      "subtopics": [
+        { "id": "triangle-basics", "label": "Triangle angles & area" },
+        { "id": "similar-congruent", "label": "Similar & congruent triangles" },
+        { "id": "right-triangles", "label": "Right triangles & Pythagorean" },
+        { "id": "circles", "label": "Circles: chords, tangents, inscribed angles" },
+        { "id": "power-of-a-point", "label": "Power of a point" },
+        { "id": "cyclic-quadrilaterals", "label": "Cyclic quadrilaterals" },
+        { "id": "polygons-area-ratios", "label": "Polygons & area ratios" },
+        { "id": "coordinate-geometry", "label": "Coordinate geometry" },
+        { "id": "trigonometry", "label": "Trigonometry (law of sines/cosines)" },
+        { "id": "solid-geometry", "label": "3-D solids & volume" },
+        { "id": "transformations", "label": "Transformations & symmetry" },
+        { "id": "area-decomposition", "label": "Area by decomposition" }
+      ]
+    },
+    {
+      "id": "number-theory",
+      "label": "Number Theory",
+      "subtopics": [
+        { "id": "divisibility", "label": "Divisibility & factors" },
+        { "id": "primes", "label": "Primes & prime factorization" },
+        { "id": "modular-arithmetic", "label": "Modular arithmetic" },
+        { "id": "gcd-lcm", "label": "GCD & LCM" },
+        { "id": "digits-bases", "label": "Digits & base representation" },
+        { "id": "diophantine", "label": "Diophantine equations" },
+        { "id": "divisor-counting", "label": "Divisor counting & sums" },
+        { "id": "units-digit", "label": "Units digit & cyclicity" },
+        { "id": "floor-ceiling", "label": "Floor & ceiling functions" }
+      ]
+    },
+    {
+      "id": "counting-probability",
+      "label": "Counting & Probability",
+      "subtopics": [
+        { "id": "multiplication-principle", "label": "Multiplication principle" },
+        { "id": "permutations-combinations", "label": "Permutations & combinations" },
+        { "id": "stars-and-bars", "label": "Stars and bars" },
+        { "id": "inclusion-exclusion", "label": "Inclusion-exclusion & complementary counting" },
+        { "id": "casework", "label": "Casework enumeration" },
+        { "id": "basic-probability", "label": "Basic probability" },
+        { "id": "conditional-geometric-probability", "label": "Conditional & geometric probability" },
+        { "id": "expected-value", "label": "Expected value" },
+        { "id": "recursion-states", "label": "Recursion & states" },
+        { "id": "symmetry-arguments", "label": "Symmetry arguments" },
+        { "id": "pigeonhole", "label": "Pigeonhole principle" },
+        { "id": "combinatorial-geometry", "label": "Combinatorial geometry" }
+      ]
+    },
+    {
+      "id": "logic-other",
+      "label": "Logic & Other",
+      "subtopics": [
+        { "id": "logic-puzzles", "label": "Logic & reasoning puzzles" },
+        { "id": "sets-venn", "label": "Sets & Venn diagrams" },
+        { "id": "estimation", "label": "Estimation & approximation" },
+        { "id": "statistics", "label": "Mean, median, mode & statistics" }
+      ]
+    }
+  ]
+}
