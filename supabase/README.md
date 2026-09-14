@@ -45,30 +45,61 @@ loosening permissions on the `auth` schema.
 
 ## 4. Configure email sign-in
 
-**Authentication → Providers → Email**: make sure Email is enabled. The app uses
-`signInWithOtp`, so magic links are what matter; leave "Confirm email" on.
+**Authentication → Providers → Email**: make sure Email is enabled. This one provider
+covers both sign-in methods the app offers — email with a password, and magic links.
 
-Supabase's built-in email sender is rate-limited to a handful of messages per hour and
-is only meant for development. Before real users, configure your own SMTP under
-**Project Settings → Authentication → SMTP Settings**.
+**You do not need SMTP, and you do not need a domain.** Two things make that true:
 
-## 5. Site URL and redirect allow-list — do not skip
+- The app supports **email and password sign-in**, which sends no email at all. For a
+  small number of known users this is the least friction: create the accounts once (see
+  below) and the browser remembers the login, instead of hunting for a magic link every
+  time a session expires.
+- Supabase's built-in email sender works out of the box for magic links. It is
+  rate-limited to a handful of messages per hour, which is ample for a family or a
+  study group.
+
+Configure your own SMTP only when you have enough users to hit that rate limit — it is
+a scaling step, not a setup step, and it is the point at which you would want a domain.
+
+### Creating accounts by hand (no email involved)
+
+Under **Authentication → Users → Add user**, create each account with an email and
+password and tick the option to auto-confirm it. Those accounts can sign in immediately
+at `/login`. This is the recommended path for a private tool.
+
+### If you would rather people sign themselves up
+
+Leave **Confirm email** on so that addresses are verified, and Supabase's built-in
+sender will deliver the confirmation. Be aware that with sign-up open, anyone who has
+the URL can create an account.
+
+## 5. Site URL and redirect allow-list
+
+This step matters **only for magic links**. Password sign-in never leaves your site, so
+if you are using accounts created by hand you can skip to step 6 and come back if you
+later turn magic links on.
 
 `src/app/login/page.tsx` asks Supabase to send the user back to
 `${NEXT_PUBLIC_SITE_URL}/auth/callback`. Supabase refuses any redirect target that is
 not on the allow-list and silently falls back to the Site URL, which is the usual
 reason a magic link "works" but lands the user on the wrong page or signed out.
 
+**You do not need a domain for this.** Running locally, `http://localhost:3000` is a
+perfectly valid Site URL. When you deploy, your host gives you an origin for free — on
+Vercel that is `https://<project>.vercel.app` — and that works just as well. A domain of
+your own is cosmetic here; add one when you want the URL to look like yours.
+
 Under **Authentication → URL Configuration**:
 
-- **Site URL**: your production origin, e.g. `https://amc.example.com`.
-- **Redirect URLs**: add both environments explicitly —
+- **Site URL**: where the app actually runs today — `http://localhost:3000` while it is
+  only on your machine, or your deployment origin once it is online.
+- **Redirect URLs**: add every origin you use, explicitly —
   - `http://localhost:3000/auth/callback`
-  - `https://amc.example.com/auth/callback`
+  - `https://<project>.vercel.app/auth/callback` (once deployed)
 
-Add a line per deployment origin you actually use. If your host gives every pull
-request its own domain, a wildcard such as `https://*-yourteam.vercel.app/auth/callback`
-covers them; keep wildcards off anything you do not control.
+If your host gives every pull request its own domain, a wildcard such as
+`https://*-yourteam.vercel.app/auth/callback` covers them; keep wildcards off anything
+you do not control.
 
 `NEXT_PUBLIC_SITE_URL` must match the origin the user is browsing, per environment —
 `http://localhost:3000` locally, the production origin in production. A mismatch sends
@@ -138,4 +169,4 @@ them.
 - **New users have no profile row** — the `on_auth_user_created` trigger did not get
   created. See the note at the end of step 3.
 - **Sign-in emails stop arriving** — you have hit the built-in sender's rate limit.
-  Configure SMTP (step 4).
+  Either wait, switch to password sign-in, or configure SMTP (step 4).
