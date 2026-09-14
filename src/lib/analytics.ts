@@ -28,6 +28,14 @@ export interface Cell {
   accuracy: number | null;
 }
 
+export interface SubtopicRow {
+  area: string;
+  subtopic: string;
+  seen: number;
+  correct: number;
+  accuracy: number;
+}
+
 export interface TrendPoint {
   attemptId: string;
   takenOn: string;
@@ -70,7 +78,14 @@ function questionOutcomes(attempts: AttemptRecord[], lookup: ExamLookup) {
     } catch {
       return []; // a malformed stored answer string must not break the dashboard
     }
-    return scored.results.map((r) => ({ attempt, exam, ...r }));
+    // Join the tagged problem back on: scoring knows the area but not the techniques,
+    // and the techniques are what turn a weak area into something to practise.
+    return scored.results.map((r) => ({
+      attempt,
+      exam,
+      ...r,
+      subtopics: exam.problems[r.n - 1]?.subtopics ?? [],
+    }));
   });
 }
 
@@ -111,6 +126,41 @@ export function strengthGrid(attempts: AttemptRecord[], lookup: ExamLookup): {
     }
   }
   return { areas: sortedAreas, cells };
+}
+
+/**
+ * Accuracy per technique, across every question seen.
+ *
+ * The area level says where the trouble is; this says what to actually practise. A
+ * problem carries up to three techniques and counts toward each, so the rows overlap
+ * by design — they answer "how do I do on this technique", not "how is my time split".
+ *
+ * `minSeen` keeps one bad day off the study plan: a single missed question is not
+ * evidence of a weakness.
+ */
+export function subtopicBreakdown(
+  attempts: AttemptRecord[],
+  lookup: ExamLookup,
+  minSeen = 2,
+): SubtopicRow[] {
+  const tally = new Map<string, { area: string; subtopic: string; seen: number; correct: number }>();
+
+  for (const o of questionOutcomes(attempts, lookup)) {
+    if (!o.area) continue;
+    for (const subtopic of o.subtopics) {
+      const key = `${o.area}|${subtopic}`;
+      const row = tally.get(key) ?? { area: o.area, subtopic, seen: 0, correct: 0 };
+      row.seen++;
+      if (o.status === "correct") row.correct++;
+      tally.set(key, row);
+    }
+  }
+
+  return [...tally.values()]
+    .filter((r) => r.seen >= minSeen)
+    .map((r) => ({ ...r, accuracy: r.correct / r.seen }))
+    // Weakest first, and among equals the one with most evidence behind it.
+    .sort((a, b) => a.accuracy - b.accuracy || b.seen - a.seen);
 }
 
 export function scoreTrend(

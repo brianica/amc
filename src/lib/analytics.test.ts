@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { headline, mistakeMix, scoreTrend, strengthGrid } from "./analytics";
+import { headline, mistakeMix, scoreTrend, strengthGrid, subtopicBreakdown } from "./analytics";
 import type { AttemptRecord, ProblemLogRecord } from "./store";
 import { tierOf, type ExamFile, type Letter } from "@pipeline/types";
 
@@ -174,5 +174,55 @@ describe("headline", () => {
   it("has no opinion when nothing is logged", () => {
     const h = headline([], [], lookup);
     expect(h).toMatchObject({ papers: 0, latestScore: null, avgFixableLost: null });
+  });
+});
+
+describe("subtopicBreakdown", () => {
+  it("counts a problem toward each technique it carries", () => {
+    const multi = exam("multi", "AMC10", 6, 1.5);
+    // One area throughout: validate enforces that a technique belongs to exactly one
+    // area, so a fixture spanning two would not be reachable with real data.
+    multi.problems.forEach((p) => {
+      p.area = "algebra";
+      p.subtopics = ["linear-systems", "quadratics-vieta"];
+    });
+    const rows = subtopicBreakdown(
+      [attempt("a1", "multi", "2026-01-01", KEY, 150)],
+      (id) => (id === "multi" ? multi : undefined),
+    );
+    expect(rows.map((r) => r.subtopic).sort()).toEqual(["linear-systems", "quadratics-vieta"]);
+    expect(rows[0]!.seen).toBe(25);
+  });
+
+  it("puts the weakest technique first", () => {
+    const e = exam("mix", "AMC10", 6, 1.5);
+    // Odd questions get "weak", even get "strong"; answer only the even ones correctly.
+    e.problems.forEach((p, i) => {
+      p.area = "algebra";
+      p.subtopics = [i % 2 === 0 ? "weak" : "strong"];
+    });
+    const answers = [...KEY].map((c, i) => (i % 2 === 0 ? (c === "A" ? "B" : "A") : c)).join("");
+    const rows = subtopicBreakdown(
+      [attempt("a1", "mix", "2026-01-01", answers, 0)],
+      (id) => (id === "mix" ? e : undefined),
+      1,
+    );
+    expect(rows[0]!.subtopic).toBe("weak");
+    expect(rows[0]!.accuracy).toBe(0);
+    expect(rows[rows.length - 1]!.subtopic).toBe("strong");
+  });
+
+  it("ignores techniques seen too few times to mean anything", () => {
+    const e = exam("thin", "AMC10", 6, 1.5);
+    e.problems.forEach((p, i) => {
+      p.area = "algebra";
+      p.subtopics = [i === 0 ? "rare" : "common"];
+    });
+    const rows = subtopicBreakdown(
+      [attempt("a1", "thin", "2026-01-01", KEY, 150)],
+      (id) => (id === "thin" ? e : undefined),
+      2,
+    );
+    expect(rows.map((r) => r.subtopic)).toEqual(["common"]);
   });
 });

@@ -212,7 +212,14 @@ export function LogForm({ exam, examLabel }: { exam: ExamFile; examLabel: string
                 <span className={r.status === "blank" ? "text-blank" : "text-wrong"}>
                   {r.status === "blank" ? "blank" : `answered ${r.given}, correct ${r.correct}`}
                 </span>
-                {r.area && <span className="text-sm text-muted">· {r.area.replace(/-/g, " ")}</span>}
+                {r.area && (
+                  <span className="text-sm text-muted">
+                    ·{" "}
+                    {(exam.problems[r.n - 1]?.subtopics ?? []).length > 0
+                      ? exam.problems[r.n - 1]!.subtopics.map((t) => t.replace(/-/g, " ")).join(", ")
+                      : r.area.replace(/-/g, " ")}
+                  </span>
+                )}
               </div>
 
               <div className="mt-3 flex flex-wrap gap-2">

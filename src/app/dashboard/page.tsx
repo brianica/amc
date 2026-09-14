@@ -12,6 +12,7 @@ import {
   mistakeMix,
   scoreTrend,
   strengthGrid,
+  subtopicBreakdown,
 } from "@/lib/analytics";
 import { MistakeMix, ScoreTrend, StrengthGrid } from "./charts";
 
@@ -54,6 +55,7 @@ export default async function Dashboard() {
 
   const h = headline(attempts, logs, lookup);
   const grid = strengthGrid(attempts, lookup);
+  const techniques = subtopicBreakdown(attempts, lookup);
   const trend = scoreTrend(attempts, lookup, examLabel);
   const mix = mistakeMix(attempts, logs, lookup, examLabel);
   const aimeRelevant = attempts.every((a) => {
@@ -118,6 +120,32 @@ export default async function Dashboard() {
           </p>
         ) : (
           <StrengthGrid areas={grid.areas} cells={grid.cells} />
+        )}
+      </Card>
+
+      <Card
+        title="What to practise next"
+        hint="Accuracy by technique, weakest first. This is the level that names a chapter to open, rather than a subject to worry about."
+      >
+        {techniques.length === 0 ? (
+          <p className="text-sm text-muted">
+            Needs tagged exams and a couple of papers before this says anything useful.
+          </p>
+        ) : (
+          <ul className="space-y-1 text-sm">
+            {techniques.slice(0, 8).map((t) => (
+              <li key={`${t.area}-${t.subtopic}`} className="flex items-baseline justify-between gap-4 border-b border-border py-1.5">
+                <span>
+                  {t.subtopic.replace(/-/g, " ")}
+                  <span className="ml-2 text-xs text-muted">{t.area.replace(/-/g, " ")}</span>
+                </span>
+                <span className="shrink-0 tabular-nums text-muted">
+                  {t.correct} of {t.seen}
+                  <span className="ml-2 text-text">{Math.round(t.accuracy * 100)}%</span>
+                </span>
+              </li>
+            ))}
+          </ul>
         )}
       </Card>
 

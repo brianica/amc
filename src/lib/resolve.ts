@@ -40,6 +40,10 @@ export function today(now: Date = new Date()): string {
   return now.toISOString().slice(0, 10);
 }
 
+export function isDue(card: ResolveCard, on: string): boolean {
+  return card.dueOn !== null && card.dueOn <= on;
+}
+
 /** A problem just missed on a paper enters the queue three days out. */
 export function newCard(examId: string, qNumber: number, missedOn: string): ResolveCard {
   return {
@@ -60,6 +64,13 @@ export function newCard(examId: string, qNumber: number, missedOn: string): Reso
  * postpone finding that out. Needing a hint counts as failing — a re-solve that leans
  * on the solution measures recall of the answer, which for multiple choice is worth
  * nothing.
+ *
+ * Attempting a card before it falls due is allowed and treated asymmetrically, because
+ * the two outcomes carry different information. The delay *is* the measurement, so
+ * solving it an hour after reading the solution says nothing about retention and does
+ * not advance the card — it counts as practice and the schedule stands. Failing early,
+ * on the other hand, is conclusive on its own: the method is not there now, so the card
+ * resets exactly as a failure on the due day would.
  */
 export function recordResult(
   card: ResolveCard,
@@ -70,6 +81,11 @@ export function recordResult(
 
   if (result === "failed") {
     return { ...card, stage: 0, dueOn: addDays(on, RETRY_INTERVAL_DAYS), attempts, lastResult: "failed" };
+  }
+
+  // Solved, but ahead of schedule: record the practice, leave the spacing intact.
+  if (!isDue(card, on)) {
+    return { ...card, attempts, lastResult: "solved" };
   }
 
   if (card.stage === 0) {
@@ -92,10 +108,6 @@ export function reopen(card: ResolveCard, missedOn: string): ResolveCard {
     dueOn: addDays(missedOn, FIRST_INTERVAL_DAYS),
     lastResult: "failed",
   };
-}
-
-export function isDue(card: ResolveCard, on: string): boolean {
-  return card.dueOn !== null && card.dueOn <= on;
 }
 
 export function isMastered(card: ResolveCard): boolean {

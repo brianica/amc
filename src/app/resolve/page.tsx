@@ -15,6 +15,29 @@ function daysBetween(from: string, to: string): number {
   return Math.round(ms / 86_400_000);
 }
 
+function renderCard(card: ReturnType<typeof toCard>, now: string, early: boolean) {
+  const exam = findExam(card.examId);
+  const problem = exam?.problems[card.qNumber - 1];
+  return (
+    <QueueItem
+      key={`${card.examId}-${card.qNumber}`}
+      examId={card.examId}
+      examLabel={exam ? examLabel(exam) : card.examId}
+      qNumber={card.qNumber}
+      area={problem?.area ?? null}
+      subtopics={problem?.subtopics ?? []}
+      descriptor={problem?.descriptor ?? null}
+      sourceUrl={problem?.sourceUrl ?? ""}
+      dueOn={card.dueOn!}
+      overdueDays={early ? 0 : Math.max(0, daysBetween(card.dueOn!, now))}
+      early={early}
+      daysEarly={early ? Math.max(0, daysBetween(now, card.dueOn!)) : 0}
+      stage={card.stage}
+      attempts={card.attempts}
+    />
+  );
+}
+
 export default async function ResolvePage() {
   const user = await currentUser();
   if (!user) redirect("/login");
@@ -23,6 +46,7 @@ export default async function ResolvePage() {
   const cards = (await getStore().listResolveCards(user.id)).map(toCard);
   const summary = summarise(cards, now);
   const due = sortForQueue(cards.filter((c) => isDue(c, now)));
+  const scheduled = sortForQueue(cards.filter((c) => !isDue(c, now) && !isMastered(c)));
 
   return (
     <div className="space-y-8">
@@ -65,27 +89,20 @@ export default async function ResolvePage() {
               {summary.nextDueOn && ` Next up on ${summary.nextDueOn}.`}
             </p>
           ) : (
-            <ul className="space-y-3">
-              {due.map((card) => {
-                const exam = findExam(card.examId);
-                const problem = exam?.problems[card.qNumber - 1];
-                return (
-                  <QueueItem
-                    key={`${card.examId}-${card.qNumber}`}
-                    examId={card.examId}
-                    examLabel={exam ? examLabel(exam) : card.examId}
-                    qNumber={card.qNumber}
-                    area={problem?.area ?? null}
-                    descriptor={problem?.descriptor ?? null}
-                    sourceUrl={problem?.sourceUrl ?? ""}
-                    dueOn={card.dueOn!}
-                    overdueDays={Math.max(0, daysBetween(card.dueOn!, now))}
-                    stage={card.stage}
-                    attempts={card.attempts}
-                  />
-                );
-              })}
-            </ul>
+            <ul className="space-y-3">{due.map((card) => renderCard(card, now, false))}</ul>
+          )}
+
+          {scheduled.length > 0 && (
+            <section>
+              <h2 className="text-lg font-semibold">Scheduled</h2>
+              <p className="mt-1 max-w-prose text-sm text-muted">
+                Not due yet. You can take one early if you want the practice — it keeps
+                its place in the queue either way.
+              </p>
+              <ul className="mt-3 space-y-2">
+                {scheduled.map((card) => renderCard(card, now, true))}
+              </ul>
+            </section>
           )}
 
           {summary.mastered > 0 && (
