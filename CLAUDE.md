@@ -68,6 +68,11 @@ Run `npx tsc --noEmit` and `npm test` before committing.
   rows, so correcting a tag retroactively fixes every attempt already recorded.
 - **Pages that depend on the signed-in user are `force-dynamic`**, and the local
   development account refuses to start in production.
+- **A paper can be sat any number of times.** Each sitting is its own `attempts` row;
+  the app numbers them by date. Migration 0003 dropped the unique constraint that
+  blocked this. Note that a retake's accuracy is contaminated by memory of the first
+  sitting, so the topic grid counts it like any other sitting — visible, not silently
+  excluded.
 - **Re-solve dates are plain `YYYY-MM-DD` strings, and the column is `date`.** A
   re-solve is due on a calendar day; a timestamp would make "due today" depend on the
   reader's timezone. Failing a re-solve returns the card to stage 0 rather than

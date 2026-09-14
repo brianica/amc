@@ -8,6 +8,7 @@ import {
   CATEGORY_LABEL,
   TIERS,
   TIER_LABEL,
+  attemptOrdinals,
   headline,
   mistakeMix,
   scoreTrend,
@@ -53,11 +54,18 @@ export default async function Dashboard() {
     );
   }
 
+  const ordinals = attemptOrdinals(attempts);
   const h = headline(attempts, logs, lookup);
   const grid = strengthGrid(attempts, lookup);
   const techniques = subtopicBreakdown(attempts, lookup);
-  const trend = scoreTrend(attempts, lookup, examLabel);
-  const mix = mistakeMix(attempts, logs, lookup, examLabel);
+  // Name the sitting when a paper has been sat more than once, so a retake is
+  // distinguishable from the original everywhere it appears.
+  const label = (exam: Parameters<typeof examLabel>[0], attempt: { id: string }) => {
+    const o = ordinals.get(attempt.id);
+    return o && o.total > 1 ? `${examLabel(exam)} (sitting ${o.ordinal} of ${o.total})` : examLabel(exam);
+  };
+  const trend = scoreTrend(attempts, lookup, label);
+  const mix = mistakeMix(attempts, logs, lookup, label);
   const aimeRelevant = attempts.every((a) => {
     const e = lookup(a.exam_id);
     return e?.competition === "AMC10" || e?.competition === "AMC12";

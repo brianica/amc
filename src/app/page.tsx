@@ -2,6 +2,7 @@ import Link from "next/link";
 import { currentUser } from "@/lib/auth";
 import { allExams, examLabel, findExam, isSample } from "@/lib/exams";
 import { getStore } from "@/lib/store";
+import { attemptOrdinals } from "@/lib/analytics";
 import { summarise, today } from "@/lib/resolve";
 import { toCard } from "@/lib/resolve-cards";
 
@@ -38,6 +39,9 @@ export default async function Home() {
     store.listResolveCards(user.id),
   ]);
   const queue = summarise(cardRows.map(toCard), today());
+  const ordinals = attemptOrdinals(attempts);
+  const sittings = new Map<string, number>();
+  for (const a of attempts) sittings.set(a.exam_id, (sittings.get(a.exam_id) ?? 0) + 1);
 
   return (
     <div className="space-y-10">
@@ -82,6 +86,11 @@ export default async function Home() {
                   {isSample(exam) && (
                     <span className="ml-2 text-xs text-blank">invented answer key</span>
                   )}
+                  {(sittings.get(exam.id) ?? 0) > 0 && (
+                    <span className="ml-2 text-xs text-muted">
+                      sat {sittings.get(exam.id)}× — log another
+                    </span>
+                  )}
                 </Link>
               </li>
             ))}
@@ -107,7 +116,14 @@ export default async function Home() {
                 const exam = findExam(a.exam_id);
                 return (
                   <tr key={a.id} className="border-t border-border">
-                    <td className="py-2">{exam ? examLabel(exam) : a.exam_id}</td>
+                    <td className="py-2">
+                      {exam ? examLabel(exam) : a.exam_id}
+                      {(ordinals.get(a.id)?.total ?? 1) > 1 && (
+                        <span className="ml-2 text-xs text-muted">
+                          sitting {ordinals.get(a.id)!.ordinal} of {ordinals.get(a.id)!.total}
+                        </span>
+                      )}
+                    </td>
                     <td className="py-2 text-muted">{a.taken_on}</td>
                     <td className="py-2 text-right tabular-nums">{a.score}</td>
                   </tr>

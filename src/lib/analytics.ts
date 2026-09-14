@@ -28,6 +28,36 @@ export interface Cell {
   accuracy: number | null;
 }
 
+export interface AttemptOrdinal {
+  /** 1 for the first sitting of this paper, 2 for the next, and so on. */
+  ordinal: number;
+  total: number;
+}
+
+/**
+ * Number each attempt within its own paper, oldest first.
+ *
+ * A paper can be sat more than once — that is the point of retaking one — so the
+ * lists need to say which sitting they are showing rather than repeating a title.
+ * Ties on the date fall back to insertion order, so two sittings on one day still
+ * come out stable rather than swapping between renders.
+ */
+export function attemptOrdinals(attempts: AttemptRecord[]): Map<string, AttemptOrdinal> {
+  const byExam = new Map<string, AttemptRecord[]>();
+  for (const a of attempts) {
+    byExam.set(a.exam_id, [...(byExam.get(a.exam_id) ?? []), a]);
+  }
+
+  const out = new Map<string, AttemptOrdinal>();
+  for (const sittings of byExam.values()) {
+    const ordered = [...sittings].sort(
+      (x, y) => x.taken_on.localeCompare(y.taken_on) || x.created_at.localeCompare(y.created_at),
+    );
+    ordered.forEach((a, i) => out.set(a.id, { ordinal: i + 1, total: ordered.length }));
+  }
+  return out;
+}
+
 export interface SubtopicRow {
   area: string;
   subtopic: string;
@@ -166,7 +196,7 @@ export function subtopicBreakdown(
 export function scoreTrend(
   attempts: AttemptRecord[],
   lookup: ExamLookup,
-  label: (exam: ExamFile) => string,
+  label: (exam: ExamFile, attempt: AttemptRecord) => string,
 ): TrendPoint[] {
   return attempts
     .map((a) => {
@@ -176,7 +206,7 @@ export function scoreTrend(
       return {
         attemptId: a.id,
         takenOn: a.taken_on,
-        label: label(exam),
+        label: label(exam, a),
         score: a.score,
         maxScore: max,
         pct: max === 0 ? 0 : a.score / max,
@@ -190,7 +220,7 @@ export function mistakeMix(
   attempts: AttemptRecord[],
   logs: ProblemLogRecord[],
   lookup: ExamLookup,
-  label: (exam: ExamFile) => string,
+  label: (exam: ExamFile, attempt: AttemptRecord) => string,
 ): MixPoint[] {
   const byAttempt = new Map<string, ProblemLogRecord[]>();
   for (const log of logs) {
@@ -211,7 +241,7 @@ export function mistakeMix(
       return {
         attemptId: a.id,
         takenOn: a.taken_on,
-        label: label(exam),
+        label: label(exam, a),
         counts,
         unclassified,
         total: rows.length,

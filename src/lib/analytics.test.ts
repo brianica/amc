@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { headline, mistakeMix, scoreTrend, strengthGrid, subtopicBreakdown } from "./analytics";
+import { attemptOrdinals, headline, mistakeMix, scoreTrend, strengthGrid, subtopicBreakdown } from "./analytics";
 import type { AttemptRecord, ProblemLogRecord } from "./store";
 import { tierOf, type ExamFile, type Letter } from "@pipeline/types";
 
@@ -224,5 +224,35 @@ describe("subtopicBreakdown", () => {
       2,
     );
     expect(rows.map((r) => r.subtopic)).toEqual(["common"]);
+  });
+});
+
+describe("attemptOrdinals", () => {
+  it("numbers sittings of the same paper oldest first", () => {
+    const ords = attemptOrdinals([
+      attempt("a2", "amc10-a", "2026-03-01", KEY, 120),
+      attempt("a1", "amc10-a", "2026-01-01", KEY, 90),
+      attempt("a3", "amc10-a", "2026-05-01", KEY, 140),
+    ]);
+    expect(ords.get("a1")).toEqual({ ordinal: 1, total: 3 });
+    expect(ords.get("a2")).toEqual({ ordinal: 2, total: 3 });
+    expect(ords.get("a3")).toEqual({ ordinal: 3, total: 3 });
+  });
+
+  it("numbers each paper independently", () => {
+    const ords = attemptOrdinals([
+      attempt("a1", "amc10-a", "2026-01-01", KEY, 90),
+      attempt("b1", "amc8-a", "2026-02-01", KEY, 20),
+    ]);
+    expect(ords.get("a1")).toEqual({ ordinal: 1, total: 1 });
+    expect(ords.get("b1")).toEqual({ ordinal: 1, total: 1 });
+  });
+
+  it("orders two sittings on the same day stably, by when they were recorded", () => {
+    const first = { ...attempt("x", "amc10-a", "2026-03-01", KEY, 90), created_at: "2026-03-01T09:00:00Z" };
+    const second = { ...attempt("y", "amc10-a", "2026-03-01", KEY, 120), created_at: "2026-03-01T17:00:00Z" };
+    const ords = attemptOrdinals([second, first]);
+    expect(ords.get("x")!.ordinal).toBe(1);
+    expect(ords.get("y")!.ordinal).toBe(2);
   });
 });
