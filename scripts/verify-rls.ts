@@ -15,6 +15,7 @@
  *   RLS_TEST_A_EMAIL, RLS_TEST_A_PASSWORD
  *   RLS_TEST_B_EMAIL, RLS_TEST_B_PASSWORD
  */
+import { resolve } from "node:path";
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 
 /**
@@ -22,33 +23,97 @@ import { createClient, type SupabaseClient } from "@supabase/supabase-js";
  * so without this the script would ignore the very file the setup guide tells you to
  * fill in. Anything already set in the shell wins, which is what loadEnvFile does.
  */
+const loadedFiles: string[] = [];
 for (const file of [".env.local", ".env"]) {
   try {
     process.loadEnvFile(file);
+    loadedFiles.push(resolve(file));
   } catch {
     // Not present — fine, the values may come from the shell instead.
   }
 }
 
-function required(name: string): string {
-  const value = process.env[name];
-  if (!value) {
-    console.error(`Missing ${name}.`);
-    console.error("");
-    console.error("Set it in .env.local in the repo root, or pass it on the command line.");
-    console.error("This script needs all six of:");
-    console.error("  NEXT_PUBLIC_SUPABASE_URL, NEXT_PUBLIC_SUPABASE_ANON_KEY");
-    console.error("  RLS_TEST_A_EMAIL, RLS_TEST_A_PASSWORD");
-    console.error("  RLS_TEST_B_EMAIL, RLS_TEST_B_PASSWORD");
-    console.error("");
-    console.error("See supabase/README.md, step 7, for creating the two test users.");
-    process.exit(2);
-  }
-  return value;
+const REQUIRED_VARS = [
+  "NEXT_PUBLIC_SUPABASE_URL",
+  "NEXT_PUBLIC_SUPABASE_ANON_KEY",
+  "RLS_TEST_A_EMAIL",
+  "RLS_TEST_A_PASSWORD",
+  "RLS_TEST_B_EMAIL",
+  "RLS_TEST_B_PASSWORD",
+] as const;
+
+/** Enough of a value to recognise it, never enough to leak a password. */
+function redact(name: string, value: string): string {
+  if (name.includes("PASSWORD")) return `${value.length} characters`;
+  if (name.includes("EMAIL")) return value;
+  return value.length > 24 ? `${value.slice(0, 18)}…` : value;
 }
 
-const SUPABASE_URL = required("NEXT_PUBLIC_SUPABASE_URL");
-const SUPABASE_ANON_KEY = required("NEXT_PUBLIC_SUPABASE_ANON_KEY");
+/**
+ * Report all six variables at once rather than failing on the first missing one.
+ * "Missing X" on its own leaves you guessing whether the file was read at all; a
+ * full picture of what was and was not found answers that immediately.
+ */
+function readConfig(): Record<(typeof REQUIRED_VARS)[number], string> {
+  const found: Record<string, string> = {};
+  const missing: string[] = [];
+  const suspicious: string[] = [];
+
+  for (const name of REQUIRED_VARS) {
+    const raw = process.env[name];
+    if (!raw || raw.trim() === "") {
+      missing.push(name);
+      continue;
+    }
+    if (raw !== raw.trim()) suspicious.push(name);
+    found[name] = raw.trim();
+  }
+
+  if (missing.length === 0 && suspicious.length === 0) {
+    return found as Record<(typeof REQUIRED_VARS)[number], string>;
+  }
+
+  console.error(missing.length > 0 ? "Configuration is incomplete.\n" : "Configuration warning.\n");
+  console.error(
+    loadedFiles.length > 0
+      ? `Read: ${loadedFiles.join(", ")}`
+      : `No .env.local or .env found in ${process.cwd()}`,
+  );
+  console.error("");
+  for (const name of REQUIRED_VARS) {
+    const value = found[name];
+    console.error(`  ${value ? "found  " : "MISSING"}  ${name}${value ? `  = ${redact(name, value)}` : ""}`);
+  }
+  console.error("");
+
+  if (suspicious.length > 0) {
+    console.error(`Leading or trailing spaces in: ${suspicious.join(", ")} — they were trimmed.`);
+    console.error("");
+  }
+
+  if (missing.length > 0) {
+    console.error("Add the missing lines to .env.local in the repo root, with no quotes");
+    console.error("and no spaces around the '=', for example:");
+    console.error("");
+    for (const name of missing) {
+      const example = name.includes("EMAIL")
+        ? `rls-${name.includes("_A_") ? "a" : "b"}@example.com`
+        : "the password you gave that user";
+      console.error(`  ${name}=${example}`);
+    }
+    console.error("");
+    console.error("The two RLS_TEST users are throwaway accounts you create in the Supabase");
+    console.error("dashboard under Authentication -> Users -> Add user, with 'Auto Confirm");
+    console.error("User' ticked. See supabase/README.md, step 7.");
+    process.exit(2);
+  }
+
+  return found as Record<(typeof REQUIRED_VARS)[number], string>;
+}
+
+const config = readConfig();
+const SUPABASE_URL = config.NEXT_PUBLIC_SUPABASE_URL;
+const SUPABASE_ANON_KEY = config.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 
 /** A run tag, so a failed run's leftovers are identifiable and never collide. */
 const RUN = Math.random().toString(36).slice(2, 10);
@@ -90,8 +155,8 @@ async function signIn(label: string, email: string, password: string): Promise<{
 }
 
 async function main(): Promise<void> {
-  const a = await signIn("user A", required("RLS_TEST_A_EMAIL"), required("RLS_TEST_A_PASSWORD"));
-  const b = await signIn("user B", required("RLS_TEST_B_EMAIL"), required("RLS_TEST_B_PASSWORD"));
+  const a = await signIn("user A", config.RLS_TEST_A_EMAIL, config.RLS_TEST_A_PASSWORD);
+  const b = await signIn("user B", config.RLS_TEST_B_EMAIL, config.RLS_TEST_B_PASSWORD);
 
   if (a.userId === b.userId) {
     console.error("Both credentials resolve to the same user; the test would prove nothing.");
