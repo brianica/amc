@@ -10,7 +10,8 @@
     "test": "vitest run",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "seed:dev": "tsx scripts/seed-dev.ts"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.3.3",
