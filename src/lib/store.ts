@@ -30,11 +30,24 @@ export interface ProblemLogRecord {
   note: string | null;
 }
 
+export interface ResolveCardRecord {
+  user_id: string;
+  exam_id: string;
+  q_number: number;
+  stage: number;
+  due_on: string | null;
+  attempts: number;
+  last_result: "solved" | "failed" | null;
+}
+
 export interface Store {
   listAttempts(userId: string): Promise<AttemptRecord[]>;
   listLogs(userId: string): Promise<ProblemLogRecord[]>;
   createAttempt(input: Omit<AttemptRecord, "id" | "created_at">): Promise<string>;
   replaceLogs(userId: string, attemptId: string, logs: ProblemLogRecord[]): Promise<void>;
+  listResolveCards(userId: string): Promise<ResolveCardRecord[]>;
+  /** Insert or update by (user, exam, question) — a reopened card is the same card. */
+  upsertResolveCards(userId: string, cards: ResolveCardRecord[]): Promise<void>;
 }
 
 class SupabaseStore implements Store {
@@ -69,21 +82,47 @@ class SupabaseStore implements Store {
     const { error } = await db.from("problem_logs").insert(logs);
     if (error) throw new Error(error.message);
   }
+
+  async listResolveCards(userId: string): Promise<ResolveCardRecord[]> {
+    const db = await supabaseServer();
+    const { data, error } = await db.from("resolve_cards").select("*");
+    if (error) throw new Error(error.message);
+    return (data ?? []) as ResolveCardRecord[];
+  }
+
+  async upsertResolveCards(userId: string, cards: ResolveCardRecord[]): Promise<void> {
+    if (cards.length === 0) return;
+    const db = await supabaseServer();
+    const { error } = await db
+      .from("resolve_cards")
+      .upsert(cards.map((c) => ({ ...c, updated_at: new Date().toISOString() })), {
+        onConflict: "user_id,exam_id,q_number",
+      });
+    if (error) throw new Error(error.message);
+  }
+}
+
+interface DevDb {
+  attempts: AttemptRecord[];
+  logs: ProblemLogRecord[];
+  resolveCards: ResolveCardRecord[];
 }
 
 /** File-backed store for local development only; never reachable in production. */
 class DevStore implements Store {
   private readonly path = join(process.cwd(), ".dev-data", "db.json");
 
-  private async read(): Promise<{ attempts: AttemptRecord[]; logs: ProblemLogRecord[] }> {
+  private async read(): Promise<DevDb> {
     try {
-      return JSON.parse(await readFile(this.path, "utf8"));
+      const db = JSON.parse(await readFile(this.path, "utf8")) as Partial<DevDb>;
+      // resolve_cards arrived after the first seeded files, so tolerate its absence.
+      return { attempts: db.attempts ?? [], logs: db.logs ?? [], resolveCards: db.resolveCards ?? [] };
     } catch {
-      return { attempts: [], logs: [] };
+      return { attempts: [], logs: [], resolveCards: [] };
     }
   }
 
-  private async write(db: { attempts: AttemptRecord[]; logs: ProblemLogRecord[] }): Promise<void> {
+  private async write(db: DevDb): Promise<void> {
     await mkdir(join(process.cwd(), ".dev-data"), { recursive: true });
     await writeFile(this.path, JSON.stringify(db, null, 2));
   }
@@ -109,6 +148,22 @@ class DevStore implements Store {
     const db = await this.read();
     db.logs = db.logs.filter((l) => !(l.attempt_id === attemptId && l.user_id === userId));
     db.logs.push(...logs);
+    await this.write(db);
+  }
+
+  async listResolveCards(userId: string): Promise<ResolveCardRecord[]> {
+    return (await this.read()).resolveCards.filter((c) => c.user_id === userId);
+  }
+
+  async upsertResolveCards(userId: string, cards: ResolveCardRecord[]): Promise<void> {
+    const db = await this.read();
+    for (const card of cards) {
+      const i = db.resolveCards.findIndex(
+        (c) => c.user_id === userId && c.exam_id === card.exam_id && c.q_number === card.q_number,
+      );
+      if (i >= 0) db.resolveCards[i] = card;
+      else db.resolveCards.push(card);
+    }
     await this.write(db);
   }
 }

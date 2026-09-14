@@ -2,6 +2,8 @@ import Link from "next/link";
 import { currentUser } from "@/lib/auth";
 import { allExams, examLabel, findExam, isSample } from "@/lib/exams";
 import { getStore } from "@/lib/store";
+import { summarise, today } from "@/lib/resolve";
+import { toCard } from "@/lib/resolve-cards";
 
 
 // Depends on who is signed in, so it must never be prerendered at build time.
@@ -30,7 +32,12 @@ export default async function Home() {
     );
   }
 
-  const attempts = await getStore().listAttempts(user.id);
+  const store = getStore();
+  const [attempts, cardRows] = await Promise.all([
+    store.listAttempts(user.id),
+    store.listResolveCards(user.id),
+  ]);
+  const queue = summarise(cardRows.map(toCard), today());
 
   return (
     <div className="space-y-10">
@@ -39,6 +46,20 @@ export default async function Home() {
           Development mode — no Supabase configured, so you are signed in as a local
           test account and data is stored on disk.
         </p>
+      )}
+
+      {queue.due > 0 && (
+        <Link
+          href="/resolve"
+          className="block rounded-lg border border-accent/40 bg-accent/5 px-4 py-3 hover:border-accent"
+        >
+          <span className="font-medium">
+            {queue.due} problem{queue.due === 1 ? "" : "s"} ready to re-solve
+          </span>
+          <span className="ml-2 text-sm text-muted">
+            Three days on, from a blank page — that is where it sticks.
+          </span>
+        </Link>
       )}
 
       <section>

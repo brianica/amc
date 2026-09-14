@@ -15,7 +15,7 @@ opened up for anyone.
 | Dashboard (4 views) | Working |
 | Accounts + row-level security | Schema and setup runbook done; verified with `scripts/verify-rls.ts` |
 | **Problem database (`data/exams/`)** | **Empty — this is the active task** |
-| 3-day re-solve queue | Not built; the highest-value thing left |
+| 3-day re-solve queue | Working. Needs migration `0002_resolve_queue.sql` applied |
 
 Until `data/exams/` is populated the app runs against one clearly-labelled sample paper
 with an invented answer key, gated behind `SAMPLE_EXAMS=1`.
@@ -46,7 +46,7 @@ Run `npx tsc --noEmit` and `npm test` before committing.
 | `src/lib` | Auth, store, exam loading, analytics. `analytics.ts` is pure and unit-tested |
 | `pipeline/` | Builds the tagged problem database. See `pipeline/README.md` |
 | `data/` | Committed: taxonomy, per-exam answer keys and topic tags |
-| `supabase/` | Schema with RLS, plus the setup runbook |
+| `supabase/` | Schema with RLS, plus the setup runbook. Migrations are applied by hand, in order |
 | `scripts/` | Local seeding, RLS verification |
 
 ## Invariants — these are deliberate, do not "fix" them
@@ -68,6 +68,10 @@ Run `npx tsc --noEmit` and `npm test` before committing.
   rows, so correcting a tag retroactively fixes every attempt already recorded.
 - **Pages that depend on the signed-in user are `force-dynamic`**, and the local
   development account refuses to start in production.
+- **Re-solve dates are plain `YYYY-MM-DD` strings, and the column is `date`.** A
+  re-solve is due on a calendar day; a timestamp would make "due today" depend on the
+  reader's timezone. Failing a re-solve returns the card to stage 0 rather than
+  nudging it out: not having the method after three days means it was never learned.
 
 ## Conventions
 

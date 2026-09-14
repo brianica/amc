@@ -5,6 +5,7 @@ import { revalidatePath } from "next/cache";
 import { currentUser } from "@/lib/auth";
 import { findExam } from "@/lib/exams";
 import { getStore, type ErrorCategory, type ProblemLogRecord, type TimeBucket } from "@/lib/store";
+import { cardsForMissedProblems, toCard, toRecord } from "@/lib/resolve-cards";
 import { parseAnswers, scoreAttempt } from "@pipeline/score";
 
 export interface TriageInput {
@@ -60,6 +61,19 @@ export async function saveAttempt(input: {
     });
 
   await store.replaceLogs(user.id, attemptId, logs);
+
+  // Every missed problem joins the re-solve queue, due in three days. Reading a
+  // solution today is not the same as being able to produce it from a blank page.
+  const existing = (await store.listResolveCards(user.id)).map(toCard);
+  const changed = cardsForMissedProblems(
+    existing,
+    exam.id,
+    logs.map((l) => l.q_number),
+    input.takenOn,
+  );
+  await store.upsertResolveCards(user.id, changed.map((c) => toRecord(c, user.id)));
+
   revalidatePath("/");
+  revalidatePath("/resolve");
   redirect("/dashboard");
 }
