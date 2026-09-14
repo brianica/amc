@@ -80,17 +80,23 @@ async function classifyOnce(
   userContent: string,
 ): Promise<Classification | null> {
   return cached(cacheKey, async () => {
-    const response = await api.messages.parse({
-      model: MODEL,
-      max_tokens: 2000,
-      system: SYSTEM,
-      output_config: {
-        format: zodOutputFormat(Classification),
-        effort: "low", // classification against a fixed taxonomy is not a hard problem
-      },
-      messages: [{ role: "user", content: userContent }],
-    });
-    return response.parsed_output ?? null;
+    try {
+      const response = await api.messages.parse({
+        model: MODEL,
+        max_tokens: 2000,
+        system: SYSTEM,
+        output_config: {
+          format: zodOutputFormat(Classification),
+        },
+        messages: [{ role: "user", content: userContent }],
+      });
+      return response.parsed_output ?? null;
+    } catch (err) {
+      // Structured output validation failure — model returned an out-of-enum value.
+      // Return null so the other pass can still be used.
+      console.warn(`  classify parse error (will use other pass): ${String(err).slice(0, 120)}`);
+      return null;
+    }
   });
 }
 
