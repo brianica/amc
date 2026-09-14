@@ -4,6 +4,7 @@ import { useMemo, useState, useTransition } from "react";
 import type { ExamFile } from "@pipeline/types";
 import { parseAnswers, scoreAttempt, type ScoredAttempt } from "@pipeline/score";
 import type { ErrorCategory, TimeBucket } from "@/lib/store";
+import { assessRetake, BIAS_WINDOW_DAYS } from "@/lib/retake";
 import { saveAttempt, type TriageInput } from "./actions";
 
 const LETTERS = ["A", "B", "C", "D", "E"] as const;
@@ -29,7 +30,16 @@ const TIME_BUCKETS: { id: TimeBucket; label: string }[] = [
 
 const today = () => new Date().toISOString().slice(0, 10);
 
-export function LogForm({ exam, examLabel }: { exam: ExamFile; examLabel: string }) {
+export function LogForm({
+  exam,
+  examLabel,
+  previousDates,
+}: {
+  exam: ExamFile;
+  examLabel: string;
+  /** Dates this paper has already been sat, so a retake can be flagged. */
+  previousDates: string[];
+}) {
   const [answers, setAnswers] = useState<(string | null)[]>(() => Array(25).fill(null));
   const [takenOn, setTakenOn] = useState(today);
   const [duration, setDuration] = useState("");
@@ -37,6 +47,14 @@ export function LogForm({ exam, examLabel }: { exam: ExamFile; examLabel: string
   const [triage, setTriage] = useState<Record<number, TriageInput>>({});
   const [pending, startTransition] = useTransition();
   const [error, setError] = useState<string | null>(null);
+  // Set once from the warning, then left to the student — re-deriving it on every
+  // date change would silently undo their choice.
+  const [includeInStats, setIncludeInStats] = useState<boolean | null>(null);
+
+  const retake = useMemo(() => assessRetake(previousDates, takenOn), [previousDates, takenOn]);
+  // A likely-biased retake starts excluded, matching the advice on screen; anything
+  // else starts counted. Either way the checkbox is the student's to change.
+  const counted = includeInStats ?? !retake.likelyBiased;
 
   const answerString = useMemo(() => answers.map((a) => a ?? "-").join(""), [answers]);
   const entered = answers.filter((a) => a !== null).length;
@@ -73,6 +91,7 @@ export function LogForm({ exam, examLabel }: { exam: ExamFile; examLabel: string
           takenOn,
           answers: answerString,
           durationMin: duration ? Number(duration) : null,
+          includeInStats: counted,
           triage: Object.values(triage),
         });
       } catch (e) {
@@ -271,6 +290,47 @@ export function LogForm({ exam, examLabel }: { exam: ExamFile; examLabel: string
           ))}
         </ul>
       </section>
+
+      {retake.previous > 0 && (
+        <section
+          className={`rounded-md border px-4 py-3 text-sm ${
+            retake.likelyBiased ? "border-blank/50 bg-blank/10" : "border-border bg-surface"
+          }`}
+        >
+          {retake.likelyBiased ? (
+            <p>
+              You last sat this paper{" "}
+              {retake.daysSinceLast === 0
+                ? "today"
+                : `${retake.daysSinceLast} day${retake.daysSinceLast === 1 ? "" : "s"} ago`}
+              . Within {BIAS_WINDOW_DAYS} days the score tends to measure how well you
+              remember this paper rather than how well you can do the maths — and on
+              multiple choice, remembering a letter is enough.
+            </p>
+          ) : (
+            <p>
+              You have sat this paper before, {retake.daysSinceLast} days ago. That is
+              long enough for the answers to have faded, so it should be a fair measure.
+            </p>
+          )}
+
+          <label className="mt-3 flex items-start gap-2">
+            <input
+              type="checkbox"
+              checked={counted}
+              onChange={(e) => setIncludeInStats(e.target.checked)}
+              className="mt-0.5"
+            />
+            <span>
+              Count this sitting in my scores and topic accuracy.
+              <span className="block text-muted">
+                Either way it is saved, and anything you miss still joins the re-solve
+                queue.
+              </span>
+            </span>
+          </label>
+        </section>
+      )}
 
       {error && <p className="text-sm text-wrong">{error}</p>}
 

@@ -15,7 +15,8 @@ opened up for anyone.
 | Dashboard (4 views) | Working |
 | Accounts + row-level security | Schema and setup runbook done; verified with `scripts/verify-rls.ts` |
 | **Problem database (`data/exams/`)** | **Empty — this is the active task** |
-| 3-day re-solve queue | Working. Needs migration `0002_resolve_queue.sql` applied |
+| 3-day re-solve queue | Working |
+| Retakes | Working. Migrations `0002`–`0004` must be applied in order |
 
 Until `data/exams/` is populated the app runs against one clearly-labelled sample paper
 with an invented answer key, gated behind `SAMPLE_EXAMS=1`.
@@ -70,9 +71,13 @@ Run `npx tsc --noEmit` and `npm test` before committing.
   development account refuses to start in production.
 - **A paper can be sat any number of times.** Each sitting is its own `attempts` row;
   the app numbers them by date. Migration 0003 dropped the unique constraint that
-  blocked this. Note that a retake's accuracy is contaminated by memory of the first
-  sitting, so the topic grid counts it like any other sitting — visible, not silently
-  excluded.
+  blocked this.
+- **A retake inside 14 days is flagged, and counting it is the student's choice.**
+  `attempts.include_in_stats` (migration 0004) drives every aggregate on the dashboard;
+  a likely-biased retake defaults to excluded and the checkbox is theirs to override,
+  before or after saving. Excluding a sitting never affects the re-solve queue: the
+  problems were still missed, and the practice value does not depend on the score being
+  comparable.
 - **Re-solve dates are plain `YYYY-MM-DD` strings, and the column is `date`.** A
   re-solve is due on a calendar day; a timestamp would make "due today" depend on the
   reader's timezone. Failing a re-solve returns the card to stage 0 rather than

@@ -2,6 +2,7 @@ import Link from "next/link";
 import { currentUser } from "@/lib/auth";
 import { allExams, examLabel, findExam, isSample } from "@/lib/exams";
 import { getStore } from "@/lib/store";
+import { IncludeToggle } from "./IncludeToggle";
 import { attemptOrdinals } from "@/lib/analytics";
 import { summarise, today } from "@/lib/resolve";
 import { toCard } from "@/lib/resolve-cards";
@@ -109,6 +110,7 @@ export default async function Home() {
                 <th className="py-2 font-normal">Exam</th>
                 <th className="py-2 font-normal">Taken</th>
                 <th className="py-2 text-right font-normal">Score</th>
+                <th className="py-2 pl-3 text-right font-normal">Counted</th>
               </tr>
             </thead>
             <tbody>
@@ -125,7 +127,15 @@ export default async function Home() {
                       )}
                     </td>
                     <td className="py-2 text-muted">{a.taken_on}</td>
-                    <td className="py-2 text-right tabular-nums">{a.score}</td>
+                    <td className="py-2 text-right tabular-nums">
+                      {a.score}
+                      {!a.include_in_stats && (
+                        <span className="ml-2 text-xs font-normal text-muted">not counted</span>
+                      )}
+                    </td>
+                    <td className="py-2 pl-3 text-right">
+                      <IncludeToggle attemptId={a.id} included={a.include_in_stats} />
+                    </td>
                   </tr>
                 );
               })}

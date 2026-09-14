@@ -35,7 +35,11 @@ export default async function LogPage({ params }: { params: Promise<{ examId: st
         </p>
       )}
 
-      <LogForm exam={exam} examLabel={examLabel(exam)} />
+      <LogForm
+        exam={exam}
+        examLabel={examLabel(exam)}
+        previousDates={previous.map((a) => a.taken_on)}
+      />
     </div>
   );
 }

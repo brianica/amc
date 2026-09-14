@@ -44,7 +44,7 @@ const label = (e: ExamFile) => e.id;
 function attempt(id: string, examId: string, takenOn: string, answers: string, score: number): AttemptRecord {
   return {
     id, user_id: "u1", exam_id: examId, taken_on: takenOn, mode: "paper",
-    answers, duration_min: 75, score, created_at: `${takenOn}T00:00:00Z`,
+    answers, duration_min: 75, score, include_in_stats: true, created_at: `${takenOn}T00:00:00Z`,
   };
 }
 
@@ -169,6 +169,13 @@ describe("headline", () => {
       lookup,
     );
     expect(h.classifiedShare).toBeCloseTo(1 / 3);
+  });
+
+  it("picks the later of two sittings on the same day", () => {
+    const morning = { ...attempt("m", "amc10-a", "2026-03-01", KEY, 100), created_at: "2026-03-01T09:00:00Z" };
+    const evening = { ...attempt("e", "amc10-a", "2026-03-01", KEY, 130), created_at: "2026-03-01T18:00:00Z" };
+    expect(headline([morning, evening], [], lookup).latestScore).toBe(130);
+    expect(headline([evening, morning], [], lookup).latestScore).toBe(130);
   });
 
   it("has no opinion when nothing is logged", () => {

@@ -75,6 +75,7 @@ for (const spec of SPECS) {
     answers,
     duration_min: 75,
     score: scored.score,
+    include_in_stats: true,
     created_at: `${spec.date}T12:00:00Z`,
   });
 

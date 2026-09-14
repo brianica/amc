@@ -55,17 +55,21 @@ export default async function Dashboard() {
   }
 
   const ordinals = attemptOrdinals(attempts);
-  const h = headline(attempts, logs, lookup);
-  const grid = strengthGrid(attempts, lookup);
-  const techniques = subtopicBreakdown(attempts, lookup);
+  // Sittings the student chose not to count are excluded from every aggregate. They
+  // stay in the record, and their misses stay in the re-solve queue.
+  const counted = attempts.filter((a) => a.include_in_stats);
+  const excluded = attempts.length - counted.length;
+  const h = headline(counted, logs, lookup);
+  const grid = strengthGrid(counted, lookup);
+  const techniques = subtopicBreakdown(counted, lookup);
   // Name the sitting when a paper has been sat more than once, so a retake is
   // distinguishable from the original everywhere it appears.
   const label = (exam: Parameters<typeof examLabel>[0], attempt: { id: string }) => {
     const o = ordinals.get(attempt.id);
     return o && o.total > 1 ? `${examLabel(exam)} (sitting ${o.ordinal} of ${o.total})` : examLabel(exam);
   };
-  const trend = scoreTrend(attempts, lookup, label);
-  const mix = mistakeMix(attempts, logs, lookup, label);
+  const trend = scoreTrend(counted, lookup, label);
+  const mix = mistakeMix(counted, logs, lookup, label);
   const aimeRelevant = attempts.every((a) => {
     const e = lookup(a.exam_id);
     return e?.competition === "AMC10" || e?.competition === "AMC12";
@@ -77,8 +81,10 @@ export default async function Dashboard() {
       <header>
         <h1 className="text-2xl font-semibold">Dashboard</h1>
         <p className="mt-1 text-sm text-muted">
-          {h.papers} paper{h.papers === 1 ? "" : "s"} logged
+          {h.papers} paper{h.papers === 1 ? "" : "s"} counted
           {thin && " — patterns get meaningful from about three."}
+          {excluded > 0 &&
+            ` · ${excluded} sitting${excluded === 1 ? "" : "s"} recorded but not counted`}
         </p>
       </header>
 

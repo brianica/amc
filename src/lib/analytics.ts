@@ -279,7 +279,11 @@ export function headline(
   // Careless slips and triage failures are the points a student can take back
   // without learning anything new — the honest "left on the table" number.
   const fixable = lostByCause.careless + lostByCause.triage;
-  const latest = [...attempts].sort((a, b) => b.taken_on.localeCompare(a.taken_on))[0];
+  // Two sittings can share a date, so fall back to when each was recorded rather
+  // than letting sort order decide which one counts as "latest".
+  const latest = [...attempts].sort(
+    (a, b) => b.taken_on.localeCompare(a.taken_on) || b.created_at.localeCompare(a.created_at),
+  )[0];
   const latestExam = latest ? lookup(latest.exam_id) : undefined;
 
   return {

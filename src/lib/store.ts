@@ -17,6 +17,8 @@ export interface AttemptRecord {
   answers: string;
   duration_min: number | null;
   score: number;
+  /** False for a sitting the student chose to keep out of the analytics. */
+  include_in_stats: boolean;
   created_at: string;
 }
 
@@ -44,6 +46,7 @@ export interface Store {
   listAttempts(userId: string): Promise<AttemptRecord[]>;
   listLogs(userId: string): Promise<ProblemLogRecord[]>;
   createAttempt(input: Omit<AttemptRecord, "id" | "created_at">): Promise<string>;
+  setAttemptIncluded(userId: string, attemptId: string, include: boolean): Promise<void>;
   replaceLogs(userId: string, attemptId: string, logs: ProblemLogRecord[]): Promise<void>;
   listResolveCards(userId: string): Promise<ResolveCardRecord[]>;
   /** Insert or update by (user, exam, question) — a reopened card is the same card. */
@@ -72,6 +75,12 @@ class SupabaseStore implements Store {
     const { data, error } = await db.from("attempts").insert(input).select("id").single();
     if (error) throw new Error(error.message);
     return (data as { id: string }).id;
+  }
+
+  async setAttemptIncluded(userId: string, attemptId: string, include: boolean): Promise<void> {
+    const db = await supabaseServer();
+    const { error } = await db.from("attempts").update({ include_in_stats: include }).eq("id", attemptId);
+    if (error) throw new Error(error.message);
   }
 
   async replaceLogs(userId: string, attemptId: string, logs: ProblemLogRecord[]): Promise<void> {
@@ -116,7 +125,12 @@ class DevStore implements Store {
     try {
       const db = JSON.parse(await readFile(this.path, "utf8")) as Partial<DevDb>;
       // resolve_cards arrived after the first seeded files, so tolerate its absence.
-      return { attempts: db.attempts ?? [], logs: db.logs ?? [], resolveCards: db.resolveCards ?? [] };
+      return {
+        // include_in_stats arrived later; rows without it were all counted.
+        attempts: (db.attempts ?? []).map((a) => ({ ...a, include_in_stats: a.include_in_stats ?? true })),
+        logs: db.logs ?? [],
+        resolveCards: db.resolveCards ?? [],
+      };
     } catch {
       return { attempts: [], logs: [], resolveCards: [] };
     }
@@ -142,6 +156,13 @@ class DevStore implements Store {
     db.attempts.push({ ...input, id, created_at: new Date().toISOString() });
     await this.write(db);
     return id;
+  }
+
+  async setAttemptIncluded(userId: string, attemptId: string, include: boolean): Promise<void> {
+    const db = await this.read();
+    const found = db.attempts.find((a) => a.id === attemptId && a.user_id === userId);
+    if (found) found.include_in_stats = include;
+    await this.write(db);
   }
 
   async replaceLogs(userId: string, attemptId: string, logs: ProblemLogRecord[]): Promise<void> {
