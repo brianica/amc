@@ -8,9 +8,24 @@ npm install
 npm run fetch       # 1. cache wikitext        (needs artofproblemsolving.com)
 npm run extract     # 2. answers -> data/exams (offline)
 npm run classify    # 3. topic tags            (needs api.anthropic.com + credentials)
-npm run validate    # 4. gate                  (offline)
+npm run review      # 4. decide the flagged ones (offline, interactive)
+npm run validate    # 5. gate                  (offline)
 npm test            # unit tests for the answer parser
 ```
+
+**Try one exam first.** `--limit N` takes the first N exams, so the whole loop can be
+walked through in a couple of minutes and the cost measured before committing an hour
+of requests:
+
+```
+npm run fetch -- --limit 1
+npm run extract
+npm run classify -- --limit 1
+npm run review
+npm run validate
+```
+
+Then check the answer key by hand against the real paper before trusting any of it.
 
 `npm run fetch` seeds AMC 10 from 2015 on; add `-- --all` for the full backfill of
 AMC 8/10/12 (~131 exams, ~3,275 problems, about an hour at 1 request/second).

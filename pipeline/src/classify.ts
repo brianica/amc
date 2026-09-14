@@ -4,6 +4,7 @@ import { createHash } from "node:crypto";
 import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { z } from "zod";
+import { numberFlag } from "./args.js";
 import { extractProblem } from "./extract.js";
 import { getWikitext, problemPage } from "./wiki.js";
 import type { ExamFile } from "./types.js";
@@ -107,10 +108,17 @@ async function mapLimit<T, R>(items: T[], limit: number, fn: (item: T) => Promis
   return results;
 }
 
-/** Stage 3. Fills in area/subtopics/difficulty/descriptor for untagged problems. */
+/**
+ * Stage 3. Fills in area/subtopics/difficulty/descriptor for untagged problems.
+ *   npm run classify                 # every untagged problem
+ *   npm run classify -- --limit 1    # one exam, to check quality and cost first
+ */
 async function main(): Promise<void> {
   const api = client();
-  const files = (await readdir(EXAMS_DIR)).filter((f) => f.endsWith(".json"));
+  const limit = numberFlag("limit");
+  const all = (await readdir(EXAMS_DIR)).filter((f) => f.endsWith(".json")).sort();
+  const files = limit === null ? all : all.slice(0, limit);
+  console.log(`classifying ${files.length} exam file(s) with ${MODEL}\n`);
   let done = 0;
   let disagreements = 0;
 
