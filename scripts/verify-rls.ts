@@ -17,10 +17,31 @@
  */
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 
+/**
+ * Read .env.local the way the app does. Only Next.js loads that file automatically,
+ * so without this the script would ignore the very file the setup guide tells you to
+ * fill in. Anything already set in the shell wins, which is what loadEnvFile does.
+ */
+for (const file of [".env.local", ".env"]) {
+  try {
+    process.loadEnvFile(file);
+  } catch {
+    // Not present — fine, the values may come from the shell instead.
+  }
+}
+
 function required(name: string): string {
   const value = process.env[name];
   if (!value) {
-    console.error(`Missing ${name}. See the header of this file for the full list.`);
+    console.error(`Missing ${name}.`);
+    console.error("");
+    console.error("Set it in .env.local in the repo root, or pass it on the command line.");
+    console.error("This script needs all six of:");
+    console.error("  NEXT_PUBLIC_SUPABASE_URL, NEXT_PUBLIC_SUPABASE_ANON_KEY");
+    console.error("  RLS_TEST_A_EMAIL, RLS_TEST_A_PASSWORD");
+    console.error("  RLS_TEST_B_EMAIL, RLS_TEST_B_PASSWORD");
+    console.error("");
+    console.error("See supabase/README.md, step 7, for creating the two test users.");
     process.exit(2);
   }
   return value;

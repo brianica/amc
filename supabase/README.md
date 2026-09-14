@@ -139,15 +139,25 @@ Create two throwaway users under **Authentication → Users → Add user**, both
 - `rls-a@example.com` with any password
 - `rls-b@example.com` with any password
 
+Add their credentials to `.env.local` alongside the two Supabase values — the script
+reads that file, so there is nothing to paste on the command line:
+
+```
+RLS_TEST_A_EMAIL=rls-a@example.com
+RLS_TEST_A_PASSWORD=<pw>
+RLS_TEST_B_EMAIL=rls-b@example.com
+RLS_TEST_B_PASSWORD=<pw>
+```
+
 Then, from the repo root:
 
 ```bash
-NEXT_PUBLIC_SUPABASE_URL=https://<ref>.supabase.co \
-NEXT_PUBLIC_SUPABASE_ANON_KEY=<anon key> \
-RLS_TEST_A_EMAIL=rls-a@example.com RLS_TEST_A_PASSWORD=<pw> \
-RLS_TEST_B_EMAIL=rls-b@example.com RLS_TEST_B_PASSWORD=<pw> \
 npx tsx scripts/verify-rls.ts
 ```
+
+If a variable is missing it names the one it wants and lists all six. Anything set in
+your shell overrides the file, so a one-off run against a different project can pass
+the values inline instead.
 
 It prints a line per check, cleans up the rows it created, and exits non-zero if any
 check fails. Run it after any change to the policies. Delete the two test users when
