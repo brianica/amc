@@ -7,6 +7,7 @@ import { findExam } from "@/lib/exams";
 import { getStore, type ErrorCategory, type ProblemLogRecord, type TimeBucket } from "@/lib/store";
 import { cardsForMissedProblems, toCard, toRecord } from "@/lib/resolve-cards";
 import { parseAnswers, scoreAttempt } from "@pipeline/score";
+import type { QuestionTiming } from "@/lib/timed";
 
 export interface TriageInput {
   q: number;
@@ -22,6 +23,8 @@ export async function saveAttempt(input: {
   durationMin: number | null;
   /** False when the student chose to record this sitting without counting it. */
   includeInStats: boolean;
+  /** Present only for a sitting taken against the clock in the app. */
+  timings?: QuestionTiming[] | null;
   triage: TriageInput[];
 }): Promise<void> {
   const user = await currentUser();
@@ -40,11 +43,12 @@ export async function saveAttempt(input: {
     user_id: user.id,
     exam_id: exam.id,
     taken_on: input.takenOn,
-    mode: "paper",
+    mode: input.timings ? "timed" : "paper",
     answers: parsed.map((a) => a ?? "-").join(""),
     duration_min: input.durationMin,
     score: scored.score,
     include_in_stats: input.includeInStats,
+    timings: input.timings ?? null,
   });
 
   const byQuestion = new Map(input.triage.map((t) => [t.q, t]));

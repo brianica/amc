@@ -78,7 +78,7 @@ export default async function Home() {
         ) : (
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {exams.map((exam) => (
-              <li key={exam.id}>
+              <li key={exam.id} className="pb-1">
                 <Link
                   href={`/log/${exam.id}`}
                   className="block rounded-md border border-border bg-surface px-4 py-3 hover:border-accent"
@@ -88,11 +88,17 @@ export default async function Home() {
                     <span className="ml-2 text-xs text-blank">invented answer key</span>
                   )}
                   {(sittings.get(exam.id) ?? 0) > 0 && (
-                    <span className="ml-2 text-xs text-muted">
-                      sat {sittings.get(exam.id)}× — log another
-                    </span>
+                    <span className="ml-2 text-xs text-muted">sat {sittings.get(exam.id)}×</span>
                   )}
                 </Link>
+                <div className="mt-1 flex gap-3 px-4 text-xs text-muted">
+                  <Link href={`/log/${exam.id}`} className="hover:text-text">
+                    Log answers from paper
+                  </Link>
+                  <Link href={`/log/${exam.id}/timed`} className="hover:text-text">
+                    Sit it on the clock
+                  </Link>
+                </div>
               </li>
             ))}
           </ul>

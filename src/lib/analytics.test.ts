@@ -44,7 +44,7 @@ const label = (e: ExamFile) => e.id;
 function attempt(id: string, examId: string, takenOn: string, answers: string, score: number): AttemptRecord {
   return {
     id, user_id: "u1", exam_id: examId, taken_on: takenOn, mode: "paper",
-    answers, duration_min: 75, score, include_in_stats: true, created_at: `${takenOn}T00:00:00Z`,
+    answers, duration_min: 75, score, include_in_stats: true, timings: null, created_at: `${takenOn}T00:00:00Z`,
   };
 }
 

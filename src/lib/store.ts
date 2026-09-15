@@ -4,6 +4,8 @@ import { randomUUID } from "node:crypto";
 import { join } from "node:path";
 import { supabaseConfigured, supabaseServer } from "./auth";
 
+import type { QuestionTiming } from "./timed";
+
 export type ErrorCategory = "careless" | "concept" | "no_path" | "triage";
 export type ResponseStatus = "incorrect" | "blank";
 export type TimeBucket = "under1" | "1to3" | "3to6" | "over6";
@@ -13,12 +15,14 @@ export interface AttemptRecord {
   user_id: string;
   exam_id: string;
   taken_on: string;
-  mode: "paper" | "online";
+  mode: "paper" | "timed";
   answers: string;
   duration_min: number | null;
   score: number;
   /** False for a sitting the student chose to keep out of the analytics. */
   include_in_stats: boolean;
+  /** Per-question seconds and visits; null for a paper sitting logged afterwards. */
+  timings: QuestionTiming[] | null;
   created_at: string;
 }
 

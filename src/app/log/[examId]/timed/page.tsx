@@ -3,13 +3,15 @@ import { notFound, redirect } from "next/navigation";
 import { currentUser } from "@/lib/auth";
 import { examLabel, findExam } from "@/lib/exams";
 import { getStore } from "@/lib/store";
-import { LogForm } from "./LogForm";
-
+import { TimedSession } from "./TimedSession";
 
 // Depends on who is signed in, so it must never be prerendered at build time.
 export const dynamic = "force-dynamic";
 
-export default async function LogPage({ params }: { params: Promise<{ examId: string }> }) {
+/** The real limits: 75 minutes for AMC 10/12, 40 for AMC 8. */
+const MINUTES: Record<string, number> = { AMC8: 40, AMC10: 75, AMC12: 75 };
+
+export default async function TimedPage({ params }: { params: Promise<{ examId: string }> }) {
   const user = await currentUser();
   if (!user) redirect("/login");
 
@@ -17,8 +19,6 @@ export default async function LogPage({ params }: { params: Promise<{ examId: st
   const exam = findExam(examId);
   if (!exam) notFound();
 
-  // Sitting a paper again is expected — say so rather than letting the student
-  // wonder whether they are about to overwrite the first attempt.
   const previous = (await getStore().listAttempts(user.id))
     .filter((a) => a.exam_id === exam.id)
     .sort((a, b) => a.taken_on.localeCompare(b.taken_on));
@@ -28,26 +28,25 @@ export default async function LogPage({ params }: { params: Promise<{ examId: st
       <div>
         <h1 className="text-2xl font-semibold">{examLabel(exam)}</h1>
         <p className="mt-1 text-sm text-muted">
-          Logging answers from paper ·{" "}
-          <Link href={`/log/${exam.id}/timed`} className="text-accent underline">
-            sit it on the clock instead
+          Timed sitting ·{" "}
+          <Link href={`/log/${exam.id}`} className="text-accent underline">
+            log answers from paper instead
           </Link>
         </p>
       </div>
 
       {previous.length > 0 && (
         <p className="rounded-md border border-border bg-surface px-4 py-3 text-sm">
-          You have sat this paper {previous.length === 1 ? "once" : `${previous.length} times`} before
-          {" — "}
-          {previous.map((a) => `${a.score} on ${a.taken_on}`).join(", ")}. This will be recorded as a
-          separate sitting, not a replacement.
+          You have sat this paper {previous.length === 1 ? "once" : `${previous.length} times`}{" "}
+          before — {previous.map((a) => `${a.score} on ${a.taken_on}`).join(", ")}.
         </p>
       )}
 
-      <LogForm
+      <TimedSession
         exam={exam}
         examLabel={examLabel(exam)}
         previousDates={previous.map((a) => a.taken_on)}
+        defaultMinutes={MINUTES[exam.competition] ?? 75}
       />
     </div>
   );
