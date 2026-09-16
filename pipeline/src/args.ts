@@ -1,5 +1,14 @@
 /** Tiny argv helpers shared by the pipeline stages. */
 
+export function stringFlag(name: string): string | null {
+  const argv = process.argv;
+  const inline = argv.find((a) => a.startsWith(`--${name}=`));
+  if (inline) return inline.slice(name.length + 3);
+  const idx = argv.indexOf(`--${name}`);
+  if (idx === -1) return null;
+  return argv[idx + 1] ?? null;
+}
+
 export function hasFlag(name: string): boolean {
   return process.argv.includes(`--${name}`);
 }

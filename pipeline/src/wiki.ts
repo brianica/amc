@@ -10,6 +10,12 @@ let lastRequest = 0;
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
+async function throttle(): Promise<void> {
+  const wait = lastRequest + MIN_INTERVAL_MS - Date.now();
+  if (wait > 0) await sleep(wait);
+  lastRequest = Date.now();
+}
+
 function cachePath(page: string): string {
   return join(CACHE_DIR, `${page.replace(/[^A-Za-z0-9._/-]/g, "_")}.json`);
 }
@@ -31,11 +37,6 @@ async function writeCache(entry: CacheEntry): Promise<void> {
   await writeFile(p, JSON.stringify(entry, null, 2));
 }
 
-async function throttle(): Promise<void> {
-  const wait = lastRequest + MIN_INTERVAL_MS - Date.now();
-  if (wait > 0) await sleep(wait);
-  lastRequest = Date.now();
-}
 
 /**
 * Fetch one page's raw wikitext, or null if the page does not exist.
@@ -100,6 +101,7 @@ async function viaRaw(page: string): Promise<Attempt> {
   if (!res.ok) throw new Error(`HTTP ${res.status} from action=raw`);
   return { wikitext: text, missing: false };
 }
+
 
 class TransportUnavailable extends Error {
   constructor(message: string, readonly body: string) {

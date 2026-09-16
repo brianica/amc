@@ -1,6 +1,6 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import { join } from "node:path";
-import { hasFlag, numberFlag } from "./args.js";
+import { hasFlag, numberFlag, stringFlag } from "./args.js";
 import { candidateExams, priorityExams } from "./manifest.js";
 import { answerKeyPage, getWikitext, problemPage } from "./wiki.js";
 
@@ -13,10 +13,12 @@ import { answerKeyPage, getWikitext, problemPage } from "./wiki.js";
 async function main(): Promise<void> {
   const all = hasFlag("all");
   const limit = numberFlag("limit");
+  const examId = stringFlag("exam");
   const selected = all ? candidateExams() : priorityExams();
   // A limited run exists so the whole thing can be tried on one exam before
   // committing an hour of requests to someone else's wiki.
-  const exams = limit === null ? selected : selected.slice(0, limit);
+  let exams = limit === null ? selected : selected.slice(0, limit);
+  if (examId !== null) exams = exams.filter((e) => e.id === examId);
   const missing: string[] = [];
   let pages = 0;
 
