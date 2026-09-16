@@ -21,6 +21,7 @@ import {
   type Letter,
   type TimedState,
 } from "@/lib/timed";
+import type { RenderedStatement } from "@/lib/wikitext";
 import { ReviewStep } from "../ReviewStep";
 
 const LETTERS: Letter[] = ["A", "B", "C", "D", "E"];
@@ -42,11 +43,14 @@ export function TimedSession({
   examLabel,
   previousDates,
   defaultMinutes,
+  statements,
 }: {
   exam: ExamFile;
   examLabel: string;
   previousDates: string[];
   defaultMinutes: number;
+  /** Rendered problem statements, when this instance is configured to show them. */
+  statements?: (RenderedStatement | null)[];
 }) {
   const [minutes, setMinutes] = useState(defaultMinutes);
   const [showLinks, setShowLinks] = useState(false);
@@ -55,6 +59,7 @@ export function TimedSession({
   const [now, setNow] = useState(() => Date.now());
   const [confirmingEnd, setConfirmingEnd] = useState(false);
   const gridRef = useRef<HTMLDivElement>(null);
+  const hasStatements = (statements?.filter(Boolean).length ?? 0) > 0;
 
   useEffect(() => setResumable(loadSaved(exam.id)), [exam.id]);
 
@@ -158,20 +163,25 @@ export function TimedSession({
             />
           </label>
 
-          <label className="flex items-center gap-2 text-sm">
-            <input
-              type="checkbox"
-              checked={showLinks}
-              onChange={(e) => setShowLinks(e.target.checked)}
-            />
-            <span>
-              I do not have the paper — link me to each problem
-              <span className="block text-muted">
-                Opens the official page for each question in a new tab. The problems are
-                not reproduced here.
+          {hasStatements ? (
+            <p className="text-sm text-muted">
+              The problems will be shown here, from this machine&apos;s local copy.
+            </p>
+          ) : (
+            <label className="flex items-center gap-2 text-sm">
+              <input
+                type="checkbox"
+                checked={showLinks}
+                onChange={(e) => setShowLinks(e.target.checked)}
+              />
+              <span>
+                I do not have the paper — link me to each problem
+                <span className="block text-muted">
+                  Opens the official page for each question in a new tab.
+                </span>
               </span>
-            </span>
-          </label>
+            </label>
+          )}
         </div>
 
         <button
@@ -273,7 +283,28 @@ export function TimedSession({
           {state.flagged[q] && <span className="text-sm text-blank">flagged</span>}
         </div>
 
-        {showLinks &&
+        {statements?.[q] && (
+          <div className="mt-3 space-y-2 text-[0.95rem] leading-relaxed">
+            <div
+              className="statement"
+              // Built by renderStatement, which escapes every character of the source
+              // and emits only its own markup plus KaTeX output.
+              dangerouslySetInnerHTML={{ __html: statements[q]!.html }}
+            />
+            {statements[q]!.hasDiagram && problem?.sourceUrl && (
+              <p className="text-sm text-muted">
+                This problem has a diagram that cannot be drawn here —{" "}
+                <a href={problem.sourceUrl} target="_blank" rel="noreferrer" className="text-accent underline">
+                  see the original
+                </a>
+                .
+              </p>
+            )}
+          </div>
+        )}
+
+        {!statements?.[q] &&
+          showLinks &&
           (problem?.sourceUrl ? (
             <a
               href={problem.sourceUrl}

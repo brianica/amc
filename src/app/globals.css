@@ -1,4 +1,6 @@
 @import "tailwindcss";
+/* KaTeX ships its own stylesheet; without it every formula renders as raw spans. */
+@import "katex/dist/katex.min.css";
 
 :root {
   --bg: #fbfaf8;
@@ -86,4 +88,21 @@ body {
   background: var(--bg);
   color: var(--text);
   font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+/* Rendered problem statements. Only present on an instance configured to show them. */
+.statement p {
+  margin-block: 0.5rem;
+}
+
+.statement-diagram {
+  color: var(--muted);
+  font-style: italic;
+}
+
+/* A long formula should scroll rather than push the page sideways on a phone. */
+.statement .katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-block: 0.25rem;
 }

@@ -18,6 +18,7 @@ opened up for anyone.
 | 3-day re-solve queue | Working |
 | Retakes | Working |
 | Timed sittings | Working. Per-problem timing captured; pacing view not built yet |
+| In-app problem display | Behind `SHOW_PROBLEM_STATEMENTS=1`; off by default. Untested against real wikitext |
 | Migrations | `0002`–`0005` must be applied in order |
 
 Until `data/exams/` is populated the app runs against one clearly-labelled sample paper
@@ -86,9 +87,14 @@ Run `npx tsc --noEmit` and `npm test` before committing.
   ticker, so totals do not depend on a timer firing or a tab staying in the foreground,
   and it is autosaved to `localStorage` — losing 75 minutes to a refresh is not
   acceptable. `attempts.timings` (migration 0005) holds per-question seconds and visits.
-- **The app never shows problem statements, in any mode.** "Take it online" means a
-  link out to the official page per question, not a copy. The copyright invariant above
-  is not negotiable for the sake of a nicer flow.
+- **Problem statements are shown only when `SHOW_PROBLEM_STATEMENTS=1`, and are never
+  committed or served by default.** A private instance may render statements from its
+  own `pipeline/.cache`; a public deployment links out instead. The switch is a
+  server-side env var, deliberately not `NEXT_PUBLIC_`, so it is a deployment decision
+  rather than something a browser can ask for. `renderStatement` escapes every
+  character of the source and emits only its own markup plus KaTeX output — the input
+  is third-party HTML-ish wikitext, so whitelist, never blacklist. Solutions are never
+  rendered, only the problem.
 - **Re-solve dates are plain `YYYY-MM-DD` strings, and the column is `date`.** A
   re-solve is due on a calendar day; a timestamp would make "due today" depend on the
   reader's timezone. Failing a re-solve returns the card to stage 0 rather than
