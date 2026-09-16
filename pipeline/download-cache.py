@@ -15,11 +15,14 @@ confirmed miss and will not re-probe it.
 
 Already-cached files are skipped, so the script is safe to resume after interruption.
 
-Rate limiting: 1.5 s between requests by default. Increase DELAY_S if you get 429s.
+Rate limiting: each request waits a random delay in [MIN_DELAY_S, MAX_DELAY_S].
+The jitter is important — a perfectly regular interval is easier for bot-detection
+to fingerprint than human-like variation. If you hit 429s, increase both values.
 """
 
 import json
 import os
+import random
 import sys
 import time
 import urllib.error
@@ -27,7 +30,8 @@ import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 
-DELAY_S = 1.5
+MIN_DELAY_S = 2.0
+MAX_DELAY_S = 5.0
 CACHE_DIR = os.path.join("pipeline", ".cache")
 URLS_FILE = "fetch-urls.txt"
 USER_AGENT = "amc-diagnostic-tagger/1.0 (topic metadata extraction; contact repo owner)"
@@ -72,7 +76,7 @@ def main() -> None:
         except Exception as e:
             print(f"  [{i}/{total}] ERROR {page}: {e}", file=sys.stderr)
             errors += 1
-            time.sleep(DELAY_S)
+            time.sleep(random.uniform(MIN_DELAY_S, MAX_DELAY_S))
             continue
 
         os.makedirs(os.path.dirname(path), exist_ok=True)
@@ -85,9 +89,10 @@ def main() -> None:
             json.dump(entry, f, indent=2, ensure_ascii=False)
 
         status = "missing" if wikitext is None else f"{len(wikitext)} chars"
-        print(f"  [{i}/{total}] {page} — {status}")
+        delay = random.uniform(MIN_DELAY_S, MAX_DELAY_S)
+        print(f"  [{i}/{total}] {page} — {status} (next in {delay:.1f}s)")
         done += 1
-        time.sleep(DELAY_S)
+        time.sleep(delay)
 
     print(f"\ndone: {done} fetched, {skipped} already cached, {errors} errors")
 
