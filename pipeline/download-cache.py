@@ -64,8 +64,19 @@ def main() -> None:
         path = os.path.join(CACHE_DIR, cache_file)
 
         if os.path.exists(path):
-            skipped += 1
-            continue
+            # A null entry written by stub-missing (or a previous blocked fetch) should
+            # be retried — it may be a real page that just wasn't reachable at the time.
+            # A null entry whose fetchedAt is recent (same day) is more likely a genuine
+            # 404, but we re-check anyway since the wiki occasionally has stubs.
+            try:
+                cached = json.load(open(path))
+                if cached.get("wikitext") is not None:
+                    skipped += 1
+                    continue
+                # wikitext is null — fall through to re-fetch
+            except Exception:
+                skipped += 1
+                continue
 
         # Decode the page title from the URL for the cache entry
         qs = urllib.parse.parse_qs(urllib.parse.urlparse(url).query)

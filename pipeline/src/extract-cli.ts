@@ -1,5 +1,6 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
+import { stringFlag } from "./args.js";
 import { candidateExams } from "./manifest.js";
 import { extractProblem, parseAnswerKeyPage } from "./extract.js";
 import { answerKeyPage, getWikitext, problemPage } from "./wiki.js";
@@ -23,10 +24,13 @@ async function existingTags(id: string): Promise<Map<number, TaggedProblem>> {
  */
 async function main(): Promise<void> {
   await mkdir(EXAMS_DIR, { recursive: true });
+  const examId = stringFlag("exam");
+  let exams = candidateExams();
+  if (examId !== null) exams = exams.filter((e) => e.id === examId);
   let written = 0;
   let flagged = 0;
 
-  for (const exam of candidateExams()) {
+  for (const exam of exams) {
     if ((await getWikitext(exam.wikiPage)) === null) continue;
 
     const keyText = await getWikitext(answerKeyPage(exam.wikiPage));
