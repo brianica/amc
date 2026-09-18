@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import type { ExamFile } from "@pipeline/types";
 import { parseAnswers, scoreAttempt, type ScoredAttempt } from "@pipeline/score";
+import type { RenderedStatement } from "@/lib/wikitext";
 import { ReviewStep } from "./ReviewStep";
 
 const LETTERS = ["A", "B", "C", "D", "E"] as const;
@@ -13,11 +14,14 @@ export function LogForm({
   exam,
   examLabel,
   previousDates,
+  statements,
 }: {
   exam: ExamFile;
   examLabel: string;
   /** Dates this paper has already been sat, so a retake can be flagged. */
   previousDates: string[];
+  /** Rendered statements, so the triage step can show what was missed. */
+  statements?: (RenderedStatement | null)[];
 }) {
   const [answers, setAnswers] = useState<(string | null)[]>(() => Array(25).fill(null));
   const [takenOn, setTakenOn] = useState(today);
@@ -138,6 +142,7 @@ export function LogForm({
       takenOn={takenOn}
       durationMin={duration ? Number(duration) : null}
       previousDates={previousDates}
+      statements={statements}
       onBack={() => setScored(null)}
       backLabel="Back to answers"
     />

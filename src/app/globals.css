@@ -100,9 +100,15 @@ body {
   font-style: italic;
 }
 
-/* A long formula should scroll rather than push the page sideways on a phone. */
+/* A long formula is a single unbreakable run — an AMC choices line especially. It
+   scrolls inside its own box rather than pushing the page sideways on a phone. */
 .statement .katex-display {
   overflow-x: auto;
   overflow-y: hidden;
   padding-block: 0.25rem;
+}
+
+.statement p {
+  overflow-x: auto;
+  overflow-y: hidden;
 }
