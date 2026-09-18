@@ -1,0 +1,535 @@
+{
+  "id": "amc10-2016-B",
+  "competition": "AMC10",
+  "year": 2016,
+  "season": null,
+  "form": "B",
+  "wikiPage": "2016_AMC_10B_Problems",
+  "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems",
+  "numQuestions": 25,
+  "scoring": {
+    "correct": 6,
+    "blank": 1.5,
+    "wrong": 0,
+    "needsVerification": true
+  },
+  "problems": [
+    {
+      "n": 1,
+      "answer": "D",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "D",
+        "D"
+      ],
+      "area": "algebra",
+      "subtopics": [
+        "logs-exponents"
+      ],
+      "difficulty": 1,
+      "tier": "T1",
+      "descriptor": "Simplify expression with negative exponents and evaluate at given value",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_1",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 2,
+      "answer": "B",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "B",
+        "B"
+      ],
+      "area": "algebra",
+      "subtopics": [
+        "functions"
+      ],
+      "difficulty": 1,
+      "tier": "T1",
+      "descriptor": "Evaluate a custom operator expression using exponent rules",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_2",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 3,
+      "answer": "D",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "D",
+        "D"
+      ],
+      "area": "algebra",
+      "subtopics": [
+        "absolute-value"
+      ],
+      "difficulty": 2,
+      "tier": "T1",
+      "descriptor": "Evaluate nested absolute value expression for a specific negative input",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_3",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 4,
+      "answer": "B",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "B",
+        "B"
+      ],
+      "area": "number-theory",
+      "subtopics": [
+        "modular-arithmetic"
+      ],
+      "difficulty": 2,
+      "tier": "T1",
+      "descriptor": "Find the weekday after summing consecutive days modulo seven",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_4",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 5,
+      "answer": "D",
+      "answerConfidence": "medium",
+      "answerEvidence": [
+        "D"
+      ],
+      "area": "logic-other",
+      "subtopics": [
+        "statistics"
+      ],
+      "difficulty": 2,
+      "tier": "T1",
+      "descriptor": "Find sum of extremes given mean and median of four values",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_5",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 6,
+      "answer": "B",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "B",
+        "B"
+      ],
+      "area": "number-theory",
+      "subtopics": [
+        "digits-bases"
+      ],
+      "difficulty": 2,
+      "tier": "T1",
+      "descriptor": "Minimize digit sum of three-digit sum with six distinct digits",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_6",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 7,
+      "answer": "C",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "C",
+        "C"
+      ],
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 2,
+      "tier": "T1",
+      "descriptor": "Find two angles given ratio and complement relationship",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_7",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 8,
+      "answer": "A",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "A",
+        "A"
+      ],
+      "area": "number-theory",
+      "subtopics": [
+        "modular-arithmetic",
+        "units-digit"
+      ],
+      "difficulty": 3,
+      "tier": "T1",
+      "descriptor": "Find the tens digit of a large power minus a constant",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_8",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 9,
+      "answer": "C",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "C",
+        "C"
+      ],
+      "area": "geometry",
+      "subtopics": [
+        "coordinate-geometry",
+        "area-decomposition"
+      ],
+      "difficulty": 2,
+      "tier": "T1",
+      "descriptor": "Find base length of triangle inscribed in parabola with given area",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_9",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 10,
+      "answer": "D",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "area": "geometry",
+      "subtopics": [
+        "similar-congruent",
+        "polygons-area-ratios"
+      ],
+      "difficulty": 2,
+      "tier": "T1",
+      "descriptor": "Find weight of similar triangle using area ratio scaling",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_10",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 11,
+      "answer": "B",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "B",
+        "B"
+      ],
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 2,
+      "tier": "T2",
+      "descriptor": "Find garden area from fence post spacing and count constraints",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_11",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 12,
+      "answer": "D",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "D",
+        "D",
+        "D"
+      ],
+      "area": "counting-probability",
+      "subtopics": [
+        "basic-probability",
+        "inclusion-exclusion"
+      ],
+      "difficulty": 2,
+      "tier": "T2",
+      "descriptor": "Probability that product of two chosen numbers is even",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_12",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 13,
+      "answer": "D",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "D",
+        "D"
+      ],
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 2,
+      "tier": "T2",
+      "descriptor": "Find babies in quadruplets given ratio constraints on birth sets",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_13",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 14,
+      "answer": "D",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "area": "counting-probability",
+      "subtopics": [
+        "casework",
+        "combinatorial-geometry"
+      ],
+      "difficulty": 3,
+      "tier": "T2",
+      "descriptor": "Count axis-aligned integer-vertex squares fitting inside a triangular region",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_14",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 15,
+      "answer": "C",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "area": "counting-probability",
+      "subtopics": [
+        "casework"
+      ],
+      "difficulty": 3,
+      "tier": "T2",
+      "descriptor": "Find center number in grid where consecutive numbers share edges",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_15",
+      "tagSource": "reviewed",
+      "statement": null
+    },
+    {
+      "n": 16,
+      "answer": "E",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "E"
+      ],
+      "area": "algebra",
+      "subtopics": [
+        "sequences-series",
+        "quadratics-vieta"
+      ],
+      "difficulty": 3,
+      "tier": "T2",
+      "descriptor": "Minimize infinite geometric series sum given fixed second term",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_16",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 17,
+      "answer": "D",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "D",
+        "D",
+        "D"
+      ],
+      "area": "algebra",
+      "subtopics": [
+        "polynomials",
+        "inequalities"
+      ],
+      "difficulty": 4,
+      "tier": "T2",
+      "descriptor": "Maximize sum of vertex products on a cube by assigning numbers to faces",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_17",
+      "tagSource": "reviewed",
+      "statement": null
+    },
+    {
+      "n": 18,
+      "answer": "E",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E"
+      ],
+      "area": "number-theory",
+      "subtopics": [
+        "divisibility",
+        "diophantine"
+      ],
+      "difficulty": 3,
+      "tier": "T2",
+      "descriptor": "Count ways to express a number as consecutive positive integer sums",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_18",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 19,
+      "answer": "D",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "area": "geometry",
+      "subtopics": [
+        "coordinate-geometry",
+        "similar-congruent"
+      ],
+      "difficulty": 3,
+      "tier": "T3",
+      "descriptor": "Find ratio of segment lengths using line intersections in a rectangle",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_19",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 20,
+      "answer": "C",
+      "answerConfidence": "medium",
+      "answerEvidence": [
+        "C"
+      ],
+      "area": "geometry",
+      "subtopics": [
+        "transformations",
+        "coordinate-geometry"
+      ],
+      "difficulty": 3,
+      "tier": "T3",
+      "descriptor": "Find distance origin moves under dilation mapping one circle to another",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_20",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 21,
+      "answer": "B",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "B",
+        "B",
+        "B"
+      ],
+      "area": "geometry",
+      "subtopics": [
+        "coordinate-geometry",
+        "circles",
+        "area-decomposition"
+      ],
+      "difficulty": 4,
+      "tier": "T3",
+      "descriptor": "Find area enclosed by equation involving absolute values and circle decomposition",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_21",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 22,
+      "answer": "A",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "area": "counting-probability",
+      "subtopics": [
+        "permutations-combinations",
+        "casework"
+      ],
+      "difficulty": 4,
+      "tier": "T3",
+      "descriptor": "Count cyclic triples in a balanced round-robin tournament",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_22",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 23,
+      "answer": "C",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "C",
+        "C",
+        "C"
+      ],
+      "area": "geometry",
+      "subtopics": [
+        "polygons-area-ratios",
+        "similar-congruent",
+        "area-decomposition"
+      ],
+      "difficulty": 4,
+      "tier": "T3",
+      "descriptor": "Find area ratio of inner hexagon to regular hexagon with parallel constraints",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_23",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 24,
+      "answer": "D",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "D",
+        "D"
+      ],
+      "area": "counting-probability",
+      "subtopics": [
+        "casework"
+      ],
+      "difficulty": 4,
+      "tier": "T3",
+      "descriptor": "Count four-digit numbers where consecutive two-digit pairs form arithmetic sequence",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_24",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 25,
+      "answer": "A",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "area": "number-theory",
+      "subtopics": [
+        "floor-ceiling"
+      ],
+      "difficulty": 4,
+      "tier": "T3",
+      "descriptor": "Count distinct values of sum involving floor of fractional parts",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_25",
+      "tagSource": "auto",
+      "statement": null
+    }
+  ]
+}

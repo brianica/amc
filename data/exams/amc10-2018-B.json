@@ -1,0 +1,570 @@
+{
+  "id": "amc10-2018-B",
+  "competition": "AMC10",
+  "year": 2018,
+  "season": null,
+  "form": "B",
+  "wikiPage": "2018_AMC_10B_Problems",
+  "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems",
+  "numQuestions": 25,
+  "scoring": {
+    "correct": 6,
+    "blank": 1.5,
+    "wrong": 0,
+    "needsVerification": true
+  },
+  "problems": [
+    {
+      "n": 1,
+      "answer": "A",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "A",
+        "A"
+      ],
+      "area": "geometry",
+      "subtopics": [
+        "polygons-area-ratios"
+      ],
+      "difficulty": 1,
+      "tier": "T1",
+      "descriptor": "Count square pieces fitting in rectangular pan by area division",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_1",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 2,
+      "answer": "D",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "D",
+        "D"
+      ],
+      "area": "algebra",
+      "subtopics": [
+        "rates-work-mixture"
+      ],
+      "difficulty": 2,
+      "tier": "T1",
+      "descriptor": "Find unknown speed given total distance and partial speeds",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_2",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 3,
+      "answer": "B",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "B",
+        "B",
+        "B"
+      ],
+      "area": "counting-probability",
+      "subtopics": [
+        "permutations-combinations",
+        "symmetry-arguments"
+      ],
+      "difficulty": 2,
+      "tier": "T1",
+      "descriptor": "Count distinct sums from pairing four digits into two products",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_3",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 4,
+      "answer": "B",
+      "answerConfidence": "medium",
+      "answerEvidence": [],
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 2,
+      "tier": "T1",
+      "descriptor": "Find box dimensions given three pairs of face areas",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_4",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 5,
+      "answer": "D",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "area": "counting-probability",
+      "subtopics": [
+        "multiplication-principle",
+        "inclusion-exclusion"
+      ],
+      "difficulty": 2,
+      "tier": "T1",
+      "descriptor": "Count subsets containing at least one prime using complementary counting",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_5",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 6,
+      "answer": "D",
+      "answerConfidence": "medium",
+      "answerEvidence": [],
+      "area": "counting-probability",
+      "subtopics": [
+        "casework",
+        "basic-probability"
+      ],
+      "difficulty": 2,
+      "tier": "T1",
+      "descriptor": "Probability of needing exactly three draws to exceed a target sum",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_6",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 7,
+      "answer": "D",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "D",
+        "D"
+      ],
+      "area": "geometry",
+      "subtopics": [
+        "circles",
+        "polygons-area-ratios"
+      ],
+      "difficulty": 2,
+      "tier": "T1",
+      "descriptor": "Find number of semicircles given area ratio constraint",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_7",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 8,
+      "answer": "C",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "area": "algebra",
+      "subtopics": [
+        "sequences-series",
+        "quadratics-vieta"
+      ],
+      "difficulty": 2,
+      "tier": "T1",
+      "descriptor": "Find number of steps given toothpick count formula pattern",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_8",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 9,
+      "answer": "D",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "area": "counting-probability",
+      "subtopics": [
+        "symmetry-arguments",
+        "basic-probability"
+      ],
+      "difficulty": 3,
+      "tier": "T1",
+      "descriptor": "Find sum with equal probability using dice symmetry",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_9",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 10,
+      "answer": "E",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "E",
+        "E",
+        "E",
+        "E"
+      ],
+      "area": "geometry",
+      "subtopics": [
+        "solid-geometry",
+        "area-decomposition"
+      ],
+      "difficulty": 3,
+      "tier": "T1",
+      "descriptor": "Find pyramid volume within rectangular prism using subtraction",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_10",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 11,
+      "answer": "C",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "C",
+        "C",
+        "C"
+      ],
+      "area": "number-theory",
+      "subtopics": [
+        "primes",
+        "modular-arithmetic"
+      ],
+      "difficulty": 2,
+      "tier": "T2",
+      "descriptor": "Determine which expression with prime input is never prime",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_11",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 12,
+      "answer": "C",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "C",
+        "C",
+        "C"
+      ],
+      "area": "geometry",
+      "subtopics": [
+        "circles",
+        "coordinate-geometry",
+        "triangle-basics"
+      ],
+      "difficulty": 3,
+      "tier": "T2",
+      "descriptor": "Find area traced by centroid as vertex moves on circle diameter",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_12",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 13,
+      "answer": "C",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "area": "number-theory",
+      "subtopics": [
+        "modular-arithmetic",
+        "divisibility"
+      ],
+      "difficulty": 3,
+      "tier": "T2",
+      "descriptor": "Count terms in a sequence divisible by 101 using periodicity",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_13",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 14,
+      "answer": "D",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "D",
+        "D",
+        "D"
+      ],
+      "area": "counting-probability",
+      "subtopics": [
+        "casework",
+        "pigeonhole"
+      ],
+      "difficulty": 3,
+      "tier": "T2",
+      "descriptor": "Minimize distinct values given mode constraint on integer list",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_14",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 15,
+      "answer": "A",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "area": "geometry",
+      "subtopics": [
+        "polygons-area-ratios",
+        "area-decomposition"
+      ],
+      "difficulty": 3,
+      "tier": "T2",
+      "descriptor": "Find square wrapping paper area given box dimensions and folding constraints",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_15",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 16,
+      "answer": "E",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "E"
+      ],
+      "area": "number-theory",
+      "subtopics": [
+        "modular-arithmetic"
+      ],
+      "difficulty": 3,
+      "tier": "T2",
+      "descriptor": "Find remainder of sum of cubes given sum constraint modulo 6",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_16",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 17,
+      "answer": "B",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "B",
+        "B",
+        "B",
+        "B"
+      ],
+      "area": "geometry",
+      "subtopics": [
+        "coordinate-geometry",
+        "right-triangles",
+        "polygons-area-ratios"
+      ],
+      "difficulty": 4,
+      "tier": "T2",
+      "descriptor": "Find equilateral octagon side length inscribed in rectangle using Pythagorean theorem",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_17",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 18,
+      "answer": "D",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "area": "counting-probability",
+      "subtopics": [
+        "casework",
+        "permutations-combinations"
+      ],
+      "difficulty": 3,
+      "tier": "T2",
+      "descriptor": "Count seating arrangements with sibling adjacency and front-back restrictions",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_18",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 19,
+      "answer": "E",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E"
+      ],
+      "area": "number-theory",
+      "subtopics": [
+        "divisibility",
+        "divisor-counting"
+      ],
+      "difficulty": 4,
+      "tier": "T3",
+      "descriptor": "Find ages using divisor count conditions for divisibility",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_19",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 20,
+      "answer": "B",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ],
+      "area": "algebra",
+      "subtopics": [
+        "sequences-series",
+        "functions"
+      ],
+      "difficulty": 3,
+      "tier": "T3",
+      "descriptor": "Find term of recursively defined function using periodicity pattern",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_20",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 21,
+      "answer": "C",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "area": "number-theory",
+      "subtopics": [
+        "divisibility",
+        "primes",
+        "gcd-lcm"
+      ],
+      "difficulty": 3,
+      "tier": "T3",
+      "descriptor": "Find the smallest next divisor of a 4-digit number after 323",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_21",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 22,
+      "answer": "C",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "C",
+        "C"
+      ],
+      "area": "counting-probability",
+      "subtopics": [
+        "conditional-geometric-probability",
+        "casework"
+      ],
+      "difficulty": 4,
+      "tier": "T3",
+      "descriptor": "Probability two random numbers form an obtuse triangle with 1",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_22",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 23,
+      "answer": "B",
+      "answerConfidence": "medium",
+      "answerEvidence": [
+        "B"
+      ],
+      "area": "number-theory",
+      "subtopics": [
+        "gcd-lcm",
+        "diophantine"
+      ],
+      "difficulty": 4,
+      "tier": "T3",
+      "descriptor": "Count positive integer pairs satisfying equation with gcd and lcm",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_23",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 24,
+      "answer": "C",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "area": "geometry",
+      "subtopics": [
+        "polygons-area-ratios",
+        "similar-congruent",
+        "area-decomposition"
+      ],
+      "difficulty": 4,
+      "tier": "T3",
+      "descriptor": "Find area of hexagon formed by intersecting two triangles in regular hexagon",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_24",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 25,
+      "answer": "C",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "area": "number-theory",
+      "subtopics": [
+        "floor-ceiling"
+      ],
+      "difficulty": 4,
+      "tier": "T3",
+      "descriptor": "Count real solutions involving floor function and quadratic equation",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_25",
+      "tagSource": "auto",
+      "statement": null
+    }
+  ]
+}

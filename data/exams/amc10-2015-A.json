@@ -312,9 +312,9 @@
       ],
       "difficulty": 3,
       "tier": "T2",
-      "descriptor": "Count relatively prime fractions satisfying a ratio condition after incrementing [REVIEW: passes disagreed — number-theory vs algebra]",
+      "descriptor": "Count relatively prime fractions satisfying a ratio condition after incrementing",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_15",
-      "tagSource": "auto",
+      "tagSource": "reviewed",
       "statement": null
     },
     {
@@ -513,9 +513,9 @@
       ],
       "difficulty": 4,
       "tier": "T3",
-      "descriptor": "Count integer perimeters of quadrilateral with right angles and equal sides [REVIEW: passes disagreed — geometry vs number-theory]",
+      "descriptor": "Count integer perimeters of quadrilateral with right angles and equal sides",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_24",
-      "tagSource": "auto",
+      "tagSource": "reviewed",
       "statement": null
     },
     {

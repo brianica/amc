@@ -1,0 +1,539 @@
+{
+  "id": "amc10-2016-A",
+  "competition": "AMC10",
+  "year": 2016,
+  "season": null,
+  "form": "A",
+  "wikiPage": "2016_AMC_10A_Problems",
+  "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems",
+  "numQuestions": 25,
+  "scoring": {
+    "correct": 6,
+    "blank": 1.5,
+    "wrong": 0,
+    "needsVerification": true
+  },
+  "problems": [
+    {
+      "n": 1,
+      "answer": "B",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ],
+      "area": "algebra",
+      "subtopics": [
+        "functions"
+      ],
+      "difficulty": 1,
+      "tier": "T1",
+      "descriptor": "Simplify factorial expression using factoring and cancellation",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_1",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 2,
+      "answer": "C",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "C",
+        "C"
+      ],
+      "area": "algebra",
+      "subtopics": [
+        "logs-exponents"
+      ],
+      "difficulty": 1,
+      "tier": "T1",
+      "descriptor": "Solve exponential equation by converting to same base",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_2",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 3,
+      "answer": "C",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "C",
+        "C"
+      ],
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems",
+        "rates-work-mixture"
+      ],
+      "difficulty": 1,
+      "tier": "T1",
+      "descriptor": "Find total spent given proportional spending and difference constraint",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_3",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 4,
+      "answer": "B",
+      "answerConfidence": "medium",
+      "answerEvidence": [
+        "B"
+      ],
+      "area": "number-theory",
+      "subtopics": [
+        "floor-ceiling"
+      ],
+      "difficulty": 2,
+      "tier": "T1",
+      "descriptor": "Evaluate remainder function using floor of a negative fraction",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_4",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 5,
+      "answer": "D",
+      "answerConfidence": "medium",
+      "answerEvidence": [
+        "D"
+      ],
+      "area": "geometry",
+      "subtopics": [
+        "solid-geometry"
+      ],
+      "difficulty": 1,
+      "tier": "T1",
+      "descriptor": "Find possible volume of box with sides in given ratio",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_5",
+      "tagSource": "reviewed",
+      "statement": null
+    },
+    {
+      "n": 6,
+      "answer": "D",
+      "answerConfidence": "medium",
+      "answerEvidence": [
+        "D"
+      ],
+      "area": "number-theory",
+      "subtopics": [
+        "digits-bases"
+      ],
+      "difficulty": 2,
+      "tier": "T1",
+      "descriptor": "Difference in digit sums when replacing one digit with another",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_6",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 7,
+      "answer": "D",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "D",
+        "D"
+      ],
+      "area": "logic-other",
+      "subtopics": [
+        "statistics"
+      ],
+      "difficulty": 2,
+      "tier": "T1",
+      "descriptor": "Find value that equals mean, median, and mode of a data set",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_7",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 8,
+      "answer": "C",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "C",
+        "C"
+      ],
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 2,
+      "tier": "T1",
+      "descriptor": "Find starting amount after repeated doubling and fixed subtractions",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_8",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 9,
+      "answer": "D",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "D",
+        "D",
+        "D"
+      ],
+      "area": "algebra",
+      "subtopics": [
+        "sequences-series"
+      ],
+      "difficulty": 2,
+      "tier": "T1",
+      "descriptor": "Find N where triangular number equals 2016, then sum digits",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_9",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 10,
+      "answer": "B",
+      "answerConfidence": "medium",
+      "answerEvidence": [],
+      "area": "algebra",
+      "subtopics": [
+        "sequences-series",
+        "linear-systems"
+      ],
+      "difficulty": 2,
+      "tier": "T1",
+      "descriptor": "Find rectangle length given three nested areas form arithmetic progression",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_10",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 11,
+      "answer": "D",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "area": "geometry",
+      "subtopics": [
+        "area-decomposition",
+        "coordinate-geometry"
+      ],
+      "difficulty": 3,
+      "tier": "T2",
+      "descriptor": "Find shaded region area by decomposing into triangles or using coordinates",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_11",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 12,
+      "answer": "A",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "A",
+        "A",
+        "A"
+      ],
+      "area": "counting-probability",
+      "subtopics": [
+        "basic-probability",
+        "permutations-combinations"
+      ],
+      "difficulty": 2,
+      "tier": "T2",
+      "descriptor": "Probability that product of three random distinct integers is odd",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_12",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 13,
+      "answer": "B",
+      "answerConfidence": "medium",
+      "answerEvidence": [
+        "B"
+      ],
+      "area": "counting-probability",
+      "subtopics": [
+        "casework"
+      ],
+      "difficulty": 2,
+      "tier": "T2",
+      "descriptor": "Find original seat by tracking friends' movements and constraints",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_13",
+      "tagSource": "reviewed",
+      "statement": null
+    },
+    {
+      "n": 14,
+      "answer": "C",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "area": "number-theory",
+      "subtopics": [
+        "diophantine",
+        "divisibility"
+      ],
+      "difficulty": 2,
+      "tier": "T2",
+      "descriptor": "Count non-negative integer solutions to a linear Diophantine equation",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_14",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 15,
+      "answer": "A",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "A",
+        "A"
+      ],
+      "area": "geometry",
+      "subtopics": [
+        "circles",
+        "area-decomposition"
+      ],
+      "difficulty": 2,
+      "tier": "T2",
+      "descriptor": "Find radius of leftover dough after cutting tangent circles",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_15",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 16,
+      "answer": "D",
+      "answerConfidence": "medium",
+      "answerEvidence": [
+        "D"
+      ],
+      "area": "geometry",
+      "subtopics": [
+        "transformations",
+        "coordinate-geometry"
+      ],
+      "difficulty": 2,
+      "tier": "T2",
+      "descriptor": "Find single transformation reversing reflection then rotation composition",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_16",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 17,
+      "answer": "A",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "area": "counting-probability",
+      "subtopics": [
+        "basic-probability",
+        "casework"
+      ],
+      "difficulty": 4,
+      "tier": "T2",
+      "descriptor": "Find least N where probability of green balls on same side drops below threshold",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_17",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 18,
+      "answer": "C",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "area": "counting-probability",
+      "subtopics": [
+        "casework",
+        "symmetry-arguments"
+      ],
+      "difficulty": 4,
+      "tier": "T2",
+      "descriptor": "Count cube vertex labelings with equal face sums, up to rotation",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_18",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 19,
+      "answer": "E",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "E"
+      ],
+      "area": "geometry",
+      "subtopics": [
+        "similar-congruent",
+        "coordinate-geometry"
+      ],
+      "difficulty": 3,
+      "tier": "T3",
+      "descriptor": "Find ratio of segment divisions using similar triangles in rectangle",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_19",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 20,
+      "answer": "B",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "B",
+        "B",
+        "B"
+      ],
+      "area": "counting-probability",
+      "subtopics": [
+        "stars-and-bars",
+        "permutations-combinations"
+      ],
+      "difficulty": 3,
+      "tier": "T3",
+      "descriptor": "Count multinomial terms with all four variables appearing at positive powers",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_20",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 21,
+      "answer": "D",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "area": "geometry",
+      "subtopics": [
+        "circles",
+        "coordinate-geometry",
+        "area-decomposition"
+      ],
+      "difficulty": 4,
+      "tier": "T3",
+      "descriptor": "Find triangle area from three mutually tangent circles on a line",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_21",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 22,
+      "answer": "D",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "D",
+        "D"
+      ],
+      "area": "number-theory",
+      "subtopics": [
+        "divisor-counting",
+        "primes"
+      ],
+      "difficulty": 4,
+      "tier": "T3",
+      "descriptor": "Find divisors of 81n⁴ given divisor count of 110n³",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_22",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 23,
+      "answer": "A",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "area": "algebra",
+      "subtopics": [
+        "functions"
+      ],
+      "difficulty": 3,
+      "tier": "T3",
+      "descriptor": "Determine custom binary operation from properties and solve equation",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_23",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 24,
+      "answer": "E",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "E"
+      ],
+      "area": "geometry",
+      "subtopics": [
+        "circles",
+        "cyclic-quadrilaterals"
+      ],
+      "difficulty": 4,
+      "tier": "T3",
+      "descriptor": "Find fourth side of cyclic quadrilateral given three equal sides and circumradius",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_24",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 25,
+      "answer": "A",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "area": "number-theory",
+      "subtopics": [
+        "gcd-lcm",
+        "divisor-counting"
+      ],
+      "difficulty": 4,
+      "tier": "T3",
+      "descriptor": "Count ordered triples satisfying three pairwise LCM conditions",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_25",
+      "tagSource": "auto",
+      "statement": null
+    }
+  ]
+}
