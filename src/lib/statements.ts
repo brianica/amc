@@ -13,11 +13,29 @@ import { renderStatement, type RenderedStatement } from "./wikitext";
  * A personal instance reading its own local cache is a different thing from
  * republishing, and this switch is what keeps the two apart.
  *
- * Off unless SHOW_PROBLEM_STATEMENTS=1. Deliberately *not* a NEXT_PUBLIC_ variable:
- * it is a deployment decision, not something the browser can ask for.
+ * Requires SHOW_PROBLEM_STATEMENTS=1, which `.env.example` sets — so a local checkout
+ * has it on, while a host, which never receives the gitignored `.env.local`, does not
+ * unless someone sets it there deliberately. Nothing in the code turns it on by
+ * itself. Deliberately *not* a NEXT_PUBLIC_ variable: it is a deployment decision, not
+ * something the browser can ask for.
  */
+let warned = false;
+
 export function showStatements(): boolean {
-  return process.env.SHOW_PROBLEM_STATEMENTS === "1";
+  const on = process.env.SHOW_PROBLEM_STATEMENTS === "1";
+
+  // Enabled on a production build is legitimate for a private instance and a
+  // copyright problem for a public one, and the app cannot tell which it is. Say so
+  // once at startup so it is not a silent condition nobody notices.
+  if (on && process.env.NODE_ENV === "production" && !warned) {
+    warned = true;
+    console.warn(
+      "[statements] SHOW_PROBLEM_STATEMENTS=1 in a production build: this instance " +
+        "serves MAA-copyright problem text. Intended for a private instance only.",
+    );
+  }
+
+  return on;
 }
 
 const CACHE_DIR = join(process.cwd(), "pipeline", ".cache");

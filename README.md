@@ -51,9 +51,12 @@ By default the app never displays problem text — AMC problems are MAA copyrigh
 public deployment links out to the official page instead. A private instance can render
 them from its own local cache:
 
+`SHOW_PROBLEM_STATEMENTS=1` is already in `.env.example`, so a local checkout has this
+on. To see it working before any real papers are cached:
+
 ```bash
-npm run seed:statements                      # stand-in text, no network needed
-SHOW_PROBLEM_STATEMENTS=1 npm run dev
+npm run seed:statements     # stand-in text, no network needed
+npm run dev
 ```
 
 Open the sample exam, choose **Sit it on the clock**, and the problems appear in the
@@ -61,8 +64,12 @@ page. Problem 3 is the one with a diagram that cannot be drawn, so you can see h
 is handled.
 
 For real papers, `npm run fetch` caches them under `pipeline/.cache/` and the same
-switch shows those instead. Leave `SHOW_PROBLEM_STATEMENTS` unset on anything other
-people can reach.
+switch shows those instead.
+
+`.env.local` is gitignored and never reaches a hosting provider, so a deployment does
+not inherit this. **Do not add `SHOW_PROBLEM_STATEMENTS` to a host's environment
+variables for an instance other people can reach** — there the app should link out to
+the official page. A production build with it enabled logs a warning on startup.
 
 ## Going beyond the sample data
 
