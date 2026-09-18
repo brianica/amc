@@ -5,6 +5,7 @@ import type { ExamFile } from "@pipeline/types";
 import type { ScoredAttempt } from "@pipeline/score";
 import type { ErrorCategory, TimeBucket } from "@/lib/store";
 import type { QuestionTiming } from "@/lib/timed";
+import type { RenderedStatement } from "@/lib/wikitext";
 import { assessRetake, BIAS_WINDOW_DAYS } from "@/lib/retake";
 import { saveAttempt, type TriageInput } from "./actions";
 
@@ -48,6 +49,7 @@ export function ReviewStep({
   durationMin,
   previousDates,
   timings,
+  statements,
   onBack,
   backLabel,
 }: {
@@ -58,6 +60,8 @@ export function ReviewStep({
   durationMin: number | null;
   previousDates: string[];
   timings?: QuestionTiming[] | null;
+  /** Rendered statements, when this instance is configured to show them. */
+  statements?: (RenderedStatement | null)[];
   onBack?: () => void;
   backLabel?: string;
 }) {
@@ -75,6 +79,10 @@ export function ReviewStep({
   const [pending, startTransition] = useTransition();
   const [error, setError] = useState<string | null>(null);
   const [includeInStats, setIncludeInStats] = useState<boolean | null>(null);
+  // Shown by default: deciding between a careless slip and a method you never knew
+  // is guesswork without the problem in front of you. Hideable because a paper with
+  // a dozen misses becomes a very long page.
+  const [showProblems, setShowProblems] = useState(true);
 
   const retake = useMemo(() => assessRetake(previousDates, takenOn), [previousDates, takenOn]);
   const counted = includeInStats ?? !retake.likelyBiased;
@@ -106,6 +114,7 @@ export function ReviewStep({
   }
 
   const missed = scored.results.filter((r) => r.status !== "correct");
+  const hasStatements = missed.some((r) => statements?.[r.n - 1]);
 
   return (
     <div className="space-y-8">
@@ -137,7 +146,18 @@ export function ReviewStep({
       </section>
 
       <section>
-        <h2 className="text-lg font-semibold">What happened on each one?</h2>
+        <div className="flex flex-wrap items-baseline justify-between gap-2">
+          <h2 className="text-lg font-semibold">What happened on each one?</h2>
+          {hasStatements && (
+            <button
+              type="button"
+              onClick={() => setShowProblems((v) => !v)}
+              className="text-sm text-muted underline hover:text-text"
+            >
+              {showProblems ? "Hide the problems" : "Show the problems"}
+            </button>
+          )}
+        </div>
         <p className="mt-1 text-sm text-muted">
           Optional, but this is what turns a score into a diagnosis. About 20 seconds each.
         </p>
@@ -159,6 +179,38 @@ export function ReviewStep({
                   </span>
                 )}
               </div>
+
+              {showProblems && statements?.[r.n - 1] && (
+                <div className="mt-3 rounded-md border border-border bg-bg px-3 py-2 text-[0.95rem] leading-relaxed">
+                  <div
+                    className="statement"
+                    // Built by renderStatement, which escapes every character of the
+                    // source and emits only its own markup plus KaTeX output.
+                    dangerouslySetInnerHTML={{ __html: statements[r.n - 1]!.html }}
+                  />
+                  {statements[r.n - 1]!.hasDiagram && (
+                    <p className="mt-1 text-sm text-muted">
+                      This problem has a diagram that cannot be drawn here
+                      {exam.problems[r.n - 1]?.sourceUrl ? (
+                        <>
+                          {" — "}
+                          <a
+                            href={exam.problems[r.n - 1]!.sourceUrl}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="text-accent underline"
+                          >
+                            see the original
+                          </a>
+                        </>
+                      ) : (
+                        ", so check your paper"
+                      )}
+                      .
+                    </p>
+                  )}
+                </div>
+              )}
 
               <div className="mt-3 flex flex-wrap gap-2">
                 {CATEGORIES.map((c) => (

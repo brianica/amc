@@ -220,6 +220,7 @@ export function TimedSession({
           durationMin={elapsedMinutes(state, Date.now())}
           previousDates={previousDates}
           timings={timings(state)}
+          statements={statements}
         />
       </div>
     );
@@ -291,12 +292,24 @@ export function TimedSession({
               // and emits only its own markup plus KaTeX output.
               dangerouslySetInnerHTML={{ __html: statements[q]!.html }}
             />
-            {statements[q]!.hasDiagram && problem?.sourceUrl && (
+            {statements[q]!.hasDiagram && (
               <p className="text-sm text-muted">
-                This problem has a diagram that cannot be drawn here —{" "}
-                <a href={problem.sourceUrl} target="_blank" rel="noreferrer" className="text-accent underline">
-                  see the original
-                </a>
+                This problem has a diagram that cannot be drawn here
+                {problem?.sourceUrl ? (
+                  <>
+                    {" — "}
+                    <a
+                      href={problem.sourceUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-accent underline"
+                    >
+                      see the original
+                    </a>
+                  </>
+                ) : (
+                  ", so check your paper"
+                )}
                 .
               </p>
             )}

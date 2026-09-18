@@ -3,6 +3,7 @@ import { notFound, redirect } from "next/navigation";
 import { currentUser } from "@/lib/auth";
 import { examLabel, findExam } from "@/lib/exams";
 import { getStore } from "@/lib/store";
+import { loadStatements } from "@/lib/statements";
 import { LogForm } from "./LogForm";
 
 
@@ -22,6 +23,9 @@ export default async function LogPage({ params }: { params: Promise<{ examId: st
   const previous = (await getStore().listAttempts(user.id))
     .filter((a) => a.exam_id === exam.id)
     .sort((a, b) => a.taken_on.localeCompare(b.taken_on));
+
+  // Needed only for the triage step, not for entering answers from paper.
+  const statements = await loadStatements(exam);
 
   return (
     <div className="space-y-6">
@@ -48,6 +52,7 @@ export default async function LogPage({ params }: { params: Promise<{ examId: st
         exam={exam}
         examLabel={examLabel(exam)}
         previousDates={previous.map((a) => a.taken_on)}
+        statements={statements?.byQuestion}
       />
     </div>
   );
