@@ -39,10 +39,30 @@ save. The dashboard fills in.
 | `npm run dev` | Development server |
 | `npm run build` | Production build |
 | `npm run seed:dev` | Reset the local sample data |
+| `npm run seed:statements` | Stand-in problem text, to try in-app problem display |
 
 Run `npm run build` only when the dev server is stopped — a production build
 overwrites the `.next` directory the dev server is serving from, and the symptom is a
 completely unstyled page.
+
+### Showing the problems inside the app
+
+By default the app never displays problem text — AMC problems are MAA copyright, so a
+public deployment links out to the official page instead. A private instance can render
+them from its own local cache:
+
+```bash
+npm run seed:statements                      # stand-in text, no network needed
+SHOW_PROBLEM_STATEMENTS=1 npm run dev
+```
+
+Open the sample exam, choose **Sit it on the clock**, and the problems appear in the
+page. Problem 3 is the one with a diagram that cannot be drawn, so you can see how that
+is handled.
+
+For real papers, `npm run fetch` caches them under `pipeline/.cache/` and the same
+switch shows those instead. Leave `SHOW_PROBLEM_STATEMENTS` unset on anything other
+people can reach.
 
 ## Going beyond the sample data
 
