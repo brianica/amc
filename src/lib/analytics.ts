@@ -28,6 +28,44 @@ export interface Cell {
   accuracy: number | null;
 }
 
+export interface AttemptOrdinal {
+  /** 1 for the first sitting of this paper, 2 for the next, and so on. */
+  ordinal: number;
+  total: number;
+}
+
+/**
+ * Number each attempt within its own paper, oldest first.
+ *
+ * A paper can be sat more than once — that is the point of retaking one — so the
+ * lists need to say which sitting they are showing rather than repeating a title.
+ * Ties on the date fall back to insertion order, so two sittings on one day still
+ * come out stable rather than swapping between renders.
+ */
+export function attemptOrdinals(attempts: AttemptRecord[]): Map<string, AttemptOrdinal> {
+  const byExam = new Map<string, AttemptRecord[]>();
+  for (const a of attempts) {
+    byExam.set(a.exam_id, [...(byExam.get(a.exam_id) ?? []), a]);
+  }
+
+  const out = new Map<string, AttemptOrdinal>();
+  for (const sittings of byExam.values()) {
+    const ordered = [...sittings].sort(
+      (x, y) => x.taken_on.localeCompare(y.taken_on) || x.created_at.localeCompare(y.created_at),
+    );
+    ordered.forEach((a, i) => out.set(a.id, { ordinal: i + 1, total: ordered.length }));
+  }
+  return out;
+}
+
+export interface SubtopicRow {
+  area: string;
+  subtopic: string;
+  seen: number;
+  correct: number;
+  accuracy: number;
+}
+
 export interface TrendPoint {
   attemptId: string;
   takenOn: string;
@@ -70,7 +108,14 @@ function questionOutcomes(attempts: AttemptRecord[], lookup: ExamLookup) {
     } catch {
       return []; // a malformed stored answer string must not break the dashboard
     }
-    return scored.results.map((r) => ({ attempt, exam, ...r }));
+    // Join the tagged problem back on: scoring knows the area but not the techniques,
+    // and the techniques are what turn a weak area into something to practise.
+    return scored.results.map((r) => ({
+      attempt,
+      exam,
+      ...r,
+      subtopics: exam.problems[r.n - 1]?.subtopics ?? [],
+    }));
   });
 }
 
@@ -113,10 +158,45 @@ export function strengthGrid(attempts: AttemptRecord[], lookup: ExamLookup): {
   return { areas: sortedAreas, cells };
 }
 
+/**
+ * Accuracy per technique, across every question seen.
+ *
+ * The area level says where the trouble is; this says what to actually practise. A
+ * problem carries up to three techniques and counts toward each, so the rows overlap
+ * by design — they answer "how do I do on this technique", not "how is my time split".
+ *
+ * `minSeen` keeps one bad day off the study plan: a single missed question is not
+ * evidence of a weakness.
+ */
+export function subtopicBreakdown(
+  attempts: AttemptRecord[],
+  lookup: ExamLookup,
+  minSeen = 2,
+): SubtopicRow[] {
+  const tally = new Map<string, { area: string; subtopic: string; seen: number; correct: number }>();
+
+  for (const o of questionOutcomes(attempts, lookup)) {
+    if (!o.area) continue;
+    for (const subtopic of o.subtopics) {
+      const key = `${o.area}|${subtopic}`;
+      const row = tally.get(key) ?? { area: o.area, subtopic, seen: 0, correct: 0 };
+      row.seen++;
+      if (o.status === "correct") row.correct++;
+      tally.set(key, row);
+    }
+  }
+
+  return [...tally.values()]
+    .filter((r) => r.seen >= minSeen)
+    .map((r) => ({ ...r, accuracy: r.correct / r.seen }))
+    // Weakest first, and among equals the one with most evidence behind it.
+    .sort((a, b) => a.accuracy - b.accuracy || b.seen - a.seen);
+}
+
 export function scoreTrend(
   attempts: AttemptRecord[],
   lookup: ExamLookup,
-  label: (exam: ExamFile) => string,
+  label: (exam: ExamFile, attempt: AttemptRecord) => string,
 ): TrendPoint[] {
   return attempts
     .map((a) => {
@@ -126,7 +206,7 @@ export function scoreTrend(
       return {
         attemptId: a.id,
         takenOn: a.taken_on,
-        label: label(exam),
+        label: label(exam, a),
         score: a.score,
         maxScore: max,
         pct: max === 0 ? 0 : a.score / max,
@@ -140,7 +220,7 @@ export function mistakeMix(
   attempts: AttemptRecord[],
   logs: ProblemLogRecord[],
   lookup: ExamLookup,
-  label: (exam: ExamFile) => string,
+  label: (exam: ExamFile, attempt: AttemptRecord) => string,
 ): MixPoint[] {
   const byAttempt = new Map<string, ProblemLogRecord[]>();
   for (const log of logs) {
@@ -161,7 +241,7 @@ export function mistakeMix(
       return {
         attemptId: a.id,
         takenOn: a.taken_on,
-        label: label(exam),
+        label: label(exam, a),
         counts,
         unclassified,
         total: rows.length,
@@ -199,7 +279,11 @@ export function headline(
   // Careless slips and triage failures are the points a student can take back
   // without learning anything new — the honest "left on the table" number.
   const fixable = lostByCause.careless + lostByCause.triage;
-  const latest = [...attempts].sort((a, b) => b.taken_on.localeCompare(a.taken_on))[0];
+  // Two sittings can share a date, so fall back to when each was recorded rather
+  // than letting sort order decide which one counts as "latest".
+  const latest = [...attempts].sort(
+    (a, b) => b.taken_on.localeCompare(a.taken_on) || b.created_at.localeCompare(a.created_at),
+  )[0];
   const latestExam = latest ? lookup(latest.exam_id) : undefined;
 
   return {

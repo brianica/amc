@@ -72,6 +72,26 @@ describe("recordResult", () => {
     expect(after).toMatchObject({ stage: 0, dueOn: "2026-03-20", lastResult: "failed" });
   });
 
+  it("does not advance a card solved before it is due", () => {
+    // The gap is the measurement. Solving it the same afternoon says nothing about
+    // whether the method will still be there in three days.
+    const early = recordResult(card({ dueOn: "2026-03-04" }), "solved", "2026-03-02");
+    expect(early).toMatchObject({ stage: 0, dueOn: "2026-03-04", attempts: 1, lastResult: "solved" });
+  });
+
+  it("still resets a card failed before it is due", () => {
+    // A failure is conclusive whenever it happens: the method is not there now.
+    const early = recordResult(card({ stage: 1, dueOn: "2026-03-18" }), "failed", "2026-03-05");
+    expect(early).toMatchObject({ stage: 0, dueOn: "2026-03-07", lastResult: "failed" });
+  });
+
+  it("advances an early-practised card once its due day arrives", () => {
+    let c = card({ dueOn: "2026-03-04" });
+    c = recordResult(c, "solved", "2026-03-02"); // practice, no advance
+    c = recordResult(c, "solved", "2026-03-04"); // the real thing
+    expect(c).toMatchObject({ stage: 1, dueOn: "2026-03-18", attempts: 2 });
+  });
+
   it("counts every attempt, including failures", () => {
     let c = card();
     c = recordResult(c, "failed", "2026-03-04");

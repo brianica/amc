@@ -7,6 +7,7 @@ import { findExam } from "@/lib/exams";
 import { getStore, type ErrorCategory, type ProblemLogRecord, type TimeBucket } from "@/lib/store";
 import { cardsForMissedProblems, toCard, toRecord } from "@/lib/resolve-cards";
 import { parseAnswers, scoreAttempt } from "@pipeline/score";
+import type { QuestionTiming } from "@/lib/timed";
 
 export interface TriageInput {
   q: number;
@@ -20,6 +21,10 @@ export async function saveAttempt(input: {
   takenOn: string;
   answers: string;
   durationMin: number | null;
+  /** False when the student chose to record this sitting without counting it. */
+  includeInStats: boolean;
+  /** Present only for a sitting taken against the clock in the app. */
+  timings?: QuestionTiming[] | null;
   triage: TriageInput[];
 }): Promise<void> {
   const user = await currentUser();
@@ -38,10 +43,12 @@ export async function saveAttempt(input: {
     user_id: user.id,
     exam_id: exam.id,
     taken_on: input.takenOn,
-    mode: "paper",
+    mode: input.timings ? "timed" : "paper",
     answers: parsed.map((a) => a ?? "-").join(""),
     duration_min: input.durationMin,
     score: scored.score,
+    include_in_stats: input.includeInStats,
+    timings: input.timings ?? null,
   });
 
   const byQuestion = new Map(input.triage.map((t) => [t.q, t]));
@@ -62,8 +69,9 @@ export async function saveAttempt(input: {
 
   await store.replaceLogs(user.id, attemptId, logs);
 
-  // Every missed problem joins the re-solve queue, due in three days. Reading a
-  // solution today is not the same as being able to produce it from a blank page.
+  // Every missed problem joins the re-solve queue, due in three days, whether or not
+  // the sitting counts toward the analytics — it was still missed, and the practice
+  // value of re-solving it does not depend on the score being comparable.
   const existing = (await store.listResolveCards(user.id)).map(toCard);
   const changed = cardsForMissedProblems(
     existing,

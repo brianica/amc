@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { headline, mistakeMix, scoreTrend, strengthGrid } from "./analytics";
+import { attemptOrdinals, headline, mistakeMix, scoreTrend, strengthGrid, subtopicBreakdown } from "./analytics";
 import type { AttemptRecord, ProblemLogRecord } from "./store";
 import { tierOf, type ExamFile, type Letter } from "@pipeline/types";
 
@@ -44,7 +44,7 @@ const label = (e: ExamFile) => e.id;
 function attempt(id: string, examId: string, takenOn: string, answers: string, score: number): AttemptRecord {
   return {
     id, user_id: "u1", exam_id: examId, taken_on: takenOn, mode: "paper",
-    answers, duration_min: 75, score, created_at: `${takenOn}T00:00:00Z`,
+    answers, duration_min: 75, score, include_in_stats: true, timings: null, created_at: `${takenOn}T00:00:00Z`,
   };
 }
 
@@ -171,8 +171,95 @@ describe("headline", () => {
     expect(h.classifiedShare).toBeCloseTo(1 / 3);
   });
 
+  it("picks the later of two sittings on the same day", () => {
+    const morning = { ...attempt("m", "amc10-a", "2026-03-01", KEY, 100), created_at: "2026-03-01T09:00:00Z" };
+    const evening = { ...attempt("e", "amc10-a", "2026-03-01", KEY, 130), created_at: "2026-03-01T18:00:00Z" };
+    expect(headline([morning, evening], [], lookup).latestScore).toBe(130);
+    expect(headline([evening, morning], [], lookup).latestScore).toBe(130);
+  });
+
   it("has no opinion when nothing is logged", () => {
     const h = headline([], [], lookup);
     expect(h).toMatchObject({ papers: 0, latestScore: null, avgFixableLost: null });
+  });
+});
+
+describe("subtopicBreakdown", () => {
+  it("counts a problem toward each technique it carries", () => {
+    const multi = exam("multi", "AMC10", 6, 1.5);
+    // One area throughout: validate enforces that a technique belongs to exactly one
+    // area, so a fixture spanning two would not be reachable with real data.
+    multi.problems.forEach((p) => {
+      p.area = "algebra";
+      p.subtopics = ["linear-systems", "quadratics-vieta"];
+    });
+    const rows = subtopicBreakdown(
+      [attempt("a1", "multi", "2026-01-01", KEY, 150)],
+      (id) => (id === "multi" ? multi : undefined),
+    );
+    expect(rows.map((r) => r.subtopic).sort()).toEqual(["linear-systems", "quadratics-vieta"]);
+    expect(rows[0]!.seen).toBe(25);
+  });
+
+  it("puts the weakest technique first", () => {
+    const e = exam("mix", "AMC10", 6, 1.5);
+    // Odd questions get "weak", even get "strong"; answer only the even ones correctly.
+    e.problems.forEach((p, i) => {
+      p.area = "algebra";
+      p.subtopics = [i % 2 === 0 ? "weak" : "strong"];
+    });
+    const answers = [...KEY].map((c, i) => (i % 2 === 0 ? (c === "A" ? "B" : "A") : c)).join("");
+    const rows = subtopicBreakdown(
+      [attempt("a1", "mix", "2026-01-01", answers, 0)],
+      (id) => (id === "mix" ? e : undefined),
+      1,
+    );
+    expect(rows[0]!.subtopic).toBe("weak");
+    expect(rows[0]!.accuracy).toBe(0);
+    expect(rows[rows.length - 1]!.subtopic).toBe("strong");
+  });
+
+  it("ignores techniques seen too few times to mean anything", () => {
+    const e = exam("thin", "AMC10", 6, 1.5);
+    e.problems.forEach((p, i) => {
+      p.area = "algebra";
+      p.subtopics = [i === 0 ? "rare" : "common"];
+    });
+    const rows = subtopicBreakdown(
+      [attempt("a1", "thin", "2026-01-01", KEY, 150)],
+      (id) => (id === "thin" ? e : undefined),
+      2,
+    );
+    expect(rows.map((r) => r.subtopic)).toEqual(["common"]);
+  });
+});
+
+describe("attemptOrdinals", () => {
+  it("numbers sittings of the same paper oldest first", () => {
+    const ords = attemptOrdinals([
+      attempt("a2", "amc10-a", "2026-03-01", KEY, 120),
+      attempt("a1", "amc10-a", "2026-01-01", KEY, 90),
+      attempt("a3", "amc10-a", "2026-05-01", KEY, 140),
+    ]);
+    expect(ords.get("a1")).toEqual({ ordinal: 1, total: 3 });
+    expect(ords.get("a2")).toEqual({ ordinal: 2, total: 3 });
+    expect(ords.get("a3")).toEqual({ ordinal: 3, total: 3 });
+  });
+
+  it("numbers each paper independently", () => {
+    const ords = attemptOrdinals([
+      attempt("a1", "amc10-a", "2026-01-01", KEY, 90),
+      attempt("b1", "amc8-a", "2026-02-01", KEY, 20),
+    ]);
+    expect(ords.get("a1")).toEqual({ ordinal: 1, total: 1 });
+    expect(ords.get("b1")).toEqual({ ordinal: 1, total: 1 });
+  });
+
+  it("orders two sittings on the same day stably, by when they were recorded", () => {
+    const first = { ...attempt("x", "amc10-a", "2026-03-01", KEY, 90), created_at: "2026-03-01T09:00:00Z" };
+    const second = { ...attempt("y", "amc10-a", "2026-03-01", KEY, 120), created_at: "2026-03-01T17:00:00Z" };
+    const ords = attemptOrdinals([second, first]);
+    expect(ords.get("x")!.ordinal).toBe(1);
+    expect(ords.get("y")!.ordinal).toBe(2);
   });
 });

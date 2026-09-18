@@ -15,7 +15,11 @@ opened up for anyone.
 | Dashboard (4 views) | Working |
 | Accounts + row-level security | Schema and setup runbook done; verified with `scripts/verify-rls.ts` |
 | **Problem database (`data/exams/`)** | **Empty — this is the active task** |
-| 3-day re-solve queue | Working. Needs migration `0002_resolve_queue.sql` applied |
+| 3-day re-solve queue | Working |
+| Retakes | Working |
+| Timed sittings | Working. Per-problem timing captured; pacing view not built yet |
+| In-app problem display | Behind `SHOW_PROBLEM_STATEMENTS=1`; off by default. Untested against real wikitext |
+| Migrations | `0002`–`0005` must be applied in order |
 
 Until `data/exams/` is populated the app runs against one clearly-labelled sample paper
 with an invented answer key, gated behind `SAMPLE_EXAMS=1`.
@@ -68,6 +72,29 @@ Run `npx tsc --noEmit` and `npm test` before committing.
   rows, so correcting a tag retroactively fixes every attempt already recorded.
 - **Pages that depend on the signed-in user are `force-dynamic`**, and the local
   development account refuses to start in production.
+- **A paper can be sat any number of times.** Each sitting is its own `attempts` row;
+  the app numbers them by date. Migration 0003 dropped the unique constraint that
+  blocked this.
+- **A retake inside 14 days is flagged, and counting it is the student's choice.**
+  `attempts.include_in_stats` (migration 0004) drives every aggregate on the dashboard;
+  a likely-biased retake defaults to excluded and the checkbox is theirs to override,
+  before or after saving. Excluding a sitting never affects the re-solve queue: the
+  problems were still missed, and the practice value does not depend on the score being
+  comparable.
+- **A paper can be sat two ways: answers logged from paper, or against the clock in
+  the app.** Both end in the same `ReviewStep`, so scoring and triage cannot drift
+  apart. A timed sitting banks elapsed time on every navigation rather than sampling a
+  ticker, so totals do not depend on a timer firing or a tab staying in the foreground,
+  and it is autosaved to `localStorage` — losing 75 minutes to a refresh is not
+  acceptable. `attempts.timings` (migration 0005) holds per-question seconds and visits.
+- **Problem statements are shown only when `SHOW_PROBLEM_STATEMENTS=1`, and are never
+  committed or served by default.** A private instance may render statements from its
+  own `pipeline/.cache`; a public deployment links out instead. The switch is a
+  server-side env var, deliberately not `NEXT_PUBLIC_`, so it is a deployment decision
+  rather than something a browser can ask for. `renderStatement` escapes every
+  character of the source and emits only its own markup plus KaTeX output — the input
+  is third-party HTML-ish wikitext, so whitelist, never blacklist. Solutions are never
+  rendered, only the problem.
 - **Re-solve dates are plain `YYYY-MM-DD` strings, and the column is `date`.** A
   re-solve is due on a calendar day; a timestamp would make "due today" depend on the
   reader's timezone. Failing a re-solve returns the card to stage 0 rather than

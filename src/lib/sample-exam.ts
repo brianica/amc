@@ -20,7 +20,7 @@ export function sampleExam(): ExamFile {
     year: 2099,
     season: null,
     form: "A",
-    wikiPage: "",
+    wikiPage: "2099_AMC_10A_Problems",
     sourceUrl: "",
     numQuestions: 25,
     scoring: { correct: 6, blank: 1.5, wrong: 0, needsVerification: false },

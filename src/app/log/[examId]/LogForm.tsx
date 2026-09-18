@@ -1,41 +1,28 @@
 "use client";
 
-import { useMemo, useState, useTransition } from "react";
+import { useMemo, useState } from "react";
 import type { ExamFile } from "@pipeline/types";
 import { parseAnswers, scoreAttempt, type ScoredAttempt } from "@pipeline/score";
-import type { ErrorCategory, TimeBucket } from "@/lib/store";
-import { saveAttempt, type TriageInput } from "./actions";
+import { ReviewStep } from "./ReviewStep";
 
 const LETTERS = ["A", "B", "C", "D", "E"] as const;
 
-/**
- * Plain wording rather than the A/B/C/D labels of the taxonomy: students reliably
- * confuse "didn't know the method" with "couldn't find the path" when the options
- * are abstract, and a mis-tagged error is worse than an untagged one.
- */
-const CATEGORIES: { id: ErrorCategory; label: string; hint: string }[] = [
-  { id: "careless", label: "Careless slip", hint: "Knew the maths, misread or miscalculated" },
-  { id: "concept", label: "Didn't know the method", hint: "A tool or theorem I haven't learned" },
-  { id: "no_path", label: "Couldn't find the path", hint: "Knew the tools, didn't see the way in" },
-  { id: "triage", label: "Ran out of time", hint: "Never got a real attempt at it" },
-];
-
-const TIME_BUCKETS: { id: TimeBucket; label: string }[] = [
-  { id: "under1", label: "<1 min" },
-  { id: "1to3", label: "1–3" },
-  { id: "3to6", label: "3–6" },
-  { id: "over6", label: "6+" },
-];
-
 const today = () => new Date().toISOString().slice(0, 10);
 
-export function LogForm({ exam, examLabel }: { exam: ExamFile; examLabel: string }) {
+export function LogForm({
+  exam,
+  examLabel,
+  previousDates,
+}: {
+  exam: ExamFile;
+  examLabel: string;
+  /** Dates this paper has already been sat, so a retake can be flagged. */
+  previousDates: string[];
+}) {
   const [answers, setAnswers] = useState<(string | null)[]>(() => Array(25).fill(null));
   const [takenOn, setTakenOn] = useState(today);
   const [duration, setDuration] = useState("");
   const [scored, setScored] = useState<ScoredAttempt | null>(null);
-  const [triage, setTriage] = useState<Record<number, TriageInput>>({});
-  const [pending, startTransition] = useTransition();
   const [error, setError] = useState<string | null>(null);
 
   const answerString = useMemo(() => answers.map((a) => a ?? "-").join(""), [answers]);
@@ -56,30 +43,6 @@ export function LogForm({ exam, examLabel }: { exam: ExamFile; examLabel: string
 
   function score() {
     setScored(scoreAttempt(exam, parseAnswers(answerString)));
-  }
-
-  function updateTriage(q: number, patch: Partial<TriageInput>) {
-    setTriage((prev) => ({
-      ...prev,
-      [q]: { q, errorCategory: null, timeBucket: null, note: "", ...prev[q], ...patch },
-    }));
-  }
-
-  function submit() {
-    startTransition(async () => {
-      try {
-        await saveAttempt({
-          examId: exam.id,
-          takenOn,
-          answers: answerString,
-          durationMin: duration ? Number(duration) : null,
-          triage: Object.values(triage),
-        });
-      } catch (e) {
-        // A redirect throws by design; only report real failures.
-        if (e instanceof Error && !e.message.includes("NEXT_REDIRECT")) setError(e.message);
-      }
-    });
   }
 
   if (!scored) {
@@ -167,123 +130,16 @@ export function LogForm({ exam, examLabel }: { exam: ExamFile; examLabel: string
     );
   }
 
-  const missed = scored.results.filter((r) => r.status !== "correct");
-
   return (
-    <div className="space-y-8">
-      <section className="rounded-md border border-border bg-surface p-5">
-        <p className="text-sm text-muted">{examLabel}</p>
-        <p className="mt-1 text-3xl font-semibold tabular-nums">
-          {scored.score}
-          <span className="ml-2 text-base font-normal text-muted">/ {scored.maxScore}</span>
-        </p>
-        <dl className="mt-4 flex gap-6 text-sm">
-          <div>
-            <dt className="text-muted">Correct</dt>
-            <dd className="tabular-nums text-correct">{scored.counts.correct}</dd>
-          </div>
-          <div>
-            <dt className="text-muted">Wrong</dt>
-            <dd className="tabular-nums text-wrong">{scored.counts.incorrect}</dd>
-          </div>
-          <div>
-            <dt className="text-muted">Blank</dt>
-            <dd className="tabular-nums text-blank">{scored.counts.blank}</dd>
-          </div>
-        </dl>
-        <p className="mt-4 text-sm text-muted">
-          Points given up — Q1–10: <strong className="text-text">{scored.lostByTier.T1}</strong>,
-          Q11–18: <strong className="text-text">{scored.lostByTier.T2}</strong>, Q19–25:{" "}
-          <strong className="text-text">{scored.lostByTier.T3}</strong>
-        </p>
-      </section>
-
-      <section>
-        <h2 className="text-lg font-semibold">What happened on each one?</h2>
-        <p className="mt-1 text-sm text-muted">
-          Optional, but this is what turns a score into a diagnosis. About 20 seconds each.
-        </p>
-
-        <ul className="mt-4 space-y-3">
-          {missed.map((r) => (
-            <li key={r.n} className="rounded-md border border-border bg-surface p-4">
-              <div className="flex flex-wrap items-baseline gap-2">
-                <span className="font-medium">Q{r.n}</span>
-                <span className={r.status === "blank" ? "text-blank" : "text-wrong"}>
-                  {r.status === "blank" ? "blank" : `answered ${r.given}, correct ${r.correct}`}
-                </span>
-                {r.area && <span className="text-sm text-muted">· {r.area.replace(/-/g, " ")}</span>}
-              </div>
-
-              <div className="mt-3 flex flex-wrap gap-2">
-                {CATEGORIES.map((c) => (
-                  <button
-                    key={c.id}
-                    type="button"
-                    title={c.hint}
-                    aria-pressed={triage[r.n]?.errorCategory === c.id}
-                    onClick={() => updateTriage(r.n, { errorCategory: c.id })}
-                    className={`rounded border px-3 py-1.5 text-sm ${
-                      triage[r.n]?.errorCategory === c.id
-                        ? "border-accent bg-accent text-white"
-                        : "border-border hover:border-accent"
-                    }`}
-                  >
-                    {c.label}
-                  </button>
-                ))}
-              </div>
-
-              <div className="mt-3 flex flex-wrap items-center gap-2 text-sm">
-                <span className="text-muted">Time spent</span>
-                {TIME_BUCKETS.map((b) => (
-                  <button
-                    key={b.id}
-                    type="button"
-                    aria-pressed={triage[r.n]?.timeBucket === b.id}
-                    onClick={() => updateTriage(r.n, { timeBucket: b.id })}
-                    className={`rounded border px-2 py-1 ${
-                      triage[r.n]?.timeBucket === b.id
-                        ? "border-accent bg-accent text-white"
-                        : "border-border hover:border-accent"
-                    }`}
-                  >
-                    {b.label}
-                  </button>
-                ))}
-              </div>
-
-              <input
-                value={triage[r.n]?.note ?? ""}
-                onChange={(e) => updateTriage(r.n, { note: e.target.value })}
-                maxLength={500}
-                placeholder="One line on what you missed (optional)"
-                className="mt-3 w-full rounded-md border border-border bg-bg px-3 py-1.5 text-sm"
-              />
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      {error && <p className="text-sm text-wrong">{error}</p>}
-
-      <div className="flex gap-3">
-        <button
-          type="button"
-          onClick={submit}
-          disabled={pending}
-          className="rounded-md bg-accent px-4 py-2 font-medium text-white disabled:opacity-60"
-        >
-          {pending ? "Saving…" : "Save attempt"}
-        </button>
-        <button
-          type="button"
-          onClick={() => setScored(null)}
-          className="rounded-md border border-border px-4 py-2"
-        >
-          Back to answers
-        </button>
-      </div>
-    </div>
+    <ReviewStep
+      exam={exam}
+      examLabel={examLabel}
+      scored={scored}
+      takenOn={takenOn}
+      durationMin={duration ? Number(duration) : null}
+      previousDates={previousDates}
+      onBack={() => setScored(null)}
+      backLabel="Back to answers"
+    />
   );
 }

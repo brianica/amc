@@ -2,6 +2,8 @@ import Link from "next/link";
 import { currentUser } from "@/lib/auth";
 import { allExams, examLabel, findExam, isSample } from "@/lib/exams";
 import { getStore } from "@/lib/store";
+import { IncludeToggle } from "./IncludeToggle";
+import { attemptOrdinals } from "@/lib/analytics";
 import { summarise, today } from "@/lib/resolve";
 import { toCard } from "@/lib/resolve-cards";
 
@@ -38,6 +40,9 @@ export default async function Home() {
     store.listResolveCards(user.id),
   ]);
   const queue = summarise(cardRows.map(toCard), today());
+  const ordinals = attemptOrdinals(attempts);
+  const sittings = new Map<string, number>();
+  for (const a of attempts) sittings.set(a.exam_id, (sittings.get(a.exam_id) ?? 0) + 1);
 
   return (
     <div className="space-y-10">
@@ -73,7 +78,7 @@ export default async function Home() {
         ) : (
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {exams.map((exam) => (
-              <li key={exam.id}>
+              <li key={exam.id} className="pb-1">
                 <Link
                   href={`/log/${exam.id}`}
                   className="block rounded-md border border-border bg-surface px-4 py-3 hover:border-accent"
@@ -82,7 +87,18 @@ export default async function Home() {
                   {isSample(exam) && (
                     <span className="ml-2 text-xs text-blank">invented answer key</span>
                   )}
+                  {(sittings.get(exam.id) ?? 0) > 0 && (
+                    <span className="ml-2 text-xs text-muted">sat {sittings.get(exam.id)}×</span>
+                  )}
                 </Link>
+                <div className="mt-1 flex gap-3 px-4 text-xs text-muted">
+                  <Link href={`/log/${exam.id}`} className="hover:text-text">
+                    Log answers from paper
+                  </Link>
+                  <Link href={`/log/${exam.id}/timed`} className="hover:text-text">
+                    Sit it on the clock
+                  </Link>
+                </div>
               </li>
             ))}
           </ul>
@@ -100,6 +116,7 @@ export default async function Home() {
                 <th className="py-2 font-normal">Exam</th>
                 <th className="py-2 font-normal">Taken</th>
                 <th className="py-2 text-right font-normal">Score</th>
+                <th className="py-2 pl-3 text-right font-normal">Counted</th>
               </tr>
             </thead>
             <tbody>
@@ -107,9 +124,24 @@ export default async function Home() {
                 const exam = findExam(a.exam_id);
                 return (
                   <tr key={a.id} className="border-t border-border">
-                    <td className="py-2">{exam ? examLabel(exam) : a.exam_id}</td>
+                    <td className="py-2">
+                      {exam ? examLabel(exam) : a.exam_id}
+                      {(ordinals.get(a.id)?.total ?? 1) > 1 && (
+                        <span className="ml-2 text-xs text-muted">
+                          sitting {ordinals.get(a.id)!.ordinal} of {ordinals.get(a.id)!.total}
+                        </span>
+                      )}
+                    </td>
                     <td className="py-2 text-muted">{a.taken_on}</td>
-                    <td className="py-2 text-right tabular-nums">{a.score}</td>
+                    <td className="py-2 text-right tabular-nums">
+                      {a.score}
+                      {!a.include_in_stats && (
+                        <span className="ml-2 text-xs font-normal text-muted">not counted</span>
+                      )}
+                    </td>
+                    <td className="py-2 pl-3 text-right">
+                      <IncludeToggle attemptId={a.id} included={a.include_in_stats} />
+                    </td>
                   </tr>
                 );
               })}
