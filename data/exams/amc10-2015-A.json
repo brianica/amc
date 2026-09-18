@@ -23,11 +23,11 @@
       ],
       "area": "algebra",
       "subtopics": [
-        "radicals"
+        "logs-exponents"
       ],
       "difficulty": 1,
       "tier": "T1",
-      "descriptor": "Evaluate expression with exponents and negative exponent notation.",
+      "descriptor": "Evaluate an arithmetic expression involving exponents and reciprocals",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_1",
       "tagSource": "auto",
       "statement": null
@@ -47,7 +47,7 @@
       ],
       "difficulty": 1,
       "tier": "T1",
-      "descriptor": "Find quantity of two tile types from total count and edge constraints.",
+      "descriptor": "Solve system of equations counting tiles and edges",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_2",
       "tagSource": "auto",
       "statement": null
@@ -60,14 +60,13 @@
         "D",
         "D"
       ],
-      "area": "counting-probability",
+      "area": "algebra",
       "subtopics": [
-        "recursion-states",
-        "casework"
+        "sequences-series"
       ],
       "difficulty": 2,
       "tier": "T1",
-      "descriptor": "Find toothpicks needed to extend a staircase pattern from 3 to 5 steps.",
+      "descriptor": "Find toothpicks needed to extend staircase pattern from 3 to 5 steps",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_3",
       "tagSource": "auto",
       "statement": null
@@ -82,12 +81,11 @@
       ],
       "area": "algebra",
       "subtopics": [
-        "linear-systems",
-        "rates-work-mixture"
+        "linear-systems"
       ],
-      "difficulty": 2,
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": "Distribute eggs equally among three people with given ratios.",
+      "descriptor": "Redistribute quantities so three people have equal shares",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_4",
       "tagSource": "auto",
       "statement": null
@@ -102,11 +100,11 @@
       ],
       "area": "algebra",
       "subtopics": [
-        "functions"
+        "sequences-series"
       ],
       "difficulty": 1,
       "tier": "T1",
-      "descriptor": "Find student's test score given class average before and after grading.",
+      "descriptor": "Find one score given class averages before and after it",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_5",
       "tagSource": "auto",
       "statement": null
@@ -125,7 +123,7 @@
       ],
       "difficulty": 1,
       "tier": "T1",
-      "descriptor": "Find ratio of two numbers given sum-to-difference relationship.",
+      "descriptor": "Find ratio of two numbers given sum equals multiple of difference",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_6",
       "tagSource": "auto",
       "statement": null
@@ -146,7 +144,7 @@
       ],
       "difficulty": 1,
       "tier": "T1",
-      "descriptor": "Count terms in an arithmetic sequence from first to last term.",
+      "descriptor": "Count terms in an arithmetic sequence given first and last terms",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_7",
       "tagSource": "auto",
       "statement": null
@@ -164,7 +162,7 @@
       ],
       "difficulty": 2,
       "tier": "T1",
-      "descriptor": "Find future year when Pete's age is twice Claire's age using past ratios.",
+      "descriptor": "Find when age ratio becomes 2:1 using system of equations",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_8",
       "tagSource": "auto",
       "statement": null
@@ -182,7 +180,7 @@
       ],
       "difficulty": 2,
       "tier": "T1",
-      "descriptor": "Compare heights of cylinders with equal volume and related radii.",
+      "descriptor": "Compare cylinder heights given equal volumes and a radius percentage increase",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_9",
       "tagSource": "auto",
       "statement": null
@@ -200,11 +198,11 @@
       "area": "counting-probability",
       "subtopics": [
         "casework",
-        "inclusion-exclusion"
+        "permutations-combinations"
       ],
-      "difficulty": 3,
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": "Count permutations where no adjacent positions have consecutive alphabet letters.",
+      "descriptor": "Count permutations avoiding adjacent alphabetically consecutive letters",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_10",
       "tagSource": "auto",
       "statement": null
@@ -220,11 +218,11 @@
       "area": "geometry",
       "subtopics": [
         "right-triangles",
-        "coordinate-geometry"
+        "polygons-area-ratios"
       ],
       "difficulty": 2,
       "tier": "T2",
-      "descriptor": "Express rectangle area in terms of diagonal using side ratio constraint.",
+      "descriptor": "Find rectangle area as fraction of diagonal squared given ratio",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_11",
       "tagSource": "auto",
       "statement": null
@@ -243,9 +241,9 @@
         "quadratics-vieta",
         "polynomials"
       ],
-      "difficulty": 2,
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": "Find vertical distance between two points on a curve by solving a quadratic equation.",
+      "descriptor": "Find vertical distance between two points on an implicit curve",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_12",
       "tagSource": "auto",
       "statement": null
@@ -264,9 +262,9 @@
       "subtopics": [
         "casework"
       ],
-      "difficulty": 3,
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": "Find coin distribution given count of achievable values using gcd.",
+      "descriptor": "Count distinct coin sums achievable from mixed denominations",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_13",
       "tagSource": "auto",
       "statement": null
@@ -292,9 +290,9 @@
         "circles",
         "transformations"
       ],
-      "difficulty": 4,
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": "Find when a rolling disk's marked arrow completes one rotation around a clock.",
+      "descriptor": "Find clock position when rolling disk's arrow points up again",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_14",
       "tagSource": "auto",
       "statement": null
@@ -309,11 +307,12 @@
       ],
       "area": "number-theory",
       "subtopics": [
-        "diophantine"
+        "diophantine",
+        "gcd-lcm"
       ],
-      "difficulty": 4,
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": "Find relatively prime positive integer fractions where increasing numerator and denominator by 1 increases value by 10%.",
+      "descriptor": "Count relatively prime fractions satisfying a ratio condition after incrementing [REVIEW: passes disagreed — number-theory vs algebra]",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_15",
       "tagSource": "auto",
       "statement": null
@@ -332,13 +331,13 @@
       ],
       "area": "algebra",
       "subtopics": [
+        "linear-systems",
         "quadratics-vieta",
-        "polynomials",
-        "functions"
+        "polynomials"
       ],
-      "difficulty": 4,
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": "Find x\u00b2 + y\u00b2 given symmetric equations relating two unknowns.",
+      "descriptor": "Find sum of squares given symmetric quadratic system with distinct solutions",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_16",
       "tagSource": "auto",
       "statement": null
@@ -359,9 +358,9 @@
         "coordinate-geometry",
         "triangle-basics"
       ],
-      "difficulty": 4,
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": "Find perimeter of equilateral triangle formed by three lines in coordinate plane.",
+      "descriptor": "Find perimeter of equilateral triangle formed by three lines",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_17",
       "tagSource": "auto",
       "statement": null
@@ -381,7 +380,7 @@
       ],
       "difficulty": 3,
       "tier": "T2",
-      "descriptor": "Count integers below 1000 with hex representations using only numeric digits.",
+      "descriptor": "Count integers under 1000 with only decimal digits in hexadecimal",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_18",
       "tagSource": "auto",
       "statement": null
@@ -401,13 +400,13 @@
       ],
       "area": "geometry",
       "subtopics": [
-        "triangle-basics",
+        "right-triangles",
         "trigonometry",
         "area-decomposition"
       ],
       "difficulty": 4,
       "tier": "T3",
-      "descriptor": "Find the area of a triangle formed by angle trisector rays in an isosceles right triangle.",
+      "descriptor": "Find area of triangle formed by angle-trisecting rays in isosceles right triangle",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_19",
       "tagSource": "auto",
       "statement": null
@@ -443,12 +442,11 @@
       "area": "geometry",
       "subtopics": [
         "solid-geometry",
-        "right-triangles",
-        "area-decomposition"
+        "right-triangles"
       ],
       "difficulty": 4,
       "tier": "T3",
-      "descriptor": "Find volume of tetrahedron given all six edge lengths.",
+      "descriptor": "Find tetrahedron volume using perpendicular planes and 3-4-5 triangles",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_21",
       "tagSource": "auto",
       "statement": null
@@ -469,12 +467,11 @@
       "area": "counting-probability",
       "subtopics": [
         "casework",
-        "inclusion-exclusion",
-        "basic-probability"
+        "permutations-combinations"
       ],
       "difficulty": 4,
       "tier": "T3",
-      "descriptor": "Find probability that no two adjacent people stand among eight coin flippers.",
+      "descriptor": "Count circular arrangements with no two adjacent selections",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_22",
       "tagSource": "auto",
       "statement": null
@@ -495,7 +492,7 @@
       ],
       "difficulty": 3,
       "tier": "T3",
-      "descriptor": "Find all values of parameter such that quadratic has integer roots.",
+      "descriptor": "Find sum of values making quadratic have integer roots",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_23",
       "tagSource": "auto",
       "statement": null
@@ -509,13 +506,14 @@
         "B",
         "B"
       ],
-      "area": "algebra",
+      "area": "geometry",
       "subtopics": [
-        "polynomials"
+        "right-triangles",
+        "coordinate-geometry"
       ],
       "difficulty": 4,
       "tier": "T3",
-      "descriptor": "Find valid quadrilateral perimeters given geometric constraints and integer sides.",
+      "descriptor": "Count integer perimeters of quadrilateral with right angles and equal sides [REVIEW: passes disagreed — geometry vs number-theory]",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_24",
       "tagSource": "auto",
       "statement": null
@@ -536,7 +534,7 @@
       ],
       "difficulty": 4,
       "tier": "T3",
-      "descriptor": "Find probability two random perimeter points are at least distance half apart.",
+      "descriptor": "Probability two random points on square boundary are at least half unit apart",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_25",
       "tagSource": "auto",
       "statement": null
