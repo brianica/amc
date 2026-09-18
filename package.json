@@ -12,7 +12,8 @@
     "build": "next build",
     "start": "next start",
     "seed:dev": "tsx scripts/seed-dev.ts",
-    "review": "tsx pipeline/src/review.ts"
+    "review": "tsx pipeline/src/review.ts",
+    "seed:statements": "tsx scripts/seed-statements.ts"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.3.3",
