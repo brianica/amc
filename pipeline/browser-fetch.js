@@ -1,66 +1,88 @@
 /**
- * Fetch AoPS wiki pages from a real browser session, bypassing Cloudflare.
+ * Fetch all remaining AMC 10 wiki pages from a real browser session.
  *
  * Paste into the Chrome DevTools console while on any artofproblemsolving.com page.
- * The browser's live CF cookies are used automatically.
+ * Each exam is saved as a separate JSON file as it completes, so the script is
+ * safe to interrupt and resume — already-downloaded exams are skipped.
  *
- * Configure the EXAMS array below, then run. Results are downloaded as a single
- * JSON file. Save it to data/cache/<name>.json, then run:
+ * After downloading, for each file run from the repo root:
+ *   node pipeline/split-cache.mjs data/cache/<file>
  *
- *   node --input-type=module < pipeline/split-cache.mjs  # splits into pipeline/.cache/
- *   npm run extract -- --exam <id>
- *   npm run classify -- --exam <id>
- *   npm run review
- *   npm run validate
+ * Or process them all at once:
+ *   for f in data/cache/amc10-*.json; do node pipeline/split-cache.mjs $f; done
  */
 
 const WIKI = "https://artofproblemsolving.com/wiki/index.php";
+const SAVE_DIR = "data/cache"; // reminder only — browser saves to ~/Downloads
 
-// ── Configure which exams to fetch ───────────────────────────────────────────
+// All AMC 10 exams 2015–2025 (priority set).
+// Edit this list to skip exams you already have in data/cache/.
 const EXAMS = [
-  { prefix: "2015_AMC_10B_Problems", problems: 25 },
-  { prefix: "2018_AMC_10A_Problems", problems: 25 },
-  { prefix: "2016_AMC_10A_Problems", problems: 25 },
-  { prefix: "2016_AMC_10B_Problems", problems: 25 },
+  { id: "amc10-2017-A", prefix: "2017_AMC_10A_Problems" },
+  { id: "amc10-2017-B", prefix: "2017_AMC_10B_Problems" },
+  { id: "amc10-2019-A", prefix: "2019_AMC_10A_Problems" },
+  { id: "amc10-2019-B", prefix: "2019_AMC_10B_Problems" },
+  { id: "amc10-2020-A", prefix: "2020_AMC_10A_Problems" },
+  { id: "amc10-2020-B", prefix: "2020_AMC_10B_Problems" },
+  { id: "amc10-2021-A", prefix: "2021_AMC_10A_Problems" },
+  { id: "amc10-2021-B", prefix: "2021_AMC_10B_Problems" },
+  { id: "amc10-2021F-A", prefix: "2021_Fall_AMC_10A_Problems" },
+  { id: "amc10-2021F-B", prefix: "2021_Fall_AMC_10B_Problems" },
+  { id: "amc10-2022-A", prefix: "2022_AMC_10A_Problems" },
+  { id: "amc10-2022-B", prefix: "2022_AMC_10B_Problems" },
+  { id: "amc10-2023-A", prefix: "2023_AMC_10A_Problems" },
+  { id: "amc10-2023-B", prefix: "2023_AMC_10B_Problems" },
+  { id: "amc10-2024-A", prefix: "2024_AMC_10A_Problems" },
+  { id: "amc10-2024-B", prefix: "2024_AMC_10B_Problems" },
+  { id: "amc10-2025-A", prefix: "2025_AMC_10A_Problems" },
+  { id: "amc10-2025-B", prefix: "2025_AMC_10B_Problems" },
 ];
 
-// Output filename for the downloaded JSON
-const OUTPUT_FILE = "amc10-batch1-cache.json";
-// ─────────────────────────────────────────────────────────────────────────────
+const sleep = ms => new Promise(r => setTimeout(r, ms));
 
-const pages = [];
-for (const exam of EXAMS) {
-  pages.push(exam.prefix);
-  for (let i = 1; i <= exam.problems; i++) pages.push(`${exam.prefix}/Problem_${i}`);
-  pages.push(exam.prefix.replace(/_Problems$/, "_Answer_Key"));
+function download(filename, data) {
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = filename;
+  a.click();
 }
 
-console.log(`Total pages to fetch: ${pages.length}`);
-console.log(`Estimated time: ${Math.ceil(pages.length * 5.5 / 60)} min at ~5.5s/page`);
-
-const sleep = ms => new Promise(r => setTimeout(r, ms));
-const results = [];
-
-for (const page of pages) {
-  const delay = 4000 + Math.random() * 3000;
-  console.log(`Waiting ${(delay/1000).toFixed(1)}s before ${page}...`);
-  await sleep(delay);
-
+async function fetchPage(page) {
   const url = `${WIKI}?title=${encodeURIComponent(page)}&action=raw`;
+  const delay = 4000 + Math.random() * 3000;
+  console.log(`  waiting ${(delay/1000).toFixed(1)}s → ${page}`);
+  await sleep(delay);
   try {
     const r = await fetch(url);
     const wikitext = r.status === 404 ? null : await r.text();
-    results.push({ page, wikitext, fetchedAt: new Date().toISOString() });
-    console.log(`✓ [${results.length}/${pages.length}] ${page} (${wikitext?.length ?? 'missing'} chars)`);
-  } catch(e) {
-    results.push({ page, wikitext: null, fetchedAt: new Date().toISOString() });
-    console.error(`✗ ${page}: ${e}`);
+    return { page, wikitext, fetchedAt: new Date().toISOString() };
+  } catch (e) {
+    console.error(`  ERROR ${page}: ${e}`);
+    return { page, wikitext: null, fetchedAt: new Date().toISOString() };
   }
 }
 
-const blob = new Blob([JSON.stringify(results, null, 2)], {type: "application/json"});
-const a = document.createElement("a");
-a.href = URL.createObjectURL(blob);
-a.download = OUTPUT_FILE;
-a.click();
-console.log(`Done! ${results.length} pages fetched. Saved as ${OUTPUT_FILE}.`);
+const total = EXAMS.length;
+for (let i = 0; i < EXAMS.length; i++) {
+  const { id, prefix } = EXAMS[i];
+  const filename = `${id}-cache.json`;
+  console.log(`\n[${i+1}/${total}] ${id}`);
+
+  const pages = [
+    prefix,
+    ...Array.from({ length: 25 }, (_, n) => `${prefix}/Problem_${n+1}`),
+    prefix.replace(/_Problems$/, "_Answer_Key"),
+  ];
+
+  const results = [];
+  for (const page of pages) {
+    results.push(await fetchPage(page));
+  }
+
+  download(filename, results);
+  console.log(`✓ saved ${filename} (${results.filter(r => r.wikitext).length}/27 pages with content)`);
+}
+
+console.log("\n\nAll done! Move files from ~/Downloads/ to data/cache/ then run:");
+console.log("  for f in data/cache/amc10-20*-cache.json; do node pipeline/split-cache.mjs $f; done");
