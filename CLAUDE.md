@@ -35,7 +35,7 @@ npm run build        # NEVER while the dev server is running — it overwrites .
 
 npm run fetch -- --limit 1   # pipeline: cache wikitext (needs network)
 npm run extract              # derive answer keys -> data/exams
-npm run classify -- --limit 1 # topic tags (needs ANTHROPIC_API_KEY)
+npm run classify -- --limit 1 # topic tags (needs GEMINI_API_KEY)
 npm run review               # decide the flagged problems, interactively
 npm run validate             # gate; fails on anything unresolved
 ```
@@ -120,8 +120,8 @@ Claude Code web sandbox.
 4. If it holds up, drop `--limit` and run the priority set (AMC 10, 2015–2025, ~11 min),
    then commit `data/exams/`.
 
-`classify` defaults to `claude-opus-5`; `CLASSIFY_MODEL=claude-haiku-4-5` is roughly a
-fifth of the cost and a reasonable trade for older backfill years.
+`classify` uses the Gemini API (`GEMINI_API_KEY`) and defaults to `gemini-flash-latest`;
+set `CLASSIFY_MODEL` to a Pro model if flash's tagging quality isn't good enough.
 
 Known-fragile: the wiki transport. `api.php` returns HTML on the real site, so the
 fetcher falls back to `index.php?action=raw`. If both fail, the response body is written

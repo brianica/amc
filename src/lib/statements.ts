@@ -44,13 +44,33 @@ function cachePath(page: string): string {
   return join(CACHE_DIR, `${page.replace(/[^A-Za-z0-9._/-]/g, "_")}.json`);
 }
 
-async function cachedWikitext(page: string): Promise<string | null> {
+async function readCachedWikitext(page: string): Promise<string | null> {
   try {
     const entry = JSON.parse(await readFile(cachePath(page), "utf8")) as { wikitext: string | null };
     return entry.wikitext;
   } catch {
     return null;
   }
+}
+
+/** A MediaWiki redirect stub, e.g. "#redirect [[2025 AMC 12A Problems/Problem 1]]". */
+function redirectTarget(wikitext: string): string | null {
+  const m = /^\s*#redirect\s*\[\[([^\]|]+)/i.exec(wikitext);
+  return m ? m[1]!.trim().replace(/ /g, "_") : null;
+}
+
+/**
+ * Some AMC 10 problems are cross-listed with AMC 12 and their wiki page is a one-line
+ * redirect stub rather than real content — `fetch` caches that stub verbatim under the
+ * AMC 10 page's own path, since resolving it is `extract`/`classify`'s job at read time.
+ * Follow the same redirect here, from the cache only: a private instance's cache is
+ * offline by design, so this never makes a network call, and a target that was never
+ * fetched (rather than fetching the source exam directly) just falls through to null.
+ */
+async function cachedWikitext(page: string): Promise<string | null> {
+  const text = await readCachedWikitext(page);
+  const target = text ? redirectTarget(text) : null;
+  return target ? readCachedWikitext(target) : text;
 }
 
 export interface StatementSet {

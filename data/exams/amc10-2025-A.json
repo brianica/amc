@@ -1,11 +1,11 @@
 {
-  "id": "amc10-2016-A",
+  "id": "amc10-2025-A",
   "competition": "AMC10",
-  "year": 2016,
+  "year": 2025,
   "season": null,
   "form": "A",
-  "wikiPage": "2016_AMC_10A_Problems",
-  "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems",
+  "wikiPage": "2025_AMC_10A_Problems",
+  "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems",
   "numQuestions": 25,
   "scoring": {
     "correct": 6,
@@ -16,63 +16,32 @@
   "problems": [
     {
       "n": 1,
-      "answer": "B",
+      "answer": "E",
       "answerConfidence": "high",
       "answerEvidence": [
-        "B",
-        "B",
-        "B",
-        "B",
-        "B"
+        "E",
+        "E",
+        "E",
+        "E",
+        "E"
       ],
       "area": null,
       "subtopics": [],
       "difficulty": null,
       "tier": "T1",
       "descriptor": null,
-      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_1",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_1",
       "tagSource": "auto",
       "statement": null
     },
     {
       "n": 2,
-      "answer": "C",
-      "answerConfidence": "high",
-      "answerEvidence": [
-        "C",
-        "C"
-      ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
-      "tier": "T1",
-      "descriptor": null,
-      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_2",
-      "tagSource": "auto",
-      "statement": null
-    },
-    {
-      "n": 3,
-      "answer": "C",
-      "answerConfidence": "high",
-      "answerEvidence": [
-        "C",
-        "C"
-      ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
-      "tier": "T1",
-      "descriptor": null,
-      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_3",
-      "tagSource": "auto",
-      "statement": null
-    },
-    {
-      "n": 4,
       "answer": "B",
-      "answerConfidence": "medium",
+      "answerConfidence": "high",
       "answerEvidence": [
+        "B",
+        "B",
+        "B",
         "B"
       ],
       "area": null,
@@ -80,46 +49,12 @@
       "difficulty": null,
       "tier": "T1",
       "descriptor": null,
-      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_4",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_2",
       "tagSource": "auto",
       "statement": null
     },
     {
-      "n": 5,
-      "answer": "D",
-      "answerConfidence": "medium",
-      "answerEvidence": [
-        "D"
-      ],
-      "area": "geometry",
-      "subtopics": [
-        "solid-geometry"
-      ],
-      "difficulty": 1,
-      "tier": "T1",
-      "descriptor": "Find possible volume of box with sides in given ratio",
-      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_5",
-      "tagSource": "reviewed",
-      "statement": null
-    },
-    {
-      "n": 6,
-      "answer": "D",
-      "answerConfidence": "medium",
-      "answerEvidence": [
-        "D"
-      ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
-      "tier": "T1",
-      "descriptor": null,
-      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_6",
-      "tagSource": "auto",
-      "statement": null
-    },
-    {
-      "n": 7,
+      "n": 3,
       "answer": "D",
       "answerConfidence": "high",
       "answerEvidence": [
@@ -131,48 +66,13 @@
       "difficulty": null,
       "tier": "T1",
       "descriptor": null,
-      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_7",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_3",
       "tagSource": "auto",
       "statement": null
     },
     {
-      "n": 8,
-      "answer": "C",
-      "answerConfidence": "high",
-      "answerEvidence": [
-        "C",
-        "C"
-      ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
-      "tier": "T1",
-      "descriptor": null,
-      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_8",
-      "tagSource": "auto",
-      "statement": null
-    },
-    {
-      "n": 9,
-      "answer": "D",
-      "answerConfidence": "high",
-      "answerEvidence": [
-        "D",
-        "D",
-        "D"
-      ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
-      "tier": "T1",
-      "descriptor": null,
-      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_9",
-      "tagSource": "auto",
-      "statement": null
-    },
-    {
-      "n": 10,
-      "answer": "B",
+      "n": 4,
+      "answer": "A",
       "answerConfidence": "medium",
       "answerEvidence": [],
       "area": null,
@@ -180,15 +80,177 @@
       "difficulty": null,
       "tier": "T1",
       "descriptor": null,
-      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_10",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_4",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 5,
+      "answer": "E",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "E"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
+      "tier": "T1",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_5",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 6,
+      "answer": "C",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
+      "tier": "T1",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_6",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 7,
+      "answer": "E",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "E",
+        "E",
+        "E",
+        "E"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
+      "tier": "T1",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_7",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 8,
+      "answer": "B",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
+      "tier": "T1",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_8",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 9,
+      "answer": "C",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "C",
+        "C",
+        "C"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
+      "tier": "T1",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_9",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 10,
+      "answer": "C",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
+      "tier": "T1",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_10",
       "tagSource": "auto",
       "statement": null
     },
     {
       "n": 11,
+      "answer": "E",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "E",
+        "E",
+        "E"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
+      "tier": "T2",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_11",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 12,
       "answer": "D",
       "answerConfidence": "high",
       "answerEvidence": [
+        "D",
+        "D"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
+      "tier": "T2",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_12",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 13,
+      "answer": "D",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "D",
+        "D",
+        "D",
         "D",
         "D",
         "D",
@@ -199,63 +261,23 @@
       "difficulty": null,
       "tier": "T2",
       "descriptor": null,
-      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_11",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_13",
       "tagSource": "auto",
       "statement": null
     },
     {
-      "n": 12,
-      "answer": "A",
-      "answerConfidence": "high",
-      "answerEvidence": [
-        "A",
-        "A",
-        "A"
-      ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
-      "tier": "T2",
-      "descriptor": null,
-      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_12",
-      "tagSource": "auto",
-      "statement": null
-    },
-    {
-      "n": 13,
+      "n": 14,
       "answer": "B",
       "answerConfidence": "medium",
       "answerEvidence": [
         "B"
       ],
-      "area": "counting-probability",
-      "subtopics": [
-        "casework"
-      ],
-      "difficulty": 2,
-      "tier": "T2",
-      "descriptor": "Find original seat by tracking friends' movements and constraints",
-      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_13",
-      "tagSource": "reviewed",
-      "statement": null
-    },
-    {
-      "n": 14,
-      "answer": "C",
-      "answerConfidence": "high",
-      "answerEvidence": [
-        "C",
-        "C",
-        "C",
-        "C",
-        "C"
-      ],
       "area": null,
       "subtopics": [],
       "difficulty": null,
       "tier": "T2",
       "descriptor": null,
-      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_14",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_14",
       "tagSource": "auto",
       "statement": null
     },
@@ -265,6 +287,11 @@
       "answerConfidence": "high",
       "answerEvidence": [
         "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
         "A"
       ],
       "area": null,
@@ -272,15 +299,20 @@
       "difficulty": null,
       "tier": "T2",
       "descriptor": null,
-      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_15",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_15",
       "tagSource": "auto",
       "statement": null
     },
     {
       "n": 16,
       "answer": "D",
-      "answerConfidence": "medium",
+      "answerConfidence": "high",
       "answerEvidence": [
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
         "D"
       ],
       "area": null,
@@ -288,56 +320,15 @@
       "difficulty": null,
       "tier": "T2",
       "descriptor": null,
-      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_16",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_16",
       "tagSource": "auto",
       "statement": null
     },
     {
       "n": 17,
-      "answer": "A",
-      "answerConfidence": "high",
-      "answerEvidence": [
-        "A",
-        "A",
-        "A",
-        "A"
-      ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
-      "tier": "T2",
-      "descriptor": null,
-      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_17",
-      "tagSource": "auto",
-      "statement": null
-    },
-    {
-      "n": 18,
-      "answer": "C",
-      "answerConfidence": "high",
-      "answerEvidence": [
-        "C",
-        "C",
-        "C",
-        "C",
-        "C"
-      ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
-      "tier": "T2",
-      "descriptor": null,
-      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_18",
-      "tagSource": "auto",
-      "statement": null
-    },
-    {
-      "n": 19,
       "answer": "E",
       "answerConfidence": "high",
       "answerEvidence": [
-        "E",
-        "E",
         "E",
         "E",
         "E",
@@ -346,17 +337,103 @@
       "area": null,
       "subtopics": [],
       "difficulty": null,
+      "tier": "T2",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_17",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 18,
+      "answer": "B",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
+      "tier": "T2",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_18",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 19,
+      "answer": "A",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T3",
       "descriptor": null,
-      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_19",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_19",
       "tagSource": "auto",
       "statement": null
     },
     {
       "n": 20,
+      "answer": "A",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
+      "tier": "T3",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_20",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 21,
+      "answer": "C",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "C",
+        "C",
+        "C"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
+      "tier": "T3",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_21",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 22,
       "answer": "B",
       "answerConfidence": "high",
       "answerEvidence": [
+        "B",
+        "B",
         "B",
         "B",
         "B"
@@ -366,91 +443,46 @@
       "difficulty": null,
       "tier": "T3",
       "descriptor": null,
-      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_20",
-      "tagSource": "auto",
-      "statement": null
-    },
-    {
-      "n": 21,
-      "answer": "D",
-      "answerConfidence": "high",
-      "answerEvidence": [
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D"
-      ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
-      "tier": "T3",
-      "descriptor": null,
-      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_21",
-      "tagSource": "auto",
-      "statement": null
-    },
-    {
-      "n": 22,
-      "answer": "D",
-      "answerConfidence": "high",
-      "answerEvidence": [
-        "D",
-        "D"
-      ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
-      "tier": "T3",
-      "descriptor": null,
-      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_22",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_22",
       "tagSource": "auto",
       "statement": null
     },
     {
       "n": 23,
-      "answer": "A",
+      "answer": "D",
       "answerConfidence": "high",
       "answerEvidence": [
-        "A",
-        "A",
-        "A",
-        "A",
-        "A"
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
       ],
       "area": null,
       "subtopics": [],
       "difficulty": null,
       "tier": "T3",
       "descriptor": null,
-      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_23",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_23",
       "tagSource": "auto",
       "statement": null
     },
     {
       "n": 24,
-      "answer": "E",
+      "answer": "C",
       "answerConfidence": "high",
       "answerEvidence": [
-        "E",
-        "E",
-        "E",
-        "E",
-        "E",
-        "E",
-        "E",
-        "E",
-        "E",
-        "E"
+        "C",
+        "C"
       ],
       "area": null,
       "subtopics": [],
       "difficulty": null,
       "tier": "T3",
       "descriptor": null,
-      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_24",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_24",
       "tagSource": "auto",
       "statement": null
     },
@@ -461,7 +493,6 @@
       "answerEvidence": [
         "A",
         "A",
-        "A",
         "A"
       ],
       "area": null,
@@ -469,7 +500,7 @@
       "difficulty": null,
       "tier": "T3",
       "descriptor": null,
-      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_25",
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_25",
       "tagSource": "auto",
       "statement": null
     }

@@ -53,13 +53,15 @@ function stripFurniture(text: string): string {
 
 /**
  * Segments the source into text and maths, so escaping never touches LaTeX and KaTeX
- * never sees prose. `<cmath>` is AoPS's display-maths tag; `<math>` is inline.
+ * never sees prose. `<cmath>` is AoPS's display-maths tag; `<math>` and `<imath>` are
+ * both inline — `<imath>`/`<cmath>` are what problem statements actually use, `<math>`
+ * shows up mostly in older pages and solution text.
  */
 export function renderStatement(wikitext: string): RenderedStatement {
   const source = stripFurniture(wikitext);
   let hasDiagram = false;
 
-  const pattern = /<(math|cmath)>([\s\S]*?)<\/\1>|\[asy\][\s\S]*?\[\/asy\]|\$([^$\n]+)\$/gi;
+  const pattern = /<(math|imath|cmath)>([\s\S]*?)<\/\1>|\[asy\][\s\S]*?\[\/asy\]|<asy>[\s\S]*?<\/asy>|\$([^$\n]+)\$/gi;
   let out = "";
   let last = 0;
 
@@ -67,7 +69,7 @@ export function renderStatement(wikitext: string): RenderedStatement {
     out += escapeHtml(source.slice(last, m.index));
     last = m.index + m[0].length;
 
-    if (m[0].toLowerCase().startsWith("[asy]")) {
+    if (m[0].toLowerCase().startsWith("[asy]") || m[0].toLowerCase().startsWith("<asy>")) {
       hasDiagram = true;
       out += '<span class="statement-diagram">[diagram — see the original]</span>';
     } else if (m[1]) {

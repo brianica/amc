@@ -21,13 +21,11 @@
       "answerEvidence": [
         "B"
       ],
-      "area": "algebra",
-      "subtopics": [
-        "functions"
-      ],
-      "difficulty": 1,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T1",
-      "descriptor": "Evaluate nested reciprocals and additions step by step",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_1",
       "tagSource": "auto",
       "statement": null
@@ -41,13 +39,11 @@
         "A",
         "A"
       ],
-      "area": "algebra",
-      "subtopics": [
-        "linear-systems"
-      ],
-      "difficulty": 1,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T1",
-      "descriptor": "Compare percentage relationships between three quantities using ratios",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_2",
       "tagSource": "auto",
       "statement": null
@@ -81,14 +77,11 @@
         "E",
         "E"
       ],
-      "area": "counting-probability",
-      "subtopics": [
-        "casework",
-        "permutations-combinations"
-      ],
-      "difficulty": 2,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T1",
-      "descriptor": "Arrange three distinct items in six slots with no consecutive placements",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_4",
       "tagSource": "auto",
       "statement": null
@@ -101,13 +94,11 @@
         "D",
         "D"
       ],
-      "area": "algebra",
-      "subtopics": [
-        "inequalities"
-      ],
-      "difficulty": 2,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T1",
-      "descriptor": "Find distance interval where three inequality statements are all false",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_5",
       "tagSource": "auto",
       "statement": null
@@ -123,13 +114,11 @@
         "B",
         "B"
       ],
-      "area": "algebra",
-      "subtopics": [
-        "linear-systems"
-      ],
-      "difficulty": 2,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T1",
-      "descriptor": "Find total votes given net score and percentage split",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_6",
       "tagSource": "auto",
       "statement": null
@@ -143,14 +132,11 @@
         "E",
         "E"
       ],
-      "area": "number-theory",
-      "subtopics": [
-        "divisibility",
-        "primes"
-      ],
-      "difficulty": 2,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T1",
-      "descriptor": "Count integer exponents making an exponential expression an integer",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_7",
       "tagSource": "auto",
       "statement": null
@@ -165,13 +151,11 @@
         "C",
         "C"
       ],
-      "area": "algebra",
-      "subtopics": [
-        "linear-systems"
-      ],
-      "difficulty": 2,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T1",
-      "descriptor": "Solve system of linear equations for coin count differences",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_8",
       "tagSource": "auto",
       "statement": null
@@ -183,14 +167,11 @@
       "answerEvidence": [
         "E"
       ],
-      "area": "geometry",
-      "subtopics": [
-        "similar-congruent",
-        "polygons-area-ratios"
-      ],
-      "difficulty": 3,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T1",
-      "descriptor": "Find trapezoid area using similar triangle area ratios",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_9",
       "tagSource": "auto",
       "statement": null
@@ -205,13 +186,11 @@
         "A",
         "A"
       ],
-      "area": "algebra",
-      "subtopics": [
-        "radicals"
-      ],
-      "difficulty": 2,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T1",
-      "descriptor": "Find sum of radicals given their difference using conjugate multiplication",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_10",
       "tagSource": "auto",
       "statement": null
@@ -227,14 +206,11 @@
         "E",
         "E"
       ],
-      "area": "counting-probability",
-      "subtopics": [
-        "stars-and-bars",
-        "casework"
-      ],
-      "difficulty": 3,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T2",
-      "descriptor": "Count ways seven dice sum to ten using partitions",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_11",
       "tagSource": "auto",
       "statement": null
@@ -250,14 +226,11 @@
         "C",
         "C"
       ],
-      "area": "algebra",
-      "subtopics": [
-        "linear-systems",
-        "absolute-value"
-      ],
-      "difficulty": 3,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T2",
-      "descriptor": "Count ordered pairs satisfying a linear equation and nested absolute values",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_12",
       "tagSource": "auto",
       "statement": null
@@ -274,14 +247,11 @@
         "D",
         "D"
       ],
-      "area": "geometry",
-      "subtopics": [
-        "similar-congruent",
-        "right-triangles"
-      ],
-      "difficulty": 3,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T2",
-      "descriptor": "Find crease length when folding a triangle to match vertices",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_13",
       "tagSource": "auto",
       "statement": null
@@ -304,14 +274,11 @@
         "A",
         "A"
       ],
-      "area": "algebra",
-      "subtopics": [
-        "logs-exponents",
-        "inequalities"
-      ],
-      "difficulty": 3,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T2",
-      "descriptor": "Find floor of ratio of exponential sums with large exponents",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_14",
       "tagSource": "auto",
       "statement": null
@@ -324,14 +291,11 @@
         "D",
         "D"
       ],
-      "area": "geometry",
-      "subtopics": [
-        "similar-congruent",
-        "circles"
-      ],
-      "difficulty": 3,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T2",
-      "descriptor": "Find distance between tangent points of two smaller circles inside larger circle",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_15",
       "tagSource": "auto",
       "statement": null
@@ -344,14 +308,11 @@
         "D",
         "D"
       ],
-      "area": "geometry",
-      "subtopics": [
-        "right-triangles",
-        "triangle-basics"
-      ],
-      "difficulty": 3,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T2",
-      "descriptor": "Count integer-length segments from vertex to hypotenuse in right triangle",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_16",
       "tagSource": "auto",
       "statement": null
@@ -367,14 +328,11 @@
         "C",
         "C"
       ],
-      "area": "counting-probability",
-      "subtopics": [
-        "casework",
-        "pigeonhole"
-      ],
-      "difficulty": 3,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T2",
-      "descriptor": "Find smallest element in divisibility-avoiding subset of integers",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_17",
       "tagSource": "auto",
       "statement": null
@@ -395,14 +353,11 @@
         "D",
         "D"
       ],
-      "area": "counting-probability",
-      "subtopics": [
-        "casework",
-        "symmetry-arguments"
-      ],
-      "difficulty": 4,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T2",
-      "descriptor": "Count nonnegative integers expressible in balanced ternary with 8 digits",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_18",
       "tagSource": "auto",
       "statement": null
@@ -418,14 +373,11 @@
         "E",
         "E"
       ],
-      "area": "counting-probability",
-      "subtopics": [
-        "basic-probability",
-        "casework"
-      ],
-      "difficulty": 3,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T3",
-      "descriptor": "Probability that a power has units digit one using cyclic patterns",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_19",
       "tagSource": "auto",
       "statement": null
@@ -440,14 +392,11 @@
         "B",
         "B"
       ],
-      "area": "counting-probability",
-      "subtopics": [
-        "symmetry-arguments",
-        "multiplication-principle"
-      ],
-      "difficulty": 4,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T3",
-      "descriptor": "Count 7×7 grids invariant under all rotations and reflections",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_20",
       "tagSource": "auto",
       "statement": null
@@ -470,14 +419,11 @@
         "E",
         "E"
       ],
-      "area": "algebra",
-      "subtopics": [
-        "quadratics-vieta",
-        "polynomials"
-      ],
-      "difficulty": 4,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T3",
-      "descriptor": "Find values of parameter giving exactly three intersection points between circle and parabola",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_21",
       "tagSource": "auto",
       "statement": null
@@ -495,15 +441,11 @@
         "D",
         "D"
       ],
-      "area": "number-theory",
-      "subtopics": [
-        "gcd-lcm",
-        "primes",
-        "divisibility"
-      ],
-      "difficulty": 4,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T3",
-      "descriptor": "Find required divisor of a from GCD constraints on four integers",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_22",
       "tagSource": "auto",
       "statement": null
@@ -525,15 +467,11 @@
         "D",
         "D"
       ],
-      "area": "geometry",
-      "subtopics": [
-        "right-triangles",
-        "area-decomposition",
-        "similar-congruent"
-      ],
-      "difficulty": 3,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T3",
-      "descriptor": "Find planted fraction of right triangle after removing corner square",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_23",
       "tagSource": "auto",
       "statement": null
@@ -550,15 +488,11 @@
         "D",
         "D"
       ],
-      "area": "geometry",
-      "subtopics": [
-        "triangle-basics",
-        "similar-congruent",
-        "polygons-area-ratios"
-      ],
-      "difficulty": 4,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T3",
-      "descriptor": "Find area of quadrilateral using angle bisector theorem and midpoints",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_24",
       "tagSource": "auto",
       "statement": null
@@ -573,14 +507,11 @@
         "D",
         "D"
       ],
-      "area": "number-theory",
-      "subtopics": [
-        "digits-bases",
-        "diophantine"
-      ],
-      "difficulty": 4,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T3",
-      "descriptor": "Find digit values maximizing sum given repunit equation constraint",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_25",
       "tagSource": "auto",
       "statement": null

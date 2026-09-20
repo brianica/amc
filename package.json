@@ -5,7 +5,7 @@
   "scripts": {
     "fetch": "tsx pipeline/src/fetch.ts",
     "extract": "tsx pipeline/src/extract-cli.ts",
-    "classify": "tsx pipeline/src/classify.ts",
+    "classify": "node --env-file-if-exists=.env.local node_modules/.bin/tsx pipeline/src/classify.ts",
     "validate": "tsx pipeline/src/validate.ts",
     "test": "vitest run",
     "dev": "next dev",
@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.125.0",
+    "@google/genai": "^2.23.0",
     "@supabase/ssr": "^0.12.7",
     "@supabase/supabase-js": "^2.116.0",
     "katex": "^0.18.7",

@@ -3,7 +3,7 @@ import { join } from "node:path";
 import { stringFlag } from "./args.js";
 import { candidateExams } from "./manifest.js";
 import { extractProblem, parseAnswerKeyPage } from "./extract.js";
-import { answerKeyPage, getWikitext, problemPage } from "./wiki.js";
+import { answerKeyPage, getWikitext, getWikitextFollowingRedirect, problemPage } from "./wiki.js";
 import { tierOf, type ExamFile, type TaggedProblem } from "./types.js";
 
 const EXAMS_DIR = join(process.cwd(), "data", "exams");
@@ -39,7 +39,7 @@ async function main(): Promise<void> {
     const problems: TaggedProblem[] = [];
 
     for (let n = 1; n <= exam.numQuestions; n++) {
-      const text = await getWikitext(problemPage(exam.wikiPage, n));
+      const text = await getWikitextFollowingRedirect(problemPage(exam.wikiPage, n));
       const extracted = text ? extractProblem(n, text) : null;
       const kept = keep.get(n);
 

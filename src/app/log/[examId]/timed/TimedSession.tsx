@@ -362,7 +362,7 @@ export function TimedSession({
             type="button"
             onClick={() => apply(next)}
             disabled={q === state.answers.length - 1}
-            className="rounded-md border border-border px-3 py-1.5 text-sm disabled:opacity-40"
+            className="rounded-md border border-accent bg-accent px-3 py-1.5 text-sm text-white disabled:opacity-40"
           >
             Next
           </button>

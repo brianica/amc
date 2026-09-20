@@ -1,20 +1,19 @@
-import Anthropic from "@anthropic-ai/sdk";
-import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
+import { GoogleGenAI } from "@google/genai";
 import { createHash } from "node:crypto";
 import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { z } from "zod";
 import { numberFlag } from "./args.js";
 import { extractProblem } from "./extract.js";
-import { getWikitext, problemPage } from "./wiki.js";
+import { getWikitextFollowingRedirect, problemPage } from "./wiki.js";
 import type { ExamFile } from "./types.js";
 
 const EXAMS_DIR = join(process.cwd(), "data", "exams");
 const CLASSIFY_CACHE = join(process.cwd(), "pipeline", ".cache", "classify");
-const PROMPT_VERSION = "v1";
+const PROMPT_VERSION = "v2"; // bumped: switched provider from Anthropic to Gemini
 const CONCURRENCY = 6;
 
-const MODEL = process.env.CLASSIFY_MODEL ?? "claude-opus-5";
+const MODEL = process.env.CLASSIFY_MODEL ?? "gemini-flash-latest";
 
 interface Taxonomy {
   areas: { id: string; label: string; subtopics: { id: string; label: string }[] }[];
@@ -35,6 +34,7 @@ const Classification = z.object({
   descriptor: z.string().describe("At most 12 words, in your own words, describing what the problem asks. Never quote the original wording."),
 });
 type Classification = z.infer<typeof Classification>;
+const classificationSchema = z.toJSONSchema(Classification);
 
 const taxonomyText = taxonomy.areas
   .map((a) => `${a.id} (${a.label}): ${a.subtopics.map((s) => s.id).join(", ")}`)
@@ -52,20 +52,31 @@ Rules:
 - The descriptor must be your own words, at most 12 words, and must never reproduce
   the original problem text.`;
 
-function client(): Anthropic {
-  return new Anthropic();
+function client(): GoogleGenAI {
+  return new GoogleGenAI({});
 }
 
-async function cached<T>(key: string, compute: () => Promise<T>): Promise<T> {
+/** Thrown to mark a failed compute so it is never written to the cache as if it were a result. */
+class ComputeFailed extends Error {}
+
+async function cached<T>(key: string, compute: () => Promise<T>): Promise<T | null> {
   const hash = createHash("sha256").update(key).digest("hex").slice(0, 32);
   const path = join(CLASSIFY_CACHE, `${hash}.json`);
   try {
     return JSON.parse(await readFile(path, "utf8")) as T;
   } catch {
+    // readFile failing (cache miss) and compute() failing land in the same catch, so
+    // only persist on real success — a transient API/auth error must never be written
+    // to disk as a permanent "the model returned nothing" result.
+  }
+  try {
     const value = await compute();
     await mkdir(CLASSIFY_CACHE, { recursive: true });
     await writeFile(path, JSON.stringify(value, null, 2));
     return value;
+  } catch (err) {
+    if (err instanceof ComputeFailed) return null;
+    throw err;
   }
 }
 
@@ -75,25 +86,37 @@ async function cached<T>(key: string, compute: () => Promise<T>): Promise<T> {
  * twice would only measure sampling noise.
  */
 async function classifyOnce(
-  api: Anthropic,
+  api: GoogleGenAI,
   cacheKey: string,
   userContent: string,
 ): Promise<Classification | null> {
   return cached(cacheKey, async () => {
+    let response;
     try {
-      const response = await api.messages.parse({
+      response = await api.models.generateContent({
         model: MODEL,
-        max_tokens: 2000,
-        system: SYSTEM,
-        output_config: {
-          format: zodOutputFormat(Classification),
+        contents: userContent,
+        config: {
+          systemInstruction: SYSTEM,
+          responseMimeType: "application/json",
+          responseJsonSchema: classificationSchema,
         },
-        messages: [{ role: "user", content: userContent }],
       });
-      return response.parsed_output ?? null;
+    } catch (err) {
+      // Network/auth/quota failure — not a verdict about this problem. Must not be
+      // cached as a result, or a transient outage becomes a permanent gap.
+      console.warn(`  classify request failed: ${String(err).slice(0, 160)}`);
+      throw new ComputeFailed();
+    }
+
+    const text = response.text;
+    if (!text) return null;
+    try {
+      return Classification.parse(JSON.parse(text));
     } catch (err) {
       // Structured output validation failure — model returned an out-of-enum value.
-      // Return null so the other pass can still be used.
+      // A parse failure is a legitimate "no usable answer", safe to cache as null so
+      // the other pass is used and we don't keep re-asking for the same bad output.
       console.warn(`  classify parse error (will use other pass): ${String(err).slice(0, 120)}`);
       return null;
     }
@@ -134,7 +157,7 @@ async function main(): Promise<void> {
     if (todo.length === 0) continue;
 
     await mapLimit(todo, CONCURRENCY, async (p) => {
-      const text = await getWikitext(problemPage(exam.wikiPage, p.n));
+      const text = await getWikitextFollowingRedirect(problemPage(exam.wikiPage, p.n));
       if (!text) return;
       const { statement, solutions } = extractProblem(p.n, text);
       if (!statement) return;

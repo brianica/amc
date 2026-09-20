@@ -32,6 +32,13 @@ describe("renderStatement — maths", () => {
     expect(html).toContain("katex-display");
   });
 
+  it("renders imath inline, the tag AoPS actually uses in problem statements", () => {
+    const { html } = renderStatement("Let <imath>S(n)</imath> equal the sum of digits.");
+    expect(html).toContain("katex");
+    expect(html).not.toContain("<imath>");
+    expect(html).not.toContain("katex-display");
+  });
+
   it("renders bare dollar maths, which some pages use", () => {
     const { html } = renderStatement("The value $n+1$ is even.");
     expect(html).toContain("katex");
@@ -61,6 +68,15 @@ describe("renderStatement — diagrams", () => {
   it("flags an Asymptote diagram instead of silently dropping it", () => {
     const { html, hasDiagram } = renderStatement(
       "In the figure below, [asy]draw((0,0)--(1,1));[/asy] find the area.",
+    );
+    expect(hasDiagram).toBe(true);
+    expect(html).toContain("statement-diagram");
+    expect(html).not.toContain("draw((0,0)");
+  });
+
+  it("handles <asy>...</asy> angle-bracket variant", () => {
+    const { html, hasDiagram } = renderStatement(
+      "In the figure, <asy>draw((0,0)--(1,1));</asy> find the area.",
     );
     expect(hasDiagram).toBe(true);
     expect(html).toContain("statement-diagram");

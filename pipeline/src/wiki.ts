@@ -183,3 +183,22 @@ export function problemPage(examWikiPage: string, n: number): string {
 export function answerKeyPage(examWikiPage: string): string {
   return examWikiPage.replace(/_Problems$/, "_Answer_Key");
 }
+
+/** A MediaWiki redirect stub, e.g. "#redirect [[2021 AMC 12A Problems/Problem 3]]". */
+function redirectTarget(wikitext: string): string | null {
+  const m = /^\s*#redirect\s*\[\[([^\]|]+)/i.exec(wikitext);
+  return m ? m[1]!.trim().replace(/ /g, "_") : null;
+}
+
+/**
+ * Some AMC 10 problems are cross-listed with AMC 12 (same problem, shared across
+ * both contests in a given year); the AMC 10 wiki page for these is a one-line
+ * redirect stub rather than real content. Follow it once and cache the resolved
+ * page's own content — a redirect chain longer than one hop would mean the wiki
+ * structure changed in a way this needs to see, not something to loop past.
+ */
+export async function getWikitextFollowingRedirect(page: string): Promise<string | null> {
+  const text = await getWikitext(page);
+  const target = text ? redirectTarget(text) : null;
+  return target ? getWikitext(target) : text;
+}

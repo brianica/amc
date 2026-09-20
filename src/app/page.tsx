@@ -42,7 +42,12 @@ export default async function Home() {
   const queue = summarise(cardRows.map(toCard), today());
   const ordinals = attemptOrdinals(attempts);
   const sittings = new Map<string, number>();
-  for (const a of attempts) sittings.set(a.exam_id, (sittings.get(a.exam_id) ?? 0) + 1);
+  const lastTaken = new Map<string, string>();
+  for (const a of attempts) {
+    sittings.set(a.exam_id, (sittings.get(a.exam_id) ?? 0) + 1);
+    // attempts is ordered newest-first, so the first hit per exam is the latest.
+    if (!lastTaken.has(a.exam_id)) lastTaken.set(a.exam_id, a.taken_on);
+  }
 
   return (
     <div className="space-y-10">
@@ -77,30 +82,42 @@ export default async function Home() {
           </p>
         ) : (
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
-            {exams.map((exam) => (
-              <li key={exam.id} className="pb-1">
-                <Link
-                  href={`/log/${exam.id}`}
-                  className="block rounded-md border border-border bg-surface px-4 py-3 hover:border-accent"
-                >
-                  <span className="font-medium">{examLabel(exam)}</span>
-                  {isSample(exam) && (
-                    <span className="ml-2 text-xs text-blank">invented answer key</span>
-                  )}
-                  {(sittings.get(exam.id) ?? 0) > 0 && (
-                    <span className="ml-2 text-xs text-muted">sat {sittings.get(exam.id)}×</span>
-                  )}
-                </Link>
-                <div className="mt-1 flex gap-3 px-4 text-xs text-muted">
-                  <Link href={`/log/${exam.id}`} className="hover:text-text">
-                    Log answers from paper
+            {exams.map((exam) => {
+              const taken = (sittings.get(exam.id) ?? 0) > 0;
+              return (
+                <li key={exam.id} className="pb-1">
+                  <Link
+                    href={`/log/${exam.id}`}
+                    className={`block rounded-md border px-4 py-3 ${
+                      taken
+                        ? "border-border bg-surface/50 text-muted hover:border-accent"
+                        : "border-border bg-surface hover:border-accent"
+                    }`}
+                  >
+                    <span className={taken ? "font-medium text-muted" : "font-medium"}>
+                      {examLabel(exam)}
+                    </span>
+                    {isSample(exam) && (
+                      <span className="ml-2 text-xs text-blank">invented answer key</span>
+                    )}
+                    {taken && (
+                      <span className="ml-2 text-xs text-muted">
+                        taken {lastTaken.get(exam.id)}
+                        {(sittings.get(exam.id) ?? 0) > 1 && ` · sat ${sittings.get(exam.id)}×`}
+                      </span>
+                    )}
                   </Link>
-                  <Link href={`/log/${exam.id}/timed`} className="hover:text-text">
-                    Sit it on the clock
-                  </Link>
-                </div>
-              </li>
-            ))}
+                  <div className="mt-1 flex gap-3 px-4 text-xs text-muted">
+                    <Link href={`/log/${exam.id}`} className="hover:text-text">
+                      Log answers from paper
+                    </Link>
+                    <Link href={`/log/${exam.id}/timed`} className="hover:text-text">
+                      Sit it on the clock
+                    </Link>
+                  </div>
+                </li>
+              );
+            })}
           </ul>
         )}
       </section>

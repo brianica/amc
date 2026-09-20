@@ -1,5 +1,5 @@
 /**
- * Fetch all remaining AMC 10 wiki pages from a real browser session.
+ * Fetch AMC 10 wiki pages from a real browser session.
  *
  * Paste into the Chrome DevTools console while on any artofproblemsolving.com page.
  * Each exam is saved as a separate JSON file as it completes, so the script is
@@ -10,6 +10,12 @@
  *
  * Or process them all at once:
  *   for f in data/cache/amc10-*.json; do node pipeline/split-cache.mjs $f; done
+ *
+ * Known-fragile: Cloudflare sometimes answers a raw-wikitext request with an
+ * HTTP 200 "Just a moment..." challenge page instead of a 404, so a page can
+ * silently come back as junk rather than null. After every run, scan for it:
+ *   grep -rl "Just a moment" pipeline/.cache/ data/cache/
+ * Any hit means that page needs a retry — see RETRY_PAGES below.
  */
 
 const WIKI = "https://artofproblemsolving.com/wiki/index.php";
@@ -17,35 +23,56 @@ const SAVE_DIR = "data/cache"; // reminder only — browser saves to ~/Downloads
 
 // All AMC 10 exams 2015–2025 (priority set).
 // Edit this list to skip exams you already have in data/cache/.
-const EXAMS = [
-  { id: "amc10-2017-A", prefix: "2017_AMC_10A_Problems" },
-  { id: "amc10-2017-B", prefix: "2017_AMC_10B_Problems" },
-  { id: "amc10-2019-A", prefix: "2019_AMC_10A_Problems" },
-  { id: "amc10-2019-B", prefix: "2019_AMC_10B_Problems" },
-  { id: "amc10-2020-A", prefix: "2020_AMC_10A_Problems" },
-  { id: "amc10-2020-B", prefix: "2020_AMC_10B_Problems" },
-  { id: "amc10-2021-A", prefix: "2021_AMC_10A_Problems" },
-  { id: "amc10-2021-B", prefix: "2021_AMC_10B_Problems" },
-  { id: "amc10-2021F-A", prefix: "2021_Fall_AMC_10A_Problems" },
-  { id: "amc10-2021F-B", prefix: "2021_Fall_AMC_10B_Problems" },
-  { id: "amc10-2022-A", prefix: "2022_AMC_10A_Problems" },
-  { id: "amc10-2022-B", prefix: "2022_AMC_10B_Problems" },
-  { id: "amc10-2023-A", prefix: "2023_AMC_10A_Problems" },
-  { id: "amc10-2023-B", prefix: "2023_AMC_10B_Problems" },
-  { id: "amc10-2024-A", prefix: "2024_AMC_10A_Problems" },
-  { id: "amc10-2024-B", prefix: "2024_AMC_10B_Problems" },
-  { id: "amc10-2025-A", prefix: "2025_AMC_10A_Problems" },
-  { id: "amc10-2025-B", prefix: "2025_AMC_10B_Problems" },
+//
+// Status as of this edit:
+//   data/exams/  (extracted, committed): 2015-A/B, 2016-A/B, 2018-A/B, 2022-B
+//   data/cache/  (raw dump, not yet split/extracted): 2017-A/B, 2018-B (dup),
+//     2019-A/B, 2020-A/B, 2021-A/B, 2021F-A/B, 2022-A/B, 2023-A/B, 2024-A/B,
+//     2025-A/B — fetched, but see RETRY_PAGES: 31 pages across these six came
+//     back as Cloudflare challenge pages and need to be re-fetched.
+// Leave EXAMS empty to skip the whole-exam pass and only run RETRY_PAGES.
+const EXAMS = [];
+
+// Individual pages that came back as Cloudflare challenge pages on the last
+// run and need a targeted re-fetch, grouped by exam so split-cache.mjs still
+// works unchanged on the output. Delete an exam's entry here once confirmed
+// clean (no "Just a moment" hits) after re-running.
+// All confirmed clean as of the 2023-2025 backfill — leave empty unless a
+// future run turns up new challenge pages.
+const RETRY_PAGES = [];
+
+// Some AMC 10 problems are cross-listed with AMC 12 (shared problem set for a
+// given year): the AMC 10 wiki page for these is just a #redirect stub, e.g.
+//   #redirect [[2021 AMC 12A Problems/Problem 3]]
+// extract/classify can't get a statement from a redirect stub, so these 88
+// AMC 12 pages need to be fetched directly. Found by scanning data/exams/ for
+// problems with area === null whose cached wikitext starts with "#redirect".
+const REDIRECT_TARGETS = [
+  { id: "amc12-2019-B-redirect", prefix: "2019_AMC_12B_Problems", problems: [13] },
+  { id: "amc12-2021-A-redirect", prefix: "2021_AMC_12A_Problems", problems: [3, 4, 5, 7, 9, 10, 12, 16, 17, 18, 23] },
+  { id: "amc12-2021-B-redirect", prefix: "2021_AMC_12B_Problems", problems: [1, 2, 4, 5, 6, 7, 8, 12, 15, 22, 25] },
+  { id: "amc12-2021F-A-redirect", prefix: "2021_Fall_AMC_12A_Problems", problems: [1, 2, 3, 4, 5, 6, 7, 10, 17, 18, 20, 23] },
+  { id: "amc12-2021F-B-redirect", prefix: "2021_Fall_AMC_12B_Problems", problems: [1, 2, 3, 4, 5, 6, 7, 11, 19, 20] },
+  { id: "amc12-2023-A-redirect", prefix: "2023_AMC_12A_Problems", problems: [1, 2, 3, 4, 5, 7, 8, 9, 13, 18, 21] },
+  { id: "amc12-2023-B-redirect", prefix: "2023_AMC_12B_Problems", problems: [1, 2, 3, 4, 5, 6, 9, 13, 15, 19, 25] },
+  { id: "amc12-2024-B-redirect", prefix: "2024_AMC_12B_Problems", problems: [16] },
+  { id: "amc12-2025-A-redirect", prefix: "2025_AMC_12A_Problems", problems: [1, 2, 3, 4, 5, 6, 12, 15, 16, 23] },
+  { id: "amc12-2025-B-redirect", prefix: "2025_AMC_12B_Problems", problems: [2, 4, 6, 10, 11, 14, 15, 17, 19, 20] },
 ];
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
-function download(filename, data) {
+async function download(filename, data) {
   const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
   const a = document.createElement("a");
   a.href = URL.createObjectURL(blob);
   a.download = filename;
+  document.body.appendChild(a);
   a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(a.href);
+  // Give Chrome time to register the download before the next one.
+  await sleep(2000);
 }
 
 async function fetchPage(page) {
@@ -56,6 +83,9 @@ async function fetchPage(page) {
   try {
     const r = await fetch(url);
     const wikitext = r.status === 404 ? null : await r.text();
+    if (wikitext && wikitext.includes("Just a moment")) {
+      console.warn(`  ⚠ CLOUDFLARE CHALLENGE (not real content) → ${page}`);
+    }
     return { page, wikitext, fetchedAt: new Date().toISOString() };
   } catch (e) {
     console.error(`  ERROR ${page}: ${e}`);
@@ -63,26 +93,46 @@ async function fetchPage(page) {
   }
 }
 
-const total = EXAMS.length;
-for (let i = 0; i < EXAMS.length; i++) {
-  const { id, prefix } = EXAMS[i];
+const jobs = [
+  ...EXAMS.map(({ id, prefix }) => ({
+    id,
+    pages: [
+      prefix,
+      ...Array.from({ length: 25 }, (_, n) => `${prefix}/Problem_${n + 1}`),
+      prefix.replace(/_Problems$/, "_Answer_Key"),
+    ],
+  })),
+  ...RETRY_PAGES.map(({ id, prefix, problems, answerKey }) => ({
+    id,
+    pages: [
+      ...problems.map(n => `${prefix}/Problem_${n}`),
+      ...(answerKey ? [prefix.replace(/_Problems$/, "_Answer_Key")] : []),
+    ],
+  })),
+  ...REDIRECT_TARGETS.map(({ id, prefix, problems }) => ({
+    id,
+    pages: problems.map(n => `${prefix}/Problem_${n}`),
+  })),
+];
+
+const total = jobs.length;
+
+for (let i = 0; i < jobs.length; i++) {
+  const { id, pages } = jobs[i];
   const filename = `${id}-cache.json`;
   console.log(`\n[${i+1}/${total}] ${id}`);
-
-  const pages = [
-    prefix,
-    ...Array.from({ length: 25 }, (_, n) => `${prefix}/Problem_${n+1}`),
-    prefix.replace(/_Problems$/, "_Answer_Key"),
-  ];
 
   const results = [];
   for (const page of pages) {
     results.push(await fetchPage(page));
   }
 
-  download(filename, results);
-  console.log(`✓ saved ${filename} (${results.filter(r => r.wikitext).length}/27 pages with content)`);
+  await download(filename, results);
+  const ok = results.filter(r => r.wikitext && !r.wikitext.includes("Just a moment")).length;
+  console.log(`✓ saved ${filename} (${ok}/${pages.length} pages with clean content)`);
 }
 
-console.log("\n\nAll done! Move files from ~/Downloads/ to data/cache/ then run:");
-console.log("  for f in data/cache/amc10-20*-cache.json; do node pipeline/split-cache.mjs $f; done");
+console.log("\nAll done! Move files from ~/Downloads/ to data/cache/ then run:");
+console.log("  for f in data/cache/amc10-*.json; do node pipeline/split-cache.mjs $f; done");
+console.log("\nThen re-scan for Cloudflare challenge pages before running extract:");
+console.log("  grep -rl 'Just a moment' pipeline/.cache/");

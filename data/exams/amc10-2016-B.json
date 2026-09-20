@@ -22,13 +22,11 @@
         "D",
         "D"
       ],
-      "area": "algebra",
-      "subtopics": [
-        "logs-exponents"
-      ],
-      "difficulty": 1,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T1",
-      "descriptor": "Simplify expression with negative exponents and evaluate at given value",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_1",
       "tagSource": "auto",
       "statement": null
@@ -41,13 +39,11 @@
         "B",
         "B"
       ],
-      "area": "algebra",
-      "subtopics": [
-        "functions"
-      ],
-      "difficulty": 1,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T1",
-      "descriptor": "Evaluate a custom operator expression using exponent rules",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_2",
       "tagSource": "auto",
       "statement": null
@@ -60,13 +56,11 @@
         "D",
         "D"
       ],
-      "area": "algebra",
-      "subtopics": [
-        "absolute-value"
-      ],
-      "difficulty": 2,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T1",
-      "descriptor": "Evaluate nested absolute value expression for a specific negative input",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_3",
       "tagSource": "auto",
       "statement": null
@@ -79,13 +73,11 @@
         "B",
         "B"
       ],
-      "area": "number-theory",
-      "subtopics": [
-        "modular-arithmetic"
-      ],
-      "difficulty": 2,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T1",
-      "descriptor": "Find the weekday after summing consecutive days modulo seven",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_4",
       "tagSource": "auto",
       "statement": null
@@ -97,13 +89,11 @@
       "answerEvidence": [
         "D"
       ],
-      "area": "logic-other",
-      "subtopics": [
-        "statistics"
-      ],
-      "difficulty": 2,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T1",
-      "descriptor": "Find sum of extremes given mean and median of four values",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_5",
       "tagSource": "auto",
       "statement": null
@@ -116,13 +106,11 @@
         "B",
         "B"
       ],
-      "area": "number-theory",
-      "subtopics": [
-        "digits-bases"
-      ],
-      "difficulty": 2,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T1",
-      "descriptor": "Minimize digit sum of three-digit sum with six distinct digits",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_6",
       "tagSource": "auto",
       "statement": null
@@ -135,13 +123,11 @@
         "C",
         "C"
       ],
-      "area": "algebra",
-      "subtopics": [
-        "linear-systems"
-      ],
-      "difficulty": 2,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T1",
-      "descriptor": "Find two angles given ratio and complement relationship",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_7",
       "tagSource": "auto",
       "statement": null
@@ -154,14 +140,11 @@
         "A",
         "A"
       ],
-      "area": "number-theory",
-      "subtopics": [
-        "modular-arithmetic",
-        "units-digit"
-      ],
-      "difficulty": 3,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T1",
-      "descriptor": "Find the tens digit of a large power minus a constant",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_8",
       "tagSource": "auto",
       "statement": null
@@ -174,14 +157,11 @@
         "C",
         "C"
       ],
-      "area": "geometry",
-      "subtopics": [
-        "coordinate-geometry",
-        "area-decomposition"
-      ],
-      "difficulty": 2,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T1",
-      "descriptor": "Find base length of triangle inscribed in parabola with given area",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_9",
       "tagSource": "auto",
       "statement": null
@@ -197,14 +177,11 @@
         "D",
         "D"
       ],
-      "area": "geometry",
-      "subtopics": [
-        "similar-congruent",
-        "polygons-area-ratios"
-      ],
-      "difficulty": 2,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T1",
-      "descriptor": "Find weight of similar triangle using area ratio scaling",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_10",
       "tagSource": "auto",
       "statement": null
@@ -217,13 +194,11 @@
         "B",
         "B"
       ],
-      "area": "algebra",
-      "subtopics": [
-        "linear-systems"
-      ],
-      "difficulty": 2,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T2",
-      "descriptor": "Find garden area from fence post spacing and count constraints",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_11",
       "tagSource": "auto",
       "statement": null
@@ -237,14 +212,11 @@
         "D",
         "D"
       ],
-      "area": "counting-probability",
-      "subtopics": [
-        "basic-probability",
-        "inclusion-exclusion"
-      ],
-      "difficulty": 2,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T2",
-      "descriptor": "Probability that product of two chosen numbers is even",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_12",
       "tagSource": "auto",
       "statement": null
@@ -257,13 +229,11 @@
         "D",
         "D"
       ],
-      "area": "algebra",
-      "subtopics": [
-        "linear-systems"
-      ],
-      "difficulty": 2,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T2",
-      "descriptor": "Find babies in quadruplets given ratio constraints on birth sets",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_13",
       "tagSource": "auto",
       "statement": null
@@ -278,14 +248,11 @@
         "D",
         "D"
       ],
-      "area": "counting-probability",
-      "subtopics": [
-        "casework",
-        "combinatorial-geometry"
-      ],
-      "difficulty": 3,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T2",
-      "descriptor": "Count axis-aligned integer-vertex squares fitting inside a triangular region",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_14",
       "tagSource": "auto",
       "statement": null
@@ -325,14 +292,11 @@
         "E",
         "E"
       ],
-      "area": "algebra",
-      "subtopics": [
-        "sequences-series",
-        "quadratics-vieta"
-      ],
-      "difficulty": 3,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T2",
-      "descriptor": "Minimize infinite geometric series sum given fixed second term",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_16",
       "tagSource": "auto",
       "statement": null
@@ -369,14 +333,11 @@
         "E",
         "E"
       ],
-      "area": "number-theory",
-      "subtopics": [
-        "divisibility",
-        "diophantine"
-      ],
-      "difficulty": 3,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T2",
-      "descriptor": "Count ways to express a number as consecutive positive integer sums",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_18",
       "tagSource": "auto",
       "statement": null
@@ -393,14 +354,11 @@
         "D",
         "D"
       ],
-      "area": "geometry",
-      "subtopics": [
-        "coordinate-geometry",
-        "similar-congruent"
-      ],
-      "difficulty": 3,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T3",
-      "descriptor": "Find ratio of segment lengths using line intersections in a rectangle",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_19",
       "tagSource": "auto",
       "statement": null
@@ -412,14 +370,11 @@
       "answerEvidence": [
         "C"
       ],
-      "area": "geometry",
-      "subtopics": [
-        "transformations",
-        "coordinate-geometry"
-      ],
-      "difficulty": 3,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T3",
-      "descriptor": "Find distance origin moves under dilation mapping one circle to another",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_20",
       "tagSource": "auto",
       "statement": null
@@ -433,15 +388,11 @@
         "B",
         "B"
       ],
-      "area": "geometry",
-      "subtopics": [
-        "coordinate-geometry",
-        "circles",
-        "area-decomposition"
-      ],
-      "difficulty": 4,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T3",
-      "descriptor": "Find area enclosed by equation involving absolute values and circle decomposition",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_21",
       "tagSource": "auto",
       "statement": null
@@ -456,14 +407,11 @@
         "A",
         "A"
       ],
-      "area": "counting-probability",
-      "subtopics": [
-        "permutations-combinations",
-        "casework"
-      ],
-      "difficulty": 4,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T3",
-      "descriptor": "Count cyclic triples in a balanced round-robin tournament",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_22",
       "tagSource": "auto",
       "statement": null
@@ -477,15 +425,11 @@
         "C",
         "C"
       ],
-      "area": "geometry",
-      "subtopics": [
-        "polygons-area-ratios",
-        "similar-congruent",
-        "area-decomposition"
-      ],
-      "difficulty": 4,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T3",
-      "descriptor": "Find area ratio of inner hexagon to regular hexagon with parallel constraints",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_23",
       "tagSource": "auto",
       "statement": null
@@ -498,13 +442,11 @@
         "D",
         "D"
       ],
-      "area": "counting-probability",
-      "subtopics": [
-        "casework"
-      ],
-      "difficulty": 4,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T3",
-      "descriptor": "Count four-digit numbers where consecutive two-digit pairs form arithmetic sequence",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_24",
       "tagSource": "auto",
       "statement": null
@@ -520,13 +462,11 @@
         "A",
         "A"
       ],
-      "area": "number-theory",
-      "subtopics": [
-        "floor-ceiling"
-      ],
-      "difficulty": 4,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T3",
-      "descriptor": "Count distinct values of sum involving floor of fractional parts",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_25",
       "tagSource": "auto",
       "statement": null

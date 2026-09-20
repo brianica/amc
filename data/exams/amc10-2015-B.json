@@ -21,13 +21,11 @@
       "answerEvidence": [
         "C"
       ],
-      "area": "algebra",
-      "subtopics": [
-        "logs-exponents"
-      ],
-      "difficulty": 1,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T1",
-      "descriptor": "Evaluate expression with negative base and negative exponent",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_1",
       "tagSource": "auto",
       "statement": null
@@ -39,13 +37,11 @@
       "answerEvidence": [
         "B"
       ],
-      "area": "algebra",
-      "subtopics": [
-        "rates-work-mixture"
-      ],
-      "difficulty": 1,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T1",
-      "descriptor": "Find completion time given equal-duration tasks and time bounds",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_2",
       "tagSource": "auto",
       "statement": null
@@ -57,13 +53,11 @@
       "answerEvidence": [
         "A"
       ],
-      "area": "algebra",
-      "subtopics": [
-        "linear-systems"
-      ],
-      "difficulty": 1,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T1",
-      "descriptor": "Find the other integer given sum constraint and one value",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_3",
       "tagSource": "auto",
       "statement": null
@@ -75,13 +69,11 @@
       "answerEvidence": [
         "C"
       ],
-      "area": "algebra",
-      "subtopics": [
-        "rates-work-mixture"
-      ],
-      "difficulty": 1,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T1",
-      "descriptor": "Order siblings by pizza fractions eaten, finding the remainder",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_4",
       "tagSource": "auto",
       "statement": null
@@ -93,13 +85,11 @@
       "answerEvidence": [
         "B"
       ],
-      "area": "logic-other",
-      "subtopics": [
-        "logic-puzzles"
-      ],
-      "difficulty": 1,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T1",
-      "descriptor": "Determine race positions from relative placement clues",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_5",
       "tagSource": "auto",
       "statement": null
@@ -129,13 +119,11 @@
       "answerEvidence": [
         "A"
       ],
-      "area": "algebra",
-      "subtopics": [
-        "functions"
-      ],
-      "difficulty": 2,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T1",
-      "descriptor": "Evaluate a custom binary operation with nested expressions",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_7",
       "tagSource": "auto",
       "statement": null
@@ -147,13 +135,11 @@
       "answerEvidence": [
         "E"
       ],
-      "area": "geometry",
-      "subtopics": [
-        "transformations"
-      ],
-      "difficulty": 2,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T1",
-      "descriptor": "Track letter F through rotation, reflection, and half turn",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_8",
       "tagSource": "auto",
       "statement": null
@@ -165,14 +151,11 @@
       "answerEvidence": [
         "B"
       ],
-      "area": "geometry",
-      "subtopics": [
-        "circles",
-        "area-decomposition"
-      ],
-      "difficulty": 2,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T1",
-      "descriptor": "Find area between quarter-circle and semicircle regions",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_9",
       "tagSource": "auto",
       "statement": null
@@ -182,14 +165,11 @@
       "answer": "C",
       "answerConfidence": "medium",
       "answerEvidence": [],
-      "area": "number-theory",
-      "subtopics": [
-        "units-digit",
-        "divisibility"
-      ],
-      "difficulty": 2,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T1",
-      "descriptor": "Determine sign and units digit of product of odd negative integers",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_10",
       "tagSource": "auto",
       "statement": null
@@ -202,14 +182,11 @@
         "B",
         "B"
       ],
-      "area": "counting-probability",
-      "subtopics": [
-        "basic-probability",
-        "casework"
-      ],
-      "difficulty": 2,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T2",
-      "descriptor": "Probability that a randomly chosen prime-digit number under 100 is prime",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_11",
       "tagSource": "auto",
       "statement": null
@@ -222,14 +199,11 @@
         "A",
         "A"
       ],
-      "area": "geometry",
-      "subtopics": [
-        "coordinate-geometry",
-        "circles"
-      ],
-      "difficulty": 2,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T2",
-      "descriptor": "Count integer points on a line inside or on a circle",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_12",
       "tagSource": "auto",
       "statement": null
@@ -241,14 +215,11 @@
       "answerEvidence": [
         "E"
       ],
-      "area": "geometry",
-      "subtopics": [
-        "coordinate-geometry",
-        "triangle-basics"
-      ],
-      "difficulty": 2,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T2",
-      "descriptor": "Find sum of altitudes of triangle formed by line and axes",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_13",
       "tagSource": "auto",
       "statement": null
@@ -261,14 +232,11 @@
         "D",
         "D"
       ],
-      "area": "algebra",
-      "subtopics": [
-        "quadratics-vieta",
-        "polynomials"
-      ],
-      "difficulty": 3,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T2",
-      "descriptor": "Maximize sum of roots of quadratic with one-digit coefficients",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_14",
       "tagSource": "auto",
       "statement": null
@@ -281,14 +249,11 @@
         "B",
         "B"
       ],
-      "area": "number-theory",
-      "subtopics": [
-        "diophantine",
-        "divisibility"
-      ],
-      "difficulty": 2,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T2",
-      "descriptor": "Find which total cannot be expressed as a linear combination",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_15",
       "tagSource": "auto",
       "statement": null
@@ -298,14 +263,11 @@
       "answer": "C",
       "answerConfidence": "medium",
       "answerEvidence": [],
-      "area": "counting-probability",
-      "subtopics": [
-        "casework",
-        "basic-probability"
-      ],
-      "difficulty": 3,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T2",
-      "descriptor": "Find probability of divisibility chain among three distinct assigned numbers",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_16",
       "tagSource": "auto",
       "statement": null
@@ -317,14 +279,11 @@
       "answerEvidence": [
         "B"
       ],
-      "area": "geometry",
-      "subtopics": [
-        "solid-geometry",
-        "area-decomposition"
-      ],
-      "difficulty": 3,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T2",
-      "descriptor": "Find volume of octahedron inscribed in rectangular prism via face centers",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_17",
       "tagSource": "auto",
       "statement": null
@@ -339,14 +298,11 @@
         "D",
         "D"
       ],
-      "area": "counting-probability",
-      "subtopics": [
-        "expected-value",
-        "basic-probability"
-      ],
-      "difficulty": 2,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T2",
-      "descriptor": "Expected heads after repeated coin flips of tails",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_18",
       "tagSource": "auto",
       "statement": null
@@ -360,15 +316,11 @@
         "C",
         "C"
       ],
-      "area": "geometry",
-      "subtopics": [
-        "circles",
-        "right-triangles",
-        "similar-congruent"
-      ],
-      "difficulty": 4,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T3",
-      "descriptor": "Find triangle perimeter given squares on sides with vertices on a circle",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_19",
       "tagSource": "auto",
       "statement": null
@@ -384,14 +336,11 @@
         "A",
         "A"
       ],
-      "area": "counting-probability",
-      "subtopics": [
-        "casework",
-        "multiplication-principle"
-      ],
-      "difficulty": 3,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T3",
-      "descriptor": "Count Hamiltonian paths on cube ending at specific vertex",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_20",
       "tagSource": "auto",
       "statement": null
@@ -426,14 +375,11 @@
         "D",
         "D"
       ],
-      "area": "geometry",
-      "subtopics": [
-        "polygons-area-ratios",
-        "similar-congruent"
-      ],
-      "difficulty": 4,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T3",
-      "descriptor": "Sum of segments in regular pentagon with diagonals using golden ratio properties",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_22",
       "tagSource": "auto",
       "statement": null
@@ -448,14 +394,11 @@
         "B",
         "B"
       ],
-      "area": "number-theory",
-      "subtopics": [
-        "floor-ceiling",
-        "divisibility"
-      ],
-      "difficulty": 4,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T3",
-      "descriptor": "Find values where trailing zeros of (2n)! equal three times those of n!",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_23",
       "tagSource": "auto",
       "statement": null
@@ -472,14 +415,11 @@
         "D",
         "D"
       ],
-      "area": "counting-probability",
-      "subtopics": [
-        "recursion-states",
-        "casework"
-      ],
-      "difficulty": 4,
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
       "tier": "T3",
-      "descriptor": "Find coordinates after following spiral walk pattern for 2015 steps",
+      "descriptor": null,
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_24",
       "tagSource": "auto",
       "statement": null

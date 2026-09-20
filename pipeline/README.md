@@ -64,6 +64,7 @@ only the statement — because agreement between different inputs is real eviden
 where re-running one prompt twice only measures sampling noise. Disagreement flags the
 problem for review.
 
-Defaults to `claude-opus-5`. For ~3,275 problems × 2 passes this is the accuracy-first
-choice; set `CLASSIFY_MODEL=claude-haiku-4-5` to trade some accuracy for a much
-cheaper run. Every call is cached by content hash, so re-runs are free.
+Uses the Gemini API (`GEMINI_API_KEY`, loaded from `.env.local`). Defaults to
+`gemini-flash-latest`; set `CLASSIFY_MODEL` to trade cost for accuracy (e.g. a Pro
+model) if flash's tagging quality isn't good enough. Every call is cached by content
+hash, so re-runs are free.
