@@ -1,0 +1,8 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "statistics"
+  ],
+  "difficulty": 2,
+  "descriptor": "Sum of values where the mean and median of five numbers coincide"
+}

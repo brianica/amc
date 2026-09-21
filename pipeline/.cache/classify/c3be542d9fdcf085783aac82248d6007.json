@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "cyclic-quadrilaterals",
+    "right-triangles"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the area of the circumcircle of an isosceles triangle with tangent conditions."
+}

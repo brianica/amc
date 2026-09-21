@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find a base and digit satisfying two base-representation equations."
+}

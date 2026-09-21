@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series"
+  ],
+  "difficulty": 2,
+  "descriptor": "Maximum number of consecutive integers that add to a given sum"
+}

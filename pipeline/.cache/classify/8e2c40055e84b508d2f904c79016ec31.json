@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "combinatorial-geometry",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count axis-aligned lattice squares contained inside a given triangular region."
+}

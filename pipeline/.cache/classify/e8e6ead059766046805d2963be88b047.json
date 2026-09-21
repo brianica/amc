@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "symmetry-arguments",
+    "multiplication-principle"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count Hamiltonian paths on a cube not forming a closed cycle"
+}

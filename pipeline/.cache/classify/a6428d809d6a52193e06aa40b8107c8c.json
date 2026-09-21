@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases",
+    "diophantine"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the maximum sum of digits satisfying a repdigit integer relation."
+}

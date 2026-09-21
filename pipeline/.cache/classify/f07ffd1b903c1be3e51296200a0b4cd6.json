@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "recursion-states",
+    "basic-probability",
+    "symmetry-arguments"
+  ],
+  "difficulty": 3,
+  "descriptor": "Probability of a toroidal grid random walk reaching a corner within four steps"
+}

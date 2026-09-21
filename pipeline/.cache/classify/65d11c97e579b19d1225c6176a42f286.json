@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "recursion-states",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Probability of stopping at consecutive heads with specific prior coin counts."
+}

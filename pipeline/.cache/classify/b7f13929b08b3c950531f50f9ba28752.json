@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "units-digit",
+    "modular-arithmetic"
+  ],
+  "difficulty": 2,
+  "descriptor": "Probability that a randomly chosen base and exponent yield terminal digit one"
+}

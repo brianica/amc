@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "floor-ceiling",
+    "gcd-lcm"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find the number of distinct values taken by a floor function sum."
+}

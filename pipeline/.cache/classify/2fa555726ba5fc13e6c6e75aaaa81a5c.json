@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "circles",
+    "cyclic-quadrilaterals"
+  ],
+  "difficulty": 4,
+  "descriptor": "Perimeter of a right triangle given external squares with concyclic vertices"
+}

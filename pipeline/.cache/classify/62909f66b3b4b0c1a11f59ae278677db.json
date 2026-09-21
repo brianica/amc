@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "area-decomposition",
+    "polygons-area-ratios",
+    "trigonometry"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the area ratio of an extended triangle to the original triangle."
+}

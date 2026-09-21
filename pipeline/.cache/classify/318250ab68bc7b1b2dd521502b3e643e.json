@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "similar-congruent"
+  ],
+  "difficulty": 3,
+  "descriptor": "Distance between tangency points of two smaller circles inside a larger circle"
+}

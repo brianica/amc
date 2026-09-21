@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "inequalities"
+  ],
+  "difficulty": 1,
+  "descriptor": "Determine which expression is guaranteed to be positive given variable bounds"
+}

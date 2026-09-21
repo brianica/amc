@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "solid-geometry",
+    "right-triangles"
+  ],
+  "difficulty": 3,
+  "descriptor": "Calculate the volume of a tetrahedron given all of its edge lengths"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations",
+    "multiplication-principle"
+  ],
+  "difficulty": 2,
+  "descriptor": "Number of ways to place distinct items without adjacent positions"
+}

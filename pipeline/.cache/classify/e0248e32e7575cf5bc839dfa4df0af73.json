@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "multiplication-principle",
+    "combinatorial-geometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Number of self-avoiding paths between opposite dodecahedron faces with directional constraints"
+}

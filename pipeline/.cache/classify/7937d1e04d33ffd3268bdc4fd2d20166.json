@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "multiplication-principle"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count restricted crop assignments in a two-by-two grid under adjacency conditions"
+}

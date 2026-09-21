@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "similar-congruent",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 3,
+  "descriptor": "Sum of segment lengths in a regular pentagon with intersecting diagonals"
+}

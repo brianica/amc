@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "multiplication-principle",
+    "casework"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count quadruples from a small set yielding an odd determinant-like expression."
+}

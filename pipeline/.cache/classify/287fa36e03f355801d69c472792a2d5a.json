@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "transformations"
+  ],
+  "difficulty": 3,
+  "descriptor": "Position on a clock when a rolling external disk completes a full rotation"
+}

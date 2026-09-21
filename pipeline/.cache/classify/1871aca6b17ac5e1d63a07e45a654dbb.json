@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "area-decomposition",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 3,
+  "descriptor": "Area of the intersection of two triangles within a regular hexagon"
+}

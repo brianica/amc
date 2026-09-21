@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "recursion-states",
+    "permutations-combinations"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count valid binary strings with bounded run lengths and fixed boundary values"
+}

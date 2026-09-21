@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "permutations-combinations"
+  ],
+  "difficulty": 1,
+  "descriptor": "number of distinct values formed by summing two products of four digits"
+}

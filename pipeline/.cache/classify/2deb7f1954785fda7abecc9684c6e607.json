@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "multiplication-principle",
+    "permutations-combinations"
+  ],
+  "difficulty": 1.5,
+  "descriptor": "Count subsets of a set that contain at least one prime element"
+}

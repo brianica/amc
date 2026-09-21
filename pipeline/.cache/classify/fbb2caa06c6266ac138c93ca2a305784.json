@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "area-decomposition",
+    "trigonometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the area of the central triangle formed by trisecting a right angle."
+}

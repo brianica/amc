@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "transformations",
+    "coordinate-geometry"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find coordinates of a point given its image after rotation and reflection."
+}

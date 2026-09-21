@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "area-decomposition",
+    "triangle-basics"
+  ],
+  "difficulty": 2,
+  "descriptor": "Calculate shaded area inside a square excluding four inward equilateral triangles."
+}

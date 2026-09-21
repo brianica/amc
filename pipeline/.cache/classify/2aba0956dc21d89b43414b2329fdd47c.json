@@ -1,0 +1,8 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "solid-geometry"
+  ],
+  "difficulty": 2,
+  "descriptor": "Determine segment length from the volume of its neighborhood in 3D"
+}

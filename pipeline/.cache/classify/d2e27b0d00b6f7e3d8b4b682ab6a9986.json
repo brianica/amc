@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the coordinates after a given number of steps along an integer spiral."
+}

@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the number of consecutive sheets removed to achieve a specific mean."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "area-decomposition"
+  ],
+  "difficulty": 2,
+  "descriptor": "Maximum area of points contained in exactly one of four tangent circles"
+}

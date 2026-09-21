@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations",
+    "casework",
+    "inclusion-exclusion"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count positive integers whose digits are strictly increasing or strictly decreasing."
+}

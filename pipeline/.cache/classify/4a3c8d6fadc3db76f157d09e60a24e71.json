@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "triangle-basics",
+    "coordinate-geometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count points forming a triangle of specified base, perimeter, and area."
+}

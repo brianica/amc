@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "conditional-geometric-probability",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Probability that difference between two independently generated mixture random variables exceeds one-half"
+}

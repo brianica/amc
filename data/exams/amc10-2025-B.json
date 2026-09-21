@@ -24,11 +24,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "divisibility",
+        "floor-ceiling"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Calculate the maximum number of full portions obtained from a fixed total. [REVIEW: passes disagreed — number-theory vs algebra]",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10B_Problems/Problem_1",
       "tagSource": "auto",
       "statement": null
@@ -42,11 +45,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "units-digit",
+        "modular-arithmetic"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Sum of units digits of the first 2025 square numbers",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10B_Problems/Problem_2",
       "tagSource": "auto",
       "statement": null
@@ -64,11 +70,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "sequences-series"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Sum of digits of the eleventh row sum in a modified triangle.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10B_Problems/Problem_3",
       "tagSource": "auto",
       "statement": null
@@ -82,11 +90,13 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "digits-bases"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the sum of digits of equal numbers in different bases.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10B_Problems/Problem_4",
       "tagSource": "auto",
       "statement": null
@@ -99,11 +109,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "circles",
+        "triangle-basics"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the angle between a triangle side and circumradius from vertex.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10B_Problems/Problem_5",
       "tagSource": "auto",
       "statement": null
@@ -118,11 +131,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "coordinate-geometry",
+        "area-decomposition"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find a vertical line that bisects the area under a line segment.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10B_Problems/Problem_6",
       "tagSource": "auto",
       "statement": null
@@ -135,11 +151,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "right-triangles",
+        "coordinate-geometry"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find an unknown position equating two path lengths using the Pythagorean theorem.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10B_Problems/Problem_7",
       "tagSource": "auto",
       "statement": null
@@ -152,11 +171,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "divisibility",
+        "digits-bases"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the sum of unknown digits given divisibility by thirty-six.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10B_Problems/Problem_8",
       "tagSource": "auto",
       "statement": null
@@ -169,11 +191,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "inequalities",
+        "linear-systems"
+      ],
+      "difficulty": 3,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Number of integer triples satisfying a system of linear inequalities.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10B_Problems/Problem_9",
       "tagSource": "auto",
       "statement": null
@@ -187,11 +212,13 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "polynomials"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Sum of integers making a rational cubic expression evaluate to an integer",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10B_Problems/Problem_10",
       "tagSource": "auto",
       "statement": null
@@ -206,11 +233,15 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "permutations-combinations",
+        "inclusion-exclusion",
+        "basic-probability"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Probability that a random permutation of six items has exactly two fixed points",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10B_Problems/Problem_11",
       "tagSource": "auto",
       "statement": null
@@ -223,11 +254,15 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "area-decomposition",
+        "polygons-area-ratios",
+        "circles"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Compare area ratios of inscribed tangent circles to their enclosing polygons.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10B_Problems/Problem_12",
       "tagSource": "auto",
       "statement": null
@@ -252,11 +287,14 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "right-triangles",
+        "similar-congruent"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Ratio of segments created by an altitude and a median's intersection",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10B_Problems/Problem_13",
       "tagSource": "auto",
       "statement": null
@@ -273,11 +311,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "basic-probability",
+        "permutations-combinations"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Probability that dividing nine athletes into three groups separates the three tallest",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10B_Problems/Problem_14",
       "tagSource": "auto",
       "statement": null
@@ -294,11 +335,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "sequences-series"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Evaluate an infinite telescoping series using partial fraction decomposition.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10B_Problems/Problem_15",
       "tagSource": "auto",
       "statement": null
@@ -314,11 +357,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "casework",
+        "permutations-combinations"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Count valid colorings of distinct circular sectors without adjacent identical colors.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10B_Problems/Problem_16",
       "tagSource": "auto",
       "statement": null
@@ -334,11 +380,13 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "sequences-series"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Maximum length of a decreasing positive integer sequence with decreasing prefix means",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10B_Problems/Problem_17",
       "tagSource": "auto",
       "statement": null
@@ -354,11 +402,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "floor-ceiling",
+        "units-digit"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the units digit of a sum of floor square roots.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10B_Problems/Problem_18",
       "tagSource": "auto",
       "statement": null
@@ -372,11 +423,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "solid-geometry",
+        "similar-congruent"
+      ],
+      "difficulty": 2.5,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Calculate additional time required to fill the upper portion of a frustum.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10B_Problems/Problem_19",
       "tagSource": "auto",
       "statement": null
@@ -391,11 +445,14 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "circles",
+        "right-triangles"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find diameter of central circle tangent to four inscribed semicircles in square",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10B_Problems/Problem_20",
       "tagSource": "auto",
       "statement": null
@@ -409,11 +466,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "casework",
+        "symmetry-arguments"
+      ],
+      "difficulty": 5,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Count distinct 3x3 grid three-colorings with cyclic adjacency rules up to symmetry.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10B_Problems/Problem_21",
       "tagSource": "auto",
       "statement": null
@@ -426,11 +486,15 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "conditional-geometric-probability",
+        "casework",
+        "permutations-combinations"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Probability of an integer with digit sum 61 being divisible by 11 [REVIEW: passes disagreed — counting-probability vs number-theory]",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10B_Problems/Problem_22",
       "tagSource": "auto",
       "statement": null
@@ -444,11 +508,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "diophantine",
+        "divisibility"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Count cells where row-major and column-major grid orderings assign equal values.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10B_Problems/Problem_23",
       "tagSource": "auto",
       "statement": null
@@ -462,11 +529,14 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "recursion-states",
+        "conditional-geometric-probability"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Probability of reaching a target state in an absorbing random walk",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10B_Problems/Problem_24",
       "tagSource": "auto",
       "statement": null
@@ -479,11 +549,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "coordinate-geometry",
+        "transformations"
+      ],
+      "difficulty": 5,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Determine which vertex a reflecting ray inside a square first encounters.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10B_Problems/Problem_25",
       "tagSource": "auto",
       "statement": null

@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "similar-congruent",
+    "right-triangles"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find a trapezoid side length using diagonal segments and similar right triangles."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "gcd-lcm"
+  ],
+  "difficulty": 1.5,
+  "descriptor": "Minimum number of benches completely filled by equal counts of two groups"
+}

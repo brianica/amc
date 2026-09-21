@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations",
+    "casework",
+    "symmetry-arguments"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count permutations of five elements with alternating order between adjacent terms."
+}

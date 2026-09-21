@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "triangle-basics",
+    "area-decomposition",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the area of an isosceles triangle with two perpendicular equal medians."
+}

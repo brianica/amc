@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "symmetry-arguments"
+  ],
+  "difficulty": 2,
+  "descriptor": "Probability that one geometrically distributed outcome strictly exceeds an identical independent outcome"
+}

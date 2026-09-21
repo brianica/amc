@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "absolute-value",
+    "quadratics-vieta"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count the number of real solutions to a system involving absolute values"
+}

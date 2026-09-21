@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "polynomials"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the sum of squares of two unequal variables in symmetric equations"
+}

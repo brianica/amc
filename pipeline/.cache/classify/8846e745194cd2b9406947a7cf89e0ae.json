@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "combinatorial-geometry",
+    "casework",
+    "permutations-combinations"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count non-degenerate triangles formed by vertices on a five-by-five integer grid."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "polynomials"
+  ],
+  "difficulty": 2,
+  "descriptor": "Sum of digits of an integer solving an algebraic factorial equation"
+}

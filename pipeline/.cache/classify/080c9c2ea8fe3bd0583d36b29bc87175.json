@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "circles",
+    "triangle-basics"
+  ],
+  "difficulty": 3,
+  "descriptor": "Sum of inradii of triangles created by median to the hypotenuse"
+}

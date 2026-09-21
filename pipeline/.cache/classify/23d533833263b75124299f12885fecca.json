@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series"
+  ],
+  "difficulty": 1,
+  "descriptor": "Find the row sum of a magic square of consecutive integers"
+}

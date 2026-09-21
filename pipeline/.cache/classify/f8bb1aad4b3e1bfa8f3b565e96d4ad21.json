@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations",
+    "casework"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count pairs of people who do not know each other"
+}

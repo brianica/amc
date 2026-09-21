@@ -1,0 +1,8 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "transformations"
+  ],
+  "difficulty": 2,
+  "descriptor": "Determine which geometric rigid motions leave an infinite recurring pattern invariant"
+}

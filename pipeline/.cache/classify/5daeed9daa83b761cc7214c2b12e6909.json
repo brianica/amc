@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "symmetry-arguments",
+    "recursion-states",
+    "basic-probability"
+  ],
+  "difficulty": 3,
+  "descriptor": "Probability a 2D random walk hits a vertical boundary first"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "symmetry-arguments"
+  ],
+  "difficulty": 3,
+  "descriptor": "Probability of equal ball colors after four Polya urn additions."
+}

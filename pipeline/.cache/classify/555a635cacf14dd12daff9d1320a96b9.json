@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "functions"
+  ],
+  "difficulty": 1,
+  "descriptor": "Evaluate an expression defined by a custom non-associative binary operation"
+}

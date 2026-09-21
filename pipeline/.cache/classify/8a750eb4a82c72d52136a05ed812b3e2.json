@@ -1,0 +1,8 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find squared product of unmatched sides of two right triangles sharing side lengths."
+}

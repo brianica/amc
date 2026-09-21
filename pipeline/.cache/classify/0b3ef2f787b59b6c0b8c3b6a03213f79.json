@@ -1,0 +1,8 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find a constant given two perpendicular lines with a known intersection point."
+}

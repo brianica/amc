@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisor-counting",
+    "primes"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the number of divisors of an integer expression involving an unknown."
+}

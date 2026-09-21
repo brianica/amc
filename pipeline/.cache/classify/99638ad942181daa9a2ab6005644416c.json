@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "floor-ceiling"
+  ],
+  "difficulty": 2,
+  "descriptor": "Compute a defined remainder function involving fractions and negative values"
+}

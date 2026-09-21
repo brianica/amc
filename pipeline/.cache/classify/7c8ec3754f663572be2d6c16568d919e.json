@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "cyclic-quadrilaterals",
+    "trigonometry",
+    "circles"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the missing side length of a cyclic quadrilateral with three equal sides."
+}

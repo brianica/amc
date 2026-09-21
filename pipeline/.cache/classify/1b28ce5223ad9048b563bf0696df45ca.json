@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "coordinate-geometry"
+  ],
+  "difficulty": 2,
+  "descriptor": "Sum of the three altitudes of an axis-aligned right triangle"
+}

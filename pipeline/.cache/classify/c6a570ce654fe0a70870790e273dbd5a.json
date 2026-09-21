@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios",
+    "triangle-basics"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count available lengths to form a non-degenerate quadrilateral with three given sides"
+}

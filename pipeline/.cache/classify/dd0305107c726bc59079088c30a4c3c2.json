@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases",
+    "divisibility"
+  ],
+  "difficulty": 1.5,
+  "descriptor": "Determine a two-digit integer given operations and its reversed-digit bounds."
+}

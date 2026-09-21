@@ -23,11 +23,13 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "logs-exponents"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Compute the value of an arithmetic expression containing squared integers.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10A_Problems/Problem_1",
       "tagSource": "auto",
       "statement": null
@@ -39,11 +41,13 @@
       "answerEvidence": [
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "polygons-area-ratios"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Area of a rectangle after decreasing the other dimension by one",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10A_Problems/Problem_2",
       "tagSource": "auto",
       "statement": null
@@ -57,11 +61,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "solid-geometry"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Maximum number of reshaped spheres fitting inside a cube by volume",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10A_Problems/Problem_3",
       "tagSource": "auto",
       "statement": null
@@ -74,11 +80,13 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "rates-work-mixture"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the difference in travel times for two given commuting routes.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10A_Problems/Problem_4",
       "tagSource": "auto",
       "statement": null
@@ -92,11 +100,14 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "divisibility",
+        "primes"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Determine the units digit that makes a given multi-digit number prime.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10A_Problems/Problem_5",
       "tagSource": "auto",
       "statement": null
@@ -109,11 +120,13 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "rates-work-mixture"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Difference in step lengths given total distance and step counts",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10A_Problems/Problem_6",
       "tagSource": "auto",
       "statement": null
@@ -126,11 +139,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "triangle-basics"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Calculate an angle using angle chasing with a square and isosceles triangle.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10A_Problems/Problem_7",
       "tagSource": "auto",
       "statement": null
@@ -143,11 +158,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "digits-bases",
+        "divisibility"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Count two-digit numbers equal to tens digit plus square of units digit",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10A_Problems/Problem_8",
       "tagSource": "auto",
       "statement": null
@@ -161,11 +179,13 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "basic-probability"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Probability of getting an even sum from rolling a biased die twice",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10A_Problems/Problem_9",
       "tagSource": "auto",
       "statement": null
@@ -177,11 +197,13 @@
       "answerEvidence": [
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "expected-value"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Difference between teacher-perspective and student-perspective average class sizes [REVIEW: passes disagreed — counting-probability vs logic-other]",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10A_Problems/Problem_10",
       "tagSource": "auto",
       "statement": null
@@ -197,11 +219,14 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "rates-work-mixture",
+        "linear-systems"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the length of a moving ship using relative walking speeds.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10A_Problems/Problem_11",
       "tagSource": "auto",
       "statement": null
@@ -214,11 +239,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "modular-arithmetic",
+        "digits-bases"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the remainder when a number given in base nine is divided by 5.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10A_Problems/Problem_12",
       "tagSource": "auto",
       "statement": null
@@ -232,11 +260,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "basic-probability",
+        "permutations-combinations"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Probability of an equal split of two colors across six randomly colored objects",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10A_Problems/Problem_13",
       "tagSource": "auto",
       "statement": null
@@ -249,11 +280,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "absolute-value",
+        "quadratics-vieta"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Count the number of real solutions to a system involving absolute values.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10A_Problems/Problem_14",
       "tagSource": "auto",
       "statement": null
@@ -268,11 +302,15 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "circles",
+        "cyclic-quadrilaterals",
+        "right-triangles"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find circumcircle area of an isosceles triangle given a tangent circle's radius",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10A_Problems/Problem_15",
       "tagSource": "auto",
       "statement": null
@@ -289,11 +327,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "functions"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Determine the center or axis of symmetry of a given function.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10A_Problems/Problem_16",
       "tagSource": "auto",
       "statement": null
@@ -313,11 +353,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "solid-geometry",
+        "coordinate-geometry"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the pillar height supporting a tilted planar surface over a regular hexagon.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10A_Problems/Problem_17",
       "tagSource": "auto",
       "statement": null
@@ -335,11 +378,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "casework",
+        "multiplication-principle"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Count valid assignments of four items to a grid with adjacency constraints",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10A_Problems/Problem_18",
       "tagSource": "auto",
       "statement": null
@@ -351,11 +397,14 @@
       "answerEvidence": [
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "area-decomposition",
+        "circles"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find a square's side length using areas swept by rolling disks",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10A_Problems/Problem_19",
       "tagSource": "auto",
       "statement": null
@@ -373,11 +422,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "quadratics-vieta",
+        "inequalities"
+      ],
+      "difficulty": 2,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Count pairs of positive integers for which two quadratics lack distinct real roots.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10A_Problems/Problem_20",
       "tagSource": "auto",
       "statement": null
@@ -392,11 +444,14 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "permutations-combinations",
+        "basic-probability"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Ratio of probabilities of two specific distribution counts into bins",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10A_Problems/Problem_21",
       "tagSource": "auto",
       "statement": null
@@ -411,11 +466,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "solid-geometry",
+        "right-triangles"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find radius of three mutually tangent spheres inside a cone.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10A_Problems/Problem_22",
       "tagSource": "auto",
       "statement": null
@@ -429,11 +487,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "divisor-counting",
+        "primes"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Count integers up to 50 whose iterated divisor function reaches 12.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10A_Problems/Problem_23",
       "tagSource": "auto",
       "statement": null
@@ -447,11 +508,14 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "casework",
+        "combinatorial-geometry"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Count binary edge labelings of a cube where each face sums to two",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10A_Problems/Problem_24",
       "tagSource": "auto",
       "statement": null
@@ -475,11 +539,14 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "quadratics-vieta",
+        "polynomials"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Evaluate a quadratic polynomial whose iterated roots satisfy specific count and sum constraints.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10A_Problems/Problem_25",
       "tagSource": "auto",
       "statement": null

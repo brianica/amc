@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "multiplication-principle"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count integers up to a bound containing at least one zero"
+}

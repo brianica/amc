@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta"
+  ],
+  "difficulty": 2,
+  "descriptor": "Sum of parameter values for which a quadratic has integer roots"
+}

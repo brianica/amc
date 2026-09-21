@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "modular-arithmetic"
+  ],
+  "difficulty": 1,
+  "descriptor": "Determine the day of the week after a sequence of increasing days."
+}

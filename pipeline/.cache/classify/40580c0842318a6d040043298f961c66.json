@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "permutations-combinations"
+  ],
+  "difficulty": 2,
+  "descriptor": "Probability that two independent random five-element subsets overlap in two elements"
+}

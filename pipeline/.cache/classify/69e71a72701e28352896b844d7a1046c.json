@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility"
+  ],
+  "difficulty": 1,
+  "descriptor": "Count perfect squares under a bound that are multiples of six"
+}

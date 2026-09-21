@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisor-counting",
+    "divisibility"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count representations of a number as consecutive positive integer sums."
+}

@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "modular-arithmetic",
+    "divisibility",
+    "digits-bases"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find remainder of a concatenated integer string modulo forty-five"
+}

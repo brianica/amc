@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "similar-congruent",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 2,
+  "descriptor": "Calculate the area of a triangle formed by a vertex and diagonal projection"
+}

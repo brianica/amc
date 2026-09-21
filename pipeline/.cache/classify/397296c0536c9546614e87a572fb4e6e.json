@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "transformations",
+    "coordinate-geometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Distance the origin moves under a specified dilation of the plane."
+}

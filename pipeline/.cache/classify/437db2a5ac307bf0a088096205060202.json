@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "area-decomposition",
+    "circles",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the area inside a regular hexagon but outside six inward semicircles."
+}

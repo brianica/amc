@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility"
+  ],
+  "difficulty": 1,
+  "descriptor": "Count squares that are multiples of six below an upper bound"
+}

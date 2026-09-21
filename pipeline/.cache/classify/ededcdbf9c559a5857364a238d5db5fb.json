@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations",
+    "symmetry-arguments"
+  ],
+  "difficulty": 3,
+  "descriptor": "Number of coefficient choices from six integers giving intersecting quadratic curves"
+}

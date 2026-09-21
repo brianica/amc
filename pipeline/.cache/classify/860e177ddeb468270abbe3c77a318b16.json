@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "conditional-geometric-probability"
+  ],
+  "difficulty": 4,
+  "descriptor": "Probability that a randomly placed coin overlaps shaded regions inside a square"
+}

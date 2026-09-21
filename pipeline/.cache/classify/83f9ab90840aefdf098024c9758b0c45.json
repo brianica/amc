@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "transformations",
+    "coordinate-geometry"
+  ],
+  "difficulty": 1,
+  "descriptor": "Determine the final orientation of a figure after multiple planar transformations."
+}

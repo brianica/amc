@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "linear-systems"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the difference between two ages given linear and quadratic conditions."
+}

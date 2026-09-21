@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series"
+  ],
+  "difficulty": 2,
+  "descriptor": "Evaluate the sum of the first two hundred integers with repeating signs."
+}

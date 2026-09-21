@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "inclusion-exclusion"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the number of students enrolled in all three classes."
+}

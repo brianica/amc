@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "triangle-basics"
+  ],
+  "difficulty": 3,
+  "descriptor": "Perimeter of an equilateral triangle bounded by three lines in the coordinate plane"
+}

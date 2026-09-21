@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "gcd-lcm",
+    "modular-arithmetic",
+    "diophantine"
+  ],
+  "difficulty": 3,
+  "descriptor": "Sum of digits of smallest integer over 1000 satisfying two gcd conditions"
+}

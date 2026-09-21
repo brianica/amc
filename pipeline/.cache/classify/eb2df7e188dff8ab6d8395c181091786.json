@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "area-decomposition",
+    "right-triangles",
+    "coordinate-geometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Fraction of a right triangular field planted after removing a corner square"
+}

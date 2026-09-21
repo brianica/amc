@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "modular-arithmetic",
+    "divisibility",
+    "digits-bases"
+  ],
+  "difficulty": 2,
+  "descriptor": "Determine an unknown digit in the decimal expansion of a binomial coefficient."
+}

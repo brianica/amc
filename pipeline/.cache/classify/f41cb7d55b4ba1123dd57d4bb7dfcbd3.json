@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 1,
+  "descriptor": "Expressing rectangle area in terms of diagonal length using side ratios"
+}

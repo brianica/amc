@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Find sum of parameter values yielding integer roots for a given quadratic."
+}

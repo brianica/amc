@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "transformations",
+    "coordinate-geometry",
+    "circles"
+  ],
+  "difficulty": 3,
+  "descriptor": "Area traced by the centroid of a triangle inscribed in a circle"
+}

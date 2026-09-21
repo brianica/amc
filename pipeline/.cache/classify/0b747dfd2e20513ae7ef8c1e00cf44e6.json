@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "conditional-geometric-probability",
+    "basic-probability"
+  ],
+  "difficulty": 2,
+  "descriptor": "Calculate conditional probability of true preference given a stated response."
+}

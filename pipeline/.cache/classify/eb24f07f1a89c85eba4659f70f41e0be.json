@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "triangle-basics"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find coordinates of a third vertex using midpoint property of isosceles triangles"
+}

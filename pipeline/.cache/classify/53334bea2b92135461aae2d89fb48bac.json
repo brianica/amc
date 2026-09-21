@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "stars-and-bars",
+    "permutations-combinations"
+  ],
+  "difficulty": 2,
+  "descriptor": "Number of outcomes where rolling seven dice gives a sum of ten"
+}

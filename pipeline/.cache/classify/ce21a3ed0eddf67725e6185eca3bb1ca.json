@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "solid-geometry",
+    "coordinate-geometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the pillar height supporting a tilted planar surface over a regular hexagon."
+}

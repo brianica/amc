@@ -1,0 +1,8 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find the length of slope interval containing a given number of lattice points"
+}

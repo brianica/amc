@@ -24,11 +24,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "logs-exponents"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Evaluate an alternating arithmetic expression involving squares and integers.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_1",
       "tagSource": "auto",
       "statement": null
@@ -43,11 +45,13 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the larger quantity given the sum and ratio of two values",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_2",
       "tagSource": "auto",
       "statement": null
@@ -62,11 +66,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 1.5,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the difference between two numbers given their sum and digit-relationship.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_3",
       "tagSource": "auto",
       "statement": null
@@ -81,11 +87,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "sequences-series"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the sum of an arithmetic progression representing distance traveled over time.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_4",
       "tagSource": "auto",
       "statement": null
@@ -99,11 +107,13 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "logic-other",
+      "subtopics": [
+        "statistics"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Compute the average of a remaining subset given overall and partial means.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_5",
       "tagSource": "auto",
       "statement": null
@@ -117,11 +127,13 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "rates-work-mixture"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Calculate average hiking speed using distance, time, and another person's route.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_6",
       "tagSource": "auto",
       "statement": null
@@ -136,11 +148,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "logic-other",
+      "subtopics": [
+        "logic-puzzles",
+        "sets-venn"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Determine which deduction logically follows from several conditional statements about categorized groups.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_7",
       "tagSource": "auto",
       "statement": null
@@ -155,11 +170,13 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "digits-bases"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Determine digits in repeating decimal given difference from a terminating approximation.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_8",
       "tagSource": "auto",
       "statement": null
@@ -173,11 +190,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "inequalities",
+        "polynomials"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the minimum value of a two-variable algebraic expression.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_9",
       "tagSource": "auto",
       "statement": null
@@ -197,11 +217,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "polynomials",
+        "logs-exponents"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Simplify a product of sum-of-powers factors using difference of squares.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_10",
       "tagSource": "auto",
       "statement": null
@@ -217,11 +240,15 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "digits-bases",
+        "divisibility",
+        "modular-arithmetic"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Determine which base causes the difference of two base-b numbers to not divide 3.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_11",
       "tagSource": "auto",
       "statement": null
@@ -237,11 +264,14 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "solid-geometry",
+        "similar-congruent"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Ratio of liquid height increase in two cones after submerging identical spheres",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_12",
       "tagSource": "auto",
       "statement": null
@@ -255,11 +285,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "solid-geometry",
+        "right-triangles"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the volume of a tetrahedron given all six edge lengths.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_13",
       "tagSource": "auto",
       "statement": null
@@ -273,11 +306,14 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "polynomials",
+        "quadratics-vieta"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find a specific polynomial coefficient given constraints on integer roots",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_14",
       "tagSource": "auto",
       "statement": null
@@ -292,11 +328,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "permutations-combinations",
+        "symmetry-arguments"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Number of coefficient choices from six integers giving intersecting quadratic curves",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_15",
       "tagSource": "auto",
       "statement": null
@@ -310,11 +349,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "logic-other",
+      "subtopics": [
+        "statistics",
+        "estimation"
+      ],
+      "difficulty": 2.5,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the median of a list where integer n appears n times.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_16",
       "tagSource": "auto",
       "statement": null
@@ -332,11 +374,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "similar-congruent",
+        "right-triangles"
+      ],
+      "difficulty": 4,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find a trapezoid side length using diagonal segments and similar right triangles.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_17",
       "tagSource": "auto",
       "statement": null
@@ -355,11 +400,13 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "functions"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Determine which rational input makes an additive prime-based function negative.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_18",
       "tagSource": "auto",
       "statement": null
@@ -373,11 +420,15 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "coordinate-geometry",
+        "circles",
+        "area-decomposition"
+      ],
+      "difficulty": 3.5,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Calculate the area enclosed by an equation with absolute value coordinates.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_19",
       "tagSource": "auto",
       "statement": null
@@ -398,11 +449,15 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "casework",
+        "permutations-combinations",
+        "symmetry-arguments"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Number of permutations of five elements without three consecutive monotonic terms",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_20",
       "tagSource": "auto",
       "statement": null
@@ -415,11 +470,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "polygons-area-ratios",
+        "triangle-basics"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Perimeter of an equiangular hexagon from areas of triangles formed by extensions",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_21",
       "tagSource": "auto",
       "statement": null
@@ -437,11 +495,13 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "sequences-series"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find the number of consecutive sheets removed to achieve a specific mean.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_22",
       "tagSource": "auto",
       "statement": null
@@ -458,11 +518,15 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "recursion-states",
+        "casework",
+        "basic-probability"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Probability of reaching a corner square within four random toroidal grid hops",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_23",
       "tagSource": "auto",
       "statement": null
@@ -507,11 +571,15 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "casework",
+        "symmetry-arguments",
+        "permutations-combinations"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Arrangements of three copies of three colors on a grid avoiding adjacency.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_25",
       "tagSource": "auto",
       "statement": null

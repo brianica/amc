@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "recursion-states",
+    "basic-probability"
+  ],
+  "difficulty": 4,
+  "descriptor": "Probability of returning to the initial distribution in a multi-round dollar-passing game"
+}

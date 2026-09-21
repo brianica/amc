@@ -1,0 +1,8 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios"
+  ],
+  "difficulty": 1,
+  "descriptor": "Area of a rectangle after decreasing the other dimension by one"
+}

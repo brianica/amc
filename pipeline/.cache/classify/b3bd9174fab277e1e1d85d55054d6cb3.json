@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisor-counting",
+    "primes"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Probability that a randomly chosen divisor of a factorial is a square"
+}

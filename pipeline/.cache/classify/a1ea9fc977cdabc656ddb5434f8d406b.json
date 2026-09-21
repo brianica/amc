@@ -1,0 +1,8 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the concurrent point for lines whose coefficients form an arithmetic progression."
+}

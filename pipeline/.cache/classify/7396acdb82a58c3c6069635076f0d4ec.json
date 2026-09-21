@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "absolute-value",
+    "inequalities"
+  ],
+  "difficulty": 1,
+  "descriptor": "Count integers satisfying an absolute value inequality bounded by a multiple of pi"
+}

@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "solid-geometry",
+    "right-triangles",
+    "area-decomposition"
+  ],
+  "difficulty": 2,
+  "descriptor": "Area of a square sheet of wrapping paper covering a square box"
+}

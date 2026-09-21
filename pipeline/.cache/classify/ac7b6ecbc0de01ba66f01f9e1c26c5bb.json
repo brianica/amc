@@ -1,0 +1,8 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "area-decomposition"
+  ],
+  "difficulty": 1,
+  "descriptor": "Find the total area of walkways surrounding and separating rectangular garden plots."
+}

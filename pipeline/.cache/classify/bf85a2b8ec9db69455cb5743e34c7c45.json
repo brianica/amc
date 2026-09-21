@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the number of consecutive two-sided pages removed given the remaining mean"
+}

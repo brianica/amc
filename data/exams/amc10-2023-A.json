@@ -27,11 +27,13 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "rates-work-mixture"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Calculate meeting distance for two cyclists traveling toward each other.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10A_Problems/Problem_1",
       "tagSource": "auto",
       "statement": null
@@ -45,11 +47,13 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Solve a linear equation relating the weights of two items.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10A_Problems/Problem_2",
       "tagSource": "auto",
       "statement": null
@@ -64,11 +68,14 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "divisibility",
+        "floor-ceiling"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Count squares below a given threshold that are multiples of five",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10A_Problems/Problem_3",
       "tagSource": "auto",
       "statement": null
@@ -82,11 +89,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "polygons-area-ratios",
+        "triangle-basics"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Maximum possible side length of a quadrilateral given its perimeter.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10A_Problems/Problem_4",
       "tagSource": "auto",
       "statement": null
@@ -101,11 +111,13 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "digits-bases"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the total number of digits of a large product [REVIEW: passes disagreed — number-theory vs algebra]",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10A_Problems/Problem_5",
       "tagSource": "auto",
       "statement": null
@@ -123,11 +135,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "solid-geometry"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the total cube value calculated from vertex, edge, and face sums",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10A_Problems/Problem_6",
       "tagSource": "auto",
       "statement": null
@@ -141,11 +155,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "basic-probability",
+        "casework"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Probability that cumulative sum of die rolls ever reaches a specified value",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10A_Problems/Problem_7",
       "tagSource": "auto",
       "statement": null
@@ -161,11 +178,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "functions"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Convert a given temperature value using a linear conversion between two scales.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10A_Problems/Problem_8",
       "tagSource": "auto",
       "statement": null
@@ -179,11 +198,13 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "casework"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Count valid calendar dates whose eight digits each have an even frequency.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10A_Problems/Problem_9",
       "tagSource": "auto",
       "statement": null
@@ -198,11 +219,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find initial average score from two scenarios of future score changes",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10A_Problems/Problem_10",
       "tagSource": "auto",
       "statement": null
@@ -220,11 +243,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "right-triangles",
+        "area-decomposition"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Ratio of legs of right triangles formed between two inscribed squares",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10A_Problems/Problem_11",
       "tagSource": "auto",
       "statement": null
@@ -239,11 +265,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "divisibility",
+        "digits-bases"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Count three-digit multiples of seven whose digit reversal is divisible by five.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10A_Problems/Problem_12",
       "tagSource": "auto",
       "statement": null
@@ -260,11 +289,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "trigonometry",
+        "circles"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Maximize triangle side length given a fixed opposite side and angle.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10A_Problems/Problem_13",
       "tagSource": "auto",
       "statement": null
@@ -278,11 +310,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "basic-probability",
+        "conditional-geometric-probability"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Probability a randomly chosen divisor of a random integer is divisible by 11",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10A_Problems/Problem_14",
       "tagSource": "auto",
       "statement": null
@@ -299,11 +334,14 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "sequences-series",
+        "inequalities"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Minimum number of nested circles for alternating shaded area to exceed threshold.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10A_Problems/Problem_15",
       "tagSource": "auto",
       "statement": null
@@ -323,11 +361,13 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "permutations-combinations"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find total round-robin matches using win ratios and handedness player counts",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10A_Problems/Problem_16",
       "tagSource": "auto",
       "statement": null
@@ -340,11 +380,13 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "right-triangles"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Perimeter of an inscribed triangle cutting off integer-sided right triangles from a rectangle",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10A_Problems/Problem_17",
       "tagSource": "auto",
       "statement": null
@@ -363,11 +405,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "solid-geometry"
+      ],
+      "difficulty": 2.5,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Number of degree three vertices in a twelve-faced polyhedron",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10A_Problems/Problem_18",
       "tagSource": "auto",
       "statement": null
@@ -383,11 +427,14 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "coordinate-geometry",
+        "transformations"
+      ],
+      "difficulty": 2,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find the center of rotation that maps one line segment to another.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10A_Problems/Problem_19",
       "tagSource": "auto",
       "statement": null
@@ -406,11 +453,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "multiplication-principle",
+        "casework"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Count four-colorings of a grid where every two-by-two subgrid has all four colors.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10A_Problems/Problem_20",
       "tagSource": "auto",
       "statement": null
@@ -423,11 +473,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "polynomials"
+      ],
+      "difficulty": 2,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find a polynomial's non-integer root using given root and evaluation conditions.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10A_Problems/Problem_21",
       "tagSource": "auto",
       "statement": null
@@ -439,11 +491,14 @@
       "answerEvidence": [
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "circles",
+        "right-triangles"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find the radius of a circle mutually tangent to three overlapping circles.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10A_Problems/Problem_22",
       "tagSource": "auto",
       "statement": null
@@ -464,11 +519,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "diophantine",
+        "divisibility"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find digit sum of an integer having divisor pairs with given differences.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10A_Problems/Problem_23",
       "tagSource": "auto",
       "statement": null
@@ -483,11 +541,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "polygons-area-ratios",
+        "area-decomposition"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find the unoccupied area inside a hexagonal frame containing six smaller hexagons.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10A_Problems/Problem_24",
       "tagSource": "auto",
       "statement": null
@@ -506,11 +567,15 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "basic-probability",
+        "symmetry-arguments",
+        "combinatorial-geometry"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Probability that one vertex-to-vertex edge distance exceeds another on a regular icosahedron.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10A_Problems/Problem_25",
       "tagSource": "auto",
       "statement": null

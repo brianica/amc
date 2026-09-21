@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "triangle-basics",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count valid fourth side lengths forming a non-degenerate quadrilateral with three sides"
+}

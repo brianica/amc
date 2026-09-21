@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems",
+    "sequences-series"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the common point of concurrency for lines whose coefficients form an arithmetic progression."
+}

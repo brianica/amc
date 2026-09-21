@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "triangle-basics"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count integer-length segments from the right-angle vertex to the hypotenuse"
+}

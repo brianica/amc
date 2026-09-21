@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios",
+    "triangle-basics"
+  ],
+  "difficulty": 3,
+  "descriptor": "Perimeter of an equiangular hexagon from areas of triangles formed by extensions"
+}

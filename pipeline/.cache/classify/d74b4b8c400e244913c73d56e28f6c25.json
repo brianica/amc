@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find final coordinates after repeated directional steps of increasing length."
+}

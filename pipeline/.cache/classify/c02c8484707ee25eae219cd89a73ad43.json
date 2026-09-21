@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "conditional-geometric-probability"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the distance threshold giving equal geometric probability near lattice points"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "multiplication-principle",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count valid face paths from top to bottom of a dodecahedron."
+}

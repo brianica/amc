@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "basic-probability"
+  ],
+  "difficulty": 4,
+  "descriptor": "Probability of optimally choosing to reroll two dice to achieve a target sum"
+}

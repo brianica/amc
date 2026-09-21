@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "primes"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the smallest possible next divisor following a specific divisor of an integer."
+}

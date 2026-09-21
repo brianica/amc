@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "solid-geometry",
+    "circles",
+    "right-triangles"
+  ],
+  "difficulty": 3,
+  "descriptor": "Distance from a sphere's center to a plane tangent to triangle edges"
+}

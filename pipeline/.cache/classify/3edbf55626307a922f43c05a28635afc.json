@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases",
+    "diophantine"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count four-digit numbers whose consecutive overlapping two-digit substrings form an arithmetic progression."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "area-decomposition",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the area of a symmetric polygonal region inside a rectangle."
+}

@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "floor-ceiling",
+    "divisibility",
+    "divisor-counting"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count integers where a sum of three consecutive floor divisions is not divisible by 3"
+}

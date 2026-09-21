@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "symmetry-arguments"
+  ],
+  "difficulty": 3,
+  "descriptor": "Probability that all even faces appear before any odd face appears"
+}

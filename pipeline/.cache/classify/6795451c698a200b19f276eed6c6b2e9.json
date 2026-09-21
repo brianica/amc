@@ -1,0 +1,8 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "statistics"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Find the median of the first 2020 positive integers and their squares."
+}

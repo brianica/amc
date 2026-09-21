@@ -1,0 +1,8 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "statistics"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find all values making the mean and median of five numbers equal."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "transformations",
+    "coordinate-geometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Number of three-transformation sequences returning an asymmetric triangle to its position."
+}

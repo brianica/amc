@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "area-decomposition"
+  ],
+  "difficulty": 1,
+  "descriptor": "Radius of a circle made from leftover area between tangent circles"
+}

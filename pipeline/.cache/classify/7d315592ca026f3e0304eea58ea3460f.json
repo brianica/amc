@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "units-digit",
+    "modular-arithmetic"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the probability that a randomly chosen power ends in one."
+}

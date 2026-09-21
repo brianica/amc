@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "symmetry-arguments"
+  ],
+  "difficulty": 4,
+  "descriptor": "Determine the initial game configuration that guarantees a win for the second player."
+}

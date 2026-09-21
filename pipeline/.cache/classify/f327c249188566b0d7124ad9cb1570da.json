@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "multiplication-principle",
+    "casework"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count positive integers up to 2017 containing at least one zero"
+}

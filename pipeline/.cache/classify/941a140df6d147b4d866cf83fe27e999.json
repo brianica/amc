@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "multiplication-principle"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count valid assignments of four items to a grid with adjacency constraints"
+}

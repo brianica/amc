@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisor-counting",
+    "primes"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count integers up to 50 whose iterated divisor function reaches 12."
+}

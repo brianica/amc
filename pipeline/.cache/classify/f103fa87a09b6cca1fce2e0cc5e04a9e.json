@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "permutations-combinations"
+  ],
+  "difficulty": 3,
+  "descriptor": "Probability that every row and column sum in a grid is odd"
+}

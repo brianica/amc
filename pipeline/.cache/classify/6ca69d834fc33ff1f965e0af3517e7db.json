@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "quadratics-vieta"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find a specific polynomial coefficient given constraints on integer roots"
+}

@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility"
+  ],
+  "difficulty": 2,
+  "descriptor": "Minimum element in a subset of six integers containing no pairwise multiples"
+}

@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "primes"
+  ],
+  "difficulty": 1,
+  "descriptor": "Find a composite number whose predecessor by two is also composite"
+}

@@ -1,0 +1,8 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "transformations"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count how many rigid motion transformations map an infinite pattern to itself"
+}

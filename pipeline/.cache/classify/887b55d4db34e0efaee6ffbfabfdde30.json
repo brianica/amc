@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "similar-congruent",
+    "right-triangles",
+    "triangle-basics"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find a leg of a trapezoid given segment lengths along its diagonal"
+}

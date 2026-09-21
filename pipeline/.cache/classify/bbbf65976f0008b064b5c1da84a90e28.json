@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "modular-arithmetic"
+  ],
+  "difficulty": 2,
+  "descriptor": "Sum of eight consecutive terms of the Fibonacci sequence modulo 3"
+}

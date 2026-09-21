@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "modular-arithmetic",
+    "divisibility"
+  ],
+  "difficulty": 2,
+  "descriptor": "Probability that the sixteenth power of a random integer is 1 mod 5"
+}

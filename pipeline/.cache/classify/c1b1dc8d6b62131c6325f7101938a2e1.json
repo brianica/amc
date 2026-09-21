@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "casework"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find probability of an even sum from rolling a weighted die twice"
+}

@@ -1,0 +1,10 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "inequalities",
+    "polynomials",
+    "sequences-series"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count integer inputs where a polynomial with squared roots is nonpositive."
+}

@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "gcd-lcm",
+    "divisibility",
+    "primes"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find a necessary prime divisor from a chain of greatest common divisors"
+}

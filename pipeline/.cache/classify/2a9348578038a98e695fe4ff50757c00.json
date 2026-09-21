@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "circles"
+  ],
+  "difficulty": 3.5,
+  "descriptor": "Calculate circle area from two boundary points whose tangents intersect an axis"
+}

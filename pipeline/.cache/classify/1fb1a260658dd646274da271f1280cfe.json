@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "floor-ceiling"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count the number of distinct values taken by a floor-function sum"
+}

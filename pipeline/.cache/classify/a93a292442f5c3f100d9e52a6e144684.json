@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "similar-congruent",
+    "polygons-area-ratios",
+    "area-decomposition"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the area of a trapezoid using similar triangle area ratios."
+}

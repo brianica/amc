@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "area-decomposition"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count integer-length segments from the right-angle vertex to the hypotenuse."
+}

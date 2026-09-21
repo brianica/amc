@@ -21,11 +21,13 @@
       "answerEvidence": [
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "logs-exponents"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Evaluate a nested arithmetic expression involving repeated addition and reciprocals.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_1",
       "tagSource": "auto",
       "statement": null
@@ -39,11 +41,13 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find percentage comparison between two quantities given their relations to a third",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_2",
       "tagSource": "auto",
       "statement": null
@@ -77,11 +81,14 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "permutations-combinations",
+        "stars-and-bars"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Number of ways to assign distinct classes to periods without consecutive placements",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_4",
       "tagSource": "auto",
       "statement": null
@@ -94,11 +101,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "inequalities"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Determine the interval of values that makes several given inequality statements false.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_5",
       "tagSource": "auto",
       "statement": null
@@ -114,11 +123,13 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find total votes given net score and percentage of positive votes",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_6",
       "tagSource": "auto",
       "statement": null
@@ -132,11 +143,14 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "divisibility",
+        "primes"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Count integer exponents that result in an integer value.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_7",
       "tagSource": "auto",
       "statement": null
@@ -151,11 +165,13 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the difference between coin counts given total coins and total value.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_8",
       "tagSource": "auto",
       "statement": null
@@ -167,11 +183,15 @@
       "answerEvidence": [
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "similar-congruent",
+        "polygons-area-ratios",
+        "area-decomposition"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the area of a trapezoid using ratios of similar triangles.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_9",
       "tagSource": "auto",
       "statement": null
@@ -186,11 +206,13 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "radicals"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Evaluate the conjugate sum of two square roots given their difference.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_10",
       "tagSource": "auto",
       "statement": null
@@ -206,11 +228,15 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "stars-and-bars",
+        "casework",
+        "permutations-combinations"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Count the number of ways seven dice roll a total of ten",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_11",
       "tagSource": "auto",
       "statement": null
@@ -226,11 +252,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "absolute-value",
+        "linear-systems"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Number of real solutions to a system with linear and absolute-value equations",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_12",
       "tagSource": "auto",
       "statement": null
@@ -247,11 +276,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "similar-congruent",
+        "right-triangles"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the length of a fold line in a right triangle.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_13",
       "tagSource": "auto",
       "statement": null
@@ -274,11 +306,14 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "logs-exponents",
+        "inequalities"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the floor of a quotient of large exponential sums.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_14",
       "tagSource": "auto",
       "statement": null
@@ -291,11 +326,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "circles",
+        "similar-congruent"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Distance between tangency points of two circles inscribed in a larger circle",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_15",
       "tagSource": "auto",
       "statement": null
@@ -308,11 +346,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "right-triangles",
+        "area-decomposition"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Count integer-length segments from the right-angle vertex to the hypotenuse.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_16",
       "tagSource": "auto",
       "statement": null
@@ -328,11 +369,13 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "divisibility"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Minimum element in a subset of six integers containing no pairwise multiples",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_17",
       "tagSource": "auto",
       "statement": null
@@ -353,11 +396,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "digits-bases"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Number of nonnegative integers expressible in an eight-digit balanced ternary representation.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_18",
       "tagSource": "auto",
       "statement": null
@@ -373,11 +418,14 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "units-digit",
+        "modular-arithmetic"
+      ],
+      "difficulty": 2,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find the probability that a randomly chosen power ends in one.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_19",
       "tagSource": "auto",
       "statement": null
@@ -392,11 +440,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "symmetry-arguments",
+        "multiplication-principle"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Count two-colorings of a square grid possessing full symmetry across all axes.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_20",
       "tagSource": "auto",
       "statement": null
@@ -419,11 +470,14 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "coordinate-geometry",
+        "circles"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find parameter values where a circle and parabola have three intersections.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_21",
       "tagSource": "auto",
       "statement": null
@@ -441,11 +495,15 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "gcd-lcm",
+        "divisibility",
+        "primes"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Determine a required prime divisor given several pairwise greatest common divisors.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_22",
       "tagSource": "auto",
       "statement": null
@@ -467,11 +525,15 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "area-decomposition",
+        "right-triangles",
+        "coordinate-geometry"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Fraction of a right triangular field planted after removing a corner square",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_23",
       "tagSource": "auto",
       "statement": null
@@ -488,11 +550,15 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "polygons-area-ratios",
+        "area-decomposition",
+        "similar-congruent"
+      ],
+      "difficulty": 2,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Area of a quadrilateral formed by a midline and an angle bisector",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_24",
       "tagSource": "auto",
       "statement": null
@@ -507,11 +573,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "digits-bases",
+        "diophantine"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find the maximum sum of digits satisfying a repdigit integer relation.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_25",
       "tagSource": "auto",
       "statement": null

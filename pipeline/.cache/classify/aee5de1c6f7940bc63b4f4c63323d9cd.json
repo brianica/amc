@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "circles",
+    "area-decomposition"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the area enclosed by a symmetric equation involving absolute values."
+}

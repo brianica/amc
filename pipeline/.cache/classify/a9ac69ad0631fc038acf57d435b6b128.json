@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "floor-ceiling"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count integer solutions to an equation with a floor function of root"
+}

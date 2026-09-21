@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the absolute difference between two y-values corresponding to a given x-coordinate."
+}

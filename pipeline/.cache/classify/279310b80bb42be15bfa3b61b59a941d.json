@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations",
+    "basic-probability"
+  ],
+  "difficulty": 3,
+  "descriptor": "Ratio of probabilities of two specific distribution counts into bins"
+}

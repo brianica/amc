@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems"
+  ],
+  "difficulty": 1.5,
+  "descriptor": "Find the difference between two numbers given their sum and digit-relationship."
+}

@@ -1,0 +1,8 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the squared product of non-matching sides in two right triangles."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "logic-puzzles",
+    "sets-venn"
+  ],
+  "difficulty": 1,
+  "descriptor": "Determine which deduction logically follows from several conditional statements about categorized groups."
+}

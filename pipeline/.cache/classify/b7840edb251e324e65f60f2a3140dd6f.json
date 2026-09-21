@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "circles",
+    "right-triangles"
+  ],
+  "difficulty": 3.5,
+  "descriptor": "Find the area of a circle using tangent properties and given points"
+}

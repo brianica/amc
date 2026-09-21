@@ -1,0 +1,8 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "statistics"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the median of a sequence where each integer appears its own value"
+}

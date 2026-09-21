@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios",
+    "area-decomposition"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find area of intersection of two equilateral triangles inside a regular hexagon."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "right-triangles"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the spacing between three parallel lines forming given chords in circle"
+}

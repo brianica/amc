@@ -1,0 +1,9 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "statistics",
+    "estimation"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Find the median of a list where integer n appears n times."
+}

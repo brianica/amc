@@ -1,0 +1,10 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "quadratics-vieta",
+    "inequalities"
+  ],
+  "difficulty": 3,
+  "descriptor": "Minimum sum of an infinite geometric series with a fixed second term"
+}

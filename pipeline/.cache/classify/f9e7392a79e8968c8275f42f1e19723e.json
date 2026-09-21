@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "area-decomposition"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the area of a triangle formed by three given lines."
+}

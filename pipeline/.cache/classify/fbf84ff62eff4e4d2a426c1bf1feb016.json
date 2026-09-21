@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "absolute-value",
+    "linear-systems"
+  ],
+  "difficulty": 3,
+  "descriptor": "Number of real solutions to a system with linear and absolute-value equations"
+}

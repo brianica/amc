@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the maximum sum of digits in base seven below a threshold"
+}

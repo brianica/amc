@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "right-triangles"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find spacing between parallel lines cutting chords of given lengths"
+}

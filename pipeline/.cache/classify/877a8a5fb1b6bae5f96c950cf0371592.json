@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "floor-ceiling",
+    "divisibility"
+  ],
+  "difficulty": 4,
+  "descriptor": "Sum of digits of smallest integers satisfying trailing zero condition on factorials"
+}

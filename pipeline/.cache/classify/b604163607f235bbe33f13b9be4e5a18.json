@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "diophantine",
+    "modular-arithmetic"
+  ],
+  "difficulty": 2,
+  "descriptor": "Determine which integer cannot be represented as a positive linear combination"
+}

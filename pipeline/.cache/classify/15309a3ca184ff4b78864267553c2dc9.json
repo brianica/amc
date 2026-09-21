@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "floor-ceiling"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count real solutions to an equation relating a quadratic to floor functions."
+}

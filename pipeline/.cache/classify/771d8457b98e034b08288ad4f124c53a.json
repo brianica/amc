@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "right-triangles"
+  ],
+  "difficulty": 2,
+  "descriptor": "Sum of the three altitudes of a triangle bounded by a line and axes"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "linear-systems"
+  ],
+  "difficulty": 1,
+  "descriptor": "Find age difference using a past multiple and a current quadratic relation."
+}

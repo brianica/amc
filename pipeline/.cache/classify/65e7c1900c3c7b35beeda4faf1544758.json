@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "conditional-geometric-probability"
+  ],
+  "difficulty": 3,
+  "descriptor": "Probability that two random lengths and one form an obtuse triangle"
+}

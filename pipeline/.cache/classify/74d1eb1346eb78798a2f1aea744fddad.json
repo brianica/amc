@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "inequalities"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count integer pairs where both quadratic equations have non-positive discriminants."
+}

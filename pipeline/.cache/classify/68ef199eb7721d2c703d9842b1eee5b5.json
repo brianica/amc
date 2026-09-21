@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "cyclic-quadrilaterals",
+    "trigonometry",
+    "circles"
+  ],
+  "difficulty": 2,
+  "descriptor": "Fourth side length of a cyclic quadrilateral with three equal sides"
+}

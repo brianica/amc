@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "similar-congruent",
+    "area-decomposition"
+  ],
+  "difficulty": 3,
+  "descriptor": "Calculate the area of a quadrilateral formed by two right triangles."
+}

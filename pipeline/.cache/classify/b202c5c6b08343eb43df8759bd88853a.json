@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios",
+    "area-decomposition",
+    "triangle-basics"
+  ],
+  "difficulty": 3,
+  "descriptor": "Area of a quadrilateral formed by midpoints and an angle bisector"
+}

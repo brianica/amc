@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "permutations-combinations"
+  ],
+  "difficulty": 2,
+  "descriptor": "Probability of an equal split of two colors across six randomly colored objects"
+}

@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "recursion-states",
+    "casework",
+    "basic-probability"
+  ],
+  "difficulty": 3,
+  "descriptor": "Probability of reaching a corner square within four random toroidal grid hops"
+}

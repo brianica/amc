@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series"
+  ],
+  "difficulty": 1,
+  "descriptor": "Find the number of terms in a given arithmetic progression."
+}

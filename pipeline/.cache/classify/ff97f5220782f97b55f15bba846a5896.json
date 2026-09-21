@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "recursion-states",
+    "casework",
+    "stars-and-bars"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count the number of ordered factorizations of an integer into factors greater than one"
+}

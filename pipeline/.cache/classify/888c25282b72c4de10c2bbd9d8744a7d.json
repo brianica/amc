@@ -1,0 +1,8 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "triangle-basics"
+  ],
+  "difficulty": 1,
+  "descriptor": "Calculate an angle using angle chasing with a square and isosceles triangle."
+}

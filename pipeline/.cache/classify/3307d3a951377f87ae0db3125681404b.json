@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "primes",
+    "divisibility"
+  ],
+  "difficulty": 2,
+  "descriptor": "Determine which units digit makes a given six-digit number prime"
+}

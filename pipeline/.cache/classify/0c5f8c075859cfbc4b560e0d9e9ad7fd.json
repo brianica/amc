@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "solid-geometry",
+    "coordinate-geometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Calculate the volume of a pyramid inside a rectangular box."
+}

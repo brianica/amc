@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "recursion-states",
+    "symmetry-arguments"
+  ],
+  "difficulty": 3.5,
+  "descriptor": "Probability a two-dimensional random walk exits through vertical square boundaries first"
+}

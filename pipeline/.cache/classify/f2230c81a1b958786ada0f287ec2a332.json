@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems"
+  ],
+  "difficulty": 3,
+  "descriptor": "Determine the overall mean of an integer set given partial sub-averages."
+}

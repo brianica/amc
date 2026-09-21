@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "basic-probability"
+  ],
+  "difficulty": 2,
+  "descriptor": "Probability of choosing three distinct integers that form a divisibility chain"
+}

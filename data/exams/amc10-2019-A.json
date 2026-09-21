@@ -21,11 +21,13 @@
       "answerEvidence": [
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "logs-exponents"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Evaluate an arithmetic expression involving nested powers of numbers",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_1",
       "tagSource": "auto",
       "statement": null
@@ -40,11 +42,14 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "divisibility",
+        "digits-bases"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Determine the hundreds digit of the difference of two large factorials",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_2",
       "tagSource": "auto",
       "statement": null
@@ -58,11 +63,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "quadratics-vieta",
+        "linear-systems"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find age difference using a past multiple and a current quadratic relation.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_3",
       "tagSource": "auto",
       "statement": null
@@ -74,11 +82,13 @@
       "answerEvidence": [
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "pigeonhole"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Minimum draws to guarantee a target number of items of one color",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_4",
       "tagSource": "auto",
       "statement": null
@@ -93,11 +103,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "sequences-series"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Maximum length of a consecutive integer sequence with a given sum",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_5",
       "tagSource": "auto",
       "statement": null
@@ -111,11 +123,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "cyclic-quadrilaterals",
+        "circles"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Determine how many given quadrilateral types have a circumcenter",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_6",
       "tagSource": "auto",
       "statement": null
@@ -138,11 +153,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "coordinate-geometry",
+        "area-decomposition"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the area of a triangle formed by three given lines.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_7",
       "tagSource": "auto",
       "statement": null
@@ -154,11 +172,13 @@
       "answerEvidence": [
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "transformations"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Determine which geometric rigid motions leave an infinite recurring pattern invariant",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_8",
       "tagSource": "auto",
       "statement": null
@@ -174,11 +194,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "divisibility",
+        "primes"
+      ],
+      "difficulty": 3,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find largest three-digit integer whose triangular number does not divide its factorial.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_9",
       "tagSource": "auto",
       "statement": null
@@ -194,11 +217,13 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "combinatorial-geometry"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Number of grid squares traversed by a diagonal of a rectangle",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_10",
       "tagSource": "auto",
       "statement": null
@@ -212,11 +237,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "divisor-counting",
+        "primes"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Count divisors of a number that are perfect squares or perfect cubes.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_11",
       "tagSource": "auto",
       "statement": null
@@ -231,11 +259,13 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "logic-other",
+      "subtopics": [
+        "statistics"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Order the mean, median, and median of modes of calendar day numbers.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_12",
       "tagSource": "auto",
       "statement": null
@@ -250,11 +280,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "circles",
+        "triangle-basics"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the angle between diagonals of an inscribed quadrilateral from circle intersections.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_13",
       "tagSource": "auto",
       "statement": null
@@ -266,11 +299,14 @@
       "answerEvidence": [
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "combinatorial-geometry",
+        "casework"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Sum of all possible counts of intersection points of four coplanar lines",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_14",
       "tagSource": "auto",
       "statement": null
@@ -286,11 +322,13 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "sequences-series"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find a specific term of a recursively defined harmonic sequence.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_15",
       "tagSource": "auto",
       "statement": null
@@ -305,11 +343,14 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "circles",
+        "area-decomposition"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find shaded area between a large circle and thirteen enclosed tangent unit circles.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_16",
       "tagSource": "auto",
       "statement": null
@@ -323,11 +364,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "permutations-combinations",
+        "casework"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Count distinct vertical arrangements of eight colored blocks chosen from nine blocks.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_17",
       "tagSource": "auto",
       "statement": null
@@ -346,11 +390,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "digits-bases"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the integer base expressing a specified fraction as a repeating decimal.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_18",
       "tagSource": "auto",
       "statement": null
@@ -369,11 +415,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "quadratics-vieta",
+        "polynomials"
+      ],
+      "difficulty": 2,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find the minimum value of a product of four linear factors.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_19",
       "tagSource": "auto",
       "statement": null
@@ -390,11 +439,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "basic-probability",
+        "permutations-combinations"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Probability that every row and column sum in a grid is odd",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_20",
       "tagSource": "auto",
       "statement": null
@@ -409,11 +461,15 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "solid-geometry",
+        "circles",
+        "right-triangles"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Distance from a sphere's center to a plane containing a tangent triangle",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_21",
       "tagSource": "auto",
       "statement": null
@@ -429,11 +485,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "conditional-geometric-probability",
+        "casework"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Probability that the difference between two semi-randomly chosen numbers exceeds one-half",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_22",
       "tagSource": "auto",
       "statement": null
@@ -448,11 +507,13 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "sequences-series"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find a specific value spoken by one participant in a cyclic counting sequence.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_23",
       "tagSource": "auto",
       "statement": null
@@ -465,11 +526,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "polynomials",
+        "quadratics-vieta"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Sum of reciprocal coefficients in partial fraction decomposition of a cubic polynomial",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_24",
       "tagSource": "auto",
       "statement": null
@@ -482,11 +546,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "divisibility",
+        "primes"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Count integers up to 50 making a factorial quotient an integer.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_25",
       "tagSource": "auto",
       "statement": null

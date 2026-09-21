@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "area-decomposition",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 1,
+  "descriptor": "Number of small square pieces obtained from cutting a rectangular tray"
+}

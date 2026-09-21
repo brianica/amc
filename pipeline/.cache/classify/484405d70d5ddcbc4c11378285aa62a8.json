@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "triangle-basics",
+    "coordinate-geometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Area enclosed by the locus of a triangle's centroid on a circle."
+}

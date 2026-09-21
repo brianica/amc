@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "rates-work-mixture",
+    "linear-systems"
+  ],
+  "difficulty": 3,
+  "descriptor": "Determine the length of a moving ship from relative speed step counts"
+}

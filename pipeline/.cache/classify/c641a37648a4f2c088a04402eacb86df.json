@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "symmetry-arguments"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count rotationally distinct cube vertex labelings with equal face sums."
+}

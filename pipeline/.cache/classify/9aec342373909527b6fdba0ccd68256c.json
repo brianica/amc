@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the number of dimes given the count of attainable coin sums."
+}

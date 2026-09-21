@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "symmetry-arguments"
+  ],
+  "difficulty": 3,
+  "descriptor": "Sum of digits of minimum length satisfying an arrangement probability inequality"
+}

@@ -30,11 +30,13 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "polynomials"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Compute the difference between two products using algebraic identities or arithmetic.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_1",
       "tagSource": "auto",
       "statement": null
@@ -47,11 +49,13 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Solve a two-variable linear system to evaluate a hiking time formula.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_2",
       "tagSource": "auto",
       "statement": null
@@ -64,11 +68,13 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "primes"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find digit sum of smallest prime expressible as five distinct primes' sum",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_3",
       "tagSource": "auto",
       "statement": null
@@ -83,11 +89,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "divisibility",
+        "floor-ceiling"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Minimum quantity of two-digit integers that sum to a given total [REVIEW: passes disagreed — number-theory vs algebra]",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_4",
       "tagSource": "auto",
       "statement": null
@@ -99,11 +108,14 @@
       "answerEvidence": [
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "divisibility",
+        "primes"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the smallest integer whose factorial is divisible by a given number",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_5",
       "tagSource": "auto",
       "statement": null
@@ -119,11 +131,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "permutations-combinations"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Minimum adjacent swaps needed to completely reverse a six-element ordered sequence",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_6",
       "tagSource": "auto",
       "statement": null
@@ -137,11 +151,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "divisibility",
+        "diophantine"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Minimum positive sum of three integers with a given product",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_7",
       "tagSource": "auto",
       "statement": null
@@ -154,11 +171,13 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "rates-work-mixture"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the arrival time of an additional worker given combined production rates.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_8",
       "tagSource": "auto",
       "statement": null
@@ -171,11 +190,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "permutations-combinations",
+        "multiplication-principle"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Number of ways to partition two groups into teams of equal composition",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_9",
       "tagSource": "auto",
       "statement": null
@@ -189,11 +211,13 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "sequences-series"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the value after iterating a piecewise function one hundred times.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_10",
       "tagSource": "auto",
       "statement": null
@@ -212,11 +236,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "diophantine"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the number of integer pairs satisfying a square root relation.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_11",
       "tagSource": "auto",
       "statement": null
@@ -231,11 +257,13 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "logic-other",
+      "subtopics": [
+        "statistics"
+      ],
+      "difficulty": 1,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Calculate the mean score given an initial score and subsequent daily changes",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_12",
       "tagSource": "auto",
       "statement": null
@@ -250,11 +278,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "transformations",
+        "coordinate-geometry"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Count how many pairs among four given geometric transformations commute.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_13",
       "tagSource": "auto",
       "statement": null
@@ -270,11 +301,15 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "circles",
+        "area-decomposition",
+        "right-triangles"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Area between an equilateral triangle, a tangent circle, and their baseline",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_14",
       "tagSource": "auto",
       "statement": null
@@ -290,11 +325,14 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "diophantine",
+        "units-digit"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Units digit of maximal integer shifting two given values to squares",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_15",
       "tagSource": "auto",
       "statement": null
@@ -308,11 +346,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "similar-congruent",
+        "polygons-area-ratios"
+      ],
+      "difficulty": 4,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find a side length of a partitioned rectangle using similarity and areas.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_16",
       "tagSource": "auto",
       "statement": null
@@ -324,11 +365,14 @@
       "answerEvidence": [
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "basic-probability",
+        "casework"
+      ],
+      "difficulty": 2.5,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the away-game win probability given playoff series winning chance",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_17",
       "tagSource": "auto",
       "statement": null
@@ -346,11 +390,15 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "modular-arithmetic",
+        "digits-bases",
+        "divisibility"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Count bases in a range where a base-representation is divisible by sixteen.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_18",
       "tagSource": "auto",
       "statement": null
@@ -365,11 +413,14 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "divisibility",
+        "primes"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find digit sum of minimum integer term in three-term integer geometric progression.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_19",
       "tagSource": "auto",
       "statement": null
@@ -383,11 +434,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "pigeonhole",
+        "casework"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Maximum size of a subset with minimum distance constraints between elements",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_20",
       "tagSource": "auto",
       "statement": null
@@ -402,11 +456,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "sequences-series",
+        "linear-systems"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Determine a missing entry in a grid with arithmetic progression rows and columns.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_21",
       "tagSource": "auto",
       "statement": null
@@ -426,11 +483,15 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "right-triangles",
+        "triangle-basics",
+        "area-decomposition"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find the area of a triangle vertices placed on a kite-tessellated polygon.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_22",
       "tagSource": "auto",
       "statement": null
@@ -447,11 +508,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "diophantine",
+        "divisibility"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find pairwise product sum of integers satisfying a system of three equations.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_23",
       "tagSource": "auto",
       "statement": null
@@ -465,11 +529,15 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "basic-probability",
+        "casework",
+        "symmetry-arguments"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Probability a four-step three-dimensional random walk traverses edges of a unit cube",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_24",
       "tagSource": "auto",
       "statement": null
@@ -483,11 +551,15 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "casework",
+        "multiplication-principle",
+        "combinatorial-geometry"
+      ],
+      "difficulty": 4.5,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Count the number of non-intersecting grid loops satisfying given cell edge constraints.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_25",
       "tagSource": "auto",
       "statement": null

@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Probability an optimal dice-rerolling strategy chooses to reroll exactly two dice"
+}

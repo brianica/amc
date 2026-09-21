@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations",
+    "symmetry-arguments"
+  ],
+  "difficulty": 1.5,
+  "descriptor": "Count distinct values formed by summing products of partitioned four digits"
+}

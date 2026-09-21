@@ -1,0 +1,8 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "logic-puzzles"
+  ],
+  "difficulty": 1,
+  "descriptor": "deduce which player holds a specific card given their pair sums"
+}

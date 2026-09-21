@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "combinatorial-geometry"
+  ],
+  "difficulty": 2,
+  "descriptor": "Number of grid squares traversed by a diagonal of a rectangle"
+}

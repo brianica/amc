@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "modular-arithmetic",
+    "gcd-lcm"
+  ],
+  "difficulty": 3,
+  "descriptor": "Sum of three specific terms in a periodic sequence after successive deletions"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "logs-exponents",
+    "inequalities"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the floor of a quotient of large exponential sums."
+}

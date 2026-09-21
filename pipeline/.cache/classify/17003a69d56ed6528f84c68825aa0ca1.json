@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases"
+  ],
+  "difficulty": 2,
+  "descriptor": "Difference in sum after replacing each digit two with one"
+}

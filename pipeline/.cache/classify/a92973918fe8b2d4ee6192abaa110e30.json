@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "digits-bases"
+  ],
+  "difficulty": 1,
+  "descriptor": "Find the hundreds digit of the difference of two large factorials"
+}

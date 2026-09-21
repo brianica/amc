@@ -1,0 +1,8 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Determine the coordinates of a specific point in a counterclockwise grid spiral."
+}

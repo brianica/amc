@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "circles"
+  ],
+  "difficulty": 3,
+  "descriptor": "Number of locations forming a right triangle with fixed base and area"
+}

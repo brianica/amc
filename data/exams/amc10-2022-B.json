@@ -22,11 +22,14 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "absolute-value",
+        "functions"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Evaluate an expression defined by an absolute difference operation.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10B_Problems/Problem_1",
       "tagSource": "auto",
       "statement": null
@@ -36,11 +39,14 @@
       "answer": "D",
       "answerConfidence": "medium",
       "answerEvidence": [],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "right-triangles",
+        "polygons-area-ratios"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the area of a rhombus using an altitude and side lengths",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10B_Problems/Problem_2",
       "tagSource": "auto",
       "statement": null
@@ -54,11 +60,15 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "casework",
+        "multiplication-principle",
+        "symmetry-arguments"
+      ],
+      "difficulty": 1.5,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Count three-digit integers containing an odd quantity of even digits",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10B_Problems/Problem_3",
       "tagSource": "auto",
       "statement": null
@@ -72,11 +82,14 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "rates-work-mixture",
+        "sequences-series"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Calculate elapsed time for repeated periodic events.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10B_Problems/Problem_4",
       "tagSource": "auto",
       "statement": null
@@ -90,11 +103,13 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "radicals"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Evaluate a numerical expression involving square roots and products of fractions.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10B_Problems/Problem_5",
       "tagSource": "auto",
       "statement": null
@@ -109,11 +124,15 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "primes",
+        "digits-bases",
+        "divisibility"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Count prime numbers in a sequence of integers with a repeating pattern.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10B_Problems/Problem_6",
       "tagSource": "auto",
       "statement": null
@@ -129,11 +148,13 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "quadratics-vieta"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Count values of a linear coefficient yielding two distinct integer roots.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10B_Problems/Problem_7",
       "tagSource": "auto",
       "statement": null
@@ -174,11 +195,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "sequences-series"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Evaluate a telescoping sum of fractions with factorial denominators.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10B_Problems/Problem_9",
       "tagSource": "auto",
       "statement": null
@@ -191,11 +214,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "logic-other",
+      "subtopics": [
+        "statistics"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Minimum possible mode of five positive integers with given mean and median",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10B_Problems/Problem_10",
       "tagSource": "auto",
       "statement": null
@@ -209,11 +234,13 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "logic-other",
+      "subtopics": [
+        "logic-puzzles"
+      ],
+      "difficulty": 1,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Identify the statement logically equivalent to a given conditional relation.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10B_Problems/Problem_11",
       "tagSource": "auto",
       "statement": null
@@ -228,11 +255,13 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "basic-probability"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Minimum rolls of two dice for probability of rolling seven exceeding half",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10B_Problems/Problem_12",
       "tagSource": "auto",
       "statement": null
@@ -247,11 +276,14 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "quadratics-vieta",
+        "polynomials"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find digit sum of next prime after twin primes with given cubic difference.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10B_Problems/Problem_13",
       "tagSource": "auto",
       "statement": null
@@ -265,11 +297,13 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "pigeonhole"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Maximum size of a sum-free subset from the first twenty-five positive integers",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10B_Problems/Problem_14",
       "tagSource": "auto",
       "statement": null
@@ -285,11 +319,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "sequences-series"
+      ],
+      "difficulty": 2.5,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the sum of twenty terms of an arithmetic sequence with constant ratio.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10B_Problems/Problem_15",
       "tagSource": "auto",
       "statement": null
@@ -305,11 +341,15 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "similar-congruent",
+        "right-triangles",
+        "area-decomposition"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the overlapping area between a tilted square and a rectangle.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10B_Problems/Problem_16",
       "tagSource": "auto",
       "statement": null
@@ -346,11 +386,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "casework",
+        "multiplication-principle"
+      ],
+      "difficulty": 4,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Count binary three-variable linear systems having a non-trivial solution.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10B_Problems/Problem_18",
       "tagSource": "auto",
       "statement": null
@@ -363,11 +406,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "casework",
+        "symmetry-arguments"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Count initial grid patterns evolving to a single central live cell.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10B_Problems/Problem_19",
       "tagSource": "auto",
       "statement": null
@@ -383,11 +429,15 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "cyclic-quadrilaterals",
+        "right-triangles",
+        "similar-congruent"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Determine an angle measure inside a rhombus involving a perpendicular segment.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10B_Problems/Problem_20",
       "tagSource": "auto",
       "statement": null
@@ -409,11 +459,13 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "polynomials"
+      ],
+      "difficulty": 3.5,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Sum of squares of coefficients of minimal-degree polynomial with given polynomial remainders",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10B_Problems/Problem_21",
       "tagSource": "auto",
       "statement": null
@@ -427,11 +479,14 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "circles",
+        "coordinate-geometry"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Sum of areas of circles mutually tangent to three given circles.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10B_Problems/Problem_22",
       "tagSource": "auto",
       "statement": null
@@ -445,11 +500,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "conditional-geometric-probability",
+        "casework"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Probability of total distance exceeding one under a continuous stopping time process",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10B_Problems/Problem_23",
       "tagSource": "auto",
       "statement": null
@@ -464,11 +522,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "functions",
+        "inequalities"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find the maximum difference between iterated function values given a Lipschitz condition.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10B_Problems/Problem_24",
       "tagSource": "auto",
       "statement": null
@@ -487,11 +548,14 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "modular-arithmetic",
+        "digits-bases"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find specific binary digits of the modular inverse of 7 modulo 2^n.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10B_Problems/Problem_25",
       "tagSource": "auto",
       "statement": null

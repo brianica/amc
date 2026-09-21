@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "inequalities"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count pairs of positive integers for which two quadratics lack distinct real roots."
+}

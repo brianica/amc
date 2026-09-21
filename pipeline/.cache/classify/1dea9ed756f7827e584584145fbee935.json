@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios",
+    "triangle-basics",
+    "area-decomposition"
+  ],
+  "difficulty": 4,
+  "descriptor": "Perimeter of an equiangular hexagon from areas of extended bounding triangles"
+}

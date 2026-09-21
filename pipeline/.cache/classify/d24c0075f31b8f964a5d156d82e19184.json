@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "gcd-lcm",
+    "modular-arithmetic",
+    "divisibility"
+  ],
+  "difficulty": 3,
+  "descriptor": "Sum of digits of the smallest four-digit integer satisfying two gcd conditions"
+}

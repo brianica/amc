@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "quadratics-vieta"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the sum of digits of the number of triangular array rows"
+}

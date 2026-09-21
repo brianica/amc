@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "gcd-lcm",
+    "divisibility"
+  ],
+  "difficulty": 1,
+  "descriptor": "Find minimum count of items using least common multiple of given quantities"
+}

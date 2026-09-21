@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "diophantine",
+    "modular-arithmetic"
+  ],
+  "difficulty": 2,
+  "descriptor": "Determine an impossible total population under given integer ratio constraints."
+}

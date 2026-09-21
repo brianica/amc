@@ -1,0 +1,8 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "statistics"
+  ],
+  "difficulty": 2,
+  "descriptor": "Minimum distinct elements given the list length and unique mode frequency"
+}

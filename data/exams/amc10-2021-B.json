@@ -25,11 +25,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "absolute-value",
+        "inequalities"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Count integers satisfying an absolute value inequality bounded by a multiple of pi",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_1",
       "tagSource": "auto",
       "statement": null
@@ -43,11 +46,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "radicals",
+        "absolute-value"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Simplify a sum of principal square roots of squared radical binomials.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_2",
       "tagSource": "auto",
       "statement": null
@@ -60,11 +66,13 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find a group size using linear equations from given percentages and totals",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_3",
       "tagSource": "auto",
       "statement": null
@@ -76,11 +84,13 @@
       "answerEvidence": [
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the number of monochromatic pairs given group sizes and pair counts",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_4",
       "tagSource": "auto",
       "statement": null
@@ -92,11 +102,13 @@
       "answerEvidence": [
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "divisibility"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the sum of four distinct single digits given two pairwise products",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_5",
       "tagSource": "auto",
       "statement": null
@@ -112,11 +124,13 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "logic-other",
+      "subtopics": [
+        "statistics"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Calculate the overall weighted average score of two combined groups.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_6",
       "tagSource": "auto",
       "statement": null
@@ -128,11 +142,14 @@
       "answerEvidence": [
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "circles",
+        "area-decomposition"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Maximum area of points contained in exactly one of four tangent circles",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_7",
       "tagSource": "auto",
       "statement": null
@@ -146,11 +163,13 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "sequences-series"
+      ],
+      "difficulty": 3,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Sum the maximum and minimum values in a spiral grid row.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_8",
       "tagSource": "auto",
       "statement": null
@@ -167,11 +186,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "transformations",
+        "coordinate-geometry"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find coordinates of a point given its image after rotation and reflection.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_9",
       "tagSource": "auto",
       "statement": null
@@ -184,11 +206,13 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "solid-geometry"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the liquid depth after transferring volume from a cone to a cylinder",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_10",
       "tagSource": "auto",
       "statement": null
@@ -201,11 +225,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "diophantine"
+      ],
+      "difficulty": 2.5,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Maximum grid size where interior cells equal perimeter cells",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_11",
       "tagSource": "auto",
       "statement": null
@@ -219,11 +245,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "divisor-counting",
+        "primes"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Ratio of the sum of odd divisors to even divisors of an integer",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_12",
       "tagSource": "auto",
       "statement": null
@@ -238,11 +267,13 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "digits-bases"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find a base and digit satisfying given representations in different bases.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_13",
       "tagSource": "auto",
       "statement": null
@@ -255,11 +286,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "circles",
+        "right-triangles"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the spacing between three parallel lines forming given chords in circle",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_14",
       "tagSource": "auto",
       "statement": null
@@ -277,11 +311,13 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "polynomials"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Evaluate a polynomial expression given the sum of a variable and its reciprocal.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_15",
       "tagSource": "auto",
       "statement": null
@@ -297,11 +333,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "divisibility",
+        "digits-bases"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Count strictly increasing digit integers that are multiples of fifteen",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_16",
       "tagSource": "auto",
       "statement": null
@@ -314,11 +353,13 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "logic-other",
+      "subtopics": [
+        "logic-puzzles"
+      ],
+      "difficulty": 1,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "deduce which player holds a specific card given their pair sums",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_17",
       "tagSource": "auto",
       "statement": null
@@ -338,11 +379,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "basic-probability",
+        "symmetry-arguments"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Probability that all even faces appear before any odd face appears",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_18",
       "tagSource": "auto",
       "statement": null
@@ -359,11 +403,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Determine the overall mean of an integer set given partial sub-averages.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_19",
       "tagSource": "auto",
       "statement": null
@@ -375,11 +421,14 @@
       "answerEvidence": [
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "area-decomposition",
+        "right-triangles"
+      ],
+      "difficulty": 2.5,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Calculate the area of a pentagon composed of equal-length line segments.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_20",
       "tagSource": "auto",
       "statement": null
@@ -397,11 +446,14 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "right-triangles",
+        "similar-congruent"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find the perimeter of a right triangle formed by folding a square.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_21",
       "tagSource": "auto",
       "statement": null
@@ -416,11 +468,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "inclusion-exclusion",
+        "basic-probability"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Probability that at least one box contains three identically colored blocks.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_22",
       "tagSource": "auto",
       "statement": null
@@ -432,11 +487,13 @@
       "answerEvidence": [
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "conditional-geometric-probability"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Probability that a randomly placed coin overlaps shaded regions inside a square",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_23",
       "tagSource": "auto",
       "statement": null
@@ -452,11 +509,13 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "symmetry-arguments"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Determine the initial game configuration that guarantees a win for the second player. [REVIEW: passes disagreed — counting-probability vs logic-other]",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_24",
       "tagSource": "auto",
       "statement": null
@@ -471,11 +530,14 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "floor-ceiling",
+        "diophantine"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find range of slopes enclosing exactly 300 grid points below a line. [REVIEW: passes disagreed — number-theory vs geometry]",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_25",
       "tagSource": "auto",
       "statement": null

@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "diophantine"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count the integer pairs satisfying a sum of squares equation"
+}

@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "trigonometry",
+    "right-triangles",
+    "area-decomposition"
+  ],
+  "difficulty": 3,
+  "descriptor": "Area of a triangle formed by angle trisectors of a right triangle"
+}

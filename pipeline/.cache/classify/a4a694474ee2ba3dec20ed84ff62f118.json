@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the smallest parameter where an arrangement probability drops below a threshold."
+}

@@ -1,0 +1,10 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "polynomials",
+    "functions"
+  ],
+  "difficulty": 4,
+  "descriptor": "Evaluate a monic quadratic whose composition has three real roots maximizing their sum"
+}

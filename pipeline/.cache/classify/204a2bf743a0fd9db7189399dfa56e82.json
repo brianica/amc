@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability"
+  ],
+  "difficulty": 2,
+  "descriptor": "Compare probability of choosing three distinct odd integers to fixed bounds"
+}

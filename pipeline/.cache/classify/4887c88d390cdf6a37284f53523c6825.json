@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "triangle-basics",
+    "trigonometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find a ratio dividing the hypotenuse given two isosceles sub-triangles"
+}

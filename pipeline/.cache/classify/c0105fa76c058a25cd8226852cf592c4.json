@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases",
+    "divisibility",
+    "modular-arithmetic"
+  ],
+  "difficulty": 2,
+  "descriptor": "Determine which base causes the difference of two base-b numbers to not divide 3."
+}

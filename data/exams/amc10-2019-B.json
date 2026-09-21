@@ -22,11 +22,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Ratio of capacities of two containers based on fractional liquid volumes",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_1",
       "tagSource": "auto",
       "statement": null
@@ -38,11 +40,13 @@
       "answerEvidence": [
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "primes"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find a composite number whose predecessor by two is also composite",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_2",
       "tagSource": "auto",
       "statement": null
@@ -57,11 +61,13 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the count of non-seniors playing an instrument from given percentages.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_3",
       "tagSource": "auto",
       "statement": null
@@ -76,11 +82,14 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems",
+        "sequences-series"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the common point of concurrency for lines whose coefficients form an arithmetic progression. [REVIEW: passes disagreed — algebra vs geometry]",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_4",
       "tagSource": "auto",
       "statement": null
@@ -92,11 +101,14 @@
       "answerEvidence": [
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "transformations",
+        "coordinate-geometry"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Identify the false property regarding a triangle reflected across the diagonal line.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_5",
       "tagSource": "auto",
       "statement": null
@@ -112,11 +124,13 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "quadratics-vieta"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the digit sum of an integer satisfying a factorial equation.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_6",
       "tagSource": "auto",
       "statement": null
@@ -130,11 +144,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "gcd-lcm",
+        "divisibility"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find minimum count of items using least common multiple of given quantities",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_7",
       "tagSource": "auto",
       "statement": null
@@ -150,11 +167,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "area-decomposition",
+        "triangle-basics"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Calculate shaded area inside a square excluding four inward equilateral triangles.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_8",
       "tagSource": "auto",
       "statement": null
@@ -169,11 +189,13 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "floor-ceiling"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the range of a function combining floor and absolute value operations.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_9",
       "tagSource": "auto",
       "statement": null
@@ -188,11 +210,14 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "triangle-basics",
+        "coordinate-geometry"
+      ],
+      "difficulty": 3,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Count points forming a triangle of specified base, perimeter, and area.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_10",
       "tagSource": "auto",
       "statement": null
@@ -207,11 +232,13 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the difference in blue marble counts given jar ratios and total greens.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_11",
       "tagSource": "auto",
       "statement": null
@@ -226,11 +253,13 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "digits-bases"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the maximum sum of digits in base seven below a threshold",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_12",
       "tagSource": "auto",
       "statement": null
@@ -242,11 +271,13 @@
       "answerEvidence": [
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "logic-other",
+      "subtopics": [
+        "statistics"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find all values making the mean and median of five numbers equal.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_13",
       "tagSource": "auto",
       "statement": null
@@ -262,11 +293,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "divisibility",
+        "digits-bases"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Determine the sum of missing digits in a factorial's decimal representation.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_14",
       "tagSource": "auto",
       "statement": null
@@ -281,11 +315,13 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "right-triangles"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find squared product of unmatched sides of two right triangles sharing side lengths.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_15",
       "tagSource": "auto",
       "statement": null
@@ -301,11 +337,15 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "right-triangles",
+        "similar-congruent",
+        "triangle-basics"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find segment ratio on hypotenuse using given isosceles triangles and side ratios.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_16",
       "tagSource": "auto",
       "statement": null
@@ -325,11 +365,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "basic-probability",
+        "symmetry-arguments"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Probability that one ball lands in a higher bin under geometric distribution",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_17",
       "tagSource": "auto",
       "statement": null
@@ -346,11 +389,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems",
+        "sequences-series"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Distance between limiting turning points of an alternating fractional walk",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_18",
       "tagSource": "auto",
       "statement": null
@@ -363,11 +409,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "divisor-counting",
+        "primes"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Count distinct products formed by multiplying two different divisors of 100,000.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_19",
       "tagSource": "auto",
       "statement": null
@@ -381,11 +430,14 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "circles",
+        "area-decomposition"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find the area inside a circle but outside three tangent semicircles.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_20",
       "tagSource": "auto",
       "statement": null
@@ -399,11 +451,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "recursion-states",
+        "conditional-geometric-probability"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Probability of a specific coin flip sequence ending with consecutive heads.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_21",
       "tagSource": "auto",
       "statement": null
@@ -418,11 +473,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "recursion-states",
+        "basic-probability"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find probability of an equal distribution after repeated random money exchanges.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_22",
       "tagSource": "auto",
       "statement": null
@@ -438,11 +496,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "coordinate-geometry",
+        "circles"
+      ],
+      "difficulty": 3.5,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Calculate circle area from two boundary points whose tangents intersect an axis",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_23",
       "tagSource": "auto",
       "statement": null
@@ -458,11 +519,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "sequences-series",
+        "inequalities"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find the interval containing the index where a recursive sequence nears its limit.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_24",
       "tagSource": "auto",
       "statement": null
@@ -482,11 +546,15 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "recursion-states",
+        "casework",
+        "permutations-combinations"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Count restricted binary strings of given length avoiding certain consecutive patterns.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_25",
       "tagSource": "auto",
       "statement": null

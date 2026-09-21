@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "conditional-geometric-probability",
+    "basic-probability"
+  ],
+  "difficulty": 2,
+  "descriptor": "conditional probability that a student likes dancing given their reported dislike"
+}

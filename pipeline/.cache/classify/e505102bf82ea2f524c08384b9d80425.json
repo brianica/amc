@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the side length of an equilateral octagon inscribed inside a rectangle."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations",
+    "symmetry-arguments"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find the number of cyclical triples of teams in a regular tournament."
+}

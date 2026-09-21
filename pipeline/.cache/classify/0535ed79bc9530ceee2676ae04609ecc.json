@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "floor-ceiling"
+  ],
+  "difficulty": 2,
+  "descriptor": "Determine the range of an expression combining floor and absolute value functions."
+}

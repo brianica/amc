@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "triangle-basics"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the horizontal base length of a triangle inscribed in a parabola."
+}

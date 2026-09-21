@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "gcd-lcm",
+    "primes"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the smallest subsequent divisor of an even four-digit integer divisible by 323."
+}

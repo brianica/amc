@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "units-digit",
+    "divisibility"
+  ],
+  "difficulty": 1,
+  "descriptor": "Determine the sign and terminal digit of a product of odd negatives"
+}

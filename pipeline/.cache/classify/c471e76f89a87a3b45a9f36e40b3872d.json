@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "permutations-combinations",
+    "multiplication-principle"
+  ],
+  "difficulty": 3,
+  "descriptor": "Number of valid seating arrangements for three sibling pairs in two rows."
+}

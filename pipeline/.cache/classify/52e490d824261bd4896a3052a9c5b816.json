@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "casework",
+    "recursion-states"
+  ],
+  "difficulty": 3,
+  "descriptor": "Probability of selecting no two adjacent positions around a circle of eight"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "inequalities"
+  ],
+  "difficulty": 4,
+  "descriptor": "Estimate the index when a rational recursive sequence gets sufficiently close to four"
+}

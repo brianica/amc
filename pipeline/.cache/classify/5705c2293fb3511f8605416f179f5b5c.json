@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "permutations-combinations",
+    "symmetry-arguments"
+  ],
+  "difficulty": 3,
+  "descriptor": "Number of permutations of five elements without three consecutive monotonic terms"
+}

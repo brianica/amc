@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations",
+    "casework",
+    "symmetry-arguments"
+  ],
+  "difficulty": 3,
+  "descriptor": "Arrangements of three sibling pairs in a two-by-three grid under adjacency restrictions"
+}

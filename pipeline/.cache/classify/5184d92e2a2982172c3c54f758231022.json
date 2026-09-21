@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "right-triangles",
+    "triangle-basics"
+  ],
+  "difficulty": 3,
+  "descriptor": "Calculate an angle formed by intersecting chords derived from triangle altitudes"
+}

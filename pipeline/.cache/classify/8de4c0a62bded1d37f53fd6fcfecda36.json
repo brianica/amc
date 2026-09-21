@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations",
+    "casework"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count distinct vertical arrangements of eight colored blocks chosen from nine blocks."
+}

@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "similar-congruent",
+    "polygons-area-ratios",
+    "triangle-basics"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find a sum of segment lengths in nested regular pentagonal figures."
+}

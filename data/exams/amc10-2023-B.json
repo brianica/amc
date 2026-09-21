@@ -23,11 +23,13 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Fraction of liquid transferred from three full containers to equalize four containers",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10B_Problems/Problem_1",
       "tagSource": "auto",
       "statement": null
@@ -42,11 +44,13 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the maximum original price given a discount, tax rate, and budget.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10B_Problems/Problem_2",
       "tagSource": "auto",
       "statement": null
@@ -61,11 +65,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "circles",
+        "right-triangles"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Ratio of circumscribed circle areas for two given right triangles",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10B_Problems/Problem_3",
       "tagSource": "auto",
       "statement": null
@@ -78,11 +85,13 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "polygons-area-ratios"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Calculate rectangular area with metric unit conversions into square centimeters",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10B_Problems/Problem_4",
       "tagSource": "auto",
       "statement": null
@@ -96,11 +105,13 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Determine the number of values in a list from two transformed sums.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10B_Problems/Problem_5",
       "tagSource": "auto",
       "statement": null
@@ -113,11 +124,14 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "modular-arithmetic",
+        "divisibility"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Count the number of even terms in the first 2023 Lucas numbers.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10B_Problems/Problem_6",
       "tagSource": "auto",
       "statement": null
@@ -133,11 +147,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "transformations",
+        "triangle-basics"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Angle between a square's edge and a vertex of its rotated image",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10B_Problems/Problem_7",
       "tagSource": "auto",
       "statement": null
@@ -150,11 +167,14 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "units-digit",
+        "modular-arithmetic"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the ones digit of a sum of two large exponential expressions.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10B_Problems/Problem_8",
       "tagSource": "auto",
       "statement": null
@@ -168,11 +188,13 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "inequalities"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Count pairs of consecutive squares whose difference does not exceed an upper limit",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10B_Problems/Problem_9",
       "tagSource": "auto",
       "statement": null
@@ -187,11 +209,13 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "combinatorial-geometry"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Minimum queries to guarantee intersecting a domino hidden in a grid. [REVIEW: passes disagreed — counting-probability vs logic-other]",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10B_Problems/Problem_10",
       "tagSource": "auto",
       "statement": null
@@ -207,11 +231,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "stars-and-bars",
+        "casework"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the number of positive integer combinations of bills totaling a value. [REVIEW: passes disagreed — counting-probability vs number-theory]",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10B_Problems/Problem_11",
       "tagSource": "auto",
       "statement": null
@@ -227,11 +254,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "polynomials",
+        "inequalities"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Number of intervals where a factored high-degree polynomial is strictly positive",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10B_Problems/Problem_12",
       "tagSource": "auto",
       "statement": null
@@ -247,11 +277,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "coordinate-geometry",
+        "transformations"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the area bounded by a nested absolute value inequality.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10B_Problems/Problem_13",
       "tagSource": "auto",
       "statement": null
@@ -270,11 +303,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "diophantine",
+        "divisibility"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the number of integer pairs satisfying a symmetric Diophantine equation.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10B_Problems/Problem_14",
       "tagSource": "auto",
       "statement": null
@@ -293,11 +329,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "primes",
+        "divisibility"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the smallest multiplier making a product of consecutive factorials a square.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10B_Problems/Problem_15",
       "tagSource": "auto",
       "statement": null
@@ -319,11 +358,13 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "permutations-combinations"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Difference between count of numbers with strictly increasing versus strictly decreasing digits.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10B_Problems/Problem_16",
       "tagSource": "auto",
       "statement": null
@@ -337,11 +378,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "solid-geometry"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the space diagonal of a rectangular box from given dimensions.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10B_Problems/Problem_17",
       "tagSource": "auto",
       "statement": null
@@ -360,11 +403,14 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "gcd-lcm",
+        "divisibility"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Determine the validity of statements about coprime relationships in a linear equation.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10B_Problems/Problem_18",
       "tagSource": "auto",
       "statement": null
@@ -380,11 +426,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "conditional-geometric-probability",
+        "symmetry-arguments"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Probability a randomly placed frog jumps outside a square boundary.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10B_Problems/Problem_19",
       "tagSource": "auto",
       "statement": null
@@ -401,11 +450,15 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "solid-geometry",
+        "circles",
+        "right-triangles"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find the total length of four congruent semicircular arcs on a sphere.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10B_Problems/Problem_20",
       "tagSource": "auto",
       "statement": null
@@ -427,11 +480,15 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "symmetry-arguments",
+        "recursion-states",
+        "basic-probability"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Estimate the probability of three bins each containing an odd count.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10B_Problems/Problem_21",
       "tagSource": "auto",
       "statement": null
@@ -448,11 +505,13 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "floor-ceiling"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Count the number of real solutions to an equation involving greatest integer.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10B_Problems/Problem_22",
       "tagSource": "auto",
       "statement": null
@@ -467,11 +526,13 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "sequences-series"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Determine parameters of an arithmetic progression whose sum is altered by one.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10B_Problems/Problem_23",
       "tagSource": "auto",
       "statement": null
@@ -485,11 +546,14 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "coordinate-geometry",
+        "transformations"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Perimeter of a planar region generated by a linear combination of intervals.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10B_Problems/Problem_24",
       "tagSource": "auto",
       "statement": null
@@ -501,11 +565,14 @@
       "answerEvidence": [
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "polygons-area-ratios",
+        "trigonometry"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Area of smaller pentagon formed by folding regular pentagon vertices to center",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10B_Problems/Problem_25",
       "tagSource": "auto",
       "statement": null

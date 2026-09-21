@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisor-counting",
+    "primes"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find probability a randomly selected divisor of a large factorial is odd"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "symmetry-arguments",
+    "casework"
+  ],
+  "difficulty": 3.5,
+  "descriptor": "Count distinct colorings of six triangularly arranged disks under rotations and reflections."
+}

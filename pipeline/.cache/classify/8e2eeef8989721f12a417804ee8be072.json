@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "conditional-geometric-probability"
+  ],
+  "difficulty": 2,
+  "descriptor": "Estimate the radius around lattice points covering half of a unit square."
+}

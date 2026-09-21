@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "similar-congruent"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the length of the fold line bisecting a triangle's hypotenuse."
+}

@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "area-decomposition",
+    "right-triangles"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find the squared length of a perpendicular segment within a partitioned square"
+}

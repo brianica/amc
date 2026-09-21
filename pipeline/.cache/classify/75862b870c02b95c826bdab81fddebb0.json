@@ -1,0 +1,8 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "solid-geometry"
+  ],
+  "difficulty": 2,
+  "descriptor": "Calculate the volume of an octahedron formed by a cuboid's face centers"
+}

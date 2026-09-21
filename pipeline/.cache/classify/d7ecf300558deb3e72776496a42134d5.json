@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "pigeonhole"
+  ],
+  "difficulty": 2,
+  "descriptor": "Minimum draws to guarantee a specified quantity of a single color"
+}

@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability"
+  ],
+  "difficulty": 2,
+  "descriptor": "bounds on probability that the product of three chosen integers is odd"
+}

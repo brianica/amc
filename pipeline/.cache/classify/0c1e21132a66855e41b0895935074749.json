@@ -1,0 +1,8 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "logic-puzzles"
+  ],
+  "difficulty": 2,
+  "descriptor": "Determine the winning player in an interval-selection game via symmetry strategy."
+}

@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "area-decomposition",
+    "right-triangles"
+  ],
+  "difficulty": 3,
+  "descriptor": "Area of the triangle formed by centers of three circles tangent to a line"
+}

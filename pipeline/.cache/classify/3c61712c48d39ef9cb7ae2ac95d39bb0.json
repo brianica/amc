@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios",
+    "area-decomposition"
+  ],
+  "difficulty": 3,
+  "descriptor": "Area ratio of an inner hexagon bounded by parallel lines within a regular hexagon"
+}

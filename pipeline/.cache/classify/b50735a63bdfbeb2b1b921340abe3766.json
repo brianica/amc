@@ -1,0 +1,8 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "statistics"
+  ],
+  "difficulty": 1,
+  "descriptor": "Compute the average of a remaining subset given overall and partial means."
+}

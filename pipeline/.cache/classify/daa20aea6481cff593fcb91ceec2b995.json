@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "symmetry-arguments",
+    "permutations-combinations"
+  ],
+  "difficulty": 3,
+  "descriptor": "Number of colorings of a triangular grid of disks up to symmetry"
+}

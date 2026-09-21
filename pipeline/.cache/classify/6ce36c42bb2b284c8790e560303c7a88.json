@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "symmetry-arguments",
+    "basic-probability"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find an equally probable sum when rolling seven standard six-sided dice."
+}

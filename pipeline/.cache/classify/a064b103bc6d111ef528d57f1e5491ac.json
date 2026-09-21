@@ -1,0 +1,8 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "statistics"
+  ],
+  "difficulty": 1,
+  "descriptor": "Find an individual score given the mean before and after adding it"
+}

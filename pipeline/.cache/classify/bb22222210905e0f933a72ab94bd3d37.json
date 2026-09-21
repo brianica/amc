@@ -1,0 +1,8 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "statistics"
+  ],
+  "difficulty": 1,
+  "descriptor": "Determine an unknown value given that the mean, median, and mode coincide"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "similar-congruent",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the ratio of segments along a rectangle's diagonal divided by two lines."
+}

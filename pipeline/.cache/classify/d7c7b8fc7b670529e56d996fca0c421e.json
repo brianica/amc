@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "transformations"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Tangent clock position after a rolling circular disk completes one full rotation."
+}

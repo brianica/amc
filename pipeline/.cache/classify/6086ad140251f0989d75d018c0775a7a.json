@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "functions"
+  ],
+  "difficulty": 3,
+  "descriptor": "Compute a high-index term of a linearly defined recursive sequence"
+}

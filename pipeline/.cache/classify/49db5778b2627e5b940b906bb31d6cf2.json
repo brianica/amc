@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "quadratics-vieta"
+  ],
+  "difficulty": 3,
+  "descriptor": "Sum of reciprocals of partial fraction coefficients for a cubic polynomial"
+}

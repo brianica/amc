@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "casework"
+  ],
+  "difficulty": 1,
+  "descriptor": "Probability that a number under 100 with prime digits is prime"
+}

@@ -1,0 +1,8 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "logic-puzzles"
+  ],
+  "difficulty": 3,
+  "descriptor": "Determine which player has a winning strategy in an interval-marking game."
+}

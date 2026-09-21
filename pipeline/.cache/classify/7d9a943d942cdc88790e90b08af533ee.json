@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "linear-systems"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find distance between alternating limiting positions of an oscillating fractional walk"
+}

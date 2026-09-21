@@ -23,11 +23,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "sequences-series"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Evaluate a finite continued fraction with repeated integer terms.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10A_Problems/Problem_1",
       "tagSource": "auto",
       "statement": null
@@ -44,11 +46,13 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "rates-work-mixture"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Estimate distance traveled in a given duration at a constant speed.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10A_Problems/Problem_2",
       "tagSource": "auto",
       "statement": null
@@ -62,11 +66,13 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the absolute difference of two numbers defined by linear relations.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10A_Problems/Problem_3",
       "tagSource": "auto",
       "statement": null
@@ -80,11 +86,13 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "rates-work-mixture"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Convert a rate between different units of distance and volume.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10A_Problems/Problem_4",
       "tagSource": "auto",
       "statement": null
@@ -100,11 +108,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "right-triangles",
+        "polygons-area-ratios"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the side length of an equilateral hexagon inscribed in a square.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10A_Problems/Problem_5",
       "tagSource": "auto",
       "statement": null
@@ -120,11 +131,14 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "absolute-value",
+        "radicals"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Simplify an expression involving radicals and absolute values for a negative variable.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10A_Problems/Problem_6",
       "tagSource": "auto",
       "statement": null
@@ -137,11 +151,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "gcd-lcm",
+        "primes"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the digit sum of an integer satisfying given LCM and GCD conditions",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10A_Problems/Problem_7",
       "tagSource": "auto",
       "statement": null
@@ -153,11 +170,13 @@
       "answerEvidence": [
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "logic-other",
+      "subtopics": [
+        "statistics"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Sum of unknown data values when the mean equals an existing element",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10A_Problems/Problem_8",
       "tagSource": "auto",
       "statement": null
@@ -171,11 +190,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "multiplication-principle",
+        "casework"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Count valid colorings of adjacent rectangular regions using five colors.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10A_Problems/Problem_9",
       "tagSource": "auto",
       "statement": null
@@ -189,11 +211,13 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "right-triangles"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Determine the area of a rectangle from diagonal lengths and corner cutouts.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10A_Problems/Problem_10",
       "tagSource": "auto",
       "statement": null
@@ -208,11 +232,15 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "logs-exponents",
+        "quadratics-vieta",
+        "radicals"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Sum of real values satisfying an exponential and radical equation",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10A_Problems/Problem_11",
       "tagSource": "auto",
       "statement": null
@@ -225,11 +253,13 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "logic-other",
+      "subtopics": [
+        "logic-puzzles"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find candies given to truth-tellers based on responses to three questions.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10A_Problems/Problem_12",
       "tagSource": "auto",
       "statement": null
@@ -245,11 +275,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "similar-congruent",
+        "triangle-basics"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Calculate a segment length using angle bisectors and similar triangles.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10A_Problems/Problem_13",
       "tagSource": "auto",
       "statement": null
@@ -263,11 +296,14 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "multiplication-principle",
+        "permutations-combinations"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Count pairings of fourteen consecutive integers where each larger element at least doubles the smaller.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10A_Problems/Problem_14",
       "tagSource": "auto",
       "statement": null
@@ -282,11 +318,15 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "cyclic-quadrilaterals",
+        "right-triangles",
+        "circles"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the area between a cyclic quadrilateral and its circumscribed circle.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10A_Problems/Problem_15",
       "tagSource": "auto",
       "statement": null
@@ -303,11 +343,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "polynomials",
+        "quadratics-vieta"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the volume of a box whose dimensions are shifted cubic roots.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10A_Problems/Problem_16",
       "tagSource": "auto",
       "statement": null
@@ -319,11 +362,14 @@
       "answerEvidence": [
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "digits-bases",
+        "diophantine"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Count three-digit integers satisfying a repeating decimal relation.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10A_Problems/Problem_17",
       "tagSource": "auto",
       "statement": null
@@ -340,11 +386,14 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "transformations",
+        "coordinate-geometry"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Number of sequential rotation and reflection transformations to return a point to start.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10A_Problems/Problem_18",
       "tagSource": "auto",
       "statement": null
@@ -358,11 +407,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "modular-arithmetic",
+        "gcd-lcm"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Remainder modulo 17 of the numerator of a scaled harmonic sum.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10A_Problems/Problem_19",
       "tagSource": "auto",
       "statement": null
@@ -375,11 +427,14 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "sequences-series",
+        "linear-systems"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find fourth term of sum of arithmetic and geometric sequences",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10A_Problems/Problem_20",
       "tagSource": "auto",
       "statement": null
@@ -396,11 +451,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "solid-geometry",
+        "area-decomposition"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Area of the top octagonal opening of a bowl made of hexagons",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10A_Problems/Problem_21",
       "tagSource": "auto",
       "statement": null
@@ -417,11 +475,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "permutations-combinations",
+        "casework"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Count permutations of 13 cards collected in exactly two left-to-right passes.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10A_Problems/Problem_22",
       "tagSource": "auto",
       "statement": null
@@ -439,11 +500,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "coordinate-geometry",
+        "cyclic-quadrilaterals"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find base ratio of an isosceles trapezoid given vertex distances from point.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10A_Problems/Problem_23",
       "tagSource": "auto",
       "statement": null
@@ -463,11 +527,15 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "casework",
+        "permutations-combinations",
+        "symmetry-arguments"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Count five-digit strings satisfying minimum count conditions for digits below each threshold.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10A_Problems/Problem_24",
       "tagSource": "auto",
       "statement": null
@@ -480,11 +548,15 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "diophantine",
+        "modular-arithmetic",
+        "divisibility"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find the minimum sum of side lengths of three overlapping lattice squares.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10A_Problems/Problem_25",
       "tagSource": "auto",
       "statement": null

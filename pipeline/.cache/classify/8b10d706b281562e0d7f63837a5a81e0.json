@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "polynomials"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the sum of squares of unequal solutions to a symmetric system."
+}

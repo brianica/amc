@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations",
+    "stars-and-bars"
+  ],
+  "difficulty": 2,
+  "descriptor": "Number of ways to assign distinct classes to periods without consecutive placements"
+}

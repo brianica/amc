@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "primes"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the largest three-digit integer whose triangular number does not divide its factorial"
+}

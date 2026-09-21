@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "area-decomposition",
+    "circles"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find square side length from swept areas of inside and outside rolling disks"
+}

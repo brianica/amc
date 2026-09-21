@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "transformations",
+    "coordinate-geometry"
+  ],
+  "difficulty": 2,
+  "descriptor": "Determine the transformation that reverses a given reflection and rotation sequence"
+}

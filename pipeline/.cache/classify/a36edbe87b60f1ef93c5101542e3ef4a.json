@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "gcd-lcm",
+    "divisibility",
+    "primes"
+  ],
+  "difficulty": 3,
+  "descriptor": "Determine a required prime divisor given several pairwise greatest common divisors."
+}

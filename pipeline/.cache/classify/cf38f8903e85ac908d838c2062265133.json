@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "area-decomposition"
+  ],
+  "difficulty": 2,
+  "descriptor": "Radius of a circle formed from the leftover area between circles"
+}

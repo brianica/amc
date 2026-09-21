@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases"
+  ],
+  "difficulty": 3,
+  "descriptor": "Number of nonnegative integers expressible in an eight-digit balanced ternary representation."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "coordinate-geometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Area of triangle formed by centers of three circles tangent to a line"
+}

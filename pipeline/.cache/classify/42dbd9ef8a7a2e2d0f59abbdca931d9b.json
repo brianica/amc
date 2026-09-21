@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "similar-congruent",
+    "triangle-basics"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find segment ratio on hypotenuse using given isosceles triangles and side ratios."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios",
+    "similar-congruent"
+  ],
+  "difficulty": 1,
+  "descriptor": "Estimate the weight of a larger equilateral triangle using area scaling"
+}

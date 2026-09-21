@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "conditional-geometric-probability",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Probability that the difference between two semi-randomly chosen numbers exceeds one-half"
+}

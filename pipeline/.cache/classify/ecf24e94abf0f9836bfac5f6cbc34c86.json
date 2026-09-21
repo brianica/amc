@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count unordered pairs of parabolas with distinct coefficients that intersect"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "right-triangles"
+  ],
+  "difficulty": 3,
+  "descriptor": "Fraction of a right triangle's area outside a small corner square"
+}

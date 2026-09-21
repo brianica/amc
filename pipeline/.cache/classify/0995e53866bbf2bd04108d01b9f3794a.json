@@ -1,0 +1,8 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "logic-puzzles"
+  ],
+  "difficulty": 5,
+  "descriptor": "Identify the second-player winning configuration in an impartial brick-removal game."
+}

@@ -1,0 +1,8 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "statistics"
+  ],
+  "difficulty": 1,
+  "descriptor": "Find the average of remaining scores given overall and subset averages"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "combinatorial-geometry",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count integer-coordinate axis-aligned squares contained within a bounded triangular region."
+}

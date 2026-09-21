@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "symmetry-arguments",
+    "permutations-combinations"
+  ],
+  "difficulty": 4,
+  "descriptor": "valid colorings of a three-by-three grid with equal counts of three colors"
+}

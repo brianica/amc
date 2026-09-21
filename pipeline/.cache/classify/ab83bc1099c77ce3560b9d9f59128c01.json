@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability"
+  ],
+  "difficulty": 2,
+  "descriptor": "Probability of getting an even sum from rolling a biased die twice"
+}

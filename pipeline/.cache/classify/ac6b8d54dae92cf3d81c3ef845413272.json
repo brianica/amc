@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations",
+    "casework",
+    "inclusion-exclusion"
+  ],
+  "difficulty": 3,
+  "descriptor": "Number of linear seating arrangements satisfying specific non-adjacency conditions"
+}

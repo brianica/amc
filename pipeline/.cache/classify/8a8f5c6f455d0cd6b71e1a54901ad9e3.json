@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count integers up to 1000 whose base-16 representation lacks letter digits."
+}

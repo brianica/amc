@@ -1,0 +1,8 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "statistics"
+  ],
+  "difficulty": 1,
+  "descriptor": "Find the combined mean of two classes given individual means and size ratio"
+}

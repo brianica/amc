@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "inequalities",
+    "polynomials"
+  ],
+  "difficulty": 3,
+  "descriptor": "Number of integer solutions to a polynomial inequality with squared roots"
+}

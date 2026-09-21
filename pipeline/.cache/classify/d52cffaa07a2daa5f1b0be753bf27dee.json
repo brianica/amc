@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "triangle-basics"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find a triangle vertex using the midpoint property of an isosceles altitude"
+}

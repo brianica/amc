@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "digits-bases"
+  ],
+  "difficulty": 3,
+  "descriptor": "Determine the sum of missing digits in a factorial's decimal representation."
+}

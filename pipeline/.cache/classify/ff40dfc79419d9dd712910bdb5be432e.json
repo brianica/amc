@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count numbers whose digits form strictly increasing or decreasing sequences"
+}

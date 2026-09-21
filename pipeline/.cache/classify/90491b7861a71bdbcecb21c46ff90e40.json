@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "circles",
+    "area-decomposition"
+  ],
+  "difficulty": 3,
+  "descriptor": "Area enclosed by a coordinate equation with absolute values and circles"
+}

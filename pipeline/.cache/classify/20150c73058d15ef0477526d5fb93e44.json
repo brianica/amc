@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count integers up to 1000 using only numeric digits in base sixteen."
+}

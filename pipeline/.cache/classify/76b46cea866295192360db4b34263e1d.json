@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "multiplication-principle"
+  ],
+  "difficulty": 1,
+  "descriptor": "Count four-digit numbers with only even digits that are multiples of five"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "primes",
+    "divisibility"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count integer exponents that keep an expression with prime factors an integer"
+}

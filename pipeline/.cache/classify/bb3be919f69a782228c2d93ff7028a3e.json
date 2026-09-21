@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisor-counting"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count integers whose divisor-counting function iteration reaches twelve after fifty steps"
+}

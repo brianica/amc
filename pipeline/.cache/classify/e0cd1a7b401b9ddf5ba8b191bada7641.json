@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisor-counting",
+    "primes"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count distinct products formed by multiplying two different divisors of a number."
+}

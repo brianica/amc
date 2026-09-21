@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "circles",
+    "triangle-basics"
+  ],
+  "difficulty": 3,
+  "descriptor": "Sum of the inradii of two triangles divided by a median"
+}

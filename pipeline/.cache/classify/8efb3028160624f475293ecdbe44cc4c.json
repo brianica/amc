@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "combinatorial-geometry",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Sum of all possible counts of intersection points of four coplanar lines."
+}

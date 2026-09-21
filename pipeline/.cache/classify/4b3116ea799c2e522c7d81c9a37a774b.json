@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "primes",
+    "modular-arithmetic",
+    "divisibility"
+  ],
+  "difficulty": 2,
+  "descriptor": "Determine which expression is composite for every prime value."
+}

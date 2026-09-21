@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "casework",
+    "permutations-combinations"
+  ],
+  "difficulty": 4,
+  "descriptor": "Probability that all row and column sums of a grid are odd"
+}

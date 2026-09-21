@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "solid-geometry",
+    "right-triangles"
+  ],
+  "difficulty": 2,
+  "descriptor": "Calculate tetrahedron volume from given edge lengths forming right angles"
+}

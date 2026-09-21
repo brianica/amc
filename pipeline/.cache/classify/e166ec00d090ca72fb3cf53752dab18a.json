@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "expected-value",
+    "basic-probability"
+  ],
+  "difficulty": 2,
+  "descriptor": "Expected number of heads after re-flipping tails across multiple rounds."
+}

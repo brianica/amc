@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "symmetry-arguments",
+    "multiplication-principle"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count fully symmetric two-color grid patterns excluding monochromatic designs"
+}

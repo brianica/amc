@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "recursion-states",
+    "basic-probability"
+  ],
+  "difficulty": 2,
+  "descriptor": "Win probability for the first player in an alternating coin toss game"
+}

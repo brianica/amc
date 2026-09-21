@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 1,
+  "descriptor": "Find the constant relating a rectangle's area to its squared diagonal length."
+}

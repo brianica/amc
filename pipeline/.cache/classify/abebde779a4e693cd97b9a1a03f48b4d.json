@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "recursion-states",
+    "casework",
+    "permutations-combinations"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count restricted binary strings of given length avoiding certain consecutive patterns."
+}

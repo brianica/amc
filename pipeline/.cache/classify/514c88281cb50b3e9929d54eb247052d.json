@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "modular-arithmetic",
+    "digits-bases"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the remainder when a base-nine integer is divided by five"
+}

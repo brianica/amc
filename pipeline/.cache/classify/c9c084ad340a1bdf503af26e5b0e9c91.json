@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "modular-arithmetic",
+    "digits-bases"
+  ],
+  "difficulty": 2,
+  "descriptor": "Determine an unknown digit of a combination value using divisibility rules"
+}

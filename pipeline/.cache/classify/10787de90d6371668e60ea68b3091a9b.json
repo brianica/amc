@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "area-decomposition"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the area between a quarter circle and an internal semicircle"
+}

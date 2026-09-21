@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series"
+  ],
+  "difficulty": 3,
+  "descriptor": "Sum the maximum and minimum values in a spiral grid row."
+}

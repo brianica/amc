@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations"
+  ],
+  "difficulty": 1,
+  "descriptor": "Number of unique linear arrangements of colored tiles with repeated colors"
+}

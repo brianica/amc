@@ -1,0 +1,9 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "logic-puzzles",
+    "sets-venn"
+  ],
+  "difficulty": 2,
+  "descriptor": "Deduce a valid conclusion from several conditional statements about categorized objects"
+}

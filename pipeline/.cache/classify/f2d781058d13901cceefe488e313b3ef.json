@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "area-decomposition"
+  ],
+  "difficulty": 3,
+  "descriptor": "Fraction of an equilateral triangle's area outside a tangent circle"
+}

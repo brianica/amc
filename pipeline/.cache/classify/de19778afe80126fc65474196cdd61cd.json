@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "logs-exponents"
+  ],
+  "difficulty": 2,
+  "descriptor": "Simplify a telescoping product of binomial sums using difference of squares."
+}

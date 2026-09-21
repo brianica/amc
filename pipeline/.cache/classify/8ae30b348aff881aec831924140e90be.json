@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "modular-arithmetic",
+    "digits-bases",
+    "divisibility"
+  ],
+  "difficulty": 2,
+  "descriptor": "Determine possible sum of digits of the next integer using modulo 9."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "symmetry-arguments"
+  ],
+  "difficulty": 3,
+  "descriptor": "Probability that all even outcomes appear before any odd outcome on a die"
+}

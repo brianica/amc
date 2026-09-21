@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios",
+    "area-decomposition",
+    "similar-congruent"
+  ],
+  "difficulty": 2,
+  "descriptor": "Area of a quadrilateral formed by a midline and an angle bisector"
+}

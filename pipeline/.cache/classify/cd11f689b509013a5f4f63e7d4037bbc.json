@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "functions"
+  ],
+  "difficulty": 3,
+  "descriptor": "Evaluate a high-index term in a sequence defined by a recurrence relation."
+}

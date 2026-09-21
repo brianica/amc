@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios",
+    "area-decomposition"
+  ],
+  "difficulty": 2,
+  "descriptor": "Area ratio of an extended triangle to the original equilateral triangle"
+}

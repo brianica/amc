@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "floor-ceiling",
+    "diophantine"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find range of slopes enclosing exactly 300 grid points below a line."
+}

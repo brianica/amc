@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "area-decomposition",
+    "similar-congruent"
+  ],
+  "difficulty": 2,
+  "descriptor": "Area of a triangle formed by a rectangle's vertices and diagonal projection"
+}

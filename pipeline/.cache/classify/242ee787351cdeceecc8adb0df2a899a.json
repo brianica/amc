@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "symmetry-arguments",
+    "permutations-combinations"
+  ],
+  "difficulty": 3,
+  "descriptor": "Arrangements of three copies of three colors on a grid avoiding adjacency."
+}

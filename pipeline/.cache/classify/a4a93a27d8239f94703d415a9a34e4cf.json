@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "solid-geometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find a pillar height given three vertices' heights on an inclined plane."
+}

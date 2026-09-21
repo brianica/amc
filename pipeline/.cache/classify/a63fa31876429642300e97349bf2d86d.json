@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility"
+  ],
+  "difficulty": 3,
+  "descriptor": "Minimum element in a subset of twelve integers with no divisible pairs"
+}

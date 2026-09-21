@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "recursion-states",
+    "conditional-geometric-probability"
+  ],
+  "difficulty": 3,
+  "descriptor": "Probability of a specific coin flip sequence ending with consecutive heads."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "circles"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count integer values where points along a line lie inside a circle"
+}

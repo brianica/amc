@@ -25,11 +25,13 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "rates-work-mixture"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the time when two travelers with different start times cover equal distance.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_1",
       "tagSource": "auto",
       "statement": null
@@ -44,11 +46,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "rates-work-mixture",
+        "linear-systems"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the amount of cashews in a combined nut mixture.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_2",
       "tagSource": "auto",
       "statement": null
@@ -61,11 +66,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "triangle-basics"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Count integer-sided isosceles triangles having a maximum side length of 2025.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_3",
       "tagSource": "auto",
       "statement": null
@@ -75,11 +82,13 @@
       "answer": "A",
       "answerConfidence": "medium",
       "answerEvidence": [],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Determine an individual's age given its effect on two groups' average ages.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_4",
       "tagSource": "auto",
       "statement": null
@@ -98,11 +107,13 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "sequences-series"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the value of a specific term in a patterned integer sequence.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_5",
       "tagSource": "auto",
       "statement": null
@@ -117,11 +128,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "triangle-basics",
+        "polygons-area-ratios"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find smallest interior angle of hexagon formed by trisected equilateral triangle angles.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_6",
       "tagSource": "auto",
       "statement": null
@@ -136,11 +150,14 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "polynomials",
+        "linear-systems"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Determine the difference of two polynomial coefficients using the remainder theorem.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_7",
       "tagSource": "auto",
       "statement": null
@@ -158,11 +175,13 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "logic-other",
+      "subtopics": [
+        "logic-puzzles"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Determine the number of false assertions among four self-referential statements.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_8",
       "tagSource": "auto",
       "statement": null
@@ -176,11 +195,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "polynomials",
+        "functions"
+      ],
+      "difficulty": 3,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Determine the number of horizontal shifts of a cubic polynomial passing through a point.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_9",
       "tagSource": "auto",
       "statement": null
@@ -199,11 +221,15 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "circles",
+        "right-triangles",
+        "area-decomposition"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find area between two semicircles using a parallel tangent chord.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_10",
       "tagSource": "auto",
       "statement": null
@@ -217,11 +243,13 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "sequences-series"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Sum of terms in an arithmetic and geometric sequence sharing endpoints",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_11",
       "tagSource": "auto",
       "statement": null
@@ -234,11 +262,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "casework",
+        "multiplication-principle"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Count four-digit codes with non-zero digits containing exactly one even and one prime.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_12",
       "tagSource": "auto",
       "statement": null
@@ -256,11 +287,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "sequences-series"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the scaling ratio of concentric squares given the shaded area fraction.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_13",
       "tagSource": "auto",
       "statement": null
@@ -272,11 +305,14 @@
       "answerEvidence": [
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "basic-probability",
+        "permutations-combinations"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Probability that pairs from two distinct groups sit in adjacent circular seats",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_14",
       "tagSource": "auto",
       "statement": null
@@ -294,11 +330,14 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "similar-congruent",
+        "right-triangles"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the area of a right triangle formed within an overlapping rectangle.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_15",
       "tagSource": "auto",
       "statement": null
@@ -315,11 +354,15 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "expected-value",
+        "casework",
+        "basic-probability"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Expected maximum number of coins randomly distributed among three jars",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_16",
       "tagSource": "auto",
       "statement": null
@@ -334,11 +377,15 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "divisibility",
+        "gcd-lcm",
+        "modular-arithmetic"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the tens digit of a divisor given remainders of two numbers.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_17",
       "tagSource": "auto",
       "statement": null
@@ -355,11 +402,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "quadratics-vieta",
+        "polynomials"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Harmonic mean of the roots of a product of quadratic polynomials",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_18",
       "tagSource": "auto",
       "statement": null
@@ -378,11 +428,14 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "sequences-series",
+        "polynomials"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find a specific entry in a Pascal-like array with a given row sum.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_19",
       "tagSource": "auto",
       "statement": null
@@ -400,11 +453,15 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "coordinate-geometry",
+        "circles",
+        "trigonometry"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find a coordinate determining a line of sight tangent to a circular silo.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_20",
       "tagSource": "auto",
       "statement": null
@@ -418,11 +475,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "pigeonhole",
+        "casework"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Maximum number of elements in a sum-free subset of twenty integers.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_21",
       "tagSource": "auto",
       "statement": null
@@ -438,11 +498,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "circles",
+        "right-triangles"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Radius of a small circle externally tangent to three mutually tangent circles.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_22",
       "tagSource": "auto",
       "statement": null
@@ -460,11 +523,15 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "right-triangles",
+        "triangle-basics",
+        "trigonometry"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find distance from vertex to intersection of angle bisector and an altitude.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_23",
       "tagSource": "auto",
       "statement": null
@@ -477,11 +544,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "permutations-combinations",
+        "multiplication-principle"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Count integers with distinct non-zero digits containing no local minima.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_24",
       "tagSource": "auto",
       "statement": null
@@ -495,11 +565,13 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "conditional-geometric-probability"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Geometric probability that a random point forms a triangle with intermediate side.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_25",
       "tagSource": "auto",
       "statement": null

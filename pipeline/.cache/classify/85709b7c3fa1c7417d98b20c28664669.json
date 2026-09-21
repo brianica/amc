@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "diophantine"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count non-negative integer solutions to a linear combination equation"
+}

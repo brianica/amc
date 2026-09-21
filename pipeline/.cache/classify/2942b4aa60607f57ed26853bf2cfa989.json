@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "diophantine"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count integer pairs satisfying an equation with bounded even powers."
+}

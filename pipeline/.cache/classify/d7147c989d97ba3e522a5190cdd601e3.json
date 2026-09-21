@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "circles",
+    "area-decomposition"
+  ],
+  "difficulty": 3.5,
+  "descriptor": "Calculate the area enclosed by an equation with absolute value coordinates."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "area-decomposition"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find shaded area between a large circle and thirteen enclosed tangent unit circles."
+}

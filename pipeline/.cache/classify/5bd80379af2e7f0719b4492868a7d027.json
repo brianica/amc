@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "stars-and-bars",
+    "permutations-combinations"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the power yielding a given number of terms containing specific variables."
+}

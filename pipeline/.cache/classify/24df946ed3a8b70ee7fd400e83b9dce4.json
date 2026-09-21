@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "multiplication-principle",
+    "casework"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count quadruples of integers whose determinant-like difference of products is odd"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "polynomials"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the minimum value of a product of four linear factors."
+}

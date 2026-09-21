@@ -25,11 +25,13 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "digits-bases"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Sum four-digit integers formed by cyclic permutations of four distinct digits.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10B_Problems/Problem_1",
       "tagSource": "auto",
       "statement": null
@@ -44,11 +46,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "area-decomposition",
+        "coordinate-geometry"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the area of a symmetric four-sided polygon plotted on a grid.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10B_Problems/Problem_2",
       "tagSource": "auto",
       "statement": null
@@ -62,11 +67,13 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "polynomials"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Numerator of the simplified difference between two reciprocal-like fractions",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10B_Problems/Problem_3",
       "tagSource": "auto",
       "statement": null
@@ -80,11 +87,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "absolute-value",
+        "linear-systems"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the product of possible initial temperature differences given subsequent changes",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10B_Problems/Problem_4",
       "tagSource": "auto",
       "statement": null
@@ -99,11 +109,13 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "logs-exponents"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Simplifying a quotient of exponential powers with different bases",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10B_Problems/Problem_5",
       "tagSource": "auto",
       "statement": null
@@ -117,11 +129,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "divisor-counting",
+        "primes"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find parameters of the smallest integer having exactly 2021 positive divisors.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10B_Problems/Problem_6",
       "tagSource": "auto",
       "statement": null
@@ -135,11 +150,13 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "divisibility"
+      ],
+      "difficulty": 3,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Count distinct integers formed by adding pairs of fractions with fixed numerator-denominator sum.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10B_Problems/Problem_7",
       "tagSource": "auto",
       "statement": null
@@ -151,11 +168,14 @@
       "answerEvidence": [
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "primes",
+        "divisibility"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Sum of digits of the largest prime factor of a number",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10B_Problems/Problem_8",
       "tagSource": "auto",
       "statement": null
@@ -170,11 +190,13 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the proportion of a subgroup having an attribute given overall proportions.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10B_Problems/Problem_9",
       "tagSource": "auto",
       "statement": null
@@ -188,11 +210,13 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "logic-other",
+      "subtopics": [
+        "logic-puzzles"
+      ],
+      "difficulty": 3,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the sum of two hidden numbers deduced from dialogue between participants.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10B_Problems/Problem_10",
       "tagSource": "auto",
       "statement": null
@@ -207,11 +231,15 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "circles",
+        "area-decomposition",
+        "polygons-area-ratios"
+      ],
+      "difficulty": 2.5,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Calculate the area enclosed by inwardly reflected circular segments of a regular hexagon.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10B_Problems/Problem_11",
       "tagSource": "auto",
       "statement": null
@@ -224,11 +252,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "polynomials"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Identify a condition among integers satisfying a three-variable symmetric quadratic equation.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10B_Problems/Problem_12",
       "tagSource": "auto",
       "statement": null
@@ -244,11 +274,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "similar-congruent",
+        "triangle-basics"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Calculate the area of an isosceles triangle containing two stacked squares.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10B_Problems/Problem_13",
       "tagSource": "auto",
       "statement": null
@@ -260,11 +293,14 @@
       "answerEvidence": [
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "basic-probability",
+        "casework"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Probability that the product of six dice rolls is a multiple of four",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10B_Problems/Problem_14",
       "tagSource": "auto",
       "statement": null
@@ -281,11 +317,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "right-triangles",
+        "similar-congruent"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the area of a square given segments intersecting perpendicularly inside it.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10B_Problems/Problem_15",
       "tagSource": "auto",
       "statement": null
@@ -295,11 +334,14 @@
       "answer": "D",
       "answerConfidence": "medium",
       "answerEvidence": [],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "expected-value",
+        "casework"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Expected number of fixed items after two random adjacent swaps in circle",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10B_Problems/Problem_16",
       "tagSource": "auto",
       "statement": null
@@ -312,11 +354,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "transformations",
+        "coordinate-geometry"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find a line given the result of two successive reflections on a point.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10B_Problems/Problem_17",
       "tagSource": "auto",
       "statement": null
@@ -331,11 +376,15 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "area-decomposition",
+        "polygons-area-ratios",
+        "trigonometry"
+      ],
+      "difficulty": 4,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the area of the union formed by three concentric rotated squares.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10B_Problems/Problem_18",
       "tagSource": "auto",
       "statement": null
@@ -351,11 +400,14 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "digits-bases",
+        "modular-arithmetic"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find the sum of the leading digits of several roots of a repdigit. [REVIEW: passes disagreed — number-theory vs algebra]",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10B_Problems/Problem_19",
       "tagSource": "auto",
       "statement": null
@@ -367,11 +419,15 @@
       "answerEvidence": [
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "conditional-geometric-probability",
+        "symmetry-arguments",
+        "casework"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Conditional probability of a specific first die roll given winning the game",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10B_Problems/Problem_20",
       "tagSource": "auto",
       "statement": null
@@ -381,11 +437,13 @@
       "answer": "E",
       "answerConfidence": "medium",
       "answerEvidence": [],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "combinatorial-geometry"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Count interior intersection points between sides of inscribed regular polygons",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10B_Problems/Problem_21",
       "tagSource": "auto",
       "statement": null
@@ -399,11 +457,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "divisibility",
+        "modular-arithmetic"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Sum smallest values where pairwise product sum is divisible by three",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10B_Problems/Problem_22",
       "tagSource": "auto",
       "statement": null
@@ -413,11 +474,14 @@
       "answer": "D",
       "answerConfidence": "medium",
       "answerEvidence": [],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "basic-probability",
+        "casework"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Probability that a randomly two-colored complete five-vertex graph contains a monochromatic triangle.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10B_Problems/Problem_23",
       "tagSource": "auto",
       "statement": null
@@ -431,11 +495,14 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "casework",
+        "symmetry-arguments"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Distinct rotational colorings of a larger cube using equal counts of two colors",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10B_Problems/Problem_24",
       "tagSource": "auto",
       "statement": null
@@ -449,11 +516,14 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "similar-congruent",
+        "right-triangles"
+      ],
+      "difficulty": 5,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find the sum of possible areas of a rectangle inscribed in a square.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10B_Problems/Problem_25",
       "tagSource": "auto",
       "statement": null

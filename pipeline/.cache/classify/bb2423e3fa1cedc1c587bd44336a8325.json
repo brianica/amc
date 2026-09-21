@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "modular-arithmetic"
+  ],
+  "difficulty": 4,
+  "descriptor": "Determine a test score using divisibility conditions on sequential running averages"
+}

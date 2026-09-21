@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "inequalities"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find the interval containing the index where a recursive sequence nears its limit."
+}

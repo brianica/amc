@@ -1,0 +1,8 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios"
+  ],
+  "difficulty": 1,
+  "descriptor": "Calculate new rectangle area after reducing the alternate side length by one"
+}

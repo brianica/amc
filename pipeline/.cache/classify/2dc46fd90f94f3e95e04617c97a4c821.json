@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "digits-bases",
+    "modular-arithmetic"
+  ],
+  "difficulty": 5,
+  "descriptor": "Count three-digit numbers having a permutation that is divisible by 11."
+}

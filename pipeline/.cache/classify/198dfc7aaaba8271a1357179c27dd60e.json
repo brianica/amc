@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "conditional-geometric-probability",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Probability that distance between two random points on square boundary exceeds one-half"
+}

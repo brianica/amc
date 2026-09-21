@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "functions",
+    "logs-exponents"
+  ],
+  "difficulty": 1,
+  "descriptor": "Evaluate the ratio of values computed using a custom binary operation."
+}

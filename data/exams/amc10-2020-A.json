@@ -22,11 +22,13 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Solve a single-variable linear equation involving fractions",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_1",
       "tagSource": "auto",
       "statement": null
@@ -38,11 +40,13 @@
       "answerEvidence": [
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "logic-other",
+      "subtopics": [
+        "statistics"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the average of two numbers given a five-number mean",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_2",
       "tagSource": "auto",
       "statement": null
@@ -56,11 +60,13 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "polynomials"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Simplify a product of fractions containing opposite binomial factors.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_3",
       "tagSource": "auto",
       "statement": null
@@ -73,11 +79,13 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "rates-work-mixture"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Calculate net hourly earnings given speed, fuel economy, pay, and fuel costs.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_4",
       "tagSource": "auto",
       "statement": null
@@ -91,11 +99,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "absolute-value",
+        "quadratics-vieta"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Sum of all real solutions to an absolute value quadratic equation",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_5",
       "tagSource": "auto",
       "statement": null
@@ -107,11 +118,13 @@
       "answerEvidence": [
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "multiplication-principle"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Count four-digit multiples of five with exclusively even digits.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_6",
       "tagSource": "auto",
       "statement": null
@@ -130,11 +143,13 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "sequences-series"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the row sum of a magic square of consecutive integers",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_7",
       "tagSource": "auto",
       "statement": null
@@ -154,11 +169,13 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "sequences-series"
+      ],
+      "difficulty": 1.5,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Evaluate a structured arithmetic sum with a repeating positive-negative sign pattern.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_8",
       "tagSource": "auto",
       "statement": null
@@ -172,11 +189,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "divisibility",
+        "gcd-lcm"
+      ],
+      "difficulty": 1.5,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Minimum number of benches completely filled by equal counts of two groups",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_9",
       "tagSource": "auto",
       "statement": null
@@ -194,11 +214,13 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "solid-geometry"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Total surface area of a tower formed by stacking seven different-sized cubes.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_10",
       "tagSource": "auto",
       "statement": null
@@ -214,11 +236,13 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "logic-other",
+      "subtopics": [
+        "statistics"
+      ],
+      "difficulty": 2.5,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the median of the first 2020 positive integers and their squares.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_11",
       "tagSource": "auto",
       "statement": null
@@ -241,11 +265,15 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "triangle-basics",
+        "area-decomposition",
+        "polygons-area-ratios"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the area of an isosceles triangle with two perpendicular equal medians.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_12",
       "tagSource": "auto",
       "statement": null
@@ -260,11 +288,15 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "symmetry-arguments",
+        "recursion-states",
+        "basic-probability"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Probability a 2D random walk hits a vertical boundary first",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_13",
       "tagSource": "auto",
       "statement": null
@@ -287,11 +319,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "polynomials",
+        "quadratics-vieta"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Evaluate a symmetric rational expression given the sum and product of variables.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_14",
       "tagSource": "auto",
       "statement": null
@@ -303,11 +338,14 @@
       "answerEvidence": [
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "divisor-counting",
+        "primes"
+      ],
+      "difficulty": 2.5,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Probability that a randomly chosen factor of a factorial is a square",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_15",
       "tagSource": "auto",
       "statement": null
@@ -324,11 +362,13 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "conditional-geometric-probability"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Estimate the radius around lattice points covering half of a unit square.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_16",
       "tagSource": "auto",
       "statement": null
@@ -347,11 +387,15 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "inequalities",
+        "polynomials",
+        "sequences-series"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Count integer inputs where a polynomial with squared roots is nonpositive.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_17",
       "tagSource": "auto",
       "statement": null
@@ -369,11 +413,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "multiplication-principle",
+        "casework"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Count quadruples from a small set yielding an odd determinant-like expression.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_18",
       "tagSource": "auto",
       "statement": null
@@ -387,11 +434,14 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "multiplication-principle",
+        "casework"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Count valid face paths from top to bottom of a dodecahedron.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_19",
       "tagSource": "auto",
       "statement": null
@@ -411,11 +461,15 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "right-triangles",
+        "similar-congruent",
+        "area-decomposition"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Calculate the area of a quadrilateral formed by two right triangles.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_20",
       "tagSource": "auto",
       "statement": null
@@ -432,11 +486,13 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "digits-bases"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find the number of ones in the binary expansion of a quotient.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_21",
       "tagSource": "auto",
       "statement": null
@@ -451,11 +507,15 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "floor-ceiling",
+        "divisibility",
+        "divisor-counting"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Count integers where a sum of three consecutive floor divisions is not divisible by 3",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_22",
       "tagSource": "auto",
       "statement": null
@@ -470,11 +530,14 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "transformations",
+        "coordinate-geometry"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Number of three-transformation sequences returning an asymmetric triangle to its position.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_23",
       "tagSource": "auto",
       "statement": null
@@ -496,11 +559,15 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "gcd-lcm",
+        "modular-arithmetic",
+        "diophantine"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Sum of digits of smallest integer over 1000 satisfying two gcd conditions",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_24",
       "tagSource": "auto",
       "statement": null
@@ -515,11 +582,14 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "casework",
+        "basic-probability"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Probability of optimally choosing to reroll two dice to achieve a target sum",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_25",
       "tagSource": "auto",
       "statement": null

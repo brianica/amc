@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "permutations-combinations"
+  ],
+  "difficulty": 1,
+  "descriptor": "Probability that the product of two randomly chosen distinct numbers is even"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "permutations-combinations"
+  ],
+  "difficulty": 3,
+  "descriptor": "Number of ways to pair ten people on a circle with acquaintances."
+}

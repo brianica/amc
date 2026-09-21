@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "triangle-basics"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find the squared area of an equilateral triangle inscribed in a hyperbola."
+}

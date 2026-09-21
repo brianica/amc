@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count cyclic triples of teams in a balanced round-robin tournament"
+}

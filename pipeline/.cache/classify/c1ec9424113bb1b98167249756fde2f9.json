@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the additional toothpicks required to extend a staircase grid pattern."
+}

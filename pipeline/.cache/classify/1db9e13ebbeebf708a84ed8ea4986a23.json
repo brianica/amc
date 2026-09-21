@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "solid-geometry",
+    "area-decomposition"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the volume of a pyramid inscribed in a rectangular box."
+}

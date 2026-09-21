@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios",
+    "area-decomposition"
+  ],
+  "difficulty": 3,
+  "descriptor": "Area ratio of an inscribed hexagon formed by parallel equally spaced lines"
+}

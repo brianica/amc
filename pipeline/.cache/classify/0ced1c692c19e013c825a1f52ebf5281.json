@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisor-counting",
+    "primes"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count divisors of a prime-factored integer that are squares or cubes"
+}

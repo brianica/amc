@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "quadratics-vieta"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find a polynomial coefficient given that all roots are positive integers"
+}

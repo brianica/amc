@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "circles",
+    "similar-congruent"
+  ],
+  "difficulty": 3,
+  "descriptor": "Area of an inscribed right triangle determined by an external perpendicular segment"
+}

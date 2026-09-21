@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "circles"
+  ],
+  "difficulty": 3,
+  "descriptor": "Maximum ratio of irrational distances between lattice points on a circle"
+}

@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases"
+  ],
+  "difficulty": 1,
+  "descriptor": "Calculate average speed between two consecutive palindromic odometer readings"
+}

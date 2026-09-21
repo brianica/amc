@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems",
+    "sequences-series"
+  ],
+  "difficulty": 2,
+  "descriptor": "Distance between limiting turning points of an alternating fractional walk"
+}

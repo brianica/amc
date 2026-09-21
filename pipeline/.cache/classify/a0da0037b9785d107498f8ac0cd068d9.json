@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "circles"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find parameter values where a circle and parabola have three intersections."
+}

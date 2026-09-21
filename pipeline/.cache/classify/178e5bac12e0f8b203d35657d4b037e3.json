@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count leading zeros after the decimal point in a reciprocal power."
+}

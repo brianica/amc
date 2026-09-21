@@ -22,11 +22,14 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "area-decomposition",
+        "polygons-area-ratios"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Number of small square pieces obtained from cutting a rectangular tray",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_1",
       "tagSource": "auto",
       "statement": null
@@ -39,11 +42,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "rates-work-mixture"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the average speed during the final segment of a trip.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_2",
       "tagSource": "auto",
       "statement": null
@@ -57,11 +62,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "permutations-combinations",
+        "symmetry-arguments"
+      ],
+      "difficulty": 1.5,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Count distinct values formed by summing products of partitioned four digits",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_3",
       "tagSource": "auto",
       "statement": null
@@ -71,11 +79,13 @@
       "answer": "B",
       "answerConfidence": "medium",
       "answerEvidence": [],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "solid-geometry"
+      ],
+      "difficulty": 1.5,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the sum of the side lengths of a rectangular box.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_4",
       "tagSource": "auto",
       "statement": null
@@ -91,11 +101,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "multiplication-principle",
+        "permutations-combinations"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Count subsets of an eight-element set containing at least one prime number.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_5",
       "tagSource": "auto",
       "statement": null
@@ -105,11 +118,14 @@
       "answer": "D",
       "answerConfidence": "medium",
       "answerEvidence": [],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "basic-probability",
+        "casework"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Probability that three successive draws are needed for their sum to exceed four",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_6",
       "tagSource": "auto",
       "statement": null
@@ -122,11 +138,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "circles",
+        "area-decomposition"
+      ],
+      "difficulty": 1.5,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the number of small semicircles given their area ratio to the remainder",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_7",
       "tagSource": "auto",
       "statement": null
@@ -144,11 +163,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "sequences-series",
+        "quadratics-vieta"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the number of steps in a toothpick staircase pattern given total toothpicks",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_8",
       "tagSource": "auto",
       "statement": null
@@ -165,11 +187,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "symmetry-arguments",
+        "basic-probability"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find an equally probable sum when rolling seven standard six-sided dice.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_9",
       "tagSource": "auto",
       "statement": null
@@ -184,11 +209,14 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "solid-geometry",
+        "area-decomposition"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the volume of a pyramid inscribed in a rectangular box.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_10",
       "tagSource": "auto",
       "statement": null
@@ -202,11 +230,15 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "modular-arithmetic",
+        "primes",
+        "divisibility"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Determine which expression is composite for every choice of prime.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_11",
       "tagSource": "auto",
       "statement": null
@@ -220,11 +252,15 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "circles",
+        "triangle-basics",
+        "coordinate-geometry"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Area enclosed by the locus of a triangle's centroid on a circle.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_12",
       "tagSource": "auto",
       "statement": null
@@ -241,11 +277,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "modular-arithmetic",
+        "divisibility"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Count terms of the form ten to a power plus one divisible by 101",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_13",
       "tagSource": "auto",
       "statement": null
@@ -259,11 +298,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "logic-other",
+      "subtopics": [
+        "statistics"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Minimum distinct elements given the list length and unique mode frequency",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_14",
       "tagSource": "auto",
       "statement": null
@@ -278,11 +319,15 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "solid-geometry",
+        "right-triangles",
+        "area-decomposition"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Area of a square sheet of wrapping paper covering a square box",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_15",
       "tagSource": "auto",
       "statement": null
@@ -299,11 +344,14 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "modular-arithmetic",
+        "divisibility"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the remainder modulo 6 of the sum of cubes of integers.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_16",
       "tagSource": "auto",
       "statement": null
@@ -318,11 +366,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "right-triangles",
+        "polygons-area-ratios"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the side length of an equilateral octagon inscribed inside a rectangle.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_17",
       "tagSource": "auto",
       "statement": null
@@ -338,11 +389,15 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "casework",
+        "permutations-combinations",
+        "multiplication-principle"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Number of valid seating arrangements for three sibling pairs in two rows.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_18",
       "tagSource": "auto",
       "statement": null
@@ -358,11 +413,14 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "divisibility",
+        "divisor-counting"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find a digit sum of an age using divisibility and divisor counting.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_19",
       "tagSource": "auto",
       "statement": null
@@ -381,11 +439,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "sequences-series",
+        "functions"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Evaluate a high-index term in a sequence defined by a recurrence relation.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_20",
       "tagSource": "auto",
       "statement": null
@@ -403,11 +464,15 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "divisibility",
+        "gcd-lcm",
+        "primes"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find the smallest subsequent divisor of an even four-digit integer divisible by 323.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_21",
       "tagSource": "auto",
       "statement": null
@@ -420,11 +485,13 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "conditional-geometric-probability"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Probability that two random lengths and one form an obtuse triangle",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_22",
       "tagSource": "auto",
       "statement": null
@@ -436,11 +503,14 @@
       "answerEvidence": [
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "gcd-lcm",
+        "diophantine"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Count positive integer pairs satisfying a relation involving gcd and lcm",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_23",
       "tagSource": "auto",
       "statement": null
@@ -460,11 +530,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "polygons-area-ratios",
+        "area-decomposition"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find area of intersection of two equilateral triangles inside a regular hexagon.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_24",
       "tagSource": "auto",
       "statement": null
@@ -483,11 +556,13 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "floor-ceiling"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Count real solutions to an equation relating a quadratic to floor functions.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_25",
       "tagSource": "auto",
       "statement": null

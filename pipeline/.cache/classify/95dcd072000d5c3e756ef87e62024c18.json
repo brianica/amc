@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the number of ones in the binary expansion of a quotient."
+}

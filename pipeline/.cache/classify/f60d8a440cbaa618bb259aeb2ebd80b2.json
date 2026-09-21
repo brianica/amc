@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "quadratics-vieta"
+  ],
+  "difficulty": 2,
+  "descriptor": "Evaluate a symmetric rational expression given the sum and product of variables."
+}

@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "inclusion-exclusion",
+    "permutations-combinations"
+  ],
+  "difficulty": 3,
+  "descriptor": "Number of linear permutations of five people with adjacency restrictions"
+}

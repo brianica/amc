@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "inequalities"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the minimum value of an algebraic expression in two variables"
+}

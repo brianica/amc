@@ -1,0 +1,8 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "sets-venn"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the number of students enrolled in all three activities using sets."
+}

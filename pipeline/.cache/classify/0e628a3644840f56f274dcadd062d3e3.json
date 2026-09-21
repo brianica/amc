@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "cyclic-quadrilaterals",
+    "circles"
+  ],
+  "difficulty": 2,
+  "descriptor": "Determine how many given quadrilateral types have a circumcenter"
+}

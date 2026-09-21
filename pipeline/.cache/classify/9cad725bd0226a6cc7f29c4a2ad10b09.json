@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "absolute-value",
+    "inequalities"
+  ],
+  "difficulty": 1,
+  "descriptor": "Count the number of integers within a symmetric absolute value bound"
+}

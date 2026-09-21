@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "permutations-combinations"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count three-digit numbers having a digit permutation divisible by eleven."
+}
