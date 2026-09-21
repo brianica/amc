@@ -12,8 +12,10 @@ import {
   goTo,
   isExpired,
   next,
+  pause,
   previous,
   remainingMs,
+  resume,
   startSession,
   timings,
   toggleFlag,
@@ -64,12 +66,13 @@ export function TimedSession({
   useEffect(() => setResumable(loadSaved(exam.id)), [exam.id]);
 
   // One ticker for the clock display. Elapsed time per problem is banked on
-  // navigation instead, so nothing depends on this firing.
+  // navigation instead, so nothing depends on this firing. Paused, both clocks are
+  // already frozen (see timed.ts), so there is nothing for a tick to update.
   useEffect(() => {
-    if (!state || state.submitted) return;
+    if (!state || state.submitted || state.pausedAt !== null) return;
     const id = setInterval(() => setNow(Date.now()), 500);
     return () => clearInterval(id);
-  }, [state?.submitted, state !== null]);
+  }, [state?.submitted, state?.pausedAt !== null, state !== null]);
 
   useEffect(() => {
     if (!state) return;
@@ -92,12 +95,23 @@ export function TimedSession({
   const apply = (fn: (s: TimedState, t: number) => TimedState) =>
     setState((s) => (s && !s.submitted ? fn(s, Date.now()) : s));
 
+  const togglePause = useCallback(() => {
+    setState((s) => {
+      if (!s || s.submitted) return s;
+      return s.pausedAt !== null ? resume(s, Date.now()) : pause(s, Date.now());
+    });
+  }, []);
+
   useEffect(() => {
     if (!state || state.submitted) return;
     function onKey(e: KeyboardEvent) {
       if (e.metaKey || e.ctrlKey || e.altKey) return;
       const key = e.key.toUpperCase();
-      if (LETTERS.includes(key as Letter)) {
+      if (key === "P") {
+        togglePause();
+      } else if (state!.pausedAt !== null) {
+        return; // Paused: nothing else responds until resumed.
+      } else if (LETTERS.includes(key as Letter)) {
         setState((s) => (s && !s.submitted ? answer(s, key as Letter) : s));
       } else if (e.key === "ArrowRight") apply(next);
       else if (e.key === "ArrowLeft") apply(previous);
@@ -107,7 +121,7 @@ export function TimedSession({
     }
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [state?.submitted, state !== null]);
+  }, [state, togglePause]);
 
   const scored = useMemo(
     () => (state?.submitted ? scoreAttempt(exam, parseAnswers(answerString(state))) : null),
@@ -233,176 +247,208 @@ export function TimedSession({
   const problem = exam.problems[q];
   const answered = state.answers.filter((a) => a !== null).length;
   const lowOnTime = left < 5 * 60_000;
+  const paused = state.pausedAt !== null;
 
   return (
     <div className="space-y-5">
       <div className="flex flex-wrap items-baseline justify-between gap-3 rounded-md border border-border bg-surface px-4 py-3">
         <span
-          className={`text-3xl font-semibold tabular-nums ${lowOnTime ? "text-wrong" : ""}`}
+          className={`text-4xl font-semibold tabular-nums ${lowOnTime && !paused ? "text-wrong" : ""}`}
           aria-live="off"
         >
           {formatClock(left)}
         </span>
-        <span className="text-sm text-muted">
+        <span className="text-base text-muted">
           {answered} of {state.answers.length} answered
         </span>
-        <button
-          type="button"
-          onClick={() => setConfirmingEnd(true)}
-          className="rounded-md border border-border px-3 py-1.5 text-sm"
-        >
-          Finish early
-        </button>
+        <div className="flex gap-2">
+          <button
+            type="button"
+            onClick={togglePause}
+            className="rounded-md border border-border px-3 py-1.5 text-base"
+          >
+            {paused ? "Resume" : "Pause"}
+          </button>
+          <button
+            type="button"
+            onClick={() => setConfirmingEnd(true)}
+            disabled={paused}
+            className="rounded-md border border-border px-3 py-1.5 text-base disabled:opacity-40"
+          >
+            Finish early
+          </button>
+        </div>
       </div>
 
-      {confirmingEnd && (
-        <div className="rounded-md border border-border bg-surface px-4 py-3 text-sm">
-          <p>End the paper now and score it? Anything unanswered counts as blank.</p>
-          <div className="mt-2 flex gap-3">
-            <button
-              type="button"
-              onClick={end}
-              className="rounded-md bg-accent px-3 py-1.5 font-medium text-white"
-            >
-              End and score
-            </button>
-            <button
-              type="button"
-              onClick={() => setConfirmingEnd(false)}
-              className="rounded-md border border-border px-3 py-1.5"
-            >
-              Keep going
-            </button>
-          </div>
-        </div>
-      )}
+      {paused ? (
+        <section className="rounded-md border border-border bg-surface p-5 text-center">
+          <p className="text-xl font-semibold">Paused</p>
+          <p className="mt-2 text-base text-muted">
+            The clock is stopped and the problem is hidden. Nothing here is being timed
+            against you while you take a break.
+          </p>
+          <button
+            type="button"
+            onClick={togglePause}
+            className="mt-4 rounded-md bg-accent px-4 py-2 text-lg font-medium text-white"
+          >
+            Resume
+          </button>
+        </section>
+      ) : (
+        <>
+          {confirmingEnd && (
+            <div className="rounded-md border border-border bg-surface px-4 py-3 text-base">
+              <p>End the paper now and score it? Anything unanswered counts as blank.</p>
+              <div className="mt-2 flex gap-3">
+                <button
+                  type="button"
+                  onClick={end}
+                  className="rounded-md bg-accent px-3 py-1.5 font-medium text-white"
+                >
+                  End and score
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setConfirmingEnd(false)}
+                  className="rounded-md border border-border px-3 py-1.5"
+                >
+                  Keep going
+                </button>
+              </div>
+            </div>
+          )}
 
-      <section className="rounded-md border border-border bg-surface p-5">
-        <div className="flex flex-wrap items-baseline gap-3">
-          <h2 className="text-lg font-semibold">Problem {q + 1}</h2>
-          <span className="text-sm text-muted">{problem?.tier === "T1" ? "Q1–10" : problem?.tier === "T2" ? "Q11–18" : "Q19–25"}</span>
-          {state.flagged[q] && <span className="text-sm text-blank">flagged</span>}
-        </div>
+          <section className="rounded-md border border-border bg-surface p-5">
+            <div className="flex flex-wrap items-baseline gap-3">
+              <h2 className="text-xl font-semibold">Problem {q + 1}</h2>
+              <span className="text-base text-muted">{problem?.tier === "T1" ? "Q1–10" : problem?.tier === "T2" ? "Q11–18" : "Q19–25"}</span>
+              {state.flagged[q] && <span className="text-base text-blank">flagged</span>}
+            </div>
 
-        {statements?.[q] && (
-          <div className="mt-3 space-y-2 text-[0.95rem] leading-relaxed">
-            <div
-              className="statement"
-              // Built by renderStatement, which escapes every character of the source
-              // and emits only its own markup plus KaTeX output.
-              dangerouslySetInnerHTML={{ __html: statements[q]!.html }}
-            />
-            {statements[q]!.hasDiagram && (
-              <p className="text-sm text-muted">
-                This problem has a diagram that cannot be drawn here
-                {problem?.sourceUrl ? (
-                  <>
-                    {" — "}
-                    <a
-                      href={problem.sourceUrl}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="text-accent underline"
-                    >
-                      see the original
-                    </a>
-                  </>
-                ) : (
-                  ", so check your paper"
+            {statements?.[q] && (
+              <div className="mt-3 space-y-2 text-lg leading-relaxed">
+                <div
+                  className="statement"
+                  // Built by renderStatement, which escapes every character of the source
+                  // and emits only its own markup plus KaTeX output.
+                  dangerouslySetInnerHTML={{ __html: statements[q]!.html }}
+                />
+                {statements[q]!.hasDiagram && (
+                  <p className="text-base text-muted">
+                    This problem has a diagram that cannot be drawn here
+                    {problem?.sourceUrl ? (
+                      <>
+                        {" — "}
+                        <a
+                          href={problem.sourceUrl}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="text-accent underline"
+                        >
+                          see the original
+                        </a>
+                      </>
+                    ) : (
+                      ", so check your paper"
+                    )}
+                    .
+                  </p>
                 )}
-                .
-              </p>
+              </div>
             )}
+
+            {!statements?.[q] &&
+              showLinks &&
+              (problem?.sourceUrl ? (
+                <a
+                  href={problem.sourceUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-2 inline-block text-base text-accent underline"
+                >
+                  Open problem {q + 1} in a new tab
+                </a>
+              ) : (
+                <p className="mt-2 text-base text-muted">No link available for this paper.</p>
+              ))}
+
+            <div className="mt-4 flex flex-wrap gap-2">
+              {LETTERS.map((letter) => (
+                <button
+                  key={letter}
+                  type="button"
+                  aria-pressed={state.answers[q] === letter}
+                  onClick={() => setState((s) => (s ? answer(s, letter) : s))}
+                  className={`h-14 w-14 rounded-md border text-2xl ${
+                    state.answers[q] === letter
+                      ? "border-accent bg-accent text-white"
+                      : "border-border hover:border-accent"
+                  }`}
+                >
+                  {letter}
+                </button>
+              ))}
+            </div>
+
+            <div className="mt-4 flex flex-wrap items-center gap-2">
+              <button
+                type="button"
+                onClick={() => apply(previous)}
+                disabled={q === 0}
+                className="rounded-md border border-border px-3 py-1.5 text-base disabled:opacity-40"
+              >
+                Previous
+              </button>
+              <button
+                type="button"
+                onClick={() => apply(next)}
+                disabled={q === state.answers.length - 1}
+                className="rounded-md border border-accent bg-accent px-3 py-1.5 text-base text-white disabled:opacity-40"
+              >
+                Next
+              </button>
+              <button
+                type="button"
+                onClick={() => setState((s) => (s ? toggleFlag(s) : s))}
+                className="rounded-md border border-border px-3 py-1.5 text-base"
+              >
+                {state.flagged[q] ? "Unflag" : "Flag for review"}
+              </button>
+              <span className="text-xs text-muted">
+                A–E to answer · ← → to move · F to flag · P to pause
+              </span>
+            </div>
+          </section>
+
+          <div ref={gridRef}>
+            <p className="mb-2 text-base text-muted">Jump to a problem</p>
+            <div className="grid grid-cols-8 gap-1 sm:grid-cols-13">
+              {state.answers.map((a, i) => (
+                <button
+                  key={i}
+                  type="button"
+                  onClick={() => apply((s, t) => goTo(s, i, t))}
+                  aria-current={i === q ? "true" : undefined}
+                  className={`relative h-10 rounded border text-base tabular-nums ${
+                    i === q
+                      ? "border-accent bg-accent text-white"
+                      : a
+                        ? "border-border bg-bg font-medium"
+                        : "border-border text-muted"
+                  }`}
+                  title={`Problem ${i + 1}${a ? ` — answered ${a}` : " — unanswered"}`}
+                >
+                  {i + 1}
+                  {state.flagged[i] && (
+                    <span className="absolute right-0.5 top-0.5 h-1.5 w-1.5 rounded-full bg-blank" />
+                  )}
+                </button>
+              ))}
+            </div>
           </div>
-        )}
-
-        {!statements?.[q] &&
-          showLinks &&
-          (problem?.sourceUrl ? (
-            <a
-              href={problem.sourceUrl}
-              target="_blank"
-              rel="noreferrer"
-              className="mt-2 inline-block text-sm text-accent underline"
-            >
-              Open problem {q + 1} in a new tab
-            </a>
-          ) : (
-            <p className="mt-2 text-sm text-muted">No link available for this paper.</p>
-          ))}
-
-        <div className="mt-4 flex flex-wrap gap-2">
-          {LETTERS.map((letter) => (
-            <button
-              key={letter}
-              type="button"
-              aria-pressed={state.answers[q] === letter}
-              onClick={() => setState((s) => (s ? answer(s, letter) : s))}
-              className={`h-12 w-12 rounded-md border text-lg ${
-                state.answers[q] === letter
-                  ? "border-accent bg-accent text-white"
-                  : "border-border hover:border-accent"
-              }`}
-            >
-              {letter}
-            </button>
-          ))}
-        </div>
-
-        <div className="mt-4 flex flex-wrap items-center gap-2">
-          <button
-            type="button"
-            onClick={() => apply(previous)}
-            disabled={q === 0}
-            className="rounded-md border border-border px-3 py-1.5 text-sm disabled:opacity-40"
-          >
-            Previous
-          </button>
-          <button
-            type="button"
-            onClick={() => apply(next)}
-            disabled={q === state.answers.length - 1}
-            className="rounded-md border border-accent bg-accent px-3 py-1.5 text-sm text-white disabled:opacity-40"
-          >
-            Next
-          </button>
-          <button
-            type="button"
-            onClick={() => setState((s) => (s ? toggleFlag(s) : s))}
-            className="rounded-md border border-border px-3 py-1.5 text-sm"
-          >
-            {state.flagged[q] ? "Unflag" : "Flag for review"}
-          </button>
-          <span className="text-xs text-muted">A–E to answer · ← → to move · F to flag</span>
-        </div>
-      </section>
-
-      <div ref={gridRef}>
-        <p className="mb-2 text-sm text-muted">Jump to a problem</p>
-        <div className="grid grid-cols-8 gap-1 sm:grid-cols-13">
-          {state.answers.map((a, i) => (
-            <button
-              key={i}
-              type="button"
-              onClick={() => apply((s, t) => goTo(s, i, t))}
-              aria-current={i === q ? "true" : undefined}
-              className={`relative h-9 rounded border text-sm tabular-nums ${
-                i === q
-                  ? "border-accent bg-accent text-white"
-                  : a
-                    ? "border-border bg-bg font-medium"
-                    : "border-border text-muted"
-              }`}
-              title={`Problem ${i + 1}${a ? ` — answered ${a}` : " — unanswered"}`}
-            >
-              {i + 1}
-              {state.flagged[i] && (
-                <span className="absolute right-0.5 top-0.5 h-1.5 w-1.5 rounded-full bg-blank" />
-              )}
-            </button>
-          ))}
-        </div>
-      </div>
+        </>
+      )}
     </div>
   );
 }

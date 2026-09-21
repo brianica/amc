@@ -8,8 +8,10 @@ import {
   goTo,
   isExpired,
   next,
+  pause,
   previous,
   remainingMs,
+  resume,
   startSession,
   timings,
   toggleFlag,
@@ -155,5 +157,66 @@ describe("finish", () => {
     s = finish(s, sec(45));
     expect(s.submitted).toBe(true);
     expect(timings(s)[0]!.seconds).toBe(45);
+  });
+});
+
+describe("pause and resume", () => {
+  it("stops the countdown while paused, and does not burn the break as playing time", () => {
+    let s = startSession(25, 75, T0);
+    s = pause(s, sec(30));
+    const during = remainingMs(s, sec(30 + 600)); // 10 minutes into the break
+    expect(during).toBe(remainingMs(s, sec(30))); // clock did not move
+    s = resume(s, sec(30 + 600));
+    expect(remainingMs(s, sec(30 + 600))).toBe(75 * 60_000 - 30_000); // only 30s counted
+  });
+
+  it("banks the current problem's time at the moment of pausing, not when resumed", () => {
+    let s = startSession(25, 75, T0);
+    s = pause(s, sec(20));
+    expect(timings(s)[0]).toMatchObject({ seconds: 20 });
+    s = resume(s, sec(20 + 300)); // 5 minute break
+    expect(timings(s)[0]).toMatchObject({ seconds: 20 }); // break added nothing
+  });
+
+  it("does not accrue further time on the paused problem before resuming", () => {
+    let s = startSession(25, 75, T0);
+    s = pause(s, sec(20));
+    s = resume(s, sec(80));
+    s = pause(s, sec(90)); // 10s more after resuming
+    expect(timings(s)[0]).toMatchObject({ seconds: 30 });
+  });
+
+  it("is a no-op to pause twice or resume when not paused", () => {
+    let s = startSession(25, 75, T0);
+    s = pause(s, sec(10));
+    const samePause = pause(s, sec(50));
+    expect(samePause).toBe(s);
+
+    let running = startSession(25, 75, T0);
+    const sameRunning = resume(running, sec(50));
+    expect(sameRunning).toBe(running);
+  });
+
+  it("cannot pause a submitted session", () => {
+    let s = startSession(25, 75, T0);
+    s = finish(s, sec(10));
+    const paused = pause(s, sec(20));
+    expect(paused).toBe(s);
+  });
+
+  it("finishing while paused banks up to the pause instant, not later", () => {
+    let s = startSession(25, 75, T0);
+    s = pause(s, sec(15));
+    s = finish(s, sec(15 + 600)); // ended the sitting during a long break
+    expect(timings(s)[0]).toMatchObject({ seconds: 15 });
+    expect(s.pausedAt).toBeNull();
+  });
+
+  it("running out of time while paused still ends the paper", () => {
+    let s = startSession(25, 75, T0);
+    s = pause(s, sec(75 * 60 - 5));
+    // The break outlasts the remaining time; isExpired must not depend on the break
+    // itself refreshing the deadline.
+    expect(isExpired(s, sec(75 * 60 - 5))).toBe(false);
   });
 });

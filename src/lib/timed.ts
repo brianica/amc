@@ -25,6 +25,8 @@ export interface TimedState {
   /** When the clock on the current problem started. */
   enteredAt: number;
   submitted: boolean;
+  /** When the current pause began, or null while running. */
+  pausedAt: number | null;
 }
 
 export function startSession(count: number, durationMin: number, now: number): TimedState {
@@ -38,6 +40,7 @@ export function startSession(count: number, durationMin: number, now: number): T
     visits: Array(count).fill(0).map((_, i) => (i === 0 ? 1 : 0)),
     enteredAt: now,
     submitted: false,
+    pausedAt: null,
   };
 }
 
@@ -47,6 +50,23 @@ export function accrue(state: TimedState, now: number): TimedState {
   const spentMs = [...state.spentMs];
   spentMs[state.current] = (spentMs[state.current] ?? 0) + elapsed;
   return { ...state, spentMs, enteredAt: now };
+}
+
+/**
+ * Stop both clocks: the per-problem timer (banked immediately, like leaving for
+ * another problem) and, once resumed, the deadline itself — a break should cost
+ * nothing on either count, the way a proctor stopping the room clock would.
+ */
+export function pause(state: TimedState, now: number): TimedState {
+  if (state.submitted || state.pausedAt !== null) return state;
+  return { ...accrue(state, now), pausedAt: now };
+}
+
+/** Shift the deadline and the current problem's clock forward by the pause's length. */
+export function resume(state: TimedState, now: number): TimedState {
+  if (state.pausedAt === null) return state;
+  const pausedMs = Math.max(0, now - state.pausedAt);
+  return { ...state, startedAt: state.startedAt + pausedMs, enteredAt: now, pausedAt: null };
 }
 
 export function goTo(state: TimedState, index: number, now: number): TimedState {
@@ -81,16 +101,19 @@ export function toggleFlag(state: TimedState): TimedState {
 }
 
 export function remainingMs(state: TimedState, now: number): number {
-  return Math.max(0, state.startedAt + state.durationMs - now);
+  const clock = state.pausedAt ?? now;
+  return Math.max(0, state.startedAt + state.durationMs - clock);
 }
 
+/** Running out while paused still ends the paper — pausing buys a break, not extra time. */
 export function isExpired(state: TimedState, now: number): boolean {
   return remainingMs(state, now) === 0;
 }
 
 /** Bank the final problem's time and close the session. */
 export function finish(state: TimedState, now: number): TimedState {
-  return { ...accrue(state, now), submitted: true };
+  const clock = state.pausedAt ?? now;
+  return { ...accrue(state, clock), submitted: true, pausedAt: null };
 }
 
 export function answerString(state: TimedState): string {
