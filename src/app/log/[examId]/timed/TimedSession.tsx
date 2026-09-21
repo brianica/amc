@@ -24,6 +24,7 @@ import {
   type TimedState,
 } from "@/lib/timed";
 import type { RenderedStatement } from "@/lib/wikitext";
+import { problemLink } from "@/lib/wiki-links";
 import { ReviewStep } from "../ReviewStep";
 
 const LETTERS: Letter[] = ["A", "B", "C", "D", "E"];
@@ -55,7 +56,6 @@ export function TimedSession({
   statements?: (RenderedStatement | null)[];
 }) {
   const [minutes, setMinutes] = useState(defaultMinutes);
-  const [showLinks, setShowLinks] = useState(false);
   const [state, setState] = useState<TimedState | null>(null);
   const [resumable, setResumable] = useState<TimedState | null>(null);
   const [now, setNow] = useState(() => Date.now());
@@ -177,25 +177,11 @@ export function TimedSession({
             />
           </label>
 
-          {hasStatements ? (
-            <p className="text-sm text-muted">
-              The problems will be shown here, from this machine&apos;s local copy.
-            </p>
-          ) : (
-            <label className="flex items-center gap-2 text-sm">
-              <input
-                type="checkbox"
-                checked={showLinks}
-                onChange={(e) => setShowLinks(e.target.checked)}
-              />
-              <span>
-                I do not have the paper — link me to each problem
-                <span className="block text-muted">
-                  Opens the official page for each question in a new tab.
-                </span>
-              </span>
-            </label>
-          )}
+          <p className="text-sm text-muted">
+            {hasStatements
+              ? "The problems will be shown here, from this machine's local copy."
+              : "Each problem links out to AoPS, or use your own copy of the paper."}
+          </p>
         </div>
 
         <button
@@ -324,6 +310,14 @@ export function TimedSession({
               <h2 className="text-xl font-semibold">Problem {q + 1}</h2>
               <span className="text-base text-muted">{problem?.tier === "T1" ? "Q1–10" : problem?.tier === "T2" ? "Q11–18" : "Q19–25"}</span>
               {state.flagged[q] && <span className="text-base text-blank">flagged</span>}
+              <a
+                href={problemLink(exam.wikiPage, q + 1)}
+                target="_blank"
+                rel="noreferrer"
+                className="text-base text-accent underline"
+              >
+                Open on AoPS
+              </a>
             </div>
 
             {statements?.[q] && (
@@ -336,42 +330,18 @@ export function TimedSession({
                 />
                 {statements[q]!.hasDiagram && (
                   <p className="text-base text-muted">
-                    This problem has a diagram that cannot be drawn here
-                    {problem?.sourceUrl ? (
-                      <>
-                        {" — "}
-                        <a
-                          href={problem.sourceUrl}
-                          target="_blank"
-                          rel="noreferrer"
-                          className="text-accent underline"
-                        >
-                          see the original
-                        </a>
-                      </>
-                    ) : (
-                      ", so check your paper"
-                    )}
-                    .
+                    This problem has a diagram that cannot be drawn here — see the AoPS
+                    link above, or check your paper.
                   </p>
                 )}
               </div>
             )}
 
-            {!statements?.[q] &&
-              showLinks &&
-              (problem?.sourceUrl ? (
-                <a
-                  href={problem.sourceUrl}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="mt-2 inline-block text-base text-accent underline"
-                >
-                  Open problem {q + 1} in a new tab
-                </a>
-              ) : (
-                <p className="mt-2 text-base text-muted">No link available for this paper.</p>
-              ))}
+            {!statements?.[q] && (
+              <p className="mt-2 text-base text-muted">
+                Use the AoPS link above, or check your paper.
+              </p>
+            )}
 
             <div className="mt-4 flex flex-wrap gap-2">
               {LETTERS.map((letter) => (

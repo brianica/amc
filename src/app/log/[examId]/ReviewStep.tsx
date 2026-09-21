@@ -7,6 +7,7 @@ import type { ErrorCategory, TimeBucket } from "@/lib/store";
 import type { QuestionTiming } from "@/lib/timed";
 import type { RenderedStatement } from "@/lib/wikitext";
 import { assessRetake, BIAS_WINDOW_DAYS } from "@/lib/retake";
+import { problemLink } from "@/lib/wiki-links";
 import { saveAttempt, type TriageInput } from "./actions";
 
 /**
@@ -193,6 +194,24 @@ export function ReviewStep({
                       : r.area.replace(/-/g, " ")}
                   </span>
                 )}
+                <a
+                  href={problemLink(exam.wikiPage, r.n)}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-sm text-accent underline"
+                >
+                  Problem
+                </a>
+                {exam.problems[r.n - 1]?.sourceUrl && (
+                  <a
+                    href={exam.problems[r.n - 1]!.sourceUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-sm text-accent underline"
+                  >
+                    Solutions
+                  </a>
+                )}
               </div>
 
               {showProblems && statements?.[r.n - 1] && (
@@ -205,23 +224,8 @@ export function ReviewStep({
                   />
                   {statements[r.n - 1]!.hasDiagram && (
                     <p className="mt-1 text-sm text-muted">
-                      This problem has a diagram that cannot be drawn here
-                      {exam.problems[r.n - 1]?.sourceUrl ? (
-                        <>
-                          {" — "}
-                          <a
-                            href={exam.problems[r.n - 1]!.sourceUrl}
-                            target="_blank"
-                            rel="noreferrer"
-                            className="text-accent underline"
-                          >
-                            see the original
-                          </a>
-                        </>
-                      ) : (
-                        ", so check your paper"
-                      )}
-                      .
+                      This problem has a diagram that cannot be drawn here — see the
+                      Problem link above, or check your paper.
                     </p>
                   )}
                 </div>
