@@ -54,7 +54,18 @@ function seqStep(accuracy: number): { fill: string; ink: string } {
   return { fill: `var(${name})`, ink: `var(${name}-ink)` };
 }
 
-export function StrengthGrid({ areas, cells }: { areas: string[]; cells: Cell[] }) {
+export function StrengthGrid({
+  areas,
+  cells,
+  cellLabel = "pct",
+}: {
+  areas: string[];
+  cells: Cell[];
+  /** "pct" (default, used across many papers) or "count" — correct/seen reads better
+   *  for one paper, where the denominator is small enough that a percentage rounds
+   *  away the exact number that actually happened. */
+  cellLabel?: "pct" | "count";
+}) {
   const [hover, setHover] = useState<{ cell: Cell; x: number; y: number } | null>(null);
   const at = (area: string, tier: Tier) => cells.find((c) => c.area === area && c.tier === tier);
 
@@ -116,7 +127,7 @@ export function StrengthGrid({ areas, cells }: { areas: string[]; cells: Cell[] 
                       }}
                       onBlur={() => setHover(null)}
                     >
-                      {pct(cell.accuracy)}
+                      {cellLabel === "count" ? `${cell.correct}/${cell.seen}` : pct(cell.accuracy)}
                     </td>
                   );
                 })}

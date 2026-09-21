@@ -16,6 +16,7 @@ import {
 import { problemLink } from "@/lib/wiki-links";
 import { parseAnswers, scoreAttempt } from "@pipeline/score";
 import { ScoreSummary } from "../ScoreSummary";
+import { ScrollToTop } from "../ScrollToTop";
 import { StrengthGrid, TimeSpent, type TimeSpentPoint } from "../../dashboard/charts";
 
 // Depends on who is signed in, so it must never be prerendered at build time.
@@ -64,6 +65,19 @@ export default async function AttemptPage({ params }: { params: Promise<{ attemp
   // minSeen 1, not the dashboard's default of 2: this is the one paper being
   // reviewed, not a pattern across many, so a technique seen once still belongs here.
   const techniques = subtopicBreakdown([attempt], () => exam, 1);
+  // subtopicBreakdown aggregates counts only — it's shared with the dashboard, where
+  // "link to the problem" makes no sense across many papers. This page needs the
+  // actual question numbers, so it rebuilds that mapping locally from this one exam.
+  // Only missed problems get an anchor below (see "What happened on each one"), so
+  // only those are worth linking here.
+  const missedSet = new Set(missed.map((r) => r.n));
+  const missedBySubtopic = new Map<string, number[]>();
+  for (const p of exam.problems) {
+    if (!missedSet.has(p.n)) continue;
+    for (const subtopic of p.subtopics) {
+      missedBySubtopic.set(subtopic, [...(missedBySubtopic.get(subtopic) ?? []), p.n]);
+    }
+  }
 
   const timePoints: TimeSpentPoint[] =
     attempt.mode === "timed" && attempt.timings
@@ -77,6 +91,7 @@ export default async function AttemptPage({ params }: { params: Promise<{ attemp
 
   return (
     <div className="space-y-8">
+      <ScrollToTop />
       <div>
         <p className="text-sm text-muted">
           {attempt.taken_on} · {attempt.mode === "timed" ? "sat on the clock" : "logged from paper"}
@@ -121,7 +136,7 @@ export default async function AttemptPage({ params }: { params: Promise<{ attemp
             Accuracy on this paper, by topic and by where it sat on the paper.
           </p>
           <div className="mt-4">
-            <StrengthGrid areas={grid.areas} cells={grid.cells} />
+            <StrengthGrid areas={grid.areas} cells={grid.cells} cellLabel="count" />
           </div>
         </section>
       )}
@@ -134,21 +149,36 @@ export default async function AttemptPage({ params }: { params: Promise<{ attemp
             technique, so this adds up to more than the paper's question count.
           </p>
           <ul className="mt-4 space-y-1 text-sm">
-            {techniques.map((t) => (
-              <li
-                key={`${t.area}-${t.subtopic}`}
-                className="flex items-baseline justify-between gap-4 border-b border-border py-1.5"
-              >
-                <span>
-                  {t.subtopic.replace(/-/g, " ")}
-                  <span className="ml-2 text-xs text-muted">{t.area.replace(/-/g, " ")}</span>
-                </span>
-                <span className="shrink-0 tabular-nums text-muted">
-                  {t.correct} of {t.seen}
-                  <span className="ml-2 text-text">{Math.round(t.accuracy * 100)}%</span>
-                </span>
-              </li>
-            ))}
+            {techniques.map((t) => {
+              const problems = missedBySubtopic.get(t.subtopic) ?? [];
+              return (
+                <li
+                  key={`${t.area}-${t.subtopic}`}
+                  className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 border-b border-border py-1.5"
+                >
+                  <span>
+                    {t.subtopic.replace(/-/g, " ")}
+                    <span className="ml-2 text-xs text-muted">{t.area.replace(/-/g, " ")}</span>
+                    {problems.length > 0 && (
+                      <span className="ml-2 text-xs">
+                        {problems.map((n, i) => (
+                          <span key={n}>
+                            {i > 0 && ", "}
+                            <a href={`#q${n}`} className="text-accent underline">
+                              Q{n}
+                            </a>
+                          </span>
+                        ))}
+                      </span>
+                    )}
+                  </span>
+                  <span className="shrink-0 tabular-nums text-muted">
+                    {t.correct} of {t.seen}
+                    <span className="ml-2 text-text">{Math.round(t.accuracy * 100)}%</span>
+                  </span>
+                </li>
+              );
+            })}
           </ul>
         </section>
       )}
@@ -160,7 +190,11 @@ export default async function AttemptPage({ params }: { params: Promise<{ attemp
             {missed.map((r) => {
               const log = logByQuestion.get(r.n);
               return (
-                <li key={r.n} className="rounded-md border border-border bg-surface p-4">
+                <li
+                  key={r.n}
+                  id={`q${r.n}`}
+                  className="scroll-mt-4 rounded-md border border-border bg-surface p-4"
+                >
                   <div className="flex flex-wrap items-baseline gap-2">
                     <span className="font-medium">Q{r.n}</span>
                     <span className={r.status === "blank" ? "text-blank" : "text-wrong"}>
