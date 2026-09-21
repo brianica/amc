@@ -1,6 +1,6 @@
 import type { ExamFile, Tier } from "@pipeline/types";
 import { parseAnswers, scoreAttempt } from "@pipeline/score";
-import type { AttemptRecord, ErrorCategory, ProblemLogRecord } from "./store";
+import type { AttemptRecord, ErrorCategory, ProblemLogRecord, TimeBucket } from "./store";
 
 export const TIERS: Tier[] = ["T1", "T2", "T3"];
 export const TIER_LABEL: Record<Tier, string> = {
@@ -15,6 +15,13 @@ export const CATEGORY_LABEL: Record<ErrorCategory, string> = {
   concept: "Didn't know the method",
   no_path: "Couldn't find the path",
   triage: "Ran out of time",
+};
+
+export const TIME_BUCKET_LABEL: Record<TimeBucket, string> = {
+  under1: "<1 min",
+  "1to3": "1–3 min",
+  "3to6": "3–6 min",
+  over6: "6+ min",
 };
 
 export type ExamLookup = (examId: string) => ExamFile | undefined;

@@ -76,6 +76,8 @@ export default async function Dashboard() {
   });
   const thin = attempts.length < 3;
 
+  const recent = [...attempts].sort((a, b) => b.created_at.localeCompare(a.created_at));
+
   return (
     <div className="space-y-8">
       <header>
@@ -87,6 +89,26 @@ export default async function Dashboard() {
             ` · ${excluded} sitting${excluded === 1 ? "" : "s"} recorded but not counted`}
         </p>
       </header>
+
+      <Card title="Recent attempts" hint="Every sitting, most recent first. Open one to see what happened question by question.">
+        <ul className="space-y-1 text-sm">
+          {recent.map((a) => {
+            const exam = lookup(a.exam_id);
+            return (
+              <li key={a.id} className="flex items-baseline justify-between gap-4 border-b border-border py-1.5">
+                <Link href={`/attempts/${a.id}`} className="hover:text-accent hover:underline">
+                  {exam ? label(exam, a) : a.exam_id}
+                </Link>
+                <span className="shrink-0 tabular-nums text-muted">
+                  {a.taken_on}
+                  <span className="ml-3 text-text">{a.score}</span>
+                  {!a.include_in_stats && <span className="ml-2 text-xs">not counted</span>}
+                </span>
+              </li>
+            );
+          })}
+        </ul>
+      </Card>
 
       <section className="rounded-lg border border-border bg-surface p-5">
         <p className="text-sm text-muted">Points left on the table, per paper</p>

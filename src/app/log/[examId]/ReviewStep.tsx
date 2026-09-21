@@ -8,6 +8,7 @@ import type { QuestionTiming } from "@/lib/timed";
 import type { RenderedStatement } from "@/lib/wikitext";
 import { assessRetake, BIAS_WINDOW_DAYS } from "@/lib/retake";
 import { problemLink } from "@/lib/wiki-links";
+import { ScoreSummary } from "../../attempts/ScoreSummary";
 import { saveAttempt, type TriageInput } from "./actions";
 
 /**
@@ -134,32 +135,7 @@ export function ReviewStep({
 
   return (
     <div className="space-y-8">
-      <section className="rounded-md border border-border bg-surface p-5">
-        <p className="text-sm text-muted">{examLabel}</p>
-        <p className="mt-1 text-3xl font-semibold tabular-nums">
-          {scored.score}
-          <span className="ml-2 text-base font-normal text-muted">/ {scored.maxScore}</span>
-        </p>
-        <dl className="mt-4 flex gap-6 text-sm">
-          <div>
-            <dt className="text-muted">Correct</dt>
-            <dd className="tabular-nums text-correct">{scored.counts.correct}</dd>
-          </div>
-          <div>
-            <dt className="text-muted">Wrong</dt>
-            <dd className="tabular-nums text-wrong">{scored.counts.incorrect}</dd>
-          </div>
-          <div>
-            <dt className="text-muted">Blank</dt>
-            <dd className="tabular-nums text-blank">{scored.counts.blank}</dd>
-          </div>
-        </dl>
-        <p className="mt-4 text-sm text-muted">
-          Points given up — Q1–10: <strong className="text-text">{scored.lostByTier.T1}</strong>,
-          Q11–18: <strong className="text-text">{scored.lostByTier.T2}</strong>, Q19–25:{" "}
-          <strong className="text-text">{scored.lostByTier.T3}</strong>
-        </p>
-      </section>
+      <ScoreSummary examLabel={examLabel} scored={scored} />
 
       <section>
         <div className="flex flex-wrap items-baseline justify-between gap-2">

@@ -2,6 +2,7 @@
 
 import { useId, useState } from "react";
 import type { Tier } from "@pipeline/types";
+import type { Status } from "@pipeline/score";
 import {
   CATEGORIES,
   CATEGORY_LABEL,
@@ -380,6 +381,98 @@ export function ScoreTrend({ points, showAimeBand }: { points: TrendPoint[]; sho
                 <td className="py-1">{p.takenOn}</td>
                 <td className="py-1 tabular-nums">{p.score}/{p.maxScore}</td>
                 <td className="py-1 tabular-nums">{pct(p.pct)}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </TableView>
+    </div>
+  );
+}
+
+/* -------------------------------------------------------------- time spent -- */
+
+export interface TimeSpentPoint {
+  q: number;
+  seconds: number;
+  status: Status;
+}
+
+const STATUS_COLOR: Record<Status, string> = {
+  correct: "var(--correct)",
+  incorrect: "var(--wrong)",
+  blank: "var(--blank)",
+};
+const STATUS_LABEL: Record<Status, string> = { correct: "Correct", incorrect: "Wrong", blank: "Blank" };
+
+function formatSeconds(seconds: number): string {
+  const m = Math.floor(seconds / 60);
+  const s = seconds % 60;
+  if (m === 0) return `${s}s`;
+  return s === 0 ? `${m}m` : `${m}m ${s}s`;
+}
+
+/** One bar per problem, coloured by outcome — the pacing failure a clock actually measures. */
+export function TimeSpent({ points }: { points: TimeSpentPoint[] }) {
+  const [hover, setHover] = useState<{ p: TimeSpentPoint; x: number; y: number } | null>(null);
+  const max = Math.max(1, ...points.map((p) => p.seconds));
+  const H = 140;
+
+  return (
+    <div className="relative">
+      <div className="flex items-end gap-1 overflow-x-auto pb-1" style={{ height: H + 40 }}>
+        {points.map((p) => (
+          <div key={p.q} className="flex shrink-0 flex-col items-center" style={{ width: 20 }}>
+            <div
+              className="w-full cursor-default rounded-t-[4px]"
+              style={{
+                height: Math.max(2, (p.seconds / max) * H),
+                background: STATUS_COLOR[p.status],
+              }}
+              onMouseMove={(e) => {
+                const r = e.currentTarget.getBoundingClientRect();
+                const par = e.currentTarget.closest(".relative")!.getBoundingClientRect();
+                setHover({ p, x: r.left - par.left + r.width / 2, y: r.top - par.top });
+              }}
+              onMouseLeave={() => setHover(null)}
+            />
+            <span className="mt-1 text-[10px] text-muted">{p.q}</span>
+          </div>
+        ))}
+      </div>
+
+      {hover && (
+        <Tooltip
+          x={hover.x}
+          y={hover.y}
+          text={`Q${hover.p.q} — ${formatSeconds(hover.p.seconds)}, ${STATUS_LABEL[hover.p.status].toLowerCase()}`}
+        />
+      )}
+
+      <ul className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-xs text-muted">
+        {(["correct", "incorrect", "blank"] as Status[]).map((s) => (
+          <li key={s} className="flex items-center gap-1.5">
+            <span className="h-2.5 w-2.5 rounded-sm" style={{ background: STATUS_COLOR[s] }} />
+            {STATUS_LABEL[s]}
+          </li>
+        ))}
+      </ul>
+
+      <TableView caption="Show as table">
+        <table className="w-full text-left">
+          <thead className="text-muted">
+            <tr>
+              <th className="py-1 font-normal">Problem</th>
+              <th className="py-1 font-normal">Time</th>
+              <th className="py-1 font-normal">Outcome</th>
+            </tr>
+          </thead>
+          <tbody>
+            {points.map((p) => (
+              <tr key={p.q} className="border-t border-border">
+                <td className="py-1 tabular-nums">Q{p.q}</td>
+                <td className="py-1 tabular-nums">{formatSeconds(p.seconds)}</td>
+                <td className="py-1">{STATUS_LABEL[p.status]}</td>
               </tr>
             ))}
           </tbody>

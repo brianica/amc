@@ -142,7 +142,9 @@ export default async function Home() {
                 return (
                   <tr key={a.id} className="border-t border-border">
                     <td className="py-2">
-                      {exam ? examLabel(exam) : a.exam_id}
+                      <Link href={`/attempts/${a.id}`} className="hover:text-accent hover:underline">
+                        {exam ? examLabel(exam) : a.exam_id}
+                      </Link>
                       {(ordinals.get(a.id)?.total ?? 1) > 1 && (
                         <span className="ml-2 text-xs text-muted">
                           sitting {ordinals.get(a.id)!.ordinal} of {ordinals.get(a.id)!.total}

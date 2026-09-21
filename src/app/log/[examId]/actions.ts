@@ -83,5 +83,5 @@ export async function saveAttempt(input: {
 
   revalidatePath("/");
   revalidatePath("/resolve");
-  redirect("/dashboard");
+  redirect(`/attempts/${attemptId}`);
 }
