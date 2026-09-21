@@ -9,12 +9,14 @@ import {
   CATEGORIES,
   CATEGORY_LABEL,
   headline,
+  strengthGrid,
+  subtopicBreakdown,
   TIME_BUCKET_LABEL,
 } from "@/lib/analytics";
 import { problemLink } from "@/lib/wiki-links";
 import { parseAnswers, scoreAttempt } from "@pipeline/score";
 import { ScoreSummary } from "../ScoreSummary";
-import { TimeSpent, type TimeSpentPoint } from "../../dashboard/charts";
+import { StrengthGrid, TimeSpent, type TimeSpentPoint } from "../../dashboard/charts";
 
 // Depends on who is signed in, so it must never be prerendered at build time.
 export const dynamic = "force-dynamic";
@@ -53,10 +55,15 @@ export default async function AttemptPage({ params }: { params: Promise<{ attemp
   const logByQuestion = new Map(attemptLogs.map((l) => [l.q_number, l]));
   const missed = scored.results.filter((r) => r.status !== "correct");
 
-  // Points lost by cause, scoped to this one attempt — the same computation the
-  // dashboard runs across every counted paper, run here across just this one.
+  // Points lost by cause, area accuracy and technique accuracy, all scoped to this
+  // one attempt — the same computations the dashboard runs across every counted
+  // paper, run here across just this one sitting.
   const h = headline([attempt], attemptLogs, () => exam);
   const causesShown = CATEGORIES.some((c) => h.lostByCause[c] > 0);
+  const grid = strengthGrid([attempt], () => exam);
+  // minSeen 1, not the dashboard's default of 2: this is the one paper being
+  // reviewed, not a pattern across many, so a technique seen once still belongs here.
+  const techniques = subtopicBreakdown([attempt], () => exam, 1);
 
   const timePoints: TimeSpentPoint[] =
     attempt.mode === "timed" && attempt.timings
@@ -104,6 +111,45 @@ export default async function AttemptPage({ params }: { params: Promise<{ attemp
           <div className="mt-4">
             <TimeSpent points={timePoints} />
           </div>
+        </section>
+      )}
+
+      {grid.areas.length > 0 && (
+        <section className="rounded-lg border border-border bg-surface p-5">
+          <h2 className="text-lg font-semibold">By subject</h2>
+          <p className="mt-1 text-sm text-muted">
+            Accuracy on this paper, by topic and by where it sat on the paper.
+          </p>
+          <div className="mt-4">
+            <StrengthGrid areas={grid.areas} cells={grid.cells} />
+          </div>
+        </section>
+      )}
+
+      {techniques.length > 0 && (
+        <section className="rounded-lg border border-border bg-surface p-5">
+          <h2 className="text-lg font-semibold">By technique</h2>
+          <p className="mt-1 text-sm text-muted">
+            The same questions, broken down further. A problem can use more than one
+            technique, so this adds up to more than the paper's question count.
+          </p>
+          <ul className="mt-4 space-y-1 text-sm">
+            {techniques.map((t) => (
+              <li
+                key={`${t.area}-${t.subtopic}`}
+                className="flex items-baseline justify-between gap-4 border-b border-border py-1.5"
+              >
+                <span>
+                  {t.subtopic.replace(/-/g, " ")}
+                  <span className="ml-2 text-xs text-muted">{t.area.replace(/-/g, " ")}</span>
+                </span>
+                <span className="shrink-0 tabular-nums text-muted">
+                  {t.correct} of {t.seen}
+                  <span className="ml-2 text-text">{Math.round(t.accuracy * 100)}%</span>
+                </span>
+              </li>
+            ))}
+          </ul>
         </section>
       )}
 
