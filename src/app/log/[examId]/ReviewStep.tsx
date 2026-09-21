@@ -36,6 +36,13 @@ function bucketFor(seconds: number): TimeBucket {
   return "over6";
 }
 
+function formatSeconds(seconds: number): string {
+  const m = Math.floor(seconds / 60);
+  const s = seconds % 60;
+  if (m === 0) return `${s}s`;
+  return s === 0 ? `${m}m` : `${m}m ${s}s`;
+}
+
 /**
  * The step after a paper is scored: what it came to, and what happened on each miss.
  * Shared by both ways in — entering answers from paper, and sitting it on the clock —
@@ -83,9 +90,17 @@ export function ReviewStep({
   // is guesswork without the problem in front of you. Hideable because a paper with
   // a dozen misses becomes a very long page.
   const [showProblems, setShowProblems] = useState(true);
+  // Which problems have had their measured time overridden — e.g. a distraction
+  // mid-problem means the clock is not a fair measure. Starts empty: the measurement
+  // is trusted until the student says otherwise.
+  const [overridingTime, setOverridingTime] = useState<Set<number>>(new Set());
 
   const retake = useMemo(() => assessRetake(previousDates, takenOn), [previousDates, takenOn]);
   const counted = includeInStats ?? !retake.likelyBiased;
+  const measuredSeconds = useMemo(
+    () => new Map((timings ?? []).map((t) => [t.q, t.seconds])),
+    [timings],
+  );
 
   function updateTriage(q: number, patch: Partial<TriageInput>) {
     setTriage((prev) => ({
@@ -233,21 +248,37 @@ export function ReviewStep({
 
               <div className="mt-3 flex flex-wrap items-center gap-2 text-sm">
                 <span className="text-muted">Time spent</span>
-                {TIME_BUCKETS.map((b) => (
-                  <button
-                    key={b.id}
-                    type="button"
-                    aria-pressed={triage[r.n]?.timeBucket === b.id}
-                    onClick={() => updateTriage(r.n, { timeBucket: b.id })}
-                    className={`rounded border px-2 py-1 ${
-                      triage[r.n]?.timeBucket === b.id
-                        ? "border-accent bg-accent text-white"
-                        : "border-border hover:border-accent"
-                    }`}
-                  >
-                    {b.label}
-                  </button>
-                ))}
+                {measuredSeconds.has(r.n) && !overridingTime.has(r.n) ? (
+                  <>
+                    <span className="font-medium">
+                      {formatSeconds(measuredSeconds.get(r.n)!)}
+                    </span>
+                    <span className="text-muted">— measured while you sat it</span>
+                    <button
+                      type="button"
+                      onClick={() => setOverridingTime((prev) => new Set(prev).add(r.n))}
+                      className="text-muted underline hover:text-text"
+                    >
+                      Not accurate?
+                    </button>
+                  </>
+                ) : (
+                  TIME_BUCKETS.map((b) => (
+                    <button
+                      key={b.id}
+                      type="button"
+                      aria-pressed={triage[r.n]?.timeBucket === b.id}
+                      onClick={() => updateTriage(r.n, { timeBucket: b.id })}
+                      className={`rounded border px-2 py-1 ${
+                        triage[r.n]?.timeBucket === b.id
+                          ? "border-accent bg-accent text-white"
+                          : "border-border hover:border-accent"
+                      }`}
+                    >
+                      {b.label}
+                    </button>
+                  ))
+                )}
               </div>
 
               <input
