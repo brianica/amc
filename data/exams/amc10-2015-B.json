@@ -21,11 +21,13 @@
       "answerEvidence": [
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "logs-exponents"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Compute the value of an arithmetic expression with a negative exponent.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_1",
       "tagSource": "auto",
       "statement": null
@@ -37,11 +39,13 @@
       "answerEvidence": [
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "rates-work-mixture"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Finding the completion time of three tasks of equal duration",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_2",
       "tagSource": "auto",
       "statement": null
@@ -53,11 +57,13 @@
       "answerEvidence": [
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find an unknown integer in a linear combination of two integers.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_3",
       "tagSource": "auto",
       "statement": null
@@ -69,11 +75,13 @@
       "answerEvidence": [
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "inequalities"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Order fractional shares of a whole from greatest to least.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_4",
       "tagSource": "auto",
       "statement": null
@@ -85,11 +93,13 @@
       "answerEvidence": [
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "logic-other",
+      "subtopics": [
+        "logic-puzzles"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Determine a racer's final standing from relative rank clues",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_5",
       "tagSource": "auto",
       "statement": null
@@ -119,11 +129,13 @@
       "answerEvidence": [
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "functions"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Evaluate an expression defined by a custom non-associative binary operation",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_7",
       "tagSource": "auto",
       "statement": null
@@ -135,11 +147,14 @@
       "answerEvidence": [
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "transformations",
+        "coordinate-geometry"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Determine the final orientation of a figure after multiple planar transformations.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_8",
       "tagSource": "auto",
       "statement": null
@@ -151,11 +166,14 @@
       "answerEvidence": [
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "circles",
+        "area-decomposition"
+      ],
+      "difficulty": 1.5,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Compute the area of a region between a quarter-circle and a semicircle.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_9",
       "tagSource": "auto",
       "statement": null
@@ -165,11 +183,14 @@
       "answer": "C",
       "answerConfidence": "medium",
       "answerEvidence": [],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "units-digit",
+        "divisibility"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Determine the sign and terminal digit of a product of negative odd integers",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_10",
       "tagSource": "auto",
       "statement": null
@@ -182,11 +203,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "basic-probability",
+        "casework"
+      ],
+      "difficulty": 1,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Probability that a number under 100 with prime digits is prime",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_11",
       "tagSource": "auto",
       "statement": null
@@ -199,11 +223,14 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "coordinate-geometry",
+        "circles"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Count integer points on a diagonal line lying within a given circle",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_12",
       "tagSource": "auto",
       "statement": null
@@ -215,11 +242,14 @@
       "answerEvidence": [
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "coordinate-geometry",
+        "right-triangles"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Sum of the three altitudes of a triangle bounded by a line and axes",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_13",
       "tagSource": "auto",
       "statement": null
@@ -232,11 +262,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "quadratics-vieta"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Maximize the sum of roots of a quadratic with distinct single-digit parameters",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_14",
       "tagSource": "auto",
       "statement": null
@@ -249,11 +281,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "diophantine",
+        "modular-arithmetic"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Determine which integer cannot be represented as a positive linear combination",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_15",
       "tagSource": "auto",
       "statement": null
@@ -263,11 +298,14 @@
       "answer": "C",
       "answerConfidence": "medium",
       "answerEvidence": [],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "casework",
+        "basic-probability"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Probability of choosing three distinct integers that form a divisibility chain",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_16",
       "tagSource": "auto",
       "statement": null
@@ -279,11 +317,13 @@
       "answerEvidence": [
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "solid-geometry"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Calculate the volume of an octahedron formed by a cuboid's face centers",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_17",
       "tagSource": "auto",
       "statement": null
@@ -298,11 +338,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "expected-value",
+        "basic-probability"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Expected number of heads after re-flipping tails across multiple rounds.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_18",
       "tagSource": "auto",
       "statement": null
@@ -316,11 +359,15 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "right-triangles",
+        "circles",
+        "cyclic-quadrilaterals"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Perimeter of a right triangle given external squares with concyclic vertices",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_19",
       "tagSource": "auto",
       "statement": null
@@ -336,11 +383,15 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "multiplication-principle",
+        "casework",
+        "symmetry-arguments"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Count Hamiltonian paths on a cube ending nonadjacent to the start.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_20",
       "tagSource": "auto",
       "statement": null
@@ -375,11 +426,15 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "similar-congruent",
+        "polygons-area-ratios",
+        "triangle-basics"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find a sum of segment lengths in nested regular pentagonal figures.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_22",
       "tagSource": "auto",
       "statement": null
@@ -394,11 +449,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "divisibility",
+        "floor-ceiling"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Sum of least values where doubling factorial argument triples its trailing zeros",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_23",
       "tagSource": "auto",
       "statement": null
@@ -415,11 +473,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "sequences-series"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find the coordinates after a given number of steps along an integer spiral. [REVIEW: passes disagreed — algebra vs geometry]",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_24",
       "tagSource": "auto",
       "statement": null

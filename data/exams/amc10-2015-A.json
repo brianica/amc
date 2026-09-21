@@ -21,11 +21,13 @@
       "answerEvidence": [
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "logs-exponents"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Evaluate an arithmetic expression involving integer exponents and standard operations.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_1",
       "tagSource": "auto",
       "statement": null
@@ -39,11 +41,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the number of squares given the total shapes and total sides.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_2",
       "tagSource": "auto",
       "statement": null
@@ -56,11 +60,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "sequences-series"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the additional toothpicks required to extend a staircase grid pattern.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_3",
       "tagSource": "auto",
       "statement": null
@@ -73,11 +79,13 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Fraction of items transferred to equalize shares given initial ratios",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_4",
       "tagSource": "auto",
       "statement": null
@@ -90,11 +98,13 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "logic-other",
+      "subtopics": [
+        "statistics"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find an individual score given the mean before and after adding it",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_5",
       "tagSource": "auto",
       "statement": null
@@ -107,11 +117,13 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the ratio of two numbers given a relation between sum and difference",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_6",
       "tagSource": "auto",
       "statement": null
@@ -126,11 +138,13 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "sequences-series"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the number of terms in a given arithmetic progression.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_7",
       "tagSource": "auto",
       "statement": null
@@ -142,11 +156,13 @@
       "answerEvidence": [
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find years until two people reach a given age ratio from past ratios",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_8",
       "tagSource": "auto",
       "statement": null
@@ -158,11 +174,13 @@
       "answerEvidence": [
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "solid-geometry"
+      ],
+      "difficulty": 1.5,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Relating cylinder heights given equal volumes and a percentage change in radii",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_9",
       "tagSource": "auto",
       "statement": null
@@ -177,11 +195,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "casework",
+        "permutations-combinations"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Number of four-letter permutations without alphabetically consecutive adjacent letters",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_10",
       "tagSource": "auto",
       "statement": null
@@ -194,11 +215,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "right-triangles",
+        "polygons-area-ratios"
+      ],
+      "difficulty": 1,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the constant relating a rectangle's area to its squared diagonal length.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_11",
       "tagSource": "auto",
       "statement": null
@@ -212,11 +236,13 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "quadratics-vieta"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the absolute difference between two y-values corresponding to a given x-coordinate.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_12",
       "tagSource": "auto",
       "statement": null
@@ -231,11 +257,13 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the number of dimes given the count of attainable coin sums.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_13",
       "tagSource": "auto",
       "statement": null
@@ -256,11 +284,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "circles",
+        "transformations"
+      ],
+      "difficulty": 2.5,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Tangent clock position after a rolling circular disk completes one full rotation.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_14",
       "tagSource": "auto",
       "statement": null
@@ -297,11 +328,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "quadratics-vieta",
+        "polynomials"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the sum of squares of unequal solutions to a symmetric system.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_16",
       "tagSource": "auto",
       "statement": null
@@ -317,11 +351,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "coordinate-geometry",
+        "triangle-basics"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Perimeter of an equilateral triangle bounded by three lines in the coordinate plane",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_17",
       "tagSource": "auto",
       "statement": null
@@ -335,11 +372,13 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "digits-bases"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Count integers up to 1000 using only numeric digits in base sixteen.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_18",
       "tagSource": "auto",
       "statement": null
@@ -357,11 +396,15 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "right-triangles",
+        "area-decomposition",
+        "trigonometry"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find the area of the central triangle formed by trisecting a right angle.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_19",
       "tagSource": "auto",
       "statement": null
@@ -394,11 +437,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "solid-geometry",
+        "right-triangles"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find the volume of a tetrahedron given its edge lengths.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_21",
       "tagSource": "auto",
       "statement": null
@@ -416,11 +462,15 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "casework",
+        "basic-probability",
+        "permutations-combinations"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Probability that no two adjacent people around a circular table stand.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_22",
       "tagSource": "auto",
       "statement": null
@@ -434,11 +484,13 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "quadratics-vieta"
+      ],
+      "difficulty": 2.5,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find sum of parameter values yielding integer roots for a given quadratic.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_23",
       "tagSource": "auto",
       "statement": null
@@ -473,11 +525,14 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "conditional-geometric-probability",
+        "casework"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Probability that two random points on a square's perimeter are sufficiently far apart",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_25",
       "tagSource": "auto",
       "statement": null

@@ -25,11 +25,13 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "permutations-combinations"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Simplify an arithmetic expression involving factorials in numerator and denominator.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_1",
       "tagSource": "auto",
       "statement": null
@@ -42,11 +44,13 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "logs-exponents"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Solve an exponential equation by expressing terms in base ten.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_2",
       "tagSource": "auto",
       "statement": null
@@ -59,11 +63,13 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Calculate the total amount spent given individual spending ratio and difference",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_3",
       "tagSource": "auto",
       "statement": null
@@ -75,11 +81,13 @@
       "answerEvidence": [
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "floor-ceiling"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Compute a defined remainder function involving fractions and negative values",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_4",
       "tagSource": "auto",
       "statement": null
@@ -109,11 +117,13 @@
       "answerEvidence": [
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "digits-bases"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Difference in sum after replacing each digit two with one",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_6",
       "tagSource": "auto",
       "statement": null
@@ -126,11 +136,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "logic-other",
+      "subtopics": [
+        "statistics"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the missing data value when the mean, median, and mode coincide.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_7",
       "tagSource": "auto",
       "statement": null
@@ -143,11 +155,13 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find starting amount before three rounds of doubling and subtracting",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_8",
       "tagSource": "auto",
       "statement": null
@@ -161,11 +175,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "sequences-series",
+        "quadratics-vieta"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the sum of digits of the index of a given triangular number.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_9",
       "tagSource": "auto",
       "statement": null
@@ -175,11 +192,13 @@
       "answer": "B",
       "answerConfidence": "medium",
       "answerEvidence": [],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "area-decomposition"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the inner rectangle length when nested rectangular border areas form an AP.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_10",
       "tagSource": "auto",
       "statement": null
@@ -194,11 +213,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "area-decomposition",
+        "polygons-area-ratios"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the area of a symmetric polygonal region inside a rectangle.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_11",
       "tagSource": "auto",
       "statement": null
@@ -212,11 +234,13 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "basic-probability"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Compare probability of choosing three distinct odd integers to fixed bounds",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_12",
       "tagSource": "auto",
       "statement": null
@@ -250,11 +274,13 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "diophantine"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Count non-negative integer solutions to a linear combination equation",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_14",
       "tagSource": "auto",
       "statement": null
@@ -267,11 +293,14 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "circles",
+        "area-decomposition"
+      ],
+      "difficulty": 1,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Radius of a circle made from leftover area between tangent circles",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_15",
       "tagSource": "auto",
       "statement": null
@@ -283,11 +312,14 @@
       "answerEvidence": [
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "transformations",
+        "coordinate-geometry"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find single transformation that undoes reflection and rotation sequence",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_16",
       "tagSource": "auto",
       "statement": null
@@ -302,11 +334,14 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "basic-probability",
+        "symmetry-arguments"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Sum of digits of minimum length satisfying an arrangement probability inequality",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_17",
       "tagSource": "auto",
       "statement": null
@@ -322,11 +357,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "casework",
+        "symmetry-arguments"
+      ],
+      "difficulty": 4,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Count rotationally distinct cube vertex labelings with equal face sums.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_18",
       "tagSource": "auto",
       "statement": null
@@ -343,11 +381,14 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "similar-congruent",
+        "polygons-area-ratios"
+      ],
+      "difficulty": 2,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find the ratio of segments along a rectangle's diagonal divided by two lines.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_19",
       "tagSource": "auto",
       "statement": null
@@ -361,11 +402,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "stars-and-bars",
+        "permutations-combinations"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find the power in a multinomial expansion with a given term count",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_20",
       "tagSource": "auto",
       "statement": null
@@ -383,11 +427,15 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "circles",
+        "area-decomposition",
+        "right-triangles"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Area of the triangle formed by centers of three circles tangent to a line",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_21",
       "tagSource": "auto",
       "statement": null
@@ -400,11 +448,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "divisor-counting",
+        "primes"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Count divisors of an integer power given the divisor count of another.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_22",
       "tagSource": "auto",
       "statement": null
@@ -420,11 +471,13 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "functions"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Solve an equation involving an unknown variable and an axiomatic binary operation.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_23",
       "tagSource": "auto",
       "statement": null
@@ -445,11 +498,15 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "cyclic-quadrilaterals",
+        "trigonometry",
+        "circles"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find the missing side length of a cyclic quadrilateral with three equal sides.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_24",
       "tagSource": "auto",
       "statement": null
@@ -464,11 +521,14 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "gcd-lcm",
+        "primes"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Count ordered triples of integers with given pairwise least common multiples",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_25",
       "tagSource": "auto",
       "statement": null

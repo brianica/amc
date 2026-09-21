@@ -27,11 +27,13 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "sequences-series"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Evaluate a nested arithmetic expression with repeated doubling and addition",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_1",
       "tagSource": "auto",
       "statement": null
@@ -43,11 +45,14 @@
       "answerEvidence": [
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "rates-work-mixture",
+        "inequalities"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Maximum number of items purchasable under a fixed spending limit",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_2",
       "tagSource": "auto",
       "statement": null
@@ -60,11 +65,13 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "area-decomposition"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find the total area of walkways surrounding and separating rectangular garden plots.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_3",
       "tagSource": "auto",
       "statement": null
@@ -74,11 +81,13 @@
       "answer": "B",
       "answerConfidence": "medium",
       "answerEvidence": [],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "rates-work-mixture"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find total time required to store items with periodic removal",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_4",
       "tagSource": "auto",
       "statement": null
@@ -92,11 +101,13 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Sum of reciprocals given the relation between two numbers' sum and product",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_5",
       "tagSource": "auto",
       "statement": null
@@ -109,11 +120,13 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "logic-other",
+      "subtopics": [
+        "logic-puzzles"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Identifying the logically equivalent contrapositive of a given conditional statement.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_6",
       "tagSource": "auto",
       "statement": null
@@ -126,11 +139,13 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "right-triangles"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Percentage decrease in distance walking across a square diagonal versus two sides",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_7",
       "tagSource": "auto",
       "statement": null
@@ -145,11 +160,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "permutations-combinations",
+        "casework"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Count total handshakes between pairs of people who do not know each other",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_8",
       "tagSource": "auto",
       "statement": null
@@ -161,11 +179,13 @@
       "answerEvidence": [
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "rates-work-mixture"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Difference in travel time for two cyclists with varying terrain speeds",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_9",
       "tagSource": "auto",
       "statement": null
@@ -178,11 +198,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "triangle-basics",
+        "polygons-area-ratios"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Count valid fourth side lengths forming a non-degenerate quadrilateral with three sides",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_10",
       "tagSource": "auto",
       "statement": null
@@ -195,11 +218,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "solid-geometry"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find segment length given the volume of points near the segment",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_11",
       "tagSource": "auto",
       "statement": null
@@ -212,11 +237,13 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "coordinate-geometry"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Identify the geometric figure formed by points satisfying specific linear constraints.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_12",
       "tagSource": "auto",
       "statement": null
@@ -228,11 +255,13 @@
       "answerEvidence": [
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "modular-arithmetic"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Sum of eight consecutive terms of the Fibonacci sequence modulo 3",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_13",
       "tagSource": "auto",
       "statement": null
@@ -246,11 +275,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find combined cost of two items as a percentage of total allowance",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_14",
       "tagSource": "auto",
       "statement": null
@@ -265,11 +296,13 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "conditional-geometric-probability"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Probability that one random real number exceeds another from different uniform intervals",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_15",
       "tagSource": "auto",
       "statement": null
@@ -284,11 +317,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "gcd-lcm",
+        "divisibility"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the smallest positive integer divisible by at least five numbers up to ten.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_16",
       "tagSource": "auto",
       "statement": null
@@ -302,11 +338,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "coordinate-geometry",
+        "circles"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Maximum ratio of irrational distances between lattice points on a circle",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_17",
       "tagSource": "auto",
       "statement": null
@@ -320,11 +359,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "recursion-states",
+        "basic-probability"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the probability of the first player winning an alternating coin-tossing game.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_18",
       "tagSource": "auto",
       "statement": null
@@ -339,11 +381,15 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "casework",
+        "inclusion-exclusion",
+        "permutations-combinations"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Number of linear permutations of five people with adjacency restrictions",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_19",
       "tagSource": "auto",
       "statement": null
@@ -362,11 +408,15 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "modular-arithmetic",
+        "digits-bases",
+        "divisibility"
+      ],
+      "difficulty": 2,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Determine possible sum of digits of the next integer using modulo 9.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_20",
       "tagSource": "auto",
       "statement": null
@@ -380,11 +430,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "similar-congruent",
+        "right-triangles"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Ratio of side lengths of two squares inscribed in a right triangle",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_21",
       "tagSource": "auto",
       "statement": null
@@ -397,11 +450,14 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "circles",
+        "area-decomposition"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Fraction of an equilateral triangle's area outside a tangent circle",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_22",
       "tagSource": "auto",
       "statement": null
@@ -411,11 +467,15 @@
       "answer": "B",
       "answerConfidence": "medium",
       "answerEvidence": [],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "combinatorial-geometry",
+        "casework",
+        "permutations-combinations"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Count non-degenerate triangles formed by vertices on a five-by-five integer grid.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_23",
       "tagSource": "auto",
       "statement": null
@@ -436,11 +496,13 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "polynomials"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Evaluate a quartic polynomial that shares all roots of a given cubic.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_24",
       "tagSource": "auto",
       "statement": null
@@ -455,11 +517,14 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "casework",
+        "permutations-combinations"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Count three-digit numbers having a digit permutation divisible by eleven. [REVIEW: passes disagreed — counting-probability vs number-theory]",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_25",
       "tagSource": "auto",
       "statement": null

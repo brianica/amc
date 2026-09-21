@@ -25,11 +25,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "digits-bases",
+        "divisibility"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Determine an original two-digit number given arithmetic operations and swapped final digits.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_1",
       "tagSource": "auto",
       "statement": null
@@ -41,11 +44,13 @@
       "answerEvidence": [
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "rates-work-mixture"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Total running time across multiple laps with different speeds per segment",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_2",
       "tagSource": "auto",
       "statement": null
@@ -57,11 +62,13 @@
       "answerEvidence": [
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "inequalities"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Determine which expression is guaranteed to be positive given variable bounds",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_3",
       "tagSource": "auto",
       "statement": null
@@ -75,11 +82,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Evaluate a rational expression given a linear relation between two variables",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_4",
       "tagSource": "auto",
       "statement": null
@@ -93,11 +102,13 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "linear-systems"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find initial quantity given ratios before and after an equal decrease",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_5",
       "tagSource": "auto",
       "statement": null
@@ -109,11 +120,13 @@
       "answerEvidence": [
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "solid-geometry"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Maximum number of small rectangular blocks packing into a larger box",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_6",
       "tagSource": "auto",
       "statement": null
@@ -127,11 +140,13 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "rates-work-mixture"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find walking distance given two different travel speeds and the total time.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_7",
       "tagSource": "auto",
       "statement": null
@@ -146,11 +161,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "coordinate-geometry",
+        "triangle-basics"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find coordinates of a third vertex using midpoint property of isosceles triangles",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_8",
       "tagSource": "auto",
       "statement": null
@@ -163,11 +181,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "basic-probability",
+        "casework"
+      ],
+      "difficulty": 1,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Probability of getting at least two of three randomly guessed questions correct.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_9",
       "tagSource": "auto",
       "statement": null
@@ -179,11 +200,13 @@
       "answerEvidence": [
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "coordinate-geometry"
+      ],
+      "difficulty": 2,
       "tier": "T1",
-      "descriptor": null,
+      "descriptor": "Find a constant for two perpendicular lines intersecting at a given point",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_10",
       "tagSource": "auto",
       "statement": null
@@ -197,11 +220,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "conditional-geometric-probability",
+        "basic-probability"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Calculate conditional probability of true preference given a stated response.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_11",
       "tagSource": "auto",
       "statement": null
@@ -216,11 +242,13 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "algebra",
+      "subtopics": [
+        "rates-work-mixture"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Calculate percentage decrease in trip fuel cost from changed efficiency and unit price",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_12",
       "tagSource": "auto",
       "statement": null
@@ -236,11 +264,13 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "inclusion-exclusion"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Find the number of students enrolled in all three classes. [REVIEW: passes disagreed — counting-probability vs logic-other]",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_13",
       "tagSource": "auto",
       "statement": null
@@ -255,11 +285,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "modular-arithmetic",
+        "divisibility"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Probability that the sixteenth power of a random integer is 1 mod 5",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_14",
       "tagSource": "auto",
       "statement": null
@@ -275,11 +308,15 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "right-triangles",
+        "similar-congruent",
+        "polygons-area-ratios"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Calculate the area of a triangle formed by a vertex and diagonal projection",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_15",
       "tagSource": "auto",
       "statement": null
@@ -292,11 +329,14 @@
         "A",
         "A"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "multiplication-principle",
+        "casework"
+      ],
+      "difficulty": 2,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Count positive integers up to 2017 containing at least one zero",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_16",
       "tagSource": "auto",
       "statement": null
@@ -312,11 +352,15 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "permutations-combinations",
+        "casework",
+        "inclusion-exclusion"
+      ],
+      "difficulty": 3,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Count positive integers whose digits are strictly increasing or strictly decreasing.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_17",
       "tagSource": "auto",
       "statement": null
@@ -333,11 +377,14 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "counting-probability",
+      "subtopics": [
+        "symmetry-arguments",
+        "casework"
+      ],
+      "difficulty": 3.5,
       "tier": "T2",
-      "descriptor": null,
+      "descriptor": "Count distinct colorings of six triangularly arranged disks under rotations and reflections.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_18",
       "tagSource": "auto",
       "statement": null
@@ -360,11 +407,15 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "area-decomposition",
+        "polygons-area-ratios",
+        "trigonometry"
+      ],
+      "difficulty": 2,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find the area ratio of an extended triangle to the original triangle.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_19",
       "tagSource": "auto",
       "statement": null
@@ -379,11 +430,14 @@
         "B",
         "B"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "divisor-counting",
+        "primes"
+      ],
+      "difficulty": 2,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Probability that a randomly selected divisor of a factorial is odd",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_20",
       "tagSource": "auto",
       "statement": null
@@ -398,11 +452,15 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "right-triangles",
+        "circles",
+        "triangle-basics"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Sum of the inradii of two triangles divided by a median",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_21",
       "tagSource": "auto",
       "statement": null
@@ -419,11 +477,15 @@
         "D",
         "D"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "similar-congruent",
+        "right-triangles",
+        "circles"
+      ],
+      "difficulty": 2,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find the area of an inscribed right triangle using similar triangles.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_22",
       "tagSource": "auto",
       "statement": null
@@ -439,11 +501,15 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "modular-arithmetic",
+        "divisibility",
+        "digits-bases"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find remainder of a concatenated integer string modulo forty-five",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_23",
       "tagSource": "auto",
       "statement": null
@@ -458,11 +524,14 @@
         "C",
         "C"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "geometry",
+      "subtopics": [
+        "coordinate-geometry",
+        "triangle-basics"
+      ],
+      "difficulty": 4,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Find the squared area of an equilateral triangle inscribed in a hyperbola.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_24",
       "tagSource": "auto",
       "statement": null
@@ -478,11 +547,14 @@
         "E",
         "E"
       ],
-      "area": null,
-      "subtopics": [],
-      "difficulty": null,
+      "area": "number-theory",
+      "subtopics": [
+        "divisibility",
+        "modular-arithmetic"
+      ],
+      "difficulty": 3,
       "tier": "T3",
-      "descriptor": null,
+      "descriptor": "Determine a test score given distinct integers having integer running averages.",
       "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_25",
       "tagSource": "auto",
       "statement": null
