@@ -78,10 +78,30 @@ export function ReviewStep({
     // A timed sitting already measured how long each problem took, so the student
     // is not asked to estimate what the app watched happen.
     if (!timings) return {};
+
+    // Everything from the end of the paper back to the first break in "under a
+    // second" is a trailing skip, not a real attempt — the clock ran out before the
+    // student ever reached them. A single fast problem earlier in the paper is not
+    // this: it is more likely a confident, correct-feeling answer than a skip, and
+    // only the unbroken run touching the very last problem means the clock, not the
+    // student, ended the paper there.
+    const byQuestion = new Map(timings.map((t) => [t.q, t.seconds]));
+    const ranOutFrom = new Set<number>();
+    for (let q = exam.problems.length; q >= 1; q--) {
+      const seconds = byQuestion.get(q);
+      if (seconds === undefined || seconds >= 1) break;
+      ranOutFrom.add(q);
+    }
+
     return Object.fromEntries(
       timings.map((t) => [
         t.q,
-        { q: t.q, errorCategory: null, timeBucket: bucketFor(t.seconds), note: "" } as TriageInput,
+        {
+          q: t.q,
+          errorCategory: ranOutFrom.has(t.q) ? "triage" : null,
+          timeBucket: bucketFor(t.seconds),
+          note: "",
+        } as TriageInput,
       ]),
     );
   });
