@@ -180,7 +180,7 @@ export function TimedSession({
           <p className="text-sm text-muted">
             {hasStatements
               ? "The problems will be shown here, from this machine's local copy."
-              : "Each problem links out to AoPS, or use your own copy of the paper."}
+              : "Each problem links to the original, or use your own copy of the paper."}
           </p>
         </div>
 
@@ -316,7 +316,7 @@ export function TimedSession({
                 rel="noreferrer"
                 className="text-base text-accent underline"
               >
-                Open on AoPS
+                Original problem
               </a>
             </div>
 
@@ -330,8 +330,8 @@ export function TimedSession({
                 />
                 {statements[q]!.hasDiagram && (
                   <p className="text-base text-muted">
-                    This problem has a diagram that cannot be drawn here — see the AoPS
-                    link above, or check your paper.
+                    This problem has a diagram that cannot be drawn here — see the
+                    original problem link above, or check your paper.
                   </p>
                 )}
               </div>
@@ -339,7 +339,7 @@ export function TimedSession({
 
             {!statements?.[q] && (
               <p className="mt-2 text-base text-muted">
-                Use the AoPS link above, or check your paper.
+                Use the original problem link above, or check your paper.
               </p>
             )}
 
