@@ -68,3 +68,11 @@ Uses the Gemini API (`GEMINI_API_KEY`, loaded from `.env.local`). Defaults to
 `gemini-flash-latest`; set `CLASSIFY_MODEL` to trade cost for accuracy (e.g. a Pro
 model) if flash's tagging quality isn't good enough. Every call is cached by content
 hash, so re-runs are free.
+
+## Deploying with problem statements on
+
+Before deploying with `SHOW_PROBLEM_STATEMENTS=1`, run `npm run bundle-cache`. See
+[`VERCEL-CACHE-DEPLOY.md`](./VERCEL-CACHE-DEPLOY.md) for why this is a compiled `.ts`
+module rather than a file read at runtime — the short version is that Vercel silently
+drops `pipeline/.cache/` from the deployed function no matter how it's read from disk,
+confirmed across three different attempts.
