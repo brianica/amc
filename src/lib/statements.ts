@@ -38,21 +38,27 @@ export function showStatements(): boolean {
   return on;
 }
 
-const CACHE_DIR = join(process.cwd(), "pipeline", ".cache");
+const BUNDLE_PATH = join(process.cwd(), "pipeline", ".cache", "bundle.json");
 
-function cachePath(page: string): string {
-  return join(CACHE_DIR, `${page.replace(/[^A-Za-z0-9._/-]/g, "_")}.json`);
+// A serverless deploy silently drops files once pipeline/.cache/'s thousands of
+// individual entries are in play, even though `next build`'s own trace manifest lists
+// them and the upload size looks fine — `npm run bundle-cache` merges them into this
+// one file, which stays well inside whatever limit that was. Loaded once per instance
+// and reused, since every request needs it and it never changes at runtime.
+let bundle: Promise<Record<string, string | null>> | null = null;
+
+function loadBundle(): Promise<Record<string, string | null>> {
+  if (!bundle) {
+    bundle = readFile(BUNDLE_PATH, "utf8")
+      .then((text) => JSON.parse(text) as Record<string, string | null>)
+      .catch(() => ({}));
+  }
+  return bundle;
 }
 
 async function readCachedWikitext(page: string): Promise<string | null> {
-  try {
-    const entry = JSON.parse(await readFile(cachePath(page), "utf8")) as { wikitext: string | null };
-    return entry.wikitext;
-  } catch (err) {
-    // TEMP DIAGNOSTIC — remove after tracking down why production can't find the cache.
-    console.warn(`[statements debug] readCachedWikitext failed for ${cachePath(page)}: ${String(err)}`);
-    return null;
-  }
+  const all = await loadBundle();
+  return all[page] ?? null;
 }
 
 /** A MediaWiki redirect stub, e.g. "#redirect [[2025 AMC 12A Problems/Problem 1]]". */
