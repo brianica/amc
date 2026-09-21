@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "casework"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find four distinct single-digit ages satisfying two product constraints."
+}

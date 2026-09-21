@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations",
+    "inclusion-exclusion",
+    "symmetry-arguments"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find probability exactly two students match same tutor across two days."
+}

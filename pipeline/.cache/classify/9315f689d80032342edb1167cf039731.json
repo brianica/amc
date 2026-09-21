@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find minimum trials for at least one success in repeated independent events."
+}

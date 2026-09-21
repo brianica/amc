@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "multiplication-principle"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count 4-digit passcodes with exactly one even, one prime digit, no zeros."
+}

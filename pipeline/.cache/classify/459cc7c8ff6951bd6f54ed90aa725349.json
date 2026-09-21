@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "logs-exponents",
+    "functions"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find all values of m where two exponential expressions equal each other."
+}

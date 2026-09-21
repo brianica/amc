@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "functions",
+    "absolute-value"
+  ],
+  "difficulty": 4,
+  "descriptor": "Determine symmetry of a function involving floor and absolute value operations."
+}

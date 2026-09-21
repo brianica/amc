@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "quadratics-vieta"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Cubic divides quartic; find quartic's value at 1 via factorization"
+}

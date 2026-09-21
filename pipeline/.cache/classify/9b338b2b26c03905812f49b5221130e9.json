@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "functions"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find first term of arithmetic sequence given quotient constraint."
+}

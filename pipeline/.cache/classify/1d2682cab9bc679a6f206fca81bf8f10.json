@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "transformations"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find perimeter of region from parametric transformation of unit cube."
+}

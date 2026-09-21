@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems",
+    "functions"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find value of expression using constraint equation relating two variables."
+}

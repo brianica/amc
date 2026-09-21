@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "similar-congruent",
+    "coordinate-geometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find crease length when folding triangle so one vertex meets another"
+}

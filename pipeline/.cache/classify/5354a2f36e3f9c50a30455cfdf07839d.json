@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "triangle-basics"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find sum of altitudes for triangle formed by line and axes"
+}

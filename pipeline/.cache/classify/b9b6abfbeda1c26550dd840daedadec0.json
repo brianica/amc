@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems",
+    "functions"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find initial amount after repeated doubling and fixed deductions."
+}

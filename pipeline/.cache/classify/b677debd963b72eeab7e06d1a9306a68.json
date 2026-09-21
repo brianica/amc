@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "functions"
+  ],
+  "difficulty": 1,
+  "descriptor": "Find student's test score given class average before and after grading."
+}

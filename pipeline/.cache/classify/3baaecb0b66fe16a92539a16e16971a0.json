@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "triangle-basics",
+    "cyclic-quadrilaterals"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find angle in quadrilateral inscribed in circle with diameter."
+}

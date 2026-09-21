@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "quadratics-vieta"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find polynomial coefficients using root relationships between cubic and quartic."
+}

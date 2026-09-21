@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Find base making repeating two-digit expansion equal a given fraction"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "functions"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find minimal polynomial satisfying root conditions from transformed equations."
+}

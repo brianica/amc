@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "inclusion-exclusion",
+    "basic-probability",
+    "permutations-combinations"
+  ],
+  "difficulty": 4,
+  "descriptor": "Probability some box gets three matching-colored blocks from three random permutations"
+}

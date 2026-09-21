@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find next palindrome after given number and calculate average speed."
+}

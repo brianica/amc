@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "multiplication-principle"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count valid colorings of five regions using five colors where adjacent regions differ."
+}

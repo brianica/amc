@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "triangle-basics",
+    "similar-congruent"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find circumradius of isosceles triangle given external tangent circle constraints."
+}

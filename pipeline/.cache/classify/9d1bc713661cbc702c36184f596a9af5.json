@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "triangle-basics",
+    "area-decomposition"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find quadrilateral area using angle bisector, midpoints, and coordinate geometry"
+}

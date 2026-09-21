@@ -1,0 +1,10 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "functions",
+    "absolute-value",
+    "floor-ceiling"
+  ],
+  "difficulty": 4,
+  "descriptor": "Determine symmetry properties of a floor function composition involving absolute values."
+}

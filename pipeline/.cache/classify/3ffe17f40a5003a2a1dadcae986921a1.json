@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "modular-arithmetic",
+    "divisibility",
+    "sequences-series"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count terms in repunit-like sequence divisible by given number using periodicity."
+}

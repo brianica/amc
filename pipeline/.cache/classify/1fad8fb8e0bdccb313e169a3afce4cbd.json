@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "inequalities",
+    "absolute-value"
+  ],
+  "difficulty": 3,
+  "descriptor": "Determine which expression is necessarily positive given strict bounds on three variables."
+}

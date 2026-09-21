@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "functions"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find how many horizontal shifts make transformed cubic pass through fixed point."
+}

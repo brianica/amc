@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "modular-arithmetic"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find remainder when polynomial in powers of 2 divides another expression"
+}

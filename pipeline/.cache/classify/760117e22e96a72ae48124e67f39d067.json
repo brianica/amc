@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "polygons-area-ratios",
+    "area-decomposition"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find intersection area of two triangles formed by regular hexagon vertices."
+}

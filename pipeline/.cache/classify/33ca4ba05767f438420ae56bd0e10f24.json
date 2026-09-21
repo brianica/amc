@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "right-triangles"
+  ],
+  "difficulty": 3,
+  "descriptor": "Radius of a small circle externally tangent to three mutually tangent circles."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases",
+    "divisibility"
+  ],
+  "difficulty": 1.5,
+  "descriptor": "Two numbers sum to given total; deleting trailing zero gives other; find difference"
+}

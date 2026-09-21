@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems",
+    "sequences-series"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find common point of lines whose coefficients are in arithmetic progression"
+}

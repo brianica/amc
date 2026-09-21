@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "functions",
+    "coordinate-geometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find parameter values where circle and parabola intersect at exactly three points."
+}

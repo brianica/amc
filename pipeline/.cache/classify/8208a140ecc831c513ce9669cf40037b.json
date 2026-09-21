@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "inclusion-exclusion",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count tiles crossed by diagonal path using gcd-based formula."
+}

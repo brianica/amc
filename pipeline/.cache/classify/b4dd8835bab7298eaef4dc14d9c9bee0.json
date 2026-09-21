@@ -1,0 +1,10 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "functions",
+    "polynomials",
+    "absolute-value"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find how many horizontal shifts make a cubic function pass through target point."
+}

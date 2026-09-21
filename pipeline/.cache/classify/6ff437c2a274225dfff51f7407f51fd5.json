@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "coordinate-geometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find the planted fraction of a right triangle field with an unplanted corner square."
+}

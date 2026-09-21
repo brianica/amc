@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "modular-arithmetic"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find probability that N^16 leaves remainder 1 when divided by 5."
+}

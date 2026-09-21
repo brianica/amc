@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count coefficients yielding two distinct integer roots for a quadratic polynomial."
+}

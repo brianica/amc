@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "recursion-states",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Minimum adjacent swaps to reverse a string using recursive decomposition."
+}

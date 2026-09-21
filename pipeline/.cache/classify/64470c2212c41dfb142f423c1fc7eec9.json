@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "area-decomposition",
+    "similar-congruent"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find intersection area of two equilateral triangles inscribed in regular hexagon."
+}

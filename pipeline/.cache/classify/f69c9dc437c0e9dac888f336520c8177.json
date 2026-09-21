@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "triangle-basics",
+    "area-decomposition"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find the fraction of an equilateral triangle outside a tangent circle."
+}

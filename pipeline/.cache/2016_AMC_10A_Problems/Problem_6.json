@@ -1,0 +1,5 @@
+{
+  "page": "2016_AMC_10A_Problems/Problem_6",
+  "wikitext": "\n== Problem ==\nXimena lists the whole numbers <math>1</math> through <math>30</math> once. Emilio copies Ximena's numbers, replacing each occurrence of the digit <math>2</math> by the digit <math>1</math>. Ximena adds her numbers and Emilio adds his numbers. How much larger is Ximena's sum than Emilio's?\n\n<math>\\textbf{(A)}\\ 13\\qquad\\textbf{(B)}\\ 26\\qquad\\textbf{(C)}\\ 102\\qquad\\textbf{(D)}\\ 103\\qquad\\textbf{(E)}\\ 110</math>\n\n== Solution ==\n\nFor every tens digit 2, we subtract 10, and for every units digit 2, we subtract 1. Because 2 appears 10 times as a tens digit and 2 appears 3 times as a units digit, the answer is <math>10\\cdot 10+1\\cdot 3=\\boxed{\\textbf{(D) }103.}</math>\n\n==Video Solution (HOW TO THINK CRITICALLY!!!)==\nhttps://youtu.be/qrgPsA9AQLA.  (short and simple!)\n\nEducation, the Study of Education.\n\n\n\n\n==Video Solution==\nhttps://youtu.be/XXX4_oBHuGk\nhttps://youtu.be/8i_NYG3aRxE\n\n==See Also==\n{{AMC10 box|year=2016|ab=A|num-b=5|num-a=7}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-18T04:14:27.775Z"
+}

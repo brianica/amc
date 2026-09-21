@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "similar-congruent",
+    "polygons-area-ratios",
+    "coordinate-geometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find area ratio of quadrilateral to triangle using similar triangles in parallelogram."
+}

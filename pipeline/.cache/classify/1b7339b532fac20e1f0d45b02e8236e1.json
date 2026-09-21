@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisor-counting",
+    "primes"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find smallest multiplier making factorial product a perfect square."
+}

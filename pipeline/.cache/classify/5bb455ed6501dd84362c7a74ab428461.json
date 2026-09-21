@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases",
+    "units-digit"
+  ],
+  "difficulty": 4,
+  "descriptor": "Determine possible digit sum of n+1 given digit sum of n."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "inclusion-exclusion"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count card arrangements picked up in exactly two left-to-right passes."
+}

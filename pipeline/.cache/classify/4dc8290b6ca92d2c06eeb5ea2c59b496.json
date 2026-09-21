@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "triangle-basics",
+    "coordinate-geometry",
+    "area-decomposition"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find area ratio of extended triangle to original equilateral triangle."
+}

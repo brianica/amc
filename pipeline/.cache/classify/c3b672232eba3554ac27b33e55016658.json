@@ -1,0 +1,10 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems",
+    "quadratics-vieta",
+    "polynomials"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find sum of squares given symmetric quadratic system with distinct solutions"
+}

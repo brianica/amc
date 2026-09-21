@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "solid-geometry",
+    "circles",
+    "right-triangles"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find the total length of four congruent semicircular arcs on a sphere."
+}

@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "right-triangles",
+    "coordinate-geometry"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Find spacing of three parallel chords with given lengths in circle"
+}

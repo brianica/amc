@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "right-triangles"
+  ],
+  "difficulty": 1,
+  "descriptor": "Ratio of circumscribed circle areas for two given right triangles"
+}

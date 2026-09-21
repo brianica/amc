@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "symmetry-arguments"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count initial Conway's Game of Life grids producing a single live cell"
+}

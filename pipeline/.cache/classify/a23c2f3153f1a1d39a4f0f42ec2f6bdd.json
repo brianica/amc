@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "transformations"
+  ],
+  "difficulty": 3,
+  "descriptor": "Disk rolling externally around a circle, tracking arrow orientation"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "logic-puzzles",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Determine candy distribution based on responses from truth-tellers, liars, and alternaters."
+}

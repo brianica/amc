@@ -1,0 +1,5 @@
+{
+  "page": "2015_AMC_10B_Problems/Problem_2",
+  "wikitext": "==Problem==\n\nMarie does three equally time-consuming tasks in a row without taking breaks. She begins the first task at <math>1\\!:\\!00</math> PM and finishes the second task at <math>2\\!:\\!40</math> PM. When does she finish the third task?\n\n<math> \\textbf{(A) }\\text{3:10 PM}\\qquad\\textbf{(B) }\\text{3:30 PM}\\qquad\\textbf{(C) }\\text{4:00 PM}\\qquad\\textbf{(D) }\\text{4:10 PM}\\qquad\\textbf{(E) }\\text{4:30 PM} </math>\n\n==Solution==\nMarie finishes <math>2</math> tasks in <math>1</math> hour and <math>40</math> minutes. Therefore, one task should take <math>50</math> minutes to finish. <math>50</math> minutes after <math>2\\!:\\!40</math> PM is <math>3\\!:\\!30</math> PM, so our answer is <math>\\boxed{\\textbf{(B) }\\text{3:30 PM}}</math>\n\n==Video Solution==\nhttps://youtu.be/Wc8feyJcn70\n\n~Education, the Study of Everything\n\n==Video Solution==\nhttps://youtu.be/7CcxOXjv3i8\n\n~savannahsolver\n\n==See Also==\n{{AMC10 box|year=2015|ab=B|num-b=1|num-a=3}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-18T04:09:01.827Z"
+}

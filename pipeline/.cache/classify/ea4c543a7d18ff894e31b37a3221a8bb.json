@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "transformations",
+    "coordinate-geometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Determine which pairs of coordinate plane transformations commute with each other."
+}

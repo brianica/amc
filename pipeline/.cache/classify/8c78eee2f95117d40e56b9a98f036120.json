@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "area-decomposition",
+    "triangle-basics",
+    "right-triangles"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find pentagon's area built from equal-length segments forming equilateral triangles"
+}

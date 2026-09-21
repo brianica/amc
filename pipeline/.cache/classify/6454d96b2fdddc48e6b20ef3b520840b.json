@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "similar-congruent"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find ratio of diagonal segments cut by lines through rectangle vertices"
+}

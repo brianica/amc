@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "solid-geometry",
+    "area-decomposition"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Find exposed surface area of stacked decreasing cubes tower"
+}

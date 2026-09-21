@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "gcd-lcm",
+    "primes",
+    "divisibility"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find required divisor of a from GCD constraints on four integers"
+}

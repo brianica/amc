@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Probability that three randomly assigned distinct numbers satisfy divisibility chain."
+}

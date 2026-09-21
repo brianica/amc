@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "coordinate-geometry",
+    "area-decomposition"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find quadrilateral area using right angles and diagonal intersection point."
+}

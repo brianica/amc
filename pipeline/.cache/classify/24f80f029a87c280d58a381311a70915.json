@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "conditional-geometric-probability",
+    "basic-probability",
+    "casework"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find conditional percentage among students claiming dislike who truly like dancing"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "diophantine",
+    "divisibility"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find digit sum of an integer having divisor pairs with given differences."
+}

@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases",
+    "divisibility",
+    "modular-arithmetic"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find bases where a four-digit base-b number is divisible by 16."
+}

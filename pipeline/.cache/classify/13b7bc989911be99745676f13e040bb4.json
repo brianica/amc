@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "units-digit",
+    "modular-arithmetic"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find probability that a power has units digit 1 using cyclic patterns."
+}

@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "floor-ceiling",
+    "modular-arithmetic",
+    "divisibility"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count positive integers where sum of three floor expressions is not divisible by three."
+}

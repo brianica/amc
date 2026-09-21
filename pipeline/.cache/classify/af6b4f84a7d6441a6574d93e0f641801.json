@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series"
+  ],
+  "difficulty": 4,
+  "descriptor": "Evaluate infinite series using partial fraction decomposition and telescoping."
+}

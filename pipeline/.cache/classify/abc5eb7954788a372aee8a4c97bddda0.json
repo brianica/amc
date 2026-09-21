@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "recursion-states"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find the 2019th term of a recursively defined sequence using pattern recognition."
+}

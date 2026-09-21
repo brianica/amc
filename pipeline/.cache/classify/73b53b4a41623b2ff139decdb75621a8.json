@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "right-triangles",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find equilateral octagon side length inscribed in rectangle using Pythagorean theorem"
+}

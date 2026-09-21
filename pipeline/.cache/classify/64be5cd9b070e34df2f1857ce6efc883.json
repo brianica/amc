@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "functions"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find least integer b in geometric sequence a, 720, b with a < 720 < b."
+}

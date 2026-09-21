@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems",
+    "functions"
+  ],
+  "difficulty": 2,
+  "descriptor": "Convert temperature between two linear scales using given reference points."
+}

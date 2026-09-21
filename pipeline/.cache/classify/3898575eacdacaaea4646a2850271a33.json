@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "permutations-combinations",
+    "multiplication-principle"
+  ],
+  "difficulty": 3.5,
+  "descriptor": "Ratio of two probabilities for distributing 20 balls among 5 bins"
+}

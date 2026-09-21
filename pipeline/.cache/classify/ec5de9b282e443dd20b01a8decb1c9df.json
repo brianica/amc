@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases",
+    "diophantine"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find base k where repeating expansion of 7/51 is 0.\\overline{23}_k"
+}

@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "symmetry-arguments",
+    "recursion-states",
+    "basic-probability"
+  ],
+  "difficulty": 4,
+  "descriptor": "Estimate the probability of three bins each containing an odd count."
+}

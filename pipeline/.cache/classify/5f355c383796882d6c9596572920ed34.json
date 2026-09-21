@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "right-triangles"
+  ],
+  "difficulty": 3,
+  "descriptor": "Sum of possible radii of a circle tangent to a line and two circles"
+}

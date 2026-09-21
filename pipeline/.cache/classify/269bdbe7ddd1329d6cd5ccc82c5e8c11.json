@@ -1,0 +1,8 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "statistics"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count ordered triples completing a dataset to satisfy given mean, median, and range."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "area-decomposition"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find wrapping paper area to cover box with corners meeting at top center."
+}

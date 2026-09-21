@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "diophantine",
+    "modular-arithmetic"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Count positive integer solutions to a linear combination representing a monetary sum."
+}

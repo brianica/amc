@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "area-decomposition",
+    "circles",
+    "right-triangles"
+  ],
+  "difficulty": 3.5,
+  "descriptor": "Find shaded area inside big circle outside three tangent semicircles"
+}

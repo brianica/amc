@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "recursion-states"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find the 2019th number spoken by one person in a rotating counting game."
+}

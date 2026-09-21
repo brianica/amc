@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "casework"
+  ],
+  "difficulty": 3.5,
+  "descriptor": "Find the 2019th term spoken by one child in rotating block-counting game"
+}

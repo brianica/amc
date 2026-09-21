@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases",
+    "diophantine"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find digit values maximizing sum given repunit equation constraint"
+}

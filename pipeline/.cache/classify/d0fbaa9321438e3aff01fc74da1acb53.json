@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisor-counting",
+    "primes"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find parameters of the smallest integer having exactly 2021 positive divisors."
+}

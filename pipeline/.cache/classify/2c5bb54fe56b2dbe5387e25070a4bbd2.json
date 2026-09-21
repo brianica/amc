@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "similar-congruent",
+    "right-triangles",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 3.5,
+  "descriptor": "Find a leg length in a trapezoid using diagonal similarity relations"
+}

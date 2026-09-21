@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "conditional-geometric-probability",
+    "basic-probability"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find probability that one random variable exceeds another given uniform distributions."
+}

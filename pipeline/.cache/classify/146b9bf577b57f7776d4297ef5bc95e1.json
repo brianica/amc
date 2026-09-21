@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "multiplication-principle",
+    "combinatorial-geometry"
+  ],
+  "difficulty": 4.5,
+  "descriptor": "Count the number of non-intersecting grid loops satisfying given cell edge constraints."
+}

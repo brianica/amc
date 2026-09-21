@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations",
+    "casework"
+  ],
+  "difficulty": 1.5,
+  "descriptor": "Count handshakes between strangers in a party of thirty"
+}

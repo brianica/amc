@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "conditional-geometric-probability",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Probability that two random numbers and 1 form an obtuse triangle"
+}

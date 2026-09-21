@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "linear-systems"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find two-digit block from repeating-decimal versus terminating-decimal product difference."
+}

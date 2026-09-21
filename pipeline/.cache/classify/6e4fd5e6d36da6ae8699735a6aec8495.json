@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "diophantine",
+    "divisibility"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count non-negative integer solutions to linear Diophantine equation 2x + 3y = 2016."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "sequences-series"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find mean of products given constraints on means of values and squares"
+}

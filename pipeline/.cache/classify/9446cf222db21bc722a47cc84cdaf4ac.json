@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "trigonometry",
+    "triangle-basics"
+  ],
+  "difficulty": 4,
+  "descriptor": "Maximize distance from point to chord given inscribed angle constraint."
+}

@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "conditional-geometric-probability",
+    "casework",
+    "basic-probability"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find conditional probability Hugo rolled 5 given he won the game."
+}

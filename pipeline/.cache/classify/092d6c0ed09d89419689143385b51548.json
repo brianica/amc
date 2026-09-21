@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Probability that random walk on lattice traces four edges of a unit cube."
+}

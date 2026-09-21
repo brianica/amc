@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "floor-ceiling",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find staircase steps where ceiling division jump counts differ by 19"
+}

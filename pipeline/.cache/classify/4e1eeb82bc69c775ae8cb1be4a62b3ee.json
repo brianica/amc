@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "logic-puzzles"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find center number in grid where consecutive numbers share edges"
+}

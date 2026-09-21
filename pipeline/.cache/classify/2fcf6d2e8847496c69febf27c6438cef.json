@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "conditional-geometric-probability",
+    "casework",
+    "permutations-combinations"
+  ],
+  "difficulty": 3,
+  "descriptor": "Probability of an integer with digit sum 61 being divisible by 11"
+}

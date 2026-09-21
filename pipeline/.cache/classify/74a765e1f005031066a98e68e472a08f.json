@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "right-triangles"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the radius of a circle mutually tangent to three overlapping circles."
+}

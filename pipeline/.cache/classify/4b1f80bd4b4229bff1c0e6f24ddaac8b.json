@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "recursion-states"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find row sum pattern and identify third entry in target row"
+}

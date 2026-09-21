@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "triangle-basics",
+    "trigonometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find distance from vertex to intersection of angle bisector and an altitude."
+}

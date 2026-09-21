@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "functions"
+  ],
+  "difficulty": 1,
+  "descriptor": "Convert a given temperature value using a linear scale transformation."
+}

@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "similar-congruent",
+    "coordinate-geometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find area of quadrilateral with two right angles and given diagonal segments"
+}

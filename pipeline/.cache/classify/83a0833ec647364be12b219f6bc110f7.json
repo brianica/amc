@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases",
+    "modular-arithmetic"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find base k where repeating fraction representation converts to given base-10 fraction."
+}

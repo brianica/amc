@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "diophantine",
+    "divisibility"
+  ],
+  "difficulty": 3,
+  "descriptor": "Grid of pieces where interior count equals border count; maximize total"
+}

@@ -1,0 +1,8 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "triangle-basics"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count integer-sided isosceles triangles having a maximum side length of 2025."
+}

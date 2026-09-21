@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "area-decomposition"
+  ],
+  "difficulty": 2,
+  "descriptor": "Ratio of legs of right triangles formed between two inscribed squares"
+}

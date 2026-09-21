@@ -1,0 +1,8 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "estimation"
+  ],
+  "difficulty": 2,
+  "descriptor": "Convert factorial seconds to days and find resulting date"
+}

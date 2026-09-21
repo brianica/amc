@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "pigeonhole"
+  ],
+  "difficulty": 3,
+  "descriptor": "Maximum size of a sum-free subset of positive integers"
+}

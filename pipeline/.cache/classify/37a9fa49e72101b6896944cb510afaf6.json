@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "similar-congruent"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find ratio of segment lengths using line intersections in a rectangle"
+}

@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "circles",
+    "area-decomposition"
+  ],
+  "difficulty": 3.5,
+  "descriptor": "Find area enclosed by an absolute-value equation forming circles and square"
+}

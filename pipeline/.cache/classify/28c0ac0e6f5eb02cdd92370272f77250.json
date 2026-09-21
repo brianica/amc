@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "inequalities"
+  ],
+  "difficulty": 3.5,
+  "descriptor": "Count integers making a product over squared roots nonpositive"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "logic-puzzles",
+    "symmetry-arguments"
+  ],
+  "difficulty": 5,
+  "descriptor": "Determine optimal game strategy on an interval with distance constraints."
+}

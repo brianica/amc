@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "cyclic-quadrilaterals",
+    "circles",
+    "triangle-basics"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count quadrilateral types that have a circumscribed circle."
+}

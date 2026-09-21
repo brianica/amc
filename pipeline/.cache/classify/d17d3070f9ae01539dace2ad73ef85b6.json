@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisor-counting",
+    "modular-arithmetic"
+  ],
+  "difficulty": 3,
+  "descriptor": "Minimize sign changes to make sum of odd numbers negative."
+}

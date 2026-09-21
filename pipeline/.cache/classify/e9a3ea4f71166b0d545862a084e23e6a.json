@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "right-triangles"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find square area given perpendicular segments with specified lengths."
+}

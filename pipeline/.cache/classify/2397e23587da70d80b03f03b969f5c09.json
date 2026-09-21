@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "quadratics-vieta"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find sum of reciprocals of partial fraction decomposition coefficients using Vieta's formulas."
+}

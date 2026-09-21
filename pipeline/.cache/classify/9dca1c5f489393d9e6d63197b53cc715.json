@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "similar-congruent",
+    "right-triangles",
+    "circles"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Find area of inscribed right triangle using similar triangles with circle"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "symmetry-arguments",
+    "basic-probability"
+  ],
+  "difficulty": 3,
+  "descriptor": "Two independent geometric bin tosses; chance one exceeds the other"
+}

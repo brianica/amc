@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems",
+    "absolute-value"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count solutions to a linear equation with nested absolute values"
+}

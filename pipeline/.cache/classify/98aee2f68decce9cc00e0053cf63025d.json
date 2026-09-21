@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "radicals"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find minimum circles needed for shaded annular regions to exceed threshold area."
+}

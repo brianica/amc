@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "recursion-states",
+    "casework",
+    "basic-probability"
+  ],
+  "difficulty": 3.5,
+  "descriptor": "Frog random walk on wraparound 3x3 grid reaching corner within four hops"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "multiplication-principle",
+    "permutations-combinations"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count pairings of fourteen consecutive integers where each larger element at least doubles the smaller."
+}

@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "permutations-combinations",
+    "inclusion-exclusion"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count seatings of five people in a row with adjacency restrictions"
+}

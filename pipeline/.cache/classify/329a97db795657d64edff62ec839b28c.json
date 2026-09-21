@@ -1,0 +1,10 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "logs-exponents",
+    "functions"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find all real numbers m where two expressions with powers and radicals are equal."
+}

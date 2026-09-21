@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "primes",
+    "divisibility"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the smallest multiplier making a product of consecutive factorials a square."
+}

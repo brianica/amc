@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases",
+    "diophantine"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find base and digit satisfying two base-conversion equations"
+}

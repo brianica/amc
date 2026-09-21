@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "modular-arithmetic",
+    "digits-bases",
+    "divisibility"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find bases where base-b representation of 2024 is divisible by 16."
+}

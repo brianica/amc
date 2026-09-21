@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "similar-congruent",
+    "right-triangles",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 3,
+  "descriptor": "Ratio of two inscribed square side lengths in 3-4-5 triangles"
+}

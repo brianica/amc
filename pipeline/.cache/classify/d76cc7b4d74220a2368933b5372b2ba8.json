@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "area-decomposition",
+    "similar-congruent"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find side length of equilateral hexagon inscribed in unit square"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "pigeonhole",
+    "casework"
+  ],
+  "difficulty": 5,
+  "descriptor": "Minimize languages where each student speaks equally, with pairwise language differences."
+}

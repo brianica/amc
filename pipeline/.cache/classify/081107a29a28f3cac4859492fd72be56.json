@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find all values of X where dataset mean equals one of the values."
+}

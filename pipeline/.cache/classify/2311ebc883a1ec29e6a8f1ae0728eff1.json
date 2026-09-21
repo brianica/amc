@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "functions"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find row sum of modified Pascal triangle, then sum its digits."
+}

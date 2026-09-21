@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "solid-geometry",
+    "coordinate-geometry",
+    "circles"
+  ],
+  "difficulty": 5,
+  "descriptor": "Find radius of three congruent mutually tangent spheres inside cone."
+}

@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "recursion-states",
+    "basic-probability",
+    "casework"
+  ],
+  "difficulty": 3.5,
+  "descriptor": "Coin flipping until repeated outcome; probability of specific stopping pattern order"
+}

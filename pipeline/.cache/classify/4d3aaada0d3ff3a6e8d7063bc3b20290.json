@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "symmetry-arguments"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count Hamiltonian paths on cube not returning to start."
+}

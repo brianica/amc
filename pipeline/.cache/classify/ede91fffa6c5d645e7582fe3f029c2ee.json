@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "inclusion-exclusion"
+  ],
+  "difficulty": 2,
+  "descriptor": "Probability that product of two chosen numbers is even"
+}

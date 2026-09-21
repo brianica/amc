@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "digits-bases"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count three-digit integers whose digit permutation is divisible by 11"
+}

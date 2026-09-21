@@ -1,0 +1,5 @@
+{
+  "page": "2015_AMC_10B_Problems/Problem_1",
+  "wikitext": "==Problem==\nWhat is the value of <math>2-(-2)^{-2}</math>?\n\n<math>\\textbf{(A) } -2\\qquad\\textbf{(B) } \\dfrac{1}{16}\\qquad\\textbf{(C) } \\dfrac{7}{4}\\qquad\\textbf{(D) } \\dfrac{9}{4}\\qquad\\textbf{(E) } 6</math>\n\n==Solution==\n<math>2-(-2)^{-2}=2-\\frac{1}{(-2)^2}=2-\\frac{1}{4}=\\frac{8}{4}-\\frac{1}{4}=\\boxed{\\textbf{(C) }\\frac{7}{4}}</math>\n\n==Video Solution==\nhttps://youtu.be/PDP90xfdGdk\n\n~Education, the Study of Everything\n\n==Video Solution==\nhttps://youtu.be/0j5_-SaZdJ8\n\n~savannahsolver\n\n==See Also==\n{{AMC10 box|year=2015|ab=B|before=First Problem|num-a=2}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-18T04:08:56.116Z"
+}

@@ -1,0 +1,8 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "solid-geometry"
+  ],
+  "difficulty": 1,
+  "descriptor": "Find possible volume of box with sides in given ratio"
+}

@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series"
+  ],
+  "difficulty": 2,
+  "descriptor": "Sum of digits of the eleventh row sum in a modified triangle."
+}

@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "floor-ceiling",
+    "divisibility",
+    "units-digit"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count distinct values of floor-function sum involving fractional parts and Euler totient."
+}

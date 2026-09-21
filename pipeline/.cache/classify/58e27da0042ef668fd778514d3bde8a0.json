@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Spiral numbering of a 15x15 grid; add extremes in one row"
+}

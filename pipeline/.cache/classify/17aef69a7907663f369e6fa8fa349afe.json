@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "multiplication-principle"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count valid pairings of integers with multiplicity constraint using systematic casework."
+}

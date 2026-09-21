@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "similar-congruent",
+    "right-triangles",
+    "coordinate-geometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find triangle area using similar triangles and Pythagorean theorem with rectangle constraint."
+}

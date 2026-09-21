@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "cyclic-quadrilaterals"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find base ratio of an isosceles trapezoid given vertex distances from point."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "permutations-combinations"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count permutations requiring exactly two passes when picking cards left-to-right in order."
+}

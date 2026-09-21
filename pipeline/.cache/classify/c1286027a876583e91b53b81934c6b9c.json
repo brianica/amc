@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "modular-arithmetic",
+    "digits-bases",
+    "divisibility"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count base values where a four-digit representation is divisible by 16"
+}

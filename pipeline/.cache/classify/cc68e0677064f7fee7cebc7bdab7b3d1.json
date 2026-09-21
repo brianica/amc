@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta"
+  ],
+  "difficulty": 3,
+  "descriptor": "Maximize sum of roots of quadratic by expanding and using Vieta's formulas."
+}

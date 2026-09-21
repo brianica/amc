@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "transformations",
+    "triangle-basics"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find perimeter of triangle formed by paper fold with vertex meeting opposite edge."
+}

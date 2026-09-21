@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count distinct arrangements of colored cubes with one cube excluded."
+}

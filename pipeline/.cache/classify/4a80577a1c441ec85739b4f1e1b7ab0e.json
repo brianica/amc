@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "triangle-basics",
+    "area-decomposition"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Sum of inradii of two triangles formed by a median"
+}

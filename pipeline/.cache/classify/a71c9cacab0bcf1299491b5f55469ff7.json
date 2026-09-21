@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "modular-arithmetic",
+    "divisibility",
+    "digits-bases"
+  ],
+  "difficulty": 2,
+  "descriptor": "Given digit sum of n, determine possible digit sum of n+1"
+}

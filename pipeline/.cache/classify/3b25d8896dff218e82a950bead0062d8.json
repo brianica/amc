@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "recursion-states"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count closed non-self-intersecting loops with degree constraints on cells."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios",
+    "circles"
+  ],
+  "difficulty": 4,
+  "descriptor": "Compare packing ratios of congruent disks in triangle, rhombus, hexagon."
+}

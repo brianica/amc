@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisor-counting",
+    "primes",
+    "divisibility"
+  ],
+  "difficulty": 2,
+  "descriptor": "Probability a random divisor of a factorial is odd"
+}

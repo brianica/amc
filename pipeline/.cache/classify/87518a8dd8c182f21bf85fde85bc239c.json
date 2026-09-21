@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "inequalities",
+    "linear-systems"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count integer triples satisfying a system of four linear inequalities"
+}

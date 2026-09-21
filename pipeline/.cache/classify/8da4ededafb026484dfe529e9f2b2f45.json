@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "transformations",
+    "coordinate-geometry"
+  ],
+  "difficulty": 1.5,
+  "descriptor": "Identify false property of triangle reflected over line y=x"
+}

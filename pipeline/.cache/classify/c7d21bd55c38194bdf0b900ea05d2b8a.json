@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "inclusion-exclusion",
+    "casework"
+  ],
+  "difficulty": 5,
+  "descriptor": "Find minimum sum of three square side lengths satisfying lattice point conditions."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "polynomials"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find staircase steps needed for given toothpick count using pattern formula."
+}

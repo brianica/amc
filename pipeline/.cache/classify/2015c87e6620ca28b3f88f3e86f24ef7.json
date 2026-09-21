@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "right-triangles"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find position of box such that two paths from Frances through unlocked gates are equal."
+}

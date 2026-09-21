@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "symmetry-arguments"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count rotationally distinct 2x2x2 cubes built from four white and four blue cubes"
+}

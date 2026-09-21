@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "triangle-basics",
+    "cyclic-quadrilaterals"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find angle at diagonal intersection using semicircle right angles in isosceles triangle"
+}

@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases",
+    "modular-arithmetic",
+    "divisibility"
+  ],
+  "difficulty": 2,
+  "descriptor": "Given a huge digit sum, determine possible digit sum of successor"
+}

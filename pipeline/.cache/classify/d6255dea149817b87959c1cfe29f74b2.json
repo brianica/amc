@@ -1,0 +1,10 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "absolute-value",
+    "inequalities"
+  ],
+  "difficulty": 3,
+  "descriptor": "Minimize sign changes to make alternating sum negative."
+}

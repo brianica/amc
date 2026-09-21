@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "transformations",
+    "coordinate-geometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find line m given two successive reflections and endpoints."
+}

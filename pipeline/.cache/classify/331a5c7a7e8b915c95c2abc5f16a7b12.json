@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "functions"
+  ],
+  "difficulty": 2,
+  "descriptor": "Evaluate a symmetric expression given sum and product of two numbers"
+}

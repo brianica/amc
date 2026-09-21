@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios",
+    "triangle-basics"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count valid fourth rod lengths forming a quadrilateral with three given"
+}

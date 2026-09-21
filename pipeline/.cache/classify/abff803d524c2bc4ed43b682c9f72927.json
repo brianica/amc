@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "polynomials"
+  ],
+  "difficulty": 2,
+  "descriptor": "Harmonic mean of the roots of a product of quadratic polynomials"
+}

@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "cyclic-quadrilaterals",
+    "right-triangles",
+    "similar-congruent"
+  ],
+  "difficulty": 4,
+  "descriptor": "Determine an angle measure inside a rhombus involving a perpendicular segment."
+}

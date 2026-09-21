@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "recursion-states",
+    "basic-probability",
+    "symmetry-arguments"
+  ],
+  "difficulty": 3.5,
+  "descriptor": "Markov chain of dollar exchanges; probability all equal after many rounds"
+}

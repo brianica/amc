@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "area-decomposition"
+  ],
+  "difficulty": 3.5,
+  "descriptor": "Two right triangles share two side lengths; find product of remaining sides squared"
+}

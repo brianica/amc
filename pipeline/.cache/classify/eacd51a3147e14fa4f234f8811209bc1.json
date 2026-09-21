@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems",
+    "rates-work-mixture"
+  ],
+  "difficulty": 2,
+  "descriptor": "Distribute eggs equally among three people with given ratios."
+}

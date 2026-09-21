@@ -1,0 +1,8 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "statistics"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count triples of values satisfying given mean, median, and range conditions."
+}

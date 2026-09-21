@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "modular-arithmetic",
+    "primes"
+  ],
+  "difficulty": 2,
+  "descriptor": "Identify which exponential expression has no prime factor below ten."
+}

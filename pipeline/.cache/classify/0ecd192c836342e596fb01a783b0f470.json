@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "primes",
+    "floor-ceiling"
+  ],
+  "difficulty": 4.5,
+  "descriptor": "Count n≤50 where a factorial quotient is an integer"
+}

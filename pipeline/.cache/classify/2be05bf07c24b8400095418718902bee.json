@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Probability that a power has units digit one using cyclic patterns"
+}

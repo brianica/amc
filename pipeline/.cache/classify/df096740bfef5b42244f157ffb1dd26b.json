@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisor-counting",
+    "digits-bases"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find positive integers where trailing zeros in (2n)! equal three times trailing zeros in n!."
+}

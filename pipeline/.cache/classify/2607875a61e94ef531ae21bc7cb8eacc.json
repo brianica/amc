@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "divisor-counting"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find the smallest divisor of an even 4-digit number immediately after 323."
+}

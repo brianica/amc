@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Number of valid pairings where each larger element is at least double"
+}

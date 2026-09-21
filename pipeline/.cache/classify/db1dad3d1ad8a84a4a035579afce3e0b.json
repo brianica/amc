@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios",
+    "coordinate-geometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find unoccupied area inside hexagonal frame with six regular hexagonal blocks."
+}

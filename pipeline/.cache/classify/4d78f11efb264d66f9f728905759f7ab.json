@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "modular-arithmetic",
+    "gcd-lcm",
+    "divisibility"
+  ],
+  "difficulty": 3,
+  "descriptor": "Remainder of a harmonic sum numerator modulo a prime"
+}

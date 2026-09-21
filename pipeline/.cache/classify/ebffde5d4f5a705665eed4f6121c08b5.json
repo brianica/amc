@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "modular-arithmetic"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find remainder of sum of cubes given constrained sequence sum"
+}

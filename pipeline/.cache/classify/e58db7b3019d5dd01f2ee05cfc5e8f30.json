@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count homogeneous 3x3 linear systems with binary coefficients having nontrivial solutions."
+}

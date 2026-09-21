@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems",
+    "sequences-series"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find consecutive sheets removed so remaining page numbers average to nineteen."
+}

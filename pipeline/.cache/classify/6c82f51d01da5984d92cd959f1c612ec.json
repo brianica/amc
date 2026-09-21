@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "multiplication-principle",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count non-repeating face paths across dodecahedron from top to bottom"
+}

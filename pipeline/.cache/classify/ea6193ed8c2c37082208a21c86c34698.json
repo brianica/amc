@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "inequalities"
+  ],
+  "difficulty": 2,
+  "descriptor": "Minimum number of nested circles for alternating shaded area to exceed threshold."
+}

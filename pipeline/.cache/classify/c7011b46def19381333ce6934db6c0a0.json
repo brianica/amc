@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "units-digit"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find probability that a power has units digit one"
+}

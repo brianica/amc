@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios",
+    "area-decomposition"
+  ],
+  "difficulty": 4,
+  "descriptor": "Compare packing efficiency of congruent disks in triangle, rhombus, hexagon."
+}

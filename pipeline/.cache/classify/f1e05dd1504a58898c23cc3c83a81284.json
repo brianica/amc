@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems",
+    "sequences-series"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find array entry where rows and columns form arithmetic progressions."
+}

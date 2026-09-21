@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "casework"
+  ],
+  "difficulty": 5,
+  "descriptor": "Find minimum N where probability of unbalanced green ball distribution falls below threshold."
+}

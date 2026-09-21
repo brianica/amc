@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "floor-ceiling"
+  ],
+  "difficulty": 1,
+  "descriptor": "Minimum quantity of two-digit integers that sum to a given total"
+}

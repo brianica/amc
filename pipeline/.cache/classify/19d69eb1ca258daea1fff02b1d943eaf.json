@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "combinatorial-geometry",
+    "permutations-combinations",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count nondegenerate triangles with vertices in a 5×5 lattice grid"
+}

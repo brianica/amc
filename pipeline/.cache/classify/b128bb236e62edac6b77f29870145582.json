@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "right-triangles",
+    "similar-congruent"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find triangle perimeter given squares on sides with vertices on a circle"
+}

@@ -1,0 +1,8 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios"
+  ],
+  "difficulty": 3,
+  "descriptor": "Maximize one side of quadrilateral with perimeter constraint and inequality."
+}

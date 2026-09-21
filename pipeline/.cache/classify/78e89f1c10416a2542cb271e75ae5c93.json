@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "inclusion-exclusion",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count digit strings satisfying multiple simultaneous inequality constraints."
+}

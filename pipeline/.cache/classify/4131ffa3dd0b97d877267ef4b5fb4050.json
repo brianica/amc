@@ -1,0 +1,10 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "polynomials",
+    "functions"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find a specific entry in a recursively-generated array using polynomial coefficients."
+}

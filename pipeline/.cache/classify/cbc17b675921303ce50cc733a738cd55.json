@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "inequalities",
+    "polynomials"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Count integers where a product of squared-root linear factors is nonpositive"
+}

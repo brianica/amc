@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "area-decomposition",
+    "coordinate-geometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the shaded area between rectangle and diagonal line segment."
+}

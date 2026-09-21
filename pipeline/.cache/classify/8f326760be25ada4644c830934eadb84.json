@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "recursion-states",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find the 2025th term in a periodic mountain-peak sequence pattern."
+}

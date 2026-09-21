@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "stars-and-bars",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count ways seven dice sum to ten using partitions"
+}

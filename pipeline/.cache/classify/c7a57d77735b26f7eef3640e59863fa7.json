@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisor-counting",
+    "primes"
+  ],
+  "difficulty": 3,
+  "descriptor": "Probability that random divisor of 21! is odd"
+}

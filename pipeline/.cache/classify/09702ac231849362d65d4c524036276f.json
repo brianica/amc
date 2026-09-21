@@ -1,0 +1,8 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "logic-puzzles"
+  ],
+  "difficulty": 1,
+  "descriptor": "Find a counterexample to a conditional claim about primes"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations",
+    "symmetry-arguments"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count colorings of six disks using Burnside's lemma under dihedral symmetry group."
+}

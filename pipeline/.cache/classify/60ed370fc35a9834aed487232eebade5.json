@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "rates-work-mixture",
+    "linear-systems"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find when a worker joins a group packing packages at constant rates."
+}

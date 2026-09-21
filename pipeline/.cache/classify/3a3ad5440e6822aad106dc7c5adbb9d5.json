@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "similar-congruent",
+    "right-triangles",
+    "triangle-basics"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find a leg length in a trapezoid with perpendicular diagonal condition"
+}

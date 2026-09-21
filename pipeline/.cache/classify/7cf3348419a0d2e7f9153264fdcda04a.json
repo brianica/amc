@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "right-triangles"
+  ],
+  "difficulty": 2,
+  "descriptor": "Compare path lengths along grid versus straight diagonal across square"
+}

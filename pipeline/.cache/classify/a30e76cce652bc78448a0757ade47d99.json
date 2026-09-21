@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios",
+    "area-decomposition"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find shaded area inside square but outside four equilateral triangles."
+}

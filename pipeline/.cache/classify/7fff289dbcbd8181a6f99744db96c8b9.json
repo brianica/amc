@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "polynomials"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find vertical distance between two points on a curve by solving a quadratic equation."
+}

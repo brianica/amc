@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "recursion-states",
+    "casework",
+    "permutations-combinations"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count binary strings with spacing restrictions on runs of digits"
+}

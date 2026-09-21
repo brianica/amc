@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "coordinate-geometry",
+    "area-decomposition"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find area of right triangle with constraints from equal areas and rectangle dimensions."
+}

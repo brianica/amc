@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "symmetry-arguments",
+    "logic-puzzles",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Two-player interval number-picking game; determine winner under optimal play"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "area-decomposition",
+    "coordinate-geometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find vertical line dividing trapezoid region into equal areas."
+}

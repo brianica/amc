@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "symmetry-arguments",
+    "multiplication-principle"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count 7×7 grids invariant under all rotations and reflections"
+}

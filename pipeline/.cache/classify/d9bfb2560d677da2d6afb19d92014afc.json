@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "solid-geometry",
+    "circles"
+  ],
+  "difficulty": 4,
+  "descriptor": "Total length of a closed curve formed by four semicircles on a sphere"
+}

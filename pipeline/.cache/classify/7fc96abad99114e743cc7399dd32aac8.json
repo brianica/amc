@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios",
+    "similar-congruent"
+  ],
+  "difficulty": 4,
+  "descriptor": "Sum of segments in regular pentagon with diagonals using golden ratio"
+}

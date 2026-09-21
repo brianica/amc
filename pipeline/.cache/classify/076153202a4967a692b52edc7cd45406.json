@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "multiplication-principle",
+    "inclusion-exclusion"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count positive integers whose digits form strictly increasing or decreasing sequences."
+}

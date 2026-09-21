@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "pigeonhole",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find probability that row and column sums are all odd in random grid placement."
+}

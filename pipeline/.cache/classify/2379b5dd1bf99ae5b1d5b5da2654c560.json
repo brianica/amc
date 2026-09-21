@@ -1,0 +1,8 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios"
+  ],
+  "difficulty": 1,
+  "descriptor": "Count how many small squares fit in a rectangular pan"
+}

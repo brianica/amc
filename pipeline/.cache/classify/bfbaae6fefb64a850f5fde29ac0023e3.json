@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "similar-congruent",
+    "right-triangles",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Compare side lengths of two squares inscribed differently in 3-4-5 triangle"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases",
+    "diophantine"
+  ],
+  "difficulty": 4,
+  "descriptor": "Maximize digit sum given repdigit equation holds for multiple n"
+}

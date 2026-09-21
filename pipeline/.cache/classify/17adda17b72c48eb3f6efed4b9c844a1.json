@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "primes"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count n where factorial quotient with power of n! is integral"
+}

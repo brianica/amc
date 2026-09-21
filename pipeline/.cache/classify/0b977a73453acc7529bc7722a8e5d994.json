@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems",
+    "sequences-series"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find inner rectangle length given three region areas form arithmetic progression"
+}

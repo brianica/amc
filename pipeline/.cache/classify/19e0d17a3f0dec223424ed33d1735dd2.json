@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "solid-geometry",
+    "circles",
+    "right-triangles"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Rolling a 3/4 circular sector into a cone; find its volume."
+}

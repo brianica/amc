@@ -1,0 +1,10 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "functions",
+    "absolute-value",
+    "inequalities"
+  ],
+  "difficulty": 4,
+  "descriptor": "Maximize composite function output given Lipschitz and equality constraints."
+}

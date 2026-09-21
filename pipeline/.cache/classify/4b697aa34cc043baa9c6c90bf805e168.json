@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "triangle-basics"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find an angle formed by a triangle vertex and its circumcenter"
+}

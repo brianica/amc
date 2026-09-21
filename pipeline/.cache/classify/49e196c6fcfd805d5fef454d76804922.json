@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "symmetry-arguments",
+    "casework",
+    "permutations-combinations"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count distinct disk colorings under rotations and reflections"
+}

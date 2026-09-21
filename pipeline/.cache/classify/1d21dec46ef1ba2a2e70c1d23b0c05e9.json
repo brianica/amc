@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "permutations-combinations",
+    "symmetry-arguments"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Count permutations of five numbers avoiding three consecutive increasing or decreasing terms"
+}

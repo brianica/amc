@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "coordinate-geometry",
+    "circles"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Count third-vertex positions giving right triangle of fixed area"
+}

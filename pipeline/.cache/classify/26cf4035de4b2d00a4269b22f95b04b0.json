@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems"
+  ],
+  "difficulty": 1,
+  "descriptor": "Determine the number of values in a list from two transformed sums."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "functions",
+    "absolute-value"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find all real solutions where floor of x satisfies quadratic equation in x."
+}

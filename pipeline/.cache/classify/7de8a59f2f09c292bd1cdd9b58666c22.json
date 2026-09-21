@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "diophantine"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find coin count given distinct subset sum values achievable."
+}

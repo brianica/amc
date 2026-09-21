@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "digits-bases",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count three-digit integers whose digit permutations include a multiple of eleven."
+}

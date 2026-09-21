@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the side length of an equilateral hexagon inscribed in a square"
+}

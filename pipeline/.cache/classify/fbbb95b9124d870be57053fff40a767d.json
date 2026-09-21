@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisor-counting",
+    "units-digit"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find units digit of product of all divisors of 42"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "diophantine"
+  ],
+  "difficulty": 1.5,
+  "descriptor": "Find four distinct digits from given pair products, then sum"
+}

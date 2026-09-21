@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "transformations",
+    "triangle-basics"
+  ],
+  "difficulty": 2,
+  "descriptor": "Angle formed between an edge of a square and its rotated copy"
+}

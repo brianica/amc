@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "permutations-combinations",
+    "recursion-states"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count ordered factorizations of 96 into factors greater than one"
+}

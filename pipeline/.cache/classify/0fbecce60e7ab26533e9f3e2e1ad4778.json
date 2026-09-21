@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "similar-congruent",
+    "right-triangles"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find area of triangle formed by circle diameter, extended point, and perpendicular configuration."
+}

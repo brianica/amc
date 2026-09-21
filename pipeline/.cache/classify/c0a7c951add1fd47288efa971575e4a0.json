@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases",
+    "divisor-counting"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count integers up to 1000 whose hexadecimal representation uses only digits 0-9."
+}

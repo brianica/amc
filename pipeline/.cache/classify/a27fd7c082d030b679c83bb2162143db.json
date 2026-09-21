@@ -1,0 +1,8 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Determine possible counts of lattice points on lines with various slope types."
+}

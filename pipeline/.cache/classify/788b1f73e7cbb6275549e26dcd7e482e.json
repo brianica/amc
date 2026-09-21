@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "symmetry-arguments",
+    "basic-probability"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find sum with equal probability by dice symmetry"
+}

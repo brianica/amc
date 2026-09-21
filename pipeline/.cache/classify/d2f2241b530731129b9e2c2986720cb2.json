@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "conditional-geometric-probability",
+    "symmetry-arguments",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find probability frog reaches vertical side before escaping bounded square."
+}

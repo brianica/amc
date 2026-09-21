@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "modular-arithmetic"
+  ],
+  "difficulty": 2,
+  "descriptor": "Determine which total is impossible given divisibility constraints on animal ratios."
+}

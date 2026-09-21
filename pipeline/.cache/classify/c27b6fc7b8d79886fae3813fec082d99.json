@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "divisor-counting"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find smallest divisor greater than 323 for even 4-digit numbers divisible by 323."
+}

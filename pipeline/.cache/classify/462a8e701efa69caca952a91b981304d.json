@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "inclusion-exclusion"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find ordered triples satisfying range, mean, and median constraints."
+}

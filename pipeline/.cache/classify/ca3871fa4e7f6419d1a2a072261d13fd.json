@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "coordinate-geometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find total arc length of four semicircles on a sphere's surface."
+}

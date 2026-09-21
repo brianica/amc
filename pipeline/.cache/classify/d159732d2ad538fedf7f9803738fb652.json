@@ -1,0 +1,10 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "inequalities",
+    "functions"
+  ],
+  "difficulty": 4.5,
+  "descriptor": "Estimate steps for recursive sequence to approach limit within tiny tolerance"
+}

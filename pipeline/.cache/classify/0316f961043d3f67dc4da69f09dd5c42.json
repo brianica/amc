@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "floor-ceiling"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count real solutions using floor function and algebraic manipulation."
+}

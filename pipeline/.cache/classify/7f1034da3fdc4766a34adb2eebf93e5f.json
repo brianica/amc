@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "sequences-series"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count consecutive perfect square pairs with bounded difference."
+}

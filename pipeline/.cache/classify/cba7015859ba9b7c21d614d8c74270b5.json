@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "triangle-basics"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find squared area of equilateral triangle on hyperbola with centroid at vertex."
+}

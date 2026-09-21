@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "floor-ceiling"
+  ],
+  "difficulty": 1,
+  "descriptor": "Find maximum whole mugs from dividing total grams by requirement."
+}

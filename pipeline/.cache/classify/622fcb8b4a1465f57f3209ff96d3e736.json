@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "diophantine"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find parameter values making quadratic have integer roots using Vieta's formulas"
+}

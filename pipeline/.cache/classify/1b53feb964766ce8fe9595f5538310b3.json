@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "area-decomposition"
+  ],
+  "difficulty": 5,
+  "descriptor": "Find probability that AP is median side length in triangle APB."
+}

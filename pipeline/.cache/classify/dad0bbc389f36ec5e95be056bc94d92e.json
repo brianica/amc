@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "symmetry-arguments"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count valid colorings of circular sectors with color-matching and symmetry constraints."
+}

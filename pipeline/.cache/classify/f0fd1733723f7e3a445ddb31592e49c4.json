@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "conditional-geometric-probability",
+    "basic-probability"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find probability Hugo rolled 5 initially, given he eventually won the game."
+}

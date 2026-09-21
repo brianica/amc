@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems",
+    "sequences-series"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find common point through all lines where coefficients form arithmetic progression."
+}

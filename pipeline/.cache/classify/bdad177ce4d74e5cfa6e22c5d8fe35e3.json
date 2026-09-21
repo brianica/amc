@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "coordinate-geometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find perimeters of quadrilaterals with right angles and integer side constraints."
+}

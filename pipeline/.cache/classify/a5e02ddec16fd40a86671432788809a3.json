@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "units-digit",
+    "divisor-counting"
+  ],
+  "difficulty": 2,
+  "descriptor": "Units digit of the product of all positive divisors of an integer"
+}

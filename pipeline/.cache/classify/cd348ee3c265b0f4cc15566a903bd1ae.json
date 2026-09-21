@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count permutations of thirteen cards collected in exactly two passes."
+}

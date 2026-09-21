@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "functions",
+    "quadratics-vieta"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count unordered pairs of parabolas from given values that intersect."
+}

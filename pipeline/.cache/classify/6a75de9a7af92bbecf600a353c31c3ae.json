@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations",
+    "symmetry-arguments"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count five-digit strings satisfying cumulative lower-bound conditions for each digit value."
+}

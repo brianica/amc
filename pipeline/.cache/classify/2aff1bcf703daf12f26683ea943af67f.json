@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "recursion-states"
+  ],
+  "difficulty": 4,
+  "descriptor": "Apply iterative divisibility and addition rules, tracking state after exactly 100 operations."
+}

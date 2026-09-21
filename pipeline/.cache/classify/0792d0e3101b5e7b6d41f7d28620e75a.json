@@ -1,0 +1,10 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "absolute-value",
+    "functions",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find ordered pairs satisfying a parabola and absolute value diamond equations."
+}

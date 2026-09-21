@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "similar-congruent",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find weight of similar triangle using area ratio scaling"
+}

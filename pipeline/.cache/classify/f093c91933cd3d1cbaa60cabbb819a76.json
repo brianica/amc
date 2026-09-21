@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "gcd-lcm"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find unique divisor N where remainders constrain quotients via GCD relationships"
+}

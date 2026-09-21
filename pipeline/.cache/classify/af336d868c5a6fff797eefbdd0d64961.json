@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems",
+    "diophantine"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find three-digit numbers satisfying a repeating decimal equation constraint"
+}

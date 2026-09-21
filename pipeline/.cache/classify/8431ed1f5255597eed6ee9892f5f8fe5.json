@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "triangle-basics",
+    "area-decomposition"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find area between equilateral triangle, tangent circle, and baseline."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "multiplication-principle",
+    "casework"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count 4-digit even numbers divisible by 5 using digit constraints."
+}

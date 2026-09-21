@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "modular-arithmetic",
+    "divisor-counting"
+  ],
+  "difficulty": 5,
+  "descriptor": "Determine when a factorial ratio involving n-th powers is an integer."
+}

@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find total round-robin matches using win ratios and handedness player counts"
+}

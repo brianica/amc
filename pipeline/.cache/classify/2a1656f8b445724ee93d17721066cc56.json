@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "conditional-geometric-probability",
+    "area-decomposition",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Geometric probability that dropped coin touches black corner triangles or center diamond"
+}

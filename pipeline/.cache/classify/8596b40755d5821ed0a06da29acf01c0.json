@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "divisibility"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find all integers where one cubic polynomial divides another."
+}

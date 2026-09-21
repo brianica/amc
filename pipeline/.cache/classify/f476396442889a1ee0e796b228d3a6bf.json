@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "permutations-combinations",
+    "symmetry-arguments"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count colorings of 3x3 grid with three each, no adjacent same color"
+}

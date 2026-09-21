@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "quadratics-vieta"
+  ],
+  "difficulty": 3,
+  "descriptor": "Cubic divides quartic; find quartic's value at 1 using coefficient matching"
+}

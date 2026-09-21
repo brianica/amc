@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "symmetry-arguments",
+    "permutations-combinations"
+  ],
+  "difficulty": 3,
+  "descriptor": "Probability all three even faces occur before any odd roll"
+}

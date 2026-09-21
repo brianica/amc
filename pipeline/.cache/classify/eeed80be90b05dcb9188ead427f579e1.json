@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "triangle-basics"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find ratio of parallel sides in isosceles trapezoid given distances from specific point."
+}

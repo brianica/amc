@@ -1,0 +1,9 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "statistics",
+    "logic-puzzles"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find how many consecutive sheets removed so remaining page-number mean is 19"
+}

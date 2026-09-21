@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "area-decomposition"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find intersection area of tilted square with rectangle using coordinates"
+}

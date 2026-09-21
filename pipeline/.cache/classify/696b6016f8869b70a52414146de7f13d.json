@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "conditional-geometric-probability"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find probability that one random uniform variable exceeds another from different intervals."
+}

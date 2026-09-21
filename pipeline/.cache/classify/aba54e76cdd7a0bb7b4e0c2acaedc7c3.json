@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "multiplication-principle"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count isosceles triangles with integer sides and maximum side 2025."
+}

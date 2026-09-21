@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases",
+    "floor-ceiling"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count leading zeros after decimal point in 1 over 20^20"
+}

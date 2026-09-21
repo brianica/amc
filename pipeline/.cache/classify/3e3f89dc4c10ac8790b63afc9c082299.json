@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "area-decomposition",
+    "coordinate-geometry",
+    "circles"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find probability coin center lands to cover black regions on patterned square."
+}

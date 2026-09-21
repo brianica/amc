@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "permutations-combinations"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count race orderings of five snails allowing at most one tie."
+}

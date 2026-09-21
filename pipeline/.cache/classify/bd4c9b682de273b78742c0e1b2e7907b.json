@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "diophantine",
+    "units-digit"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find largest integer where two linear expressions equal perfect squares."
+}

@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "symmetry-arguments",
+    "combinatorial-geometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Probability that one vertex-to-vertex edge distance exceeds another on a regular icosahedron."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "solid-geometry",
+    "coordinate-geometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find total arc length of four congruent semicircles on sphere surface."
+}

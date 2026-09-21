@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "triangle-basics",
+    "area-decomposition"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find points C forming triangle with fixed base, area, and perimeter constraints."
+}

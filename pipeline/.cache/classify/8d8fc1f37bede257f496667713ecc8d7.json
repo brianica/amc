@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "floor-ceiling",
+    "units-digit",
+    "modular-arithmetic"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the units digit of a sum of square root floor values"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems",
+    "polynomials"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find common point through all lines with coefficients in arithmetic progression."
+}

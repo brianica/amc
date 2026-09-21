@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios",
+    "similar-congruent",
+    "area-decomposition"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find the area ratio of a hexagon formed by parallel lines in a regular hexagon."
+}

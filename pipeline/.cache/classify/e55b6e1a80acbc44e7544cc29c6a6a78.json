@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "transformations",
+    "symmetry-arguments"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Count symmetries of an infinite repeating strip pattern"
+}

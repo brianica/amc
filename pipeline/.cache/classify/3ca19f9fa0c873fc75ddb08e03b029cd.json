@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "right-triangles",
+    "area-decomposition"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find area between two semicircles using a parallel tangent chord."
+}

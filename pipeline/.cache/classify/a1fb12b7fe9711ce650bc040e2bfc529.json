@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "gcd-lcm",
+    "divisor-counting",
+    "divisibility"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Find smallest number with five single-digit divisors; sum its digits."
+}

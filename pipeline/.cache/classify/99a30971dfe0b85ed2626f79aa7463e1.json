@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "transformations"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the area bounded by a nested absolute value inequality."
+}

@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisor-counting",
+    "divisibility",
+    "primes"
+  ],
+  "difficulty": 2,
+  "descriptor": "Compare sum of odd divisors to even divisors of a factored product"
+}

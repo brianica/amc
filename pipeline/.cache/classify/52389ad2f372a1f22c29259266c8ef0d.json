@@ -1,0 +1,8 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios"
+  ],
+  "difficulty": 1,
+  "descriptor": "Count square pieces fitting in a rectangular pan by division."
+}

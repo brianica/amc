@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "floor-ceiling",
+    "divisibility"
+  ],
+  "difficulty": 4,
+  "descriptor": "Determine distinct values of sum involving floor functions and fractional parts."
+}

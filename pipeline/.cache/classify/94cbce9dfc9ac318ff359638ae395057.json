@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count distinct integers formed by adding pairs of fractions with fixed numerator-denominator sum."
+}

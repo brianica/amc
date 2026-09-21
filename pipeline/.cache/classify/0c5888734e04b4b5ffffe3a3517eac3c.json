@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "area-decomposition",
+    "right-triangles"
+  ],
+  "difficulty": 3,
+  "descriptor": "Area between an equilateral triangle, a tangent circle, and their baseline"
+}

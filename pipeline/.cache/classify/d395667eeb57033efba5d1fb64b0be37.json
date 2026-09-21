@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "area-decomposition"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find base length of triangle inscribed in parabola with given area"
+}

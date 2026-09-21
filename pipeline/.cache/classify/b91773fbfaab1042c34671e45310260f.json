@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "linear-systems"
+  ],
+  "difficulty": 3,
+  "descriptor": "Determine a missing entry in a grid with arithmetic progression rows and columns."
+}

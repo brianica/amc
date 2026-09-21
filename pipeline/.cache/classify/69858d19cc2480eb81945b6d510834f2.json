@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios",
+    "similar-congruent",
+    "area-decomposition"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find area of hexagon formed by intersecting two triangles in regular hexagon"
+}

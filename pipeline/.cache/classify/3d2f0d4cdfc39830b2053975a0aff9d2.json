@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "casework"
+  ],
+  "difficulty": 2,
+  "descriptor": "Probability that a cumulative sum of four dice rolls hits three"
+}

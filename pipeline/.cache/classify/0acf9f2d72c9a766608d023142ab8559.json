@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "area-decomposition",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 2,
+  "descriptor": "Square minus four inscribed equilateral triangles meeting at center; find shaded area."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "similar-congruent",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find trapezoid area using similar triangle area ratios"
+}

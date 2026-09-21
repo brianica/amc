@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "triangle-basics",
+    "transformations"
+  ],
+  "difficulty": 4,
+  "descriptor": "Equilateral triangle inscribed in hyperbola with centroid at vertex; find area squared"
+}

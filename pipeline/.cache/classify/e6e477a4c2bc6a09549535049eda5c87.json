@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "similar-congruent",
+    "right-triangles"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the area of a right triangle formed within an overlapping rectangle."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "conditional-geometric-probability",
+    "casework"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the probability a student truly likes dancing given they say they dislike it."
+}

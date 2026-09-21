@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "modular-arithmetic"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find remainder of sum of cubes given sum constraint modulo 6"
+}

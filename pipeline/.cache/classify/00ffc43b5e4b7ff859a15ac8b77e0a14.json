@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "inclusion-exclusion",
+    "basic-probability"
+  ],
+  "difficulty": 5,
+  "descriptor": "Find probability that at least one box receives three same-colored blocks."
+}

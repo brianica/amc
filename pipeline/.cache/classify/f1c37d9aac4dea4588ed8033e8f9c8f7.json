@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "stars-and-bars",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count ways to distribute sum of 10 across 7 dice rolls."
+}

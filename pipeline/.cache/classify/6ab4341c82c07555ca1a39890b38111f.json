@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "primes"
+  ],
+  "difficulty": 1,
+  "descriptor": "Find the minimum perimeter of an integer-sided rectangle with a given area."
+}

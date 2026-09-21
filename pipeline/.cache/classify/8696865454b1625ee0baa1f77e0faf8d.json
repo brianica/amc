@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "similar-congruent"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find ratio of parallel sides using point distances to trapezoid vertices."
+}

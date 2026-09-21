@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "functions"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find minimal degree polynomial with leading coefficient 1 satisfying root conditions."
+}

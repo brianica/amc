@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "solid-geometry",
+    "coordinate-geometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find the volume of an octahedron whose vertices are face centers of a rectangular prism."
+}

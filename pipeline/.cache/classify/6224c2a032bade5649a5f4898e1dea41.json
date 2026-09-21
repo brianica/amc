@@ -1,0 +1,8 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios"
+  ],
+  "difficulty": 2,
+  "descriptor": "Weight of second triangle from first triangle using area scaling."
+}

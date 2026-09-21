@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "cyclic-quadrilaterals",
+    "triangle-basics"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find angle in rhombus configuration with perpendicular and midpoint constraints."
+}

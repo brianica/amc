@@ -1,0 +1,10 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "inequalities",
+    "functions"
+  ],
+  "difficulty": 4,
+  "descriptor": "Minimize sum of infinite geometric series given second term constraint."
+}

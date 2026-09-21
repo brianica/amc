@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series"
+  ],
+  "difficulty": 3,
+  "descriptor": "Sum ratios of even-indexed Fibonacci numbers to their half-indexed counterparts."
+}

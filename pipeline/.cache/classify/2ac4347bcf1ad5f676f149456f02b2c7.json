@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find grid dimensions where interior pieces equal perimeter pieces."
+}

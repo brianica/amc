@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "triangle-basics",
+    "coordinate-geometry",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find positions for R such that triangle PQR is right-angled with specified area."
+}

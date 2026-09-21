@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "triangle-basics"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the third vertex of an isosceles triangle given two vertices and the altitude foot."
+}

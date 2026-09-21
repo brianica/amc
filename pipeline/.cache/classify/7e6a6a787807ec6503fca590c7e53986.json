@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "triangle-basics",
+    "coordinate-geometry",
+    "trigonometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find area of triangle formed by angle trisectors of isosceles right triangle"
+}

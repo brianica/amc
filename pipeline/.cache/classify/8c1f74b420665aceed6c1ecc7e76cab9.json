@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems",
+    "functions"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find two-digit number satisfying sequence of arithmetic operations and digit reversal."
+}

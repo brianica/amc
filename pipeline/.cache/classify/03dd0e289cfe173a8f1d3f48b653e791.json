@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "transformations"
+  ],
+  "difficulty": 5,
+  "descriptor": "Determine which vertex a reflecting ray inside a square first encounters."
+}

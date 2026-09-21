@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "triangle-basics",
+    "area-decomposition"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find smallest angle of hexagon formed by angle trisectors in equilateral triangle."
+}

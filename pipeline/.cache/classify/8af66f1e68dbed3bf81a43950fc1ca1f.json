@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases",
+    "divisibility",
+    "floor-ceiling"
+  ],
+  "difficulty": 4,
+  "descriptor": "Track which original digits survive successive erasure operations based on position modular arithmetic."
+}

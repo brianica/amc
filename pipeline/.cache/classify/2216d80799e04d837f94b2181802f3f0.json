@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios",
+    "similar-congruent",
+    "area-decomposition"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find area ratio of inner hexagon to regular hexagon with parallel constraints"
+}

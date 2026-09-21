@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "solid-geometry",
+    "coordinate-geometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find pillar height at hexagon vertex given a tilted plane through three heights"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "symmetry-arguments",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count how many times each vertex contributes to cube's face-sum value."
+}

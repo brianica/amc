@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "functions",
+    "sequences-series"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find all values where median equals mean of a dataset with variable."
+}

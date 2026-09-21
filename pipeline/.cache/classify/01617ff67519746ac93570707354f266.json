@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "transformations",
+    "coordinate-geometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Determine final position of letter F after three successive transformations."
+}

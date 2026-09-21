@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "area-decomposition",
+    "trigonometry",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Area ratio of triangle formed by extending equilateral triangle's sides"
+}

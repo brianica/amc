@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "absolute-value",
+    "radicals"
+  ],
+  "difficulty": 2,
+  "descriptor": "Simplify absolute value expression with square root given constraint."
+}

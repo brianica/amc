@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "similar-congruent",
+    "triangle-basics"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find segment ratio using isosceles triangles and angle relationships."
+}

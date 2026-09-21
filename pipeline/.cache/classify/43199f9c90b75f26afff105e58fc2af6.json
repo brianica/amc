@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "similar-congruent",
+    "transformations"
+  ],
+  "difficulty": 3,
+  "descriptor": "Paper folding in unit square; find perimeter of small corner triangle"
+}

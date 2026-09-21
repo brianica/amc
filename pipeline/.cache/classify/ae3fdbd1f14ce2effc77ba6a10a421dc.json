@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "functions"
+  ],
+  "difficulty": 3,
+  "descriptor": "Minimize a product of consecutive linear factors plus constant."
+}

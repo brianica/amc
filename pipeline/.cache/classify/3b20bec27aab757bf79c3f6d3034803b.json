@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "multiplication-principle",
+    "symmetry-arguments"
+  ],
+  "difficulty": 1.5,
+  "descriptor": "Count three-digit integers containing an odd quantity of even digits"
+}

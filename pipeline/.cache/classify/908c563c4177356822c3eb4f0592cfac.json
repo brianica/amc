@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "digits-bases"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count three-digit integers divisible by 7 whose digit-reversal is divisible by 5."
+}

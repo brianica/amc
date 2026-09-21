@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "functions",
+    "linear-systems"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find matrix entry where rows and columns form arithmetic progressions."
+}

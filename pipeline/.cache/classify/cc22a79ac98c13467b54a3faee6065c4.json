@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "area-decomposition"
+  ],
+  "difficulty": 4,
+  "descriptor": "Maximize area of points inside exactly one of four tangent circles by choosing orientations."
+}

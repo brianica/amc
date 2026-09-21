@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "primes"
+  ],
+  "difficulty": 3,
+  "descriptor": "Largest three-digit n where triangular number fails to divide n factorial"
+}

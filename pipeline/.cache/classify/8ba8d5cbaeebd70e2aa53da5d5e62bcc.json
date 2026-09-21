@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "cyclic-quadrilaterals",
+    "circles",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 1.5,
+  "descriptor": "Count quadrilateral types admitting a circumcenter equidistant from all vertices"
+}

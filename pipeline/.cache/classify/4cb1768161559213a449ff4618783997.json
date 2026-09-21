@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "solid-geometry",
+    "similar-congruent"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Calculate additional time required to fill the upper portion of a frustum."
+}

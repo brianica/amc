@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "recursion-states",
+    "basic-probability",
+    "symmetry-arguments"
+  ],
+  "difficulty": 4,
+  "descriptor": "Three players randomly pass dollars; chance all equal after many rounds"
+}

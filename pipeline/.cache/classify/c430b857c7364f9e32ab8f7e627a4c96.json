@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "basic-probability"
+  ],
+  "difficulty": 2,
+  "descriptor": "Probability of needing exactly three draws to exceed a target sum"
+}

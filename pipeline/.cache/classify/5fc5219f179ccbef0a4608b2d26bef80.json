@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "modular-arithmetic",
+    "divisibility",
+    "digits-bases"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Remainder mod 45 of concatenation of integers 1 through 44"
+}

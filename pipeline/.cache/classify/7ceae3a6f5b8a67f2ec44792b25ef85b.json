@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "cyclic-quadrilaterals",
+    "right-triangles",
+    "circles"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the area inside a circumscribed circle outside a cyclic quadrilateral."
+}

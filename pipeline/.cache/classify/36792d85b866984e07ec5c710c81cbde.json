@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "primes",
+    "divisibility"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find smallest prime expressible as sum of five distinct primes."
+}

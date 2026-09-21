@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "absolute-value",
+    "inequalities"
+  ],
+  "difficulty": 1,
+  "descriptor": "Count integer solutions to an absolute value inequality bounded by a constant."
+}

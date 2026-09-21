@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "quadratics-vieta"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find remainder when polynomial in powers of 2 is divided by another."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "functions",
+    "quadratics-vieta"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find sum of reciprocals given constraint on sum and product."
+}

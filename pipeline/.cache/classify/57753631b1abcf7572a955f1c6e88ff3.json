@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "coordinate-geometry",
+    "power-of-a-point"
+  ],
+  "difficulty": 3.5,
+  "descriptor": "Find circle area given two points and tangents meeting on x-axis"
+}

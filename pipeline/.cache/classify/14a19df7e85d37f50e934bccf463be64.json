@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "recursion-states",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Track a sequence under conditional rules to find the state after exactly 100 steps."
+}

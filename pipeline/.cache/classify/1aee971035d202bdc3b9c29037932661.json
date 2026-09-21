@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "floor-ceiling",
+    "units-digit"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find ones digit of sum of floor square roots from 1 to 2025"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "symmetry-arguments"
+  ],
+  "difficulty": 5,
+  "descriptor": "Count distinct 3x3 grid three-colorings with cyclic adjacency rules up to symmetry."
+}

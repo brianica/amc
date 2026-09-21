@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems",
+    "diophantine"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find brick dimensions from equations relating two rectangular block configurations."
+}

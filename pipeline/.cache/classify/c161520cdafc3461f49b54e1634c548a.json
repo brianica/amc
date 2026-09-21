@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios",
+    "triangle-basics",
+    "coordinate-geometry"
+  ],
+  "difficulty": 5,
+  "descriptor": "Find perimeter of equiangular hexagon using circumscribed triangles."
+}

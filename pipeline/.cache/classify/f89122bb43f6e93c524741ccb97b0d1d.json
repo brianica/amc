@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "floor-ceiling",
+    "divisibility"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find values where trailing zeros of (2n)! equal three times those of n!"
+}

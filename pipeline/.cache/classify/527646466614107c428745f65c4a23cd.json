@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Partition students into identical teams with balanced class composition."
+}

@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "floor-ceiling"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count distinct values of sum involving floor of fractional parts"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems",
+    "absolute-value"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count ordered pairs satisfying a linear equation and nested absolute values"
+}

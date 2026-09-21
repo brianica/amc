@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "transformations",
+    "coordinate-geometry"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find transformation that reverses two successive geometric transformations applied to triangle"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "functions",
+    "absolute-value"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the range of a function combining floor and absolute value"
+}

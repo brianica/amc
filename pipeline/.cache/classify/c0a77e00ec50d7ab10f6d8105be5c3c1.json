@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "area-decomposition",
+    "coordinate-geometry",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find squared length of perpendicular segment using area constraints and decomposition."
+}

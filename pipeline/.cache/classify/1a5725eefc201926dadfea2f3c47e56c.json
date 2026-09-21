@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "primes",
+    "divisor-counting"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find smallest divisor after 323 for an even 4-digit multiple"
+}

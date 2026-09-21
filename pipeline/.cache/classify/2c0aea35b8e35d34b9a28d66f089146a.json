@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count integers under 1000 with only decimal digits in hexadecimal"
+}

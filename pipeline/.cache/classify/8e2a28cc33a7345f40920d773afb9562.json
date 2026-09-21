@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "polynomials"
+  ],
+  "difficulty": 5,
+  "descriptor": "Find maximum digit sum satisfying repdigit equation for multiple values."
+}

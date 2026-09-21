@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "logs-exponents",
+    "radicals"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the sum of leading digits of various roots of a large number."
+}

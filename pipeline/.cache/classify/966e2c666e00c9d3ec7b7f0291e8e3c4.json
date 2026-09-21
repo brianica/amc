@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the constant sum in a magic square using total sum divisibility."
+}

@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count valid calendar dates whose eight digits each have an even frequency."
+}

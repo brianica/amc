@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "divisibility"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find least integer in geometric sequence given middle term constraint."
+}

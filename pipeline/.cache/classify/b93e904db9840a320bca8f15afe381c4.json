@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "inequalities"
+  ],
+  "difficulty": 1.5,
+  "descriptor": "Minimum number of two-digit numbers that sum to a given value"
+}

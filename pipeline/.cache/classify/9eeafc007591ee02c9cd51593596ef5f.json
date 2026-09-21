@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count distinct coin-combination values from two coin types."
+}

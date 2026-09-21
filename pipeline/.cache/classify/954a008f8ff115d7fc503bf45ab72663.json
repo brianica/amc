@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find rectangle area given fence post spacing and count constraints"
+}

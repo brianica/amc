@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "units-digit"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the units digit of a sum of two large exponential expressions."
+}

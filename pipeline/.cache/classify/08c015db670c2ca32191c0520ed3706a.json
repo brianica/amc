@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases",
+    "divisibility",
+    "diophantine"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count two-digit numbers equal to tens digit plus units digit squared"
+}

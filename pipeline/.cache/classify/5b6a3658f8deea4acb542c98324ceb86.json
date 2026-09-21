@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "expected-value",
+    "conditional-geometric-probability"
+  ],
+  "difficulty": 4,
+  "descriptor": "Determine optimal reroll strategy to maximize probability of achieving sum seven."
+}

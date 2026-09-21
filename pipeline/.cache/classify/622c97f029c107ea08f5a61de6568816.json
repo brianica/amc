@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "symmetry-arguments"
+  ],
+  "difficulty": 5,
+  "descriptor": "Count distinct grid colorings up to symmetry satisfying neighboring color restrictions."
+}

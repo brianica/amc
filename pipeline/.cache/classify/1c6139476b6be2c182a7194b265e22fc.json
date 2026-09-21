@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "permutations-combinations"
+  ],
+  "difficulty": 2,
+  "descriptor": "Probability that product of three distinct chosen integers is odd"
+}

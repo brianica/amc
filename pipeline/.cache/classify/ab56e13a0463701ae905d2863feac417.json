@@ -1,0 +1,8 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios"
+  ],
+  "difficulty": 1,
+  "descriptor": "Calculate the area of a rectangular strip using unit conversions"
+}

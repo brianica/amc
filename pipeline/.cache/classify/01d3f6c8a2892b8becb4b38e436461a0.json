@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "casework"
+  ],
+  "difficulty": 2,
+  "descriptor": "Chance of at least two correct guesses on three three-option questions"
+}

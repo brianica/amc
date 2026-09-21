@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "area-decomposition",
+    "polygons-area-ratios",
+    "right-triangles"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find shaded area in square minus four inscribed equilateral triangles"
+}

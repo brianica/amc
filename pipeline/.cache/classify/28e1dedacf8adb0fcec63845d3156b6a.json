@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "circles",
+    "right-triangles"
+  ],
+  "difficulty": 5,
+  "descriptor": "Find distance to make tangent line from two fixed external points."
+}

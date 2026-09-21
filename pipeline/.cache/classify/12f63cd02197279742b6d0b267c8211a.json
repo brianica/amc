@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "absolute-value",
+    "linear-systems"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the product of possible initial temperature differences given subsequent changes"
+}

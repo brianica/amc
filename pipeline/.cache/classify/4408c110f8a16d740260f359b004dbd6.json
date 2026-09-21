@@ -1,0 +1,8 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "logic-puzzles"
+  ],
+  "difficulty": 3,
+  "descriptor": "Minimum guesses to locate a hidden domino on a grid."
+}

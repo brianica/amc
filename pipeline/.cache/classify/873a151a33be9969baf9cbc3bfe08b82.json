@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "conditional-geometric-probability",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find radius where circles around lattice points cover half the square's area."
+}

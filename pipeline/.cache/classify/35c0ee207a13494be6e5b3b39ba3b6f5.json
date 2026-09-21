@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find least N where probability of green balls on same side drops below threshold"
+}

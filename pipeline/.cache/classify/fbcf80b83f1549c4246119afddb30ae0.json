@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "modular-arithmetic",
+    "floor-ceiling"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count repunits with one zero divisible by 101 among first 2018 terms"
+}

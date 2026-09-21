@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "recursion-states",
+    "basic-probability",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Coin flipping until two matching flips; probability of specific ordering condition"
+}

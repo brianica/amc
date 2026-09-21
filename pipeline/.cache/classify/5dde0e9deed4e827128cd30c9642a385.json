@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "pigeonhole",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Maximum number of elements in a sum-free subset of twenty integers."
+}

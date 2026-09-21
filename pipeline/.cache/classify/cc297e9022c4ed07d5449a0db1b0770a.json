@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "expected-value",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Expected value of maximum coins across three randomly filled jars."
+}

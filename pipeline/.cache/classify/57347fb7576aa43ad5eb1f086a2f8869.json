@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "absolute-value"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find ordered pairs of integers satisfying a square root equation involving difference of squares."
+}

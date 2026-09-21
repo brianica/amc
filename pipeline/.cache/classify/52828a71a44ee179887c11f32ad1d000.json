@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "digits-bases",
+    "modular-arithmetic"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find missing repeated digit in a binomial coefficient's decimal representation"
+}

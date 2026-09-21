@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "absolute-value",
+    "radicals"
+  ],
+  "difficulty": 1.5,
+  "descriptor": "Simplify an expression containing square roots and absolute values given negative domain"
+}

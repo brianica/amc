@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "multiplication-principle"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find toothpicks needed to expand a staircase pattern from three to five steps."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "pigeonhole"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find maximum subset avoiding sum-closure properties via strategic partitioning."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "similar-congruent",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the side length of a rectangle partitioned into similar rectangles"
+}

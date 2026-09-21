@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "similar-congruent",
+    "coordinate-geometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find ratio of side lengths for squares inscribed in right triangles differently."
+}

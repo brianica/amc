@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "area-decomposition",
+    "circles"
+  ],
+  "difficulty": 3.5,
+  "descriptor": "Find area of region defined by absolute-value equation; square plus semicircles"
+}

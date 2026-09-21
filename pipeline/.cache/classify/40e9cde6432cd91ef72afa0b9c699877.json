@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count non-collinear lattice point triples in a 5×5 grid."
+}

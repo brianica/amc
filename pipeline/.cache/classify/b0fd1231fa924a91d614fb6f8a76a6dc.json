@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations",
+    "inclusion-exclusion"
+  ],
+  "difficulty": 3,
+  "descriptor": "Schedule three distinguishable courses in six periods with no consecutive placements."
+}

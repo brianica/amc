@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "area-decomposition",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 3,
+  "descriptor": "Area enclosed by inwardly reflected circular arcs of a regular hexagon"
+}

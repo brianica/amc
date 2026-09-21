@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "pigeonhole"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find smallest element in divisibility-avoiding subset of integers"
+}

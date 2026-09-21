@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "solid-geometry",
+    "circles",
+    "coordinate-geometry"
+  ],
+  "difficulty": 5,
+  "descriptor": "Find radius of three congruent spheres inside cone, tangent to base, lateral surface, and each other."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "solid-geometry",
+    "area-decomposition"
+  ],
+  "difficulty": 3,
+  "descriptor": "Maximize packing of rectangular blocks into a constrained box."
+}

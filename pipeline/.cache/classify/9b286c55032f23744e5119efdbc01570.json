@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations",
+    "multiplication-principle"
+  ],
+  "difficulty": 3,
+  "descriptor": "Partition two equal groups into mixed teams of equal composition"
+}

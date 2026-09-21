@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "inequalities"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the maximum sequence length satisfying conditions on partial averages"
+}

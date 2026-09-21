@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "diophantine"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find all integer solutions to a Diophantine equation involving squares and products."
+}

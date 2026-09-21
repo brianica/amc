@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "triangle-basics",
+    "coordinate-geometry",
+    "area-decomposition"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count third vertices giving fixed perimeter and area with fixed base"
+}

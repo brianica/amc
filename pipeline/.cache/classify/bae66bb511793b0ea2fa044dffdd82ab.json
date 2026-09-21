@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations",
+    "multiplication-principle"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count integers with distinct non-zero digits containing no local minima."
+}

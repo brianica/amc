@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "expected-value",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Expected number of fixed items after two random adjacent swaps in circle"
+}

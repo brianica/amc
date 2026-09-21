@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find probability that sum of two rolls is even given biased die."
+}

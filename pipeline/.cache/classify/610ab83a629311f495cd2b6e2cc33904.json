@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "expected-value",
+    "basic-probability"
+  ],
+  "difficulty": 2,
+  "descriptor": "Compare expected class size from teacher versus student sampling"
+}

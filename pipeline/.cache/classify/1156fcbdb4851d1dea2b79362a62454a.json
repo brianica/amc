@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "primes",
+    "divisibility",
+    "digits-bases"
+  ],
+  "difficulty": 1.5,
+  "descriptor": "Find the last digit making a six-digit number prime"
+}

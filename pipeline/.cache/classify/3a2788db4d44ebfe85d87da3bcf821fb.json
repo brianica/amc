@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "triangle-basics",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find valid fourth side length for quadrilateral given three sides."
+}

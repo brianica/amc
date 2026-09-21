@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "solid-geometry",
+    "area-decomposition",
+    "coordinate-geometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find the area of an octagon formed by vertices on a 3D polyhedral bowl."
+}

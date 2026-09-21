@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios",
+    "triangle-basics",
+    "area-decomposition"
+  ],
+  "difficulty": 4.5,
+  "descriptor": "Equiangular hexagon with two extension triangles' areas given; find perimeter form."
+}

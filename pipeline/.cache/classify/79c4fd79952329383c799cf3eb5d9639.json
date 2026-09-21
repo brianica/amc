@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility"
+  ],
+  "difficulty": 2,
+  "descriptor": "Convert factorial seconds to days to find expiration date"
+}

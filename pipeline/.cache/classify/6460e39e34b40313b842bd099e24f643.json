@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "modular-arithmetic",
+    "divisibility",
+    "gcd-lcm"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find remainder when harmonic sum numerator is divided by prime."
+}

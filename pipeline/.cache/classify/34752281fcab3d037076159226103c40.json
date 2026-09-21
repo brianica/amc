@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "triangle-basics",
+    "coordinate-geometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find sum of altitudes in right triangle formed by line and axes."
+}

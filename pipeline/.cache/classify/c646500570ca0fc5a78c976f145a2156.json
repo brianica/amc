@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "functions",
+    "absolute-value"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Determine symmetry type of a function built from floors and absolute values"
+}

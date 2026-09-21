@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "combinatorial-geometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count interior intersection points between sides of inscribed regular polygons"
+}

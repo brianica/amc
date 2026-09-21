@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "coordinate-geometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find shaded area between two semicircles with parallel chord constraint."
+}

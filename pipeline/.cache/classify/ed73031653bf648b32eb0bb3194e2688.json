@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "functions"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find rectangle side length using self-similarity and area constraints recursively."
+}

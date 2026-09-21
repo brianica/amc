@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisor-counting",
+    "conditional-geometric-probability"
+  ],
+  "difficulty": 4,
+  "descriptor": "Probability that random divisor of random number is divisible by 11"
+}

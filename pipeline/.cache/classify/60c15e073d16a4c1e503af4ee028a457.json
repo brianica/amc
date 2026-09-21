@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "conditional-geometric-probability",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Probability two random points on square perimeter are at least distance 1/2 apart"
+}

@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "triangle-basics",
+    "polygons-area-ratios",
+    "coordinate-geometry"
+  ],
+  "difficulty": 5,
+  "descriptor": "Find perimeter of equiangular hexagon using areas of triangles formed by extended sides."
+}

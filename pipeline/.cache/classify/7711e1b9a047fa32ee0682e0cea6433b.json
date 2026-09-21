@@ -1,0 +1,9 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "logic-puzzles",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Determine truth-tellers among children with different truth-telling behaviors using logical deduction."
+}

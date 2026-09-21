@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "coordinate-geometry",
+    "power-of-a-point"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find quadrilateral area given right angles, diagonal intersection, and segment lengths."
+}

@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "permutations-combinations",
+    "inclusion-exclusion"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count three-digit numbers whose digit rearrangement gives a multiple of 11"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "inclusion-exclusion",
+    "casework"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find students enrolled in all three classes from overlap counts"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "coordinate-geometry"
+  ],
+  "difficulty": 2,
+  "descriptor": "Express rectangle area in terms of diagonal using side ratio constraint."
+}

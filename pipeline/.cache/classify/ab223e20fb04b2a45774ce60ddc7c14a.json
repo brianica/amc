@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisor-counting",
+    "divisibility"
+  ],
+  "difficulty": 3.5,
+  "descriptor": "Count n≤50 whose iterated doubled-divisor-count function stabilizes at 12"
+}

@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "right-triangles",
+    "coordinate-geometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find spacing of parallel lines cutting circle in given chord lengths"
+}

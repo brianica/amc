@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "triangle-basics",
+    "circles",
+    "area-decomposition"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find region bounded by equilateral triangle, tangent circle, and baseline."
+}

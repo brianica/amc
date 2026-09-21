@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "floor-ceiling",
+    "diophantine"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find stair counts where ceiling functions differ by fixed amount"
+}

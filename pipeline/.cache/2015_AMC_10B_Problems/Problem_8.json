@@ -1,0 +1,5 @@
+{
+  "page": "2015_AMC_10B_Problems/Problem_8",
+  "wikitext": "==Problem==\nThe letter F shown below is rotated <math>90^\\circ</math> clockwise around the origin, then reflected in the <math>y</math>-axis, and then rotated a half turn around the origin. What is the final image?\n\n[[File:foriginal.png]]\n\n[[File:fproblem.png]]\n\n==Solution==\nThe first rotation moves the base of the <math>F</math> to the negative <math>y</math>-axis, and the stem to the positive <math>x</math>-axis. The reflection then moves the stem to the negative <math>x</math>-axis, with the base unchanged. Then the half turn moves the stem to the positive <math>x</math> axis and the base to the positive <math>y</math>-axis, choice <math>\\boxed{\\mathbf{(E)}}</math>.\n\n==Video Solution 1==\nhttps://youtu.be/7xNEFHS7u1U\n\n~Education, the Study of Everything\n\n==Video Solution==\nhttps://youtu.be/mYMfgQ0EuiY\n\n~savannahsolver\n\n==See Also==\n{{AMC10 box|year=2015|ab=B|num-b=7|num-a=9}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-18T04:09:36.785Z"
+}

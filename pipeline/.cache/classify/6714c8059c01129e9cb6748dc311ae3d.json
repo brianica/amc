@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "area-decomposition",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Fraction of equilateral triangle's area outside a circle tangent at two vertices"
+}

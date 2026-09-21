@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "similar-congruent"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find pillar height at hexagon vertex using collinearity and proportional segment relationships."
+}

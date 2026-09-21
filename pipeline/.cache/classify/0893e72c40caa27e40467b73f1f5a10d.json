@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "similar-congruent",
+    "area-decomposition"
+  ],
+  "difficulty": 2,
+  "descriptor": "Area of triangle formed by rectangle vertices and altitude foot on diagonal"
+}

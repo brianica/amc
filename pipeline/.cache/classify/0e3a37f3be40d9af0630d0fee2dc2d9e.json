@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "functions",
+    "linear-systems"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find garden dimensions from constraints on fence post distribution."
+}

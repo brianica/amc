@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisor-counting",
+    "primes"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find divisors of 81n⁴ given divisor count of 110n³"
+}

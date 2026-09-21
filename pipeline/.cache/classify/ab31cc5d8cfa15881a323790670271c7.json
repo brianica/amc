@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "primes"
+  ],
+  "difficulty": 1.5,
+  "descriptor": "Find smallest prime summing with another prime to ninety"
+}

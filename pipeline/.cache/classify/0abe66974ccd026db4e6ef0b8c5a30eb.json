@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "units-digit",
+    "diophantine"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find units digit of integer M satisfying two perfect square conditions."
+}

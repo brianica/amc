@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "area-decomposition"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find a vertical line that bisects the area under a line segment."
+}

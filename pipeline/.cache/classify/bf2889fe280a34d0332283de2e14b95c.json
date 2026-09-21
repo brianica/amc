@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "similar-congruent",
+    "area-decomposition"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find trapezoid area in self-similar triangle subdivision."
+}

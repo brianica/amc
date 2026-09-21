@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "diophantine"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Count fractions where incrementing numerator and denominator increases value by 10%"
+}

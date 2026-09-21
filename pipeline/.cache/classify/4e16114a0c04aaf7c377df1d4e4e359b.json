@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "recursion-states"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count Hamiltonian paths on cube graph with endpoint constraint."
+}

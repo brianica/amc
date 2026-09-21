@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases",
+    "divisibility"
+  ],
+  "difficulty": 1.5,
+  "descriptor": "Count four-digit numbers with all even digits divisible by five"
+}

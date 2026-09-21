@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "triangle-basics",
+    "cyclic-quadrilaterals"
+  ],
+  "difficulty": 2,
+  "descriptor": "Angle chase using circle on diameter in isosceles triangle, diagonal intersection angle"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "solid-geometry",
+    "area-decomposition"
+  ],
+  "difficulty": 5,
+  "descriptor": "Find volume of Minkowski sum of rectangular box with sphere of variable radius."
+}

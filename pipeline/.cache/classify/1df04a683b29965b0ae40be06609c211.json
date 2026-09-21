@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "triangle-basics"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the angle between a triangle side and circumradius from vertex."
+}

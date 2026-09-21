@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "pigeonhole"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find minimum element in six-element subset avoiding divisibility pairs"
+}

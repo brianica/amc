@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "quadratics-vieta"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find polynomial coefficients using divisibility by a cubic factor."
+}

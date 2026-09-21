@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "area-decomposition",
+    "coordinate-geometry"
+  ],
+  "difficulty": 5,
+  "descriptor": "Probability that randomly placed coin covers black regions using offset distance calculations."
+}

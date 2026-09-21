@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "similar-congruent"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find distance between tangent points of two small circles inside a large circle"
+}

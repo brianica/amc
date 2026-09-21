@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "similar-congruent",
+    "triangle-basics",
+    "coordinate-geometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find sum of three segment lengths in regular pentagon with internal intersections."
+}

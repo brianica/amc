@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "recursion-states"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find f(2018) using recursively defined sequence, discovering periodicity pattern."
+}

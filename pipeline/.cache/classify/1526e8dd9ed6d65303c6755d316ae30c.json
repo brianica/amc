@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems",
+    "functions"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find constants in a linear model using two data points, then evaluate."
+}

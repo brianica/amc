@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems"
+  ],
+  "difficulty": 2,
+  "descriptor": "Solve system of linear equations for coin counts and values"
+}

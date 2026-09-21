@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "primes",
+    "divisibility"
+  ],
+  "difficulty": 3,
+  "descriptor": "Smallest factor making a product of consecutive factorials a square"
+}

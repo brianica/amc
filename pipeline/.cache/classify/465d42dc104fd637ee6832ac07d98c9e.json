@@ -1,0 +1,9 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "logic-puzzles",
+    "casework"
+  ],
+  "difficulty": 2,
+  "descriptor": "Determine which day Mahdi swims given scheduling constraints"
+}

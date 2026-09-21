@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "symmetry-arguments",
+    "expected-value"
+  ],
+  "difficulty": 3,
+  "descriptor": "Probability one geometric-distributed ball lands in higher bin than other"
+}

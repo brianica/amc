@@ -1,0 +1,8 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "sets-venn"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find students in all three classes from enrollment counts and overlaps"
+}

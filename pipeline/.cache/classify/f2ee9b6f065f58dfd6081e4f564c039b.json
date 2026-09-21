@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "triangle-basics",
+    "coordinate-geometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find distance from sphere center to plane tangent to sphere via triangle sides"
+}

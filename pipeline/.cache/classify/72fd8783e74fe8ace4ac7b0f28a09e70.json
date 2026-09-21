@@ -1,0 +1,10 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "absolute-value",
+    "quadratics-vieta",
+    "functions"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count real solutions to a parabola intersecting absolute-value diamond curves"
+}

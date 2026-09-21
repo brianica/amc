@@ -1,0 +1,8 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "transformations"
+  ],
+  "difficulty": 3,
+  "descriptor": "Number of sequential rotation-reflection transformations needed to fix a starting point"
+}

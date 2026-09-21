@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "triangle-basics"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find third sides of right triangles given areas and two shared side lengths."
+}

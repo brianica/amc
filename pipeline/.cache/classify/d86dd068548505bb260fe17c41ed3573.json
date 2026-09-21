@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios",
+    "triangle-basics"
+  ],
+  "difficulty": 2,
+  "descriptor": "Maximum possible side length of an integer quadrilateral with a given perimeter"
+}

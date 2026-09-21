@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "triangle-basics"
+  ],
+  "difficulty": 4,
+  "descriptor": "Equilateral triangle on hyperbola with special centroid property"
+}

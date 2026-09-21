@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "triangle-basics"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find perimeter of equilateral triangle formed by line through origin and two fixed lines."
+}

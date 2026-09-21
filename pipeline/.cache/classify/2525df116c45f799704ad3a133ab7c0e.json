@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "similar-congruent",
+    "right-triangles",
+    "trigonometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Sum of possible areas of a rectangle fitted in a square"
+}

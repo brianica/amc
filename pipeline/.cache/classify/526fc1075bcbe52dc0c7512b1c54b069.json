@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations",
+    "casework",
+    "inclusion-exclusion"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count seating arrangements with sibling adjacency and front-back restrictions"
+}

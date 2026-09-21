@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "triangle-basics",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find smallest interior angle of hexagon formed by trisected equilateral triangle angles."
+}

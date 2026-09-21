@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the unique non-integer root of a polynomial satisfying given evaluation conditions."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "modular-arithmetic"
+  ],
+  "difficulty": 3,
+  "descriptor": "Sum of smallest integers where a pairwise product sum is divisible by 3"
+}

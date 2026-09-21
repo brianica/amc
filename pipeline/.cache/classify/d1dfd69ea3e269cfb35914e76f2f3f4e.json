@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "solid-geometry",
+    "triangle-basics"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find distance from sphere center to tangent triangle plane using incircle."
+}

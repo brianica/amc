@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "diophantine",
+    "divisibility"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count unordered ways to express 2016 as sum of twos and threes"
+}

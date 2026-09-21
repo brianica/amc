@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "casework"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find probability of correctly answering at least two of three random multiple-choice questions."
+}

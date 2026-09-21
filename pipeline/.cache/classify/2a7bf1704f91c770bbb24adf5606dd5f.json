@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "similar-congruent",
+    "right-triangles"
+  ],
+  "difficulty": 5,
+  "descriptor": "Find the sum of possible areas of a rectangle inscribed in a square."
+}

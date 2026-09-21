@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "modular-arithmetic",
+    "divisibility",
+    "diophantine"
+  ],
+  "difficulty": 4,
+  "descriptor": "Determine when sum of products is divisible by three using modular analysis."
+}

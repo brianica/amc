@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "polynomials"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find all values of parameter such that quadratic has integer roots."
+}

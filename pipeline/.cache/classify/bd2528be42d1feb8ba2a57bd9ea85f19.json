@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems",
+    "quadratics-vieta"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count fractions where adding 1 to both terms increases value by 10%"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "triangle-basics",
+    "conditional-geometric-probability"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find probability that x, y, and 1 form an obtuse triangle."
+}

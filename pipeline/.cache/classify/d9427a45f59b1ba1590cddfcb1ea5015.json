@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "modular-arithmetic",
+    "divisibility",
+    "units-digit"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find distinct remainders when 100th powers are divided by 125."
+}

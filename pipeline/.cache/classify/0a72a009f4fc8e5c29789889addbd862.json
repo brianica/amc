@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "polynomials"
+  ],
+  "difficulty": 3,
+  "descriptor": "Maximize sum of roots of quadratic with one-digit coefficients"
+}

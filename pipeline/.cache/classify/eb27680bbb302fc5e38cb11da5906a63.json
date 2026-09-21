@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "sequences-series",
+    "modular-arithmetic",
+    "divisibility"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find how many terms in a recurrence sequence are even using periodicity."
+}

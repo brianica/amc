@@ -1,0 +1,8 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find length of horizontal chord in parabola given triangle area"
+}

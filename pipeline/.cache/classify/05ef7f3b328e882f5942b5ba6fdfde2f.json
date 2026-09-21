@@ -1,0 +1,8 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "logic-puzzles"
+  ],
+  "difficulty": 1.5,
+  "descriptor": "Identify the valid contrapositive of a conditional statement about grades"
+}

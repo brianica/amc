@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "similar-congruent",
+    "area-decomposition",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 2,
+  "descriptor": "Ratio of areas of regions formed by intersecting lines in a parallelogram"
+}

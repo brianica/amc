@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "multiplication-principle"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find probability that product of three distinct random integers is odd."
+}

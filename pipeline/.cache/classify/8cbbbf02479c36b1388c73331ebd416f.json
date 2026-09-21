@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios",
+    "area-decomposition"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find square wrapping paper area given box dimensions and folding constraints"
+}

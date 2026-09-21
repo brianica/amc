@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "multiplication-principle",
+    "symmetry-arguments",
+    "recursion-states"
+  ],
+  "difficulty": 3.5,
+  "descriptor": "Count length-20 sequences of square symmetries returning vertices to start"
+}

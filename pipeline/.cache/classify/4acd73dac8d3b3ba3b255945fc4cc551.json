@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "symmetry-arguments",
+    "recursion-states"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count paths on dodecahedron from top face to bottom face with constraints."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios",
+    "trigonometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the area of a pentagon formed by folding vertices to center"
+}

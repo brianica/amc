@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "casework"
+  ],
+  "difficulty": 1.5,
+  "descriptor": "Biased die favoring evens rolled twice; chance the sum is even"
+}

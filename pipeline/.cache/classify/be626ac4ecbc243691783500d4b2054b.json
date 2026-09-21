@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "permutations-combinations"
+  ],
+  "difficulty": 2,
+  "descriptor": "Arrange three distinct items in six slots with no consecutive placements"
+}

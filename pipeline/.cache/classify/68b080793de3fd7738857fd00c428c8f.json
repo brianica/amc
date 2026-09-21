@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "area-decomposition"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find min and max values in target row of spiral grid pattern."
+}

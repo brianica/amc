@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisor-counting",
+    "divisibility"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count divisors of 201^9 that are squares or cubes"
+}

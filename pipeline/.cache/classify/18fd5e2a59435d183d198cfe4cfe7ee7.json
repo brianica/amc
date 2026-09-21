@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "coordinate-geometry",
+    "similar-congruent"
+  ],
+  "difficulty": 2,
+  "descriptor": "Area of triangle formed by rectangle vertices and altitude foot"
+}

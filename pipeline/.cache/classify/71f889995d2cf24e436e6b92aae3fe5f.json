@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "floor-ceiling",
+    "units-digit"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the units digit of a sum of floor square roots."
+}

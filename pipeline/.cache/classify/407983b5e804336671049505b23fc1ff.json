@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "diophantine",
+    "modular-arithmetic",
+    "divisibility"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find the minimum sum of side lengths of three overlapping lattice squares."
+}

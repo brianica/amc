@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "solid-geometry",
+    "area-decomposition"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find volume of octahedron formed by face centers of rectangular prism"
+}

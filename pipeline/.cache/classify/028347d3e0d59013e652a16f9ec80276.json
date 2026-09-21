@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "primes",
+    "digits-bases",
+    "divisibility"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count prime numbers in a sequence of integers with a repeating pattern."
+}

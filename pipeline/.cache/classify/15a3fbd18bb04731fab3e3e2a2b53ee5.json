@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "modular-arithmetic",
+    "divisibility"
+  ],
+  "difficulty": 2,
+  "descriptor": "Probability a random integer's 16th power leaves remainder 1 mod 5"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "recursion-states",
+    "basic-probability"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find long-term probability of equal distribution through state transition analysis."
+}

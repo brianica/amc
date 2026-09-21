@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series"
+  ],
+  "difficulty": 1,
+  "descriptor": "Count terms in an arithmetic sequence with given endpoints"
+}

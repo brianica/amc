@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases"
+  ],
+  "difficulty": 1.5,
+  "descriptor": "Find next palindromic odometer reading and compute average speed"
+}

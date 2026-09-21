@@ -1,0 +1,10 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "polynomials",
+    "functions"
+  ],
+  "difficulty": 4,
+  "descriptor": "Use Vieta's formulas and partial fractions to compute sum of reciprocals."
+}

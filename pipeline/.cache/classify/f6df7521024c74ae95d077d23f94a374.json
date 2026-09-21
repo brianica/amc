@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "power-of-a-point",
+    "right-triangles",
+    "circles"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find triangle area using power of a point and perpendicular construction."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "pigeonhole"
+  ],
+  "difficulty": 3,
+  "descriptor": "Maximum size of a subset with distance constraints on all and odd elements"
+}

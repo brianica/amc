@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "floor-ceiling",
+    "divisibility"
+  ],
+  "difficulty": 2,
+  "descriptor": "Compute remainder using floor function with fractional inputs."
+}

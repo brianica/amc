@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Arrange six shoes from three pairs with constraint on adjacent shoes."
+}

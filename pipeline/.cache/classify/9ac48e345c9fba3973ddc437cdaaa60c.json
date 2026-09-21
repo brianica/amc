@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "functions",
+    "sequences-series"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the magic constant for a 5×5 magic square using integers from -10 to 14."
+}

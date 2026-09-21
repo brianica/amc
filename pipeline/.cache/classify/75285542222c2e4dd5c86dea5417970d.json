@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "primes",
+    "gcd-lcm"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the smallest next divisor of a 4-digit number after 323"
+}

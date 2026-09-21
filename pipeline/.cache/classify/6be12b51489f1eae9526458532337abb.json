@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "symmetry-arguments",
+    "combinatorial-geometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Probability that graph distances between randomly chosen vertices of an icosahedron differ"
+}

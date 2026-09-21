@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisor-counting",
+    "digits-bases"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find row count in triangular array using triangular number formula and digit sum."
+}

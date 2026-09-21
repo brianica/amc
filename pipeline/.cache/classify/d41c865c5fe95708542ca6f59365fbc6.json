@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "sequences-series"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find mean of products given constraints on sum and sum of squares."
+}

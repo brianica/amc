@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "similar-congruent",
+    "coordinate-geometry",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find segment lengths in a regular pentagon with internal star pattern."
+}

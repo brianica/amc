@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "linear-systems"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find coprime positive integers satisfying fraction increase constraint via algebraic manipulation."
+}

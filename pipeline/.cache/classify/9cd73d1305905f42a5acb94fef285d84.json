@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases",
+    "divisibility"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count binary ones in quotient of two powers-of-two expressions"
+}

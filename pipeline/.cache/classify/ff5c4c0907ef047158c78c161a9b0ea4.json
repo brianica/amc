@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "divisor-counting"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find ages using divisibility conditions on age differences"
+}

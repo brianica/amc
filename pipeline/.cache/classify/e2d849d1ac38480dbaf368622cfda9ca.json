@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "polynomials"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find integer pairs satisfying polynomial equation relating sum and product."
+}

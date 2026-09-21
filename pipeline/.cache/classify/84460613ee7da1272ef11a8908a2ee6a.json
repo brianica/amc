@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "gcd-lcm",
+    "divisibility",
+    "modular-arithmetic"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find least integer above 1000 satisfying two gcd conditions."
+}

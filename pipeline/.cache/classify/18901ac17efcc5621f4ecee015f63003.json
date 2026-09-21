@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "expected-value",
+    "casework",
+    "basic-probability"
+  ],
+  "difficulty": 2,
+  "descriptor": "Expected maximum occupancy when distributing three coins randomly into three containers"
+}

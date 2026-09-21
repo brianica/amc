@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "radicals",
+    "absolute-value"
+  ],
+  "difficulty": 2,
+  "descriptor": "Evaluate nested square roots by recognizing absolute value behavior of squared expressions."
+}

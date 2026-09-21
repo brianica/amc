@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "linear-systems"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find minimal-degree polynomial satisfying two remainder conditions using congruences."
+}

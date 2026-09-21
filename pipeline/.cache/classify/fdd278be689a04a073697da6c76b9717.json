@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "similar-congruent"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the area of a square using perpendicular line segments inside it."
+}

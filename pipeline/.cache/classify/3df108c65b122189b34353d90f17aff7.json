@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "area-decomposition",
+    "coordinate-geometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find quadrilateral area given two right angles and diagonal intersection split"
+}

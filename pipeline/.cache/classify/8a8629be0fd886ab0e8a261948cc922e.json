@@ -1,0 +1,9 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "logic-puzzles",
+    "symmetry-arguments"
+  ],
+  "difficulty": 4,
+  "descriptor": "Determine winner of alternating move game with distance constraints using strategy."
+}

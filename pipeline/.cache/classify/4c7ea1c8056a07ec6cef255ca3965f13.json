@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "absolute-value",
+    "radicals"
+  ],
+  "difficulty": 3,
+  "descriptor": "Simplify absolute value expression with nested radicals for negative values."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "functions",
+    "quadratics-vieta"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count ordered pairs of parabolas from given set that intersect."
+}

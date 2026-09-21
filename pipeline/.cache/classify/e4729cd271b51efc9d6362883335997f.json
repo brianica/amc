@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "multiplication-principle"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count distinct sums from products using each digit 1-4 once."
+}

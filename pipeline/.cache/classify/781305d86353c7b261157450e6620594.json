@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "primes"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find smallest prime acute angle when two primes sum to 90"
+}

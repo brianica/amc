@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "combinatorial-geometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count distinct intersection points from four lines in various configurations."
+}

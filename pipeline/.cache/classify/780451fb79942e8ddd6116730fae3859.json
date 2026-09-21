@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find which volume equals 12 times a perfect cube"
+}

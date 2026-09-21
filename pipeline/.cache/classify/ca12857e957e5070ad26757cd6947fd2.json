@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "divisor-counting",
+    "floor-ceiling"
+  ],
+  "difficulty": 4,
+  "descriptor": "Determine when a factorial quotient expression is divisible by all required prime powers."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "functions",
+    "absolute-value"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find distinct x values satisfying equation with floor function and linear term."
+}

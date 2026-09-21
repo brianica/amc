@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "triangle-basics",
+    "area-decomposition",
+    "similar-congruent"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Find area of isosceles triangle with equal perpendicular medians of length 12"
+}

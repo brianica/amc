@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "symmetry-arguments"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count valid colorings of six sectors with three colors, alternating pattern constraint."
+}

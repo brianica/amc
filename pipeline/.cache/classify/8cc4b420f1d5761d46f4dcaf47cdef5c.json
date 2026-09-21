@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "divisor-counting"
+  ],
+  "difficulty": 1.5,
+  "descriptor": "Count perfect squares below 2020 divisible by six"
+}

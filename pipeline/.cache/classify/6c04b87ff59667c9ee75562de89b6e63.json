@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "functions",
+    "sequences-series"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find three-digit numbers where repeating decimal equals average of three single-digit repeating decimals."
+}

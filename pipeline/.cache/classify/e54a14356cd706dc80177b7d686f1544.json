@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "diophantine",
+    "divisibility"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find pairwise product sum of integers satisfying a system of three equations."
+}

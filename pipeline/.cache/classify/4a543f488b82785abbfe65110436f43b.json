@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "floor-ceiling"
+  ],
+  "difficulty": 1,
+  "descriptor": "Count squares below a given threshold that are multiples of five"
+}

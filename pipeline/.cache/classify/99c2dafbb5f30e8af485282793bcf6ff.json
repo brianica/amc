@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "recursion-states",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Track ant's position after 2020 spiral moves with increasing distances."
+}

@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "similar-congruent",
+    "right-triangles",
+    "transformations"
+  ],
+  "difficulty": 3,
+  "descriptor": "Folded unit square; find perimeter of small triangle formed at corner"
+}

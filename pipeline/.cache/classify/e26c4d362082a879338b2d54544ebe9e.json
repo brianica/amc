@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "coordinate-geometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find maximum ratio of distances between lattice points on a circle"
+}

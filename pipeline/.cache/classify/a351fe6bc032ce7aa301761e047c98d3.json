@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "diophantine",
+    "divisibility"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find a number whose factor pairs have specified differences."
+}

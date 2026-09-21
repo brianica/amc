@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "transformations",
+    "triangle-basics"
+  ],
+  "difficulty": 2,
+  "descriptor": "Angle between a square's edge and a vertex of its rotated image"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "primes",
+    "divisibility"
+  ],
+  "difficulty": 2,
+  "descriptor": "Determine how many terms in a patterned sequence of integers are prime."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "functions",
+    "sequences-series"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find all positive X where dataset's mean equals one of its values."
+}

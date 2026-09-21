@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "diophantine",
+    "polynomials"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find relatively prime positive integer fractions where increasing numerator and denominator by 1 increases value by 10%."
+}

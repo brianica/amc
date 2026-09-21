@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "recursion-states",
+    "symmetry-arguments",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Determine which brick-removal game position guarantees the second player wins"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems",
+    "statistics"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Find set's overall mean from several averages after removing extreme elements"
+}

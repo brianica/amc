@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "area-decomposition",
+    "triangle-basics"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find shaded area inside big circle outside thirteen packed unit circles"
+}

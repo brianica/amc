@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "transformations"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find clock position when rolling disk's arrow points up again"
+}

@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "radicals"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Minimum sum of two integers whose square roots sum to a radical"
+}

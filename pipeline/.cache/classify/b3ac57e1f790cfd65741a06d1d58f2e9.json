@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "combinatorial-geometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find all possible intersection point counts for four distinct lines in a plane."
+}

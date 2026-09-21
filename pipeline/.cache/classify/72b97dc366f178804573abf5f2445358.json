@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "functions",
+    "floor-ceiling"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find the range of a function involving absolute value and floor operations."
+}

@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count four-digit numbers where consecutive digit pairs form arithmetic sequence"
+}

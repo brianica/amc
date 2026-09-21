@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "cyclic-quadrilaterals",
+    "circles"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find fourth side of cyclic quadrilateral given three equal sides and circumradius"
+}

@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "modular-arithmetic",
+    "divisibility",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find sixth test score given running averages always integers"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "right-triangles"
+  ],
+  "difficulty": 3.5,
+  "descriptor": "Find the ratio of base lengths in an isosceles trapezoid given vertex distances."
+}

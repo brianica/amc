@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "solid-geometry",
+    "area-decomposition"
+  ],
+  "difficulty": 4,
+  "descriptor": "Area of an octagon rim formed by folding hexagons around a square"
+}

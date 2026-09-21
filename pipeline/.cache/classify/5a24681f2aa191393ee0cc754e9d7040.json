@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisor-counting",
+    "divisibility"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Compare sum of odd divisors to sum of even divisors"
+}

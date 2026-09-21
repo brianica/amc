@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "recursion-states",
+    "casework",
+    "stars-and-bars"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count binary sequences with length, endpoint, and pattern constraints using recursion."
+}

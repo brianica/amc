@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "trigonometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the segment length formed by an angle bisector and an altitude"
+}

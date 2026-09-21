@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "modular-arithmetic",
+    "digits-bases",
+    "divisibility"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count bases in a range where a base-representation is divisible by sixteen."
+}

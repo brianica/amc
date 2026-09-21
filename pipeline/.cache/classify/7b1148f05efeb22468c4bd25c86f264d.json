@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "inclusion-exclusion",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count triangles with positive area on a 5×5 integer lattice grid."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems",
+    "rates-work-mixture"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find total cost as percentage of allowance using two coupled linear equations."
+}

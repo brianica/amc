@@ -1,0 +1,8 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "logic-puzzles"
+  ],
+  "difficulty": 3,
+  "descriptor": "Two-player interval game; determine winner under optimal play via symmetry"
+}

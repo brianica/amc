@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "rates-work-mixture",
+    "linear-systems"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find distance walked given cycling and walking speeds and total time"
+}

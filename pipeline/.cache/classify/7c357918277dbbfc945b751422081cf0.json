@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "triangle-basics",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find rhombus area using perpendicular from vertex to opposite side."
+}

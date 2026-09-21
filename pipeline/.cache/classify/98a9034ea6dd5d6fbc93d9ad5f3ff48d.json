@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "similar-congruent",
+    "area-decomposition"
+  ],
+  "difficulty": 5,
+  "descriptor": "Find all possible areas of rectangle inscribed with fixed shapes in a square."
+}

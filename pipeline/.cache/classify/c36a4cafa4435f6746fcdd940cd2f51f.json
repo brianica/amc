@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "recursion-states",
+    "casework",
+    "symmetry-arguments"
+  ],
+  "difficulty": 4.5,
+  "descriptor": "Determine which brick-wall Nim configuration is a loss for the first player"
+}

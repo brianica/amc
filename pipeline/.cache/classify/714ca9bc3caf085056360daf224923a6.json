@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "transformations",
+    "coordinate-geometry"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Reverse a rotation and reflection to recover original point coordinates"
+}

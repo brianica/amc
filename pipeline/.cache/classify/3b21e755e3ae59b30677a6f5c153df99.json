@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "triangle-basics",
+    "coordinate-geometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find isosceles triangle area using perpendicular medians with known lengths"
+}

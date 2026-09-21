@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "inclusion-exclusion"
+  ],
+  "difficulty": 1,
+  "descriptor": "Determine total length of a line from a position indexed both ways"
+}

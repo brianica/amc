@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count calendar dates in a year where every digit's frequency is even"
+}

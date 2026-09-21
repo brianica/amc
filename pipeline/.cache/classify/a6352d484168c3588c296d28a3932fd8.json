@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "diophantine",
+    "divisibility"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count non-negative integer solutions to a linear Diophantine equation"
+}

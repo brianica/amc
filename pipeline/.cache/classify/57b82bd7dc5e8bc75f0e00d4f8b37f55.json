@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "triangle-basics"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find angle at circumcircle center using inscribed angle and side lengths."
+}

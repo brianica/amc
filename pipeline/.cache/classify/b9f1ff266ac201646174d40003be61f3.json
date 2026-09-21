@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems",
+    "rates-work-mixture"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find total spending given a rate ratio and difference constraint."
+}

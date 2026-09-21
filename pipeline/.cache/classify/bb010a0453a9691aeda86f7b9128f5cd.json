@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "multiplication-principle"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count four-digit codes with exactly one even and one prime digit"
+}

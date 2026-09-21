@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases",
+    "casework"
+  ],
+  "difficulty": 2,
+  "descriptor": "Minimize digit sum of three-digit sum with six distinct digits"
+}

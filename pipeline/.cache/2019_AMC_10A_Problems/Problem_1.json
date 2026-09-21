@@ -1,0 +1,5 @@
+{
+  "page": "2019_AMC_10A_Problems/Problem_1",
+  "wikitext": "== Problem ==\nWhat is the value of <cmath>2^{\\left(0^{\\left(1^9\\right)}\\right)}+\\left(\\left(2^0\\right)^1\\right)^9?</cmath>\n\n<math>\\textbf{(A) } 0 \\qquad\\textbf{(B) } 1 \\qquad\\textbf{(C) } 2 \\qquad\\textbf{(D) } 3 \\qquad\\textbf{(E) } 4</math>\n\n== Solution == \n<math>2^{\\left(0^{\\left(1^9\\right)}\\right)}+\\left(\\left(2^0\\right)^1\\right)^9=  1+1 = \\boxed{\\textbf{(C) } 2}</math>.\n\n==Video Solution by Education, the Study of Everything==\nhttps://youtu.be/K8je0WYBHFc\n\n~Education, The Study Of Everything\n\n== Video Solution by WhyMath==\nhttps://youtu.be/Ad8WKcwZcTA\n\n~savannahsolver\n\n== Video Solution by T2L Academy==\nhttps://youtu.be/OhCy9c2RTFo?si=UPgBHbW5Bn0yxP1s\n\n== See Also ==\n{{AMC10 box|year=2019|ab=A|before=First Problem|num-a=2}}\n{{MAA Notice}}\n[[Category: Introductory Algebra Problems]]",
+  "fetchedAt": "2026-09-18T06:27:11.185Z"
+}

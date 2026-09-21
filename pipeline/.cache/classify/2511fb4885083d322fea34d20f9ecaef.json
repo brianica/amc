@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "multiplication-principle"
+  ],
+  "difficulty": 1.5,
+  "descriptor": "Counting same-color pairs given totals and one color's pair count"
+}

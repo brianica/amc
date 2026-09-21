@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "absolute-value",
+    "quadratics-vieta"
+  ],
+  "difficulty": 2,
+  "descriptor": "Sum real solutions of an absolute-value quadratic equation"
+}

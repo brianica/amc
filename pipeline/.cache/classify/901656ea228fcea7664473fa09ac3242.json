@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "multiplication-principle",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count four-colorings of a grid where every two-by-two subgrid has all four colors."
+}

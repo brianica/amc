@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "gcd-lcm",
+    "divisibility",
+    "diophantine"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find ordered pairs satisfying equation relating product, lcm, and gcd."
+}

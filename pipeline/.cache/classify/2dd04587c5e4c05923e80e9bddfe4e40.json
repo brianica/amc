@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems",
+    "sequences-series"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find initial amount given repeated doubling then fixed subtraction yields zero"
+}

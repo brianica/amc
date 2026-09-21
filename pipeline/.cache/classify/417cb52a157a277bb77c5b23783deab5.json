@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "conditional-geometric-probability",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find probability two random perimeter points are at least distance half apart."
+}

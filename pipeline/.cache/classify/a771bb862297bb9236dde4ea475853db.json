@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "divisor-counting"
+  ],
+  "difficulty": 3,
+  "descriptor": "Determine which value cannot equal area plus perimeter of rectangle with integer sides."
+}

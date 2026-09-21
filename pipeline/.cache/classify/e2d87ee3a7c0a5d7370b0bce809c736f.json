@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "recursion-states"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count even terms in a recursive sequence with given initial conditions."
+}

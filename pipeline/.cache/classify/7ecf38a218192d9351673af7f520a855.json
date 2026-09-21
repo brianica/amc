@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases",
+    "divisor-counting",
+    "modular-arithmetic"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count nonnegative integers representable as balanced ternary with 8 digits."
+}

@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "area-decomposition",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count axis-aligned squares with integer vertices within a triangular region."
+}

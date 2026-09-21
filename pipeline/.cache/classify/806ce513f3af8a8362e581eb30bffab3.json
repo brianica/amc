@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "floor-ceiling"
+  ],
+  "difficulty": 3,
+  "descriptor": "Minimum two-digit numbers summing to 2024."
+}

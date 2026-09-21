@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "coordinate-geometry",
+    "polynomials"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find valid quadrilateral perimeters given geometric constraints and integer sides."
+}

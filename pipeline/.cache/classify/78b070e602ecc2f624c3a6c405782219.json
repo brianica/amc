@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials"
+  ],
+  "difficulty": 3.5,
+  "descriptor": "Sum of squares of coefficients of minimal-degree polynomial with given polynomial remainders"
+}

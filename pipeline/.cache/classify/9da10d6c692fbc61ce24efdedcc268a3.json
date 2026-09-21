@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "logs-exponents"
+  ],
+  "difficulty": 1.5,
+  "descriptor": "Find the total number of digits in an evaluated product of powers."
+}

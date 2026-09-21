@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count integers whose base-16 digits are all numeric"
+}

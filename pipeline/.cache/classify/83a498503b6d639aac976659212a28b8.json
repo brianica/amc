@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "modular-arithmetic",
+    "divisibility"
+  ],
+  "difficulty": 3,
+  "descriptor": "Determine which polynomial evaluations yield integers using modular arithmetic."
+}

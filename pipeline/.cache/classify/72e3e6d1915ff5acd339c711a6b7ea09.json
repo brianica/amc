@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "conditional-geometric-probability",
+    "expected-value"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find away-game win probability given total playoff win probability equals one-half."
+}

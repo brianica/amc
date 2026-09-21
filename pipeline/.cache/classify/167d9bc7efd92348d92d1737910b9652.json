@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "transformations",
+    "area-decomposition",
+    "coordinate-geometry"
+  ],
+  "difficulty": 5,
+  "descriptor": "Find area of 24-gon formed by three rotated overlapping squares."
+}

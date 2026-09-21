@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "conditional-geometric-probability",
+    "basic-probability"
+  ],
+  "difficulty": 4,
+  "descriptor": "Probability a randomly terminated sum of uniform variables exceeds one."
+}

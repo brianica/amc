@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "inequalities"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find minimum circles needed for alternating shaded region area to exceed threshold."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "transformations",
+    "coordinate-geometry"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Number of commuting pairs among four given geometric plane transformations"
+}

@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "similar-congruent",
+    "triangle-basics"
+  ],
+  "difficulty": 3,
+  "descriptor": "Right triangle with two isosceles sub-triangles; find segment ratio on hypotenuse"
+}

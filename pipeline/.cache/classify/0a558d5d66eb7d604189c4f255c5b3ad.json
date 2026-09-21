@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "linear-systems"
+  ],
+  "difficulty": 3,
+  "descriptor": "Sum of squared coefficients of a minimal-degree polynomial satisfying remainder conditions"
+}

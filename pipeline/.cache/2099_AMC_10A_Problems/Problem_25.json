@@ -1,0 +1,5 @@
+{
+  "page": "2099_AMC_10A_Problems/Problem_25",
+  "wikitext": "== Problem ==\nSample problem 25 — invented, not a real contest question. What is the value of\n<math>\\frac{35! - 34!}{9!}</math>?\n\n<math>\\textbf{(A) }99\\qquad\\textbf{(B) }100\\qquad\\textbf{(C) }110\\qquad\\textbf{(D) }121\\qquad\\textbf{(E) }132</math>\n\n== Solution ==\nThis section must never be shown during a sitting.\nThe answer is <math>\\boxed{\\textbf{(B) }100}</math>.\n\n{{AMC10 box|year=2099|ab=A|num-b=24|num-a=26}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-18T04:49:59.586Z"
+}

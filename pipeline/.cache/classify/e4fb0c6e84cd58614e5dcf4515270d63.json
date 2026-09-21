@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "diophantine",
+    "divisibility",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count integer box dimensions where volume equals surface area"
+}

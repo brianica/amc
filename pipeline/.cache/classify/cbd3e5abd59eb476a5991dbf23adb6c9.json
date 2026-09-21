@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count distinct coin sums achievable from mixed denominations"
+}

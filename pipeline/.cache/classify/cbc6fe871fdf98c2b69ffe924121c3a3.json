@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "absolute-value"
+  ],
+  "difficulty": 2,
+  "descriptor": "Evaluate nested absolute value expression for negative input"
+}

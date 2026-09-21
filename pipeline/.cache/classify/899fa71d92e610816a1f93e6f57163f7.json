@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "triangle-basics",
+    "power-of-a-point"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find angle in configuration with isosceles triangle and semicircle."
+}

@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations"
+  ],
+  "difficulty": 2,
+  "descriptor": "Minimum adjacent swaps required to fully reverse a six-element sequence"
+}

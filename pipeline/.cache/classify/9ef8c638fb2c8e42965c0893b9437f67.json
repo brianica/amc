@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "absolute-value",
+    "linear-systems"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find ordered pairs satisfying a linear equation and nested absolute value equation."
+}

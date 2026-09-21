@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "similar-congruent",
+    "triangle-basics"
+  ],
+  "difficulty": 3,
+  "descriptor": "Compute a parallel segment length using an angle bisector and perpendicular line"
+}

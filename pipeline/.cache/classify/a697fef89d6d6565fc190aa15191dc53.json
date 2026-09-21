@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "functions"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find fourth term by summing arithmetic and geometric sequences"
+}

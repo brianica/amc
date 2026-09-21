@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "logic-puzzles"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count initial grid configurations producing exactly one center square after cellular automaton transformation."
+}

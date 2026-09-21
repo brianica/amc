@@ -1,0 +1,9 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "estimation",
+    "statistics"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the median of a combined list of integers and perfect squares."
+}

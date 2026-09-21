@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "transformations",
+    "coordinate-geometry"
+  ],
+  "difficulty": 3.5,
+  "descriptor": "Find a line equation given the outcome of successive reflections of a point"
+}

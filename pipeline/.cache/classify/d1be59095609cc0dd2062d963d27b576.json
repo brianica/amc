@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "transformations",
+    "coordinate-geometry"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count how many pairs among four given geometric transformations commute."
+}

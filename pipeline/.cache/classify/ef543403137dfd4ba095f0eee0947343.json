@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "primes"
+  ],
+  "difficulty": 1,
+  "descriptor": "Find the smallest integer whose factorial is divisible by a given number"
+}

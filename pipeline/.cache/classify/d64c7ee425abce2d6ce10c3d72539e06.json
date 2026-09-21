@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "recursion-states",
+    "symmetry-arguments"
+  ],
+  "difficulty": 4,
+  "descriptor": "Maximize subset size with distance constraints on elements and odd pairs."
+}

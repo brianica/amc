@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "inequalities"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count intervals where a factored polynomial with varying multiplicities is positive"
+}

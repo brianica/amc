@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "diophantine"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the number of integer pairs satisfying a radical equation"
+}

@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "triangle-basics",
+    "similar-congruent",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find area of quadrilateral formed by midpoints and angle bisector"
+}

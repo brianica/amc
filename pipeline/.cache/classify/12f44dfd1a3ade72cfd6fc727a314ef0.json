@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "basic-probability"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find probability of divisibility chain among three distinct assigned numbers"
+}

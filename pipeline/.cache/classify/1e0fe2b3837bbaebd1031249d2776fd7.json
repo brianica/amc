@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations",
+    "multiplication-principle"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count unimodal integers formed with distinct nonzero digits"
+}

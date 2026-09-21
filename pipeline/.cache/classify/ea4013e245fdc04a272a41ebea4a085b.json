@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "conditional-geometric-probability",
+    "area-decomposition",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Probability a dropped coin overlaps black regions in patterned square"
+}

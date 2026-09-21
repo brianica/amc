@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "inequalities",
+    "quadratics-vieta"
+  ],
+  "difficulty": 2,
+  "descriptor": "Minimize a two-variable expression of squares over the reals"
+}

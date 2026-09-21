@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "modular-arithmetic"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count non-negative integer solutions to linear Diophantine equation 2a + 3b = 2016."
+}

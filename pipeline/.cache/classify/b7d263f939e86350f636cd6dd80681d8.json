@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "transformations",
+    "coordinate-geometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Determine which statement about reflection across y=x is not always true."
+}

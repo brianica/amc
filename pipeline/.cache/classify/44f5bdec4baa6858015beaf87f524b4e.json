@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "right-triangles",
+    "area-decomposition"
+  ],
+  "difficulty": 2,
+  "descriptor": "Area between a semicircle and an internally tangent excised smaller semicircle."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases",
+    "diophantine"
+  ],
+  "difficulty": 5,
+  "descriptor": "Find digits where repdigit difference equals repdigit square for two values of n."
+}

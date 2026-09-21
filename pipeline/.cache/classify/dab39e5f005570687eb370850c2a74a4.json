@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "area-decomposition",
+    "similar-congruent",
+    "coordinate-geometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find the overlapping area of a square and rectangle using similarity and decomposition."
+}

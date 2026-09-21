@@ -1,0 +1,9 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "statistics",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find minimum mode given constraints on median, mean, and uniqueness."
+}

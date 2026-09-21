@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "recursion-states",
+    "conditional-geometric-probability"
+  ],
+  "difficulty": 4,
+  "descriptor": "Probability of reaching a target state in an absorbing random walk"
+}

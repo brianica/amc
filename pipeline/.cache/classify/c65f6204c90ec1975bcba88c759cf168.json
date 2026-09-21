@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "units-digit",
+    "modular-arithmetic"
+  ],
+  "difficulty": 1,
+  "descriptor": "Sum of units digits of the first 2025 square numbers"
+}

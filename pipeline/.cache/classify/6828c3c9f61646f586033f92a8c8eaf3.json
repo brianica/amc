@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "gcd-lcm",
+    "modular-arithmetic",
+    "divisibility"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find unique positive integer satisfying two modular constraints using divisibility."
+}

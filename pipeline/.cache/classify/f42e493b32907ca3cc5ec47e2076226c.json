@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "area-decomposition",
+    "triangle-basics",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find shaded area between square and four equilateral triangles meeting at center"
+}

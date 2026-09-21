@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "permutations-combinations",
+    "symmetry-arguments"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count five-digit strings satisfying minimum count conditions for digits below each threshold."
+}

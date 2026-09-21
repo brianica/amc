@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "solid-geometry",
+    "coordinate-geometry",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 3,
+  "descriptor": "Plane over hexagon vertices; find missing pillar height from three given"
+}

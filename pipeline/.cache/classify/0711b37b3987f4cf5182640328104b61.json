@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find probability that seven-digit number is divisible by eleven given digit sum constraint."
+}

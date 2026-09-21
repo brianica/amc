@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "coordinate-geometry",
+    "right-triangles"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the radius of a circle tangent to three mutually touching circles."
+}

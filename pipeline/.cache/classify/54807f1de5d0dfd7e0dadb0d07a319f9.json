@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems",
+    "rates-work-mixture"
+  ],
+  "difficulty": 1,
+  "descriptor": "Find total spent given proportional spending and difference constraint"
+}

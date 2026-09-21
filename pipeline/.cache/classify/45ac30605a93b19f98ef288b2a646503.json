@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "combinatorial-geometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count integer-vertex axis-aligned squares inside a triangular region"
+}

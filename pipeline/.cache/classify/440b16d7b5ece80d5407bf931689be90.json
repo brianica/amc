@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "rates-work-mixture",
+    "functions"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find time when repeated toy-adding and toy-removing reaches target count."
+}

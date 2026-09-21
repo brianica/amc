@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "recursion-states",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find coordinates after following spiral walk pattern for 2015 steps"
+}

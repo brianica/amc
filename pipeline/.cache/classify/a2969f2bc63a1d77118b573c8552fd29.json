@@ -1,0 +1,10 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "inequalities",
+    "casework"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Count positive integer pairs making both quadratics lack distinct real roots"
+}

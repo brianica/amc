@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "conditional-geometric-probability"
+  ],
+  "difficulty": 2,
+  "descriptor": "Calculate the geometric probability of landing in an annulus inside a square."
+}

@@ -1,0 +1,8 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Determine whether lines with various slopes can intersect specified counts of lattice points"
+}

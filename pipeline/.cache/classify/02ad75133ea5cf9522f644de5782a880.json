@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "diophantine",
+    "divisibility",
+    "modular-arithmetic"
+  ],
+  "difficulty": 4,
+  "descriptor": "Determine which lattice point counts are achievable for lines with various slopes."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases",
+    "casework"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Count integers up to 2017 whose decimal representation includes a zero digit"
+}

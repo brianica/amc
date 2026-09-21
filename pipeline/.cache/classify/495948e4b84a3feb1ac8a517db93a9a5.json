@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "floor-ceiling",
+    "divisor-counting",
+    "divisibility"
+  ],
+  "difficulty": 3.5,
+  "descriptor": "Count n where sum of three floor quotients avoids divisibility by three"
+}

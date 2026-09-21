@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "modular-arithmetic",
+    "sequences-series"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find day of week after summing consecutive integers"
+}

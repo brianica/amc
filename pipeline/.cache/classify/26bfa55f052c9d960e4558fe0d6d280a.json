@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "digits-bases"
+  ],
+  "difficulty": 2,
+  "descriptor": "Determine digits of a five-digit number divisible by 36"
+}

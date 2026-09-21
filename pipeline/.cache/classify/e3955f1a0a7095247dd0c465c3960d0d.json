@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "cyclic-quadrilaterals",
+    "circles"
+  ],
+  "difficulty": 1.5,
+  "descriptor": "Count quadrilateral types admitting a circumscribed circle center equidistant from vertices"
+}

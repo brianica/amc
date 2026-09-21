@@ -1,7 +1,7 @@
 node_modules/
-pipeline/.cache/
 pipeline/.out/
 data/cache/
+pipeline/.cache/_last-failure.html
 .env
 .env.local
 .DS_Store

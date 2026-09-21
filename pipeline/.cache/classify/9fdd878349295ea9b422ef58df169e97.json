@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "conditional-geometric-probability"
+  ],
+  "difficulty": 3,
+  "descriptor": "Probability that a randomly chosen divisor of a random integer is divisible by eleven"
+}

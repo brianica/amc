@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "primes"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find digit sum of least prime expressed as five distinct primes sum"
+}

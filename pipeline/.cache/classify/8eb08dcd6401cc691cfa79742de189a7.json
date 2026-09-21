@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the total games in a round-robin tournament given win ratio constraints."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios",
+    "coordinate-geometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find wrapping paper area for box centered with corners meeting at top"
+}

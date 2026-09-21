@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "absolute-value"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find integer pairs satisfying equation with even exponent and quadratic structure."
+}

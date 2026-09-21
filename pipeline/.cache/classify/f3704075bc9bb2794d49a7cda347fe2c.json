@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series"
+  ],
+  "difficulty": 1,
+  "descriptor": "Find magic-square common sum for consecutive integers arranged in 5x5 grid"
+}

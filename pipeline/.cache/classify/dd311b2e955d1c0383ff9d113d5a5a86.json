@@ -1,0 +1,10 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "functions",
+    "floor-ceiling",
+    "absolute-value"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Determine symmetry center of a floor-and-absolute-value step function's graph"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "linear-systems"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find arithmetic sequence parameters from corrupted sum using factorization"
+}

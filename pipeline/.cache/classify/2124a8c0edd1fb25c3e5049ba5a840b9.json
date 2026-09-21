@@ -1,0 +1,10 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "absolute-value",
+    "quadratics-vieta",
+    "functions"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count real solution pairs of a parabola and absolute-value diamond system"
+}

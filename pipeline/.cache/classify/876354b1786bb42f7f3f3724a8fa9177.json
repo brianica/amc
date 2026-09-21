@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "transformations",
+    "coordinate-geometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find rotation center that maps one segment to another using distance preservation."
+}

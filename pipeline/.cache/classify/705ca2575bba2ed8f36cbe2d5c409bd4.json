@@ -1,0 +1,10 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "functions",
+    "inequalities"
+  ],
+  "difficulty": 5,
+  "descriptor": "Find iteration count for recursive sequence to reach threshold near 4"
+}

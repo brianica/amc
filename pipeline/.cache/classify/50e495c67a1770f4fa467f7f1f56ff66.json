@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "functions"
+  ],
+  "difficulty": 4,
+  "descriptor": "Minimize sum of infinite geometric series with fixed second term."
+}

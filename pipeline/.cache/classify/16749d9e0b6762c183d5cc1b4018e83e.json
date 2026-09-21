@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "modular-arithmetic",
+    "divisibility",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Maximize remaining odd numbers after repeatedly combining four numbers into one."
+}

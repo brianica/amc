@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "functions"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Repeated fractional back-and-forth walking converges to two limit points; find separation."
+}

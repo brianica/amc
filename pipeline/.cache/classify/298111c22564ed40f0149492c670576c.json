@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "expected-value"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find average score over six days given initial value and daily changes."
+}

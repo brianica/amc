@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "area-decomposition",
+    "circles",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find square side given swept areas of rolling disk inside vs outside"
+}

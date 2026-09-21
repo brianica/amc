@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "functions",
+    "polynomials"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find box dimensions from given face areas using simultaneous equations."
+}

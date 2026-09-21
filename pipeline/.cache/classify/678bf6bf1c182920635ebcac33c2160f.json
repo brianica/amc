@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases",
+    "inclusion-exclusion"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count positive integers up to 2017 containing at least one zero digit."
+}

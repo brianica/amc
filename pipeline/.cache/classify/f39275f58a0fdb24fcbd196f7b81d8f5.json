@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "basic-probability",
+    "combinatorial-geometry"
+  ],
+  "difficulty": 5,
+  "descriptor": "Probability of monochromatic triangle in 2-colored complete graph on 5 vertices."
+}

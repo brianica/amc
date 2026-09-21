@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "transformations"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find when a rolling disk's marked arrow completes one rotation around a clock."
+}

@@ -1,0 +1,8 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find maximum side length of quadrilateral with given perimeter and constraints."
+}

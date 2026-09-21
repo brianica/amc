@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios",
+    "coordinate-geometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find unoccupied area between outer regular hexagon and six inner hexagons."
+}

@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases",
+    "divisibility",
+    "modular-arithmetic"
+  ],
+  "difficulty": 3,
+  "descriptor": "Determine which base makes a difference of base-b numbers not divisible by 3."
+}

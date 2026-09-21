@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count distinct tower arrangements using colored cubes with specific constraints."
+}

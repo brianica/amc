@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "units-digit",
+    "modular-arithmetic"
+  ],
+  "difficulty": 1,
+  "descriptor": "Find the last digit of a sum of two large powers"
+}

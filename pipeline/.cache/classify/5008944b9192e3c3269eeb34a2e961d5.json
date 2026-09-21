@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "transformations",
+    "symmetry-arguments"
+  ],
+  "difficulty": 3,
+  "descriptor": "Determine which rigid motion transformations preserve a regular infinite pattern of alternating squares."
+}

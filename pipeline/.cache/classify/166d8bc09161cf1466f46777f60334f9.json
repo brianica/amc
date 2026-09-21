@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "recursion-states",
+    "expected-value"
+  ],
+  "difficulty": 4,
+  "descriptor": "Probability of reaching two heads in a row after seeing two tails first"
+}

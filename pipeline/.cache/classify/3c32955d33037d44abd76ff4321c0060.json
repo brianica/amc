@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "stars-and-bars",
+    "multiplication-principle"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count multinomial expansion terms with all four variables to positive powers."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "multiplication-principle"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find probability that each ball differs in color from majority of the others."
+}

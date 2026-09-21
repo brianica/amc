@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "stars-and-bars",
+    "multiplication-principle"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count ways for seven dice to sum to ten using distributional techniques."
+}

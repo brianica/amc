@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "gcd-lcm",
+    "modular-arithmetic"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the tens digit of a divisor given remainders of two numbers."
+}

@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "inequalities"
+  ],
+  "difficulty": 1,
+  "descriptor": "Count pairs of adjacent squares having a difference at most a limit"
+}

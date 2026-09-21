@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "coordinate-geometry",
+    "triangle-basics"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find area traced by centroid as vertex moves on circle diameter"
+}

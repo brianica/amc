@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "digits-bases"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Count strictly increasing-digit numbers divisible by 15"
+}

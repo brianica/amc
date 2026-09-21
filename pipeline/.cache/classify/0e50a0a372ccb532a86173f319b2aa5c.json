@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "recursion-states",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find probability of stopping at two heads in a row after seeing second tail first."
+}

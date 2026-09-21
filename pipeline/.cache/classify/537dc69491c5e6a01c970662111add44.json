@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "symmetry-arguments",
+    "basic-probability"
+  ],
+  "difficulty": 4,
+  "descriptor": "Estimate the probability all three bins receive an odd ball count"
+}

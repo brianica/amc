@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "triangle-basics",
+    "trigonometry",
+    "area-decomposition"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find the area of a triangle formed by angle trisector rays in an isosceles right triangle."
+}

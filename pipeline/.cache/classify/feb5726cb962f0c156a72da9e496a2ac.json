@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "cyclic-quadrilaterals",
+    "power-of-a-point",
+    "circles"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find the fourth side of a cyclic quadrilateral with three known sides and circumradius."
+}

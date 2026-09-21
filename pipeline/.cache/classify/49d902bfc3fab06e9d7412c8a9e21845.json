@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "modular-arithmetic",
+    "divisibility",
+    "digits-bases"
+  ],
+  "difficulty": 1,
+  "descriptor": "Find hundreds digit of difference of two factorials"
+}

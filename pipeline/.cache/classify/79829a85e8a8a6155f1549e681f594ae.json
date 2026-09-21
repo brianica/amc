@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "area-decomposition",
+    "coordinate-geometry"
+  ],
+  "difficulty": 5,
+  "descriptor": "Find shaded area inside circle but outside three tangent semicircles."
+}

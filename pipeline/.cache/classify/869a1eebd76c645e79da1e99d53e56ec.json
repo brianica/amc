@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "floor-ceiling",
+    "diophantine",
+    "divisibility"
+  ],
+  "difficulty": 5,
+  "descriptor": "Find interval of slopes giving exactly 300 lattice points below line"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "recursion-states",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Track digits through repeated erasure patterns using cyclic structure and modular arithmetic."
+}

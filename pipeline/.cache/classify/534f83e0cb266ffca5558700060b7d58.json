@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "polynomials"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find when sum of all products of distinct pairs is divisible by three."
+}

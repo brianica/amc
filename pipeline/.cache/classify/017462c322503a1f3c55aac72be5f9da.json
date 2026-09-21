@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "trigonometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find maximum distance where angle between two lines of sight equals sixty degrees."
+}

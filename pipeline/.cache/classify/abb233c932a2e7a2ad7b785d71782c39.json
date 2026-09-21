@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "conditional-geometric-probability",
+    "basic-probability"
+  ],
+  "difficulty": 3.5,
+  "descriptor": "Probability two mixed discrete-continuous random values differ by over one half"
+}

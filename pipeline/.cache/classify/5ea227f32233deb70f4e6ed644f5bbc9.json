@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "divisor-counting"
+  ],
+  "difficulty": 2,
+  "descriptor": "Minimize rectangle perimeter given integer sides and fixed area."
+}

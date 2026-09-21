@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "right-triangles",
+    "coordinate-geometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Right triangle with external squares whose vertices lie on a circle"
+}

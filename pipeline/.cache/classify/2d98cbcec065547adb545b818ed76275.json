@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "diophantine",
+    "units-digit"
+  ],
+  "difficulty": 3,
+  "descriptor": "Units digit of maximal integer shifting two given values to squares"
+}

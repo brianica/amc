@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "similar-congruent"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find ratio of segment length between two intersection points on a line"
+}

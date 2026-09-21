@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "coordinate-geometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find radii of third pipe touching two given pipes and floor."
+}

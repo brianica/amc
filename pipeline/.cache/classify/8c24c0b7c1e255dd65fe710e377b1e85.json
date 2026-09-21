@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases",
+    "linear-systems"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find base and digit value from two equations involving different base representations."
+}

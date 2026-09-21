@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "permutations-combinations",
+    "symmetry-arguments"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count permutations of three shoe pairs avoiding specific mismatched adjacent pairs."
+}

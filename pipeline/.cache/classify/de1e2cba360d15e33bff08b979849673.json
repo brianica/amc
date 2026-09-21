@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "polygons-area-ratios",
+    "transformations"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find area ratio of hexagon formed by parallel lines in regular hexagon"
+}

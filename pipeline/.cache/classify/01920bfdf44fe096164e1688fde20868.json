@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisor-counting",
+    "digits-bases"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count distinct products of two different divisors of 100,000."
+}

@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "modular-arithmetic",
+    "digits-bases",
+    "recursion-states"
+  ],
+  "difficulty": 5,
+  "descriptor": "Find binary sequence terms satisfying modular constraint via recursive analysis."
+}

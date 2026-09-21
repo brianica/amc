@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "floor-ceiling"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the number of real solutions to an equation with floor functions."
+}

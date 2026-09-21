@@ -1,0 +1,10 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "quadratics-vieta",
+    "functions"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find minimum value of product of four consecutive linear factors plus constant."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "transformations"
+  ],
+  "difficulty": 3,
+  "descriptor": "Perimeter of a polygon formed by linear combinations of three bounded parameters"
+}

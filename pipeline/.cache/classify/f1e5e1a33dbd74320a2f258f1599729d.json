@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "multiplication-principle"
+  ],
+  "difficulty": 4,
+  "descriptor": "Maximize set size with spacing constraints on elements and odd elements."
+}

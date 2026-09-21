@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "linear-systems"
+  ],
+  "difficulty": 2,
+  "descriptor": "Use the remainder theorem to find unknown coefficients of a cubic polynomial"
+}

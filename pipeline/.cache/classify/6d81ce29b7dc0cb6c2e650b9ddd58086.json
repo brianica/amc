@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "linear-systems"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find rectangle length given three nested areas form arithmetic progression"
+}

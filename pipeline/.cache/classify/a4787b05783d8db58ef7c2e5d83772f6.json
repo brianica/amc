@@ -1,0 +1,8 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "statistics"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Find median of combined list of integers and their squares"
+}

@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "floor-ceiling",
+    "divisibility",
+    "divisor-counting"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count n where sum of three consecutive floor quotients isn't multiple of 3"
+}

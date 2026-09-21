@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "triangle-basics",
+    "similar-congruent",
+    "coordinate-geometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find length using angle bisector, parallel lines, and similar triangles."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases",
+    "diophantine"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find base and digit using positional notation and system of equations."
+}

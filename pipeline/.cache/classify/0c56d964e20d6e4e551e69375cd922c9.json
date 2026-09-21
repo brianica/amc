@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "coordinate-geometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Total area of circles mutually tangent to three given circles"
+}

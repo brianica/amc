@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "inequalities"
+  ],
+  "difficulty": 2,
+  "descriptor": "Minimum number of signs flipped in an arithmetic series to become negative"
+}

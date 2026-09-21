@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "coordinate-geometry"
+  ],
+  "difficulty": 2,
+  "descriptor": "Compare path lengths along square edges versus diagonal traversal."
+}

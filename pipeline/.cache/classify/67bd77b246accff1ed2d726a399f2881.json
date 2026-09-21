@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "floor-ceiling",
+    "modular-arithmetic",
+    "divisibility"
+  ],
+  "difficulty": 3.5,
+  "descriptor": "Count integers where a linear expression equals the floor of a square root"
+}

@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems"
+  ],
+  "difficulty": 1,
+  "descriptor": "Find quantity of two tile types from total count and edge constraints."
+}

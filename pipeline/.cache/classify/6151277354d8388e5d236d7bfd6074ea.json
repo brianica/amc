@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "gcd-lcm",
+    "divisor-counting",
+    "diophantine"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count ordered triples with specified pairwise LCM constraints using prime factorization"
+}

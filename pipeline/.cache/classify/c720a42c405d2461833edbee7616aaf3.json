@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "transformations",
+    "triangle-basics",
+    "coordinate-geometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find angle in rotated square configuration using geometry and symmetry."
+}

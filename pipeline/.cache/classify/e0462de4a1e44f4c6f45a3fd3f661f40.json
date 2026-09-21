@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "functions"
+  ],
+  "difficulty": 3,
+  "descriptor": "Use constraint to simplify high-degree polynomial expression."
+}

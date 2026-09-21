@@ -1,0 +1,10 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "quadratics-vieta",
+    "inequalities"
+  ],
+  "difficulty": 2,
+  "descriptor": "Minimize a shifted product of four consecutive linear factors"
+}

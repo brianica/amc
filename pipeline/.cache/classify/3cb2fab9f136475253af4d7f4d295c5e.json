@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "area-decomposition",
+    "coordinate-geometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the area of a right triangle inscribed inside a rectangle."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the away-game win probability given overall series winning probability."
+}

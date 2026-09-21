@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "primes",
+    "modular-arithmetic"
+  ],
+  "difficulty": 3,
+  "descriptor": "Determine which polynomial expression in prime p never yields a prime."
+}

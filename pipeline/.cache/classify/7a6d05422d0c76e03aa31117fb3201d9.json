@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "transformations"
+  ],
+  "difficulty": 4,
+  "descriptor": "Rolling disk on clock face returns arrow to original orientation."
+}

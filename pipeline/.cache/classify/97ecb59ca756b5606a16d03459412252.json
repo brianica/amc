@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "functions"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count integers where a 100-factor polynomial product is nonpositive."
+}

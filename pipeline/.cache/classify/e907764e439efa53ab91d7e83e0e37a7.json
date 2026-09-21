@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations"
+  ],
+  "difficulty": 1,
+  "descriptor": "Compute the difference between ten factorial and the product of smaller factorials."
+}

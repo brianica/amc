@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "cyclic-quadrilaterals",
+    "circles",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find the area between a cyclic quadrilateral and its circumcircle."
+}

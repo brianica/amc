@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisor-counting",
+    "primes",
+    "basic-probability"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Probability a random divisor of 12! is a perfect square"
+}

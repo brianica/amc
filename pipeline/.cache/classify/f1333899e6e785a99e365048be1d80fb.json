@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "recursion-states",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Determine position after specific step count in spiral walk pattern."
+}

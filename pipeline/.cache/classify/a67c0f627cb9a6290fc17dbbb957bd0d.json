@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "triangle-basics"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find circumcircle area of isosceles triangle given tangent circle constraints."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "symmetry-arguments",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count symmetric colorings of a 7×7 grid with both colors present."
+}

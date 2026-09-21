@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "absolute-value",
+    "linear-systems"
+  ],
+  "difficulty": 1,
+  "descriptor": "Product of possible initial temperature differences satisfying an absolute value equation"
+}

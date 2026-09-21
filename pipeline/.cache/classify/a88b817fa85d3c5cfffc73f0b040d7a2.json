@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "solid-geometry",
+    "coordinate-geometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find the volume of a tetrahedron given six edge lengths"
+}

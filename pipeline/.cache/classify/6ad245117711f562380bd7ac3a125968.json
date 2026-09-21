@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "conditional-geometric-probability"
+  ],
+  "difficulty": 4,
+  "descriptor": "Geometric probability that a random point forms a triangle with intermediate side."
+}

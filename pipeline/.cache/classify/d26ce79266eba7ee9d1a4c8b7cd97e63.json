@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "right-triangles"
+  ],
+  "difficulty": 4,
+  "descriptor": "Diameter of central circle tangent to four congruent mutually tangent semicircles"
+}

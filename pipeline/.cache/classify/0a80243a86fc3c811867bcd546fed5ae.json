@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "quadratics-vieta"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Find a coefficient of a degree-6 polynomial with positive integer roots"
+}

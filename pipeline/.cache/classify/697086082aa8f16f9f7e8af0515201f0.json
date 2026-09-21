@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "functions",
+    "sequences-series"
+  ],
+  "difficulty": 3,
+  "descriptor": "Four-digit numbers where overlapping two-digit substrings form arithmetic sequence."
+}

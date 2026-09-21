@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "area-decomposition"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find area between quarter-circle and semicircle regions"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "similar-congruent"
+  ],
+  "difficulty": 2,
+  "descriptor": "Express rectangle area in terms of diagonal using aspect ratio"
+}

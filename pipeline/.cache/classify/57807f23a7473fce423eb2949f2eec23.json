@@ -1,0 +1,8 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles"
+  ],
+  "difficulty": 2,
+  "descriptor": "Determine the area of a rectangle from diagonal lengths and corner cutouts."
+}

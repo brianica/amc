@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "pigeonhole"
+  ],
+  "difficulty": 2,
+  "descriptor": "Minimum draws needed to guarantee at least 15 balls of one color."
+}

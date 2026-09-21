@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "functions"
+  ],
+  "difficulty": 1.5,
+  "descriptor": "Solve a factorial equation for n, then add its digits."
+}

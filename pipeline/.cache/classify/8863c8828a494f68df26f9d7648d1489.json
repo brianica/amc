@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "digits-bases",
+    "modular-arithmetic"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find missing digits in the decimal expansion of 19 factorial"
+}

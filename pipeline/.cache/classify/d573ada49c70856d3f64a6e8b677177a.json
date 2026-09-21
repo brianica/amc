@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems",
+    "polynomials"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find sum of products from system of three nonlinear equations"
+}

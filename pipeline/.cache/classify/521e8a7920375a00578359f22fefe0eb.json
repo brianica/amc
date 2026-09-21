@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "conditional-geometric-probability",
+    "basic-probability"
+  ],
+  "difficulty": 2,
+  "descriptor": "Probability one uniform random pick exceeds another from a shorter interval"
+}

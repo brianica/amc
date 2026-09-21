@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "area-decomposition",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find shaded area inside regular hexagon but outside inscribed semicircles."
+}

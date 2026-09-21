@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "similar-congruent",
+    "triangle-basics"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find relationship between two right triangles sharing two side lengths."
+}

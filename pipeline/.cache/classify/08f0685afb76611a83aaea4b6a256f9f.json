@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "functions",
+    "floor-ceiling"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find positive integers satisfying equation with floor of square root."
+}

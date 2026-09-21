@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "transformations",
+    "coordinate-geometry"
+  ],
+  "difficulty": 2,
+  "descriptor": "Reverse a rotation then reflection to find original point's coordinate difference"
+}

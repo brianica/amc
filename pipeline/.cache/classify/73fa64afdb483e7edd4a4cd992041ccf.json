@@ -1,0 +1,9 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "statistics",
+    "casework"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find values making median equal mean of five-number list"
+}

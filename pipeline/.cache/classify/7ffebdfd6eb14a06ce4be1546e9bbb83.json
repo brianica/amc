@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "divisor-counting"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find perfect squares that are multiples of six and less than 2020."
+}

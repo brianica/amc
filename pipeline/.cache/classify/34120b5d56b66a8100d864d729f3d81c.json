@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "permutations-combinations"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Probability two random 5-book selections from 10 overlap in exactly two"
+}

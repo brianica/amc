@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "triangle-basics",
+    "similar-congruent"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find rectangle area as fraction of diagonal squared given side ratio"
+}

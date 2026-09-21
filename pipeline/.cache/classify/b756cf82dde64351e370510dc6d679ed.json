@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "logs-exponents",
+    "floor-ceiling"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find floor of ratio of sums of large exponential powers"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "permutations-combinations"
+  ],
+  "difficulty": 2,
+  "descriptor": "Probability that the three tallest individuals are placed into different teams"
+}

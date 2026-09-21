@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "coordinate-geometry"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find an unknown position given two equal total travel path lengths."
+}

@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "inclusion-exclusion",
+    "casework",
+    "basic-probability"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find probability that a monochromatic triangle exists among pentagon vertices"
+}

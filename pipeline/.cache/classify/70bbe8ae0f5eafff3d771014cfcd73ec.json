@@ -1,0 +1,8 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles"
+  ],
+  "difficulty": 3,
+  "descriptor": "Perimeter of an inscribed triangle cutting off integer-sided right triangles from a rectangle"
+}

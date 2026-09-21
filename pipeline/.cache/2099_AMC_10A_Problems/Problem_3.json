@@ -1,0 +1,5 @@
+{
+  "page": "2099_AMC_10A_Problems/Problem_3",
+  "wikitext": "== Problem ==\nSample problem — invented. A circle of radius <math>r</math> is inscribed in a right\ntriangle with legs <math>a</math> and <math>b</math> and hypotenuse <math>c</math>.\n[asy]draw((0,0)--(3,0)--(0,4)--cycle); draw(circle((1,1),1));[/asy]\nWhich expression gives <math>r</math>?\n\n<cmath>r = \\frac{a + b - c}{2}</cmath>\n\n== Solution ==\n<math>\\boxed{\\textbf{(A) }1}</math>",
+  "fetchedAt": "2026-09-18T04:49:59.582Z"
+}

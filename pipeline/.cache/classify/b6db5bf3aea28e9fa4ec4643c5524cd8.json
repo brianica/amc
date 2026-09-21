@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "absolute-value"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count integers where product of differences from perfect squares is nonpositive."
+}

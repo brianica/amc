@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Compute a finite sum of ratios of Fibonacci numbers."
+}

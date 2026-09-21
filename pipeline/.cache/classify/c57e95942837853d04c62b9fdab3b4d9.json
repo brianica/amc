@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "symmetry-arguments"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find the alternate sum with identical probability when rolling seven dice."
+}

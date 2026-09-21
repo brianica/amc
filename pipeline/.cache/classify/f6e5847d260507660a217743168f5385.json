@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems",
+    "inequalities"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count integer solutions to system of symmetric linear inequalities in three variables."
+}

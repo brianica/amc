@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "expected-value",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Expected balls in original positions after two random adjacent swaps"
+}

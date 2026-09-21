@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "multiplication-principle",
+    "recursion-states"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count valid colorings of 3×3 grid where each 2×2 subgrid uses all four colors."
+}

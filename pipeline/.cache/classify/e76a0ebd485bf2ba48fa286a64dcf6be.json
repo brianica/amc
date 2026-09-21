@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "coordinate-geometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count integer perimeters of quadrilateral with right angles and equal sides"
+}

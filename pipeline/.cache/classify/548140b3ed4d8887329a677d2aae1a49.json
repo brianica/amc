@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "gcd-lcm"
+  ],
+  "difficulty": 4,
+  "descriptor": "Determine which combinations of slope and lattice point count are achievable."
+}

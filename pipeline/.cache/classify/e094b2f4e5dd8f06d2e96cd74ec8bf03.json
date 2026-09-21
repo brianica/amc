@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "transformations",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count length-three transformation sequences from five isometries returning triangle to start"
+}

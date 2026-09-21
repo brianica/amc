@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "inequalities"
+  ],
+  "difficulty": 2,
+  "descriptor": "Number of intervals where a factored high-degree polynomial is strictly positive"
+}

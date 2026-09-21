@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "conditional-geometric-probability",
+    "recursion-states"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find probability urn has equal red and blue balls after repeated random draws."
+}

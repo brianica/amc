@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "inequalities"
+  ],
+  "difficulty": 1,
+  "descriptor": "Count pairs of consecutive squares whose difference does not exceed an upper limit"
+}

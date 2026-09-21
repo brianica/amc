@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations"
+  ],
+  "difficulty": 3,
+  "descriptor": "Difference between count of numbers with strictly increasing versus strictly decreasing digits."
+}

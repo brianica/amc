@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "functions"
+  ],
+  "difficulty": 3,
+  "descriptor": "Determine the number of horizontal shifts of a cubic polynomial passing through a point."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "polynomials"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find sum of values making quadratic have integer roots"
+}

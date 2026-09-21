@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find coin distribution given count of achievable values using gcd."
+}

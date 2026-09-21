@@ -1,0 +1,9 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "statistics",
+    "estimation"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find median of list where each integer repeats its own value times"
+}

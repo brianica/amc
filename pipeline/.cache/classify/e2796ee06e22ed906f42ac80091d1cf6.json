@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "diophantine"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count integer values formed by adding two fractions with fixed numerator-denominator sums."
+}

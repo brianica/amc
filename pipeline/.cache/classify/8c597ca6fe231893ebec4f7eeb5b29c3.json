@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "basic-probability"
+  ],
+  "difficulty": 2,
+  "descriptor": "Probability that exactly three chip draws are needed to exceed a sum"
+}

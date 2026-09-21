@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "permutations-combinations",
+    "recursion-states"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count permutations of five numbers alternating up and down"
+}

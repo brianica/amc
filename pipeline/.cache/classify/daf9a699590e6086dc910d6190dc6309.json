@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "conditional-geometric-probability",
+    "expected-value"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find probability that ant's total distance exceeds threshold given random stopping rule."
+}

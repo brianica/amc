@@ -1,0 +1,8 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "logic-puzzles"
+  ],
+  "difficulty": 2,
+  "descriptor": "Determine the number of false statements among four self-referential statements"
+}

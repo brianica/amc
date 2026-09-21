@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "multiplication-principle"
+  ],
+  "difficulty": 4,
+  "descriptor": "Maximize sum of vertex products by assigning numbers to cube faces"
+}

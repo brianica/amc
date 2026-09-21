@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "modular-arithmetic",
+    "divisor-counting"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Determine which bin receives a ball using modular arithmetic and triangular numbers."
+}

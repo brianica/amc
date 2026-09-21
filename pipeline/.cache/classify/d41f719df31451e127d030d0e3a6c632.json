@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "multiplication-principle",
+    "permutations-combinations"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count integers up to 2017 whose decimal representation includes a zero digit"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "polynomials"
+  ],
+  "difficulty": 3,
+  "descriptor": "Evaluate infinite series using partial fractions and telescoping technique"
+}

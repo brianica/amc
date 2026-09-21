@@ -1,0 +1,9 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "logic-puzzles",
+    "casework"
+  ],
+  "difficulty": 5,
+  "descriptor": "Deduce two hidden numbers from logical statements and constraints."
+}

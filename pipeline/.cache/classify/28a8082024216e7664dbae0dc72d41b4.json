@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "modular-arithmetic"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count blocks of ten consecutive integers containing exactly two multiples of seven."
+}

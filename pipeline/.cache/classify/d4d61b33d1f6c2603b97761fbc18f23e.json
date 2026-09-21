@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "functions"
+  ],
+  "difficulty": 2,
+  "descriptor": "Solve factorial equation by factoring and find digit sum of solution."
+}

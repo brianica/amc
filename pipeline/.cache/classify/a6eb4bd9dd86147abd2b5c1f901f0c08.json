@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "recursion-states",
+    "symmetry-arguments"
+  ],
+  "difficulty": 5,
+  "descriptor": "Find probability that money distribution returns to equal state after many rounds."
+}

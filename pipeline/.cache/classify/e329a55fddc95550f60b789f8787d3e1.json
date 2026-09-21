@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "circles"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count integer points on a line inside or on a circle"
+}

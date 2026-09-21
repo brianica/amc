@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "cyclic-quadrilaterals",
+    "transformations"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find perimeter of right triangle given squares constructed on two sides and cocircular condition."
+}

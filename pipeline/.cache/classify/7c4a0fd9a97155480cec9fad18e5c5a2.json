@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "gcd-lcm",
+    "divisibility",
+    "digits-bases"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Find smallest time when five horses with integer lap times coincide"
+}

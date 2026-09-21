@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "cyclic-quadrilaterals",
+    "circles",
+    "triangle-basics"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find the fourth side of a cyclic quadrilateral with three equal sides."
+}

@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems"
+  ],
+  "difficulty": 3,
+  "descriptor": "Solve system of three equations in three variables by elimination."
+}

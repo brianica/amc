@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "permutations-combinations"
+  ],
+  "difficulty": 1.5,
+  "descriptor": "Probability six random two-color balls split evenly three-three"
+}

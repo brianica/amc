@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "area-decomposition",
+    "right-triangles",
+    "trigonometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Calculate the area of the union of three concentric rotated squares."
+}

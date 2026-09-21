@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "inequalities",
+    "absolute-value"
+  ],
+  "difficulty": 2,
+  "descriptor": "Determine which expression with bounded variables is always positive."
+}

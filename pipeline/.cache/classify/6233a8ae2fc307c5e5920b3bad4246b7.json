@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "casework",
+    "symmetry-arguments"
+  ],
+  "difficulty": 3.5,
+  "descriptor": "Polya urn: probability of equal colors after four reinforcing draws"
+}

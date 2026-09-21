@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "combinatorial-geometry",
+    "multiplication-principle"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count 0/1 edge labelings of cube with each face summing to 2"
+}

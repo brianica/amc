@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "modular-arithmetic",
+    "digits-bases",
+    "divisor-counting"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find remainder when concatenated integer string is divided by 45."
+}

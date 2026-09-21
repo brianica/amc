@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "gcd-lcm",
+    "divisibility"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find minimum bench sections accommodating equal numbers of adults and children."
+}

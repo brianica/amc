@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "triangle-basics",
+    "coordinate-geometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find points forming triangle with fixed base, perimeter, and area constraints."
+}

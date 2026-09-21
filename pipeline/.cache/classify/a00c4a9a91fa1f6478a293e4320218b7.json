@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "linear-systems"
+  ],
+  "difficulty": 2,
+  "descriptor": "Age word problem yielding quadratic; find birth-year gap between two people"
+}

@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "cyclic-quadrilaterals",
+    "right-triangles",
+    "circles"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the area between a cyclic quadrilateral and its circumscribed circle."
+}

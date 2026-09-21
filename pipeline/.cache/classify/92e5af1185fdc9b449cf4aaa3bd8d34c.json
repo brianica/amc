@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "right-triangles"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find perimeter of triangle after folding square vertex onto opposite edge."
+}

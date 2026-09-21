@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "polynomials"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find a specific entry in a Pascal-like array with a given row sum."
+}

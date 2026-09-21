@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases",
+    "divisibility"
+  ],
+  "difficulty": 2,
+  "descriptor": "Calculate difference in sums when digit 2 replaced by digit 1."
+}

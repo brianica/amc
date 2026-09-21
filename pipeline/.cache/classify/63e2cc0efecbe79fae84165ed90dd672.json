@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "stars-and-bars",
+    "inclusion-exclusion"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count monomials with all four variables having positive exponents in multinomial expansion."
+}

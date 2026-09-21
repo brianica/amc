@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "polynomials"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find new box volume using roots of cubic polynomial and Vieta's formulas."
+}

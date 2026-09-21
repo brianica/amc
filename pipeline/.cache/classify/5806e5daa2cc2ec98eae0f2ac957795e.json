@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "transformations",
+    "triangle-basics"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find angle formed by rotated square's vertex and original square's vertices."
+}

@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "triangle-basics",
+    "cyclic-quadrilaterals",
+    "similar-congruent"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find the angle formed by a rhombus vertex and an altitude foot"
+}

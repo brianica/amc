@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "solid-geometry",
+    "area-decomposition"
+  ],
+  "difficulty": 2,
+  "descriptor": "Maximum number of rectangular blocks fitting in a rectangular box."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "quadratics-vieta"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find number of steps given toothpick count using quadratic sequence formula"
+}

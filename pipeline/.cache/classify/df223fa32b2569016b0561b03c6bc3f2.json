@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "sequences-series"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find the number of terms in the binary representation of a quotient of Fermat-like numbers."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "transformations",
+    "coordinate-geometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Trace a light ray bouncing inside a square until hitting a vertex."
+}

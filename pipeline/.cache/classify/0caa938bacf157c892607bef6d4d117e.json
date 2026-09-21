@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "multiplication-principle"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find grid dimensions where interior pieces equal perimeter pieces."
+}

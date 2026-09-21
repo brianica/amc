@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "functions"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Recursive sequence whose reciprocals form arithmetic progression; find 2019th term."
+}

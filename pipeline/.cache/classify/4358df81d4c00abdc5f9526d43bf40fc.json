@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "conditional-geometric-probability",
+    "symmetry-arguments",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Conditional probability of a specific first die roll given winning the game"
+}

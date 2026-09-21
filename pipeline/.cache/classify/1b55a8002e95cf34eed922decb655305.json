@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "coordinate-geometry",
+    "similar-congruent"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find diameter of circle tangent to four inscribed semicircles in unit square."
+}

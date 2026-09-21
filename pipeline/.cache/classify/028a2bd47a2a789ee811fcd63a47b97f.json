@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "functions",
+    "polynomials"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find cube value from vertex assignments using nested summation structure."
+}

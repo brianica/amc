@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "inequalities"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find floor of rational expression with exponential terms in numerator and denominator."
+}

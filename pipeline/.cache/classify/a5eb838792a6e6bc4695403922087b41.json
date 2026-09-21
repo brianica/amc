@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "coordinate-geometry",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find planted fraction of right triangle after removing corner square"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "diophantine"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find integer with two pairs of complementary divisors differing by specified amounts."
+}

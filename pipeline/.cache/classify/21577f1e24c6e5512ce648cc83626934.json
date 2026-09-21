@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "sequences-series"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find count of terms in binary expansion of a rational function of powers of two."
+}

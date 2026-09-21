@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems",
+    "quadratics-vieta"
+  ],
+  "difficulty": 1.5,
+  "descriptor": "Age word problem yielding a quadratic; find age difference"
+}

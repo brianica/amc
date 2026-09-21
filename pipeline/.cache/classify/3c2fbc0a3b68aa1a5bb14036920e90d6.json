@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "recursion-states",
+    "basic-probability",
+    "casework"
+  ],
+  "difficulty": 3.5,
+  "descriptor": "Random walk on wrap-around 3x3 grid; probability of reaching corner within four steps"
+}

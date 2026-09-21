@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "diophantine",
+    "gcd-lcm"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count relatively prime fractions satisfying a ratio condition after incrementing"
+}

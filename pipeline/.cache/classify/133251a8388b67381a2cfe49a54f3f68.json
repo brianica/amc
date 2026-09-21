@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "quadratics-vieta"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find minimum circles needed for total shaded annular area to exceed threshold."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 1,
+  "descriptor": "Find the area of a rhombus using an altitude and side lengths"
+}

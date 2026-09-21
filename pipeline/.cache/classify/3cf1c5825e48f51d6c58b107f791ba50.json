@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "diophantine",
+    "divisibility"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find which total cannot be expressed as a linear combination"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases",
+    "floor-ceiling"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count leading zeros in decimal expansion of fraction by analyzing prime factorization."
+}

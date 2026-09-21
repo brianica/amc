@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "recursion-states",
+    "symmetry-arguments",
+    "basic-probability"
+  ],
+  "difficulty": 3.5,
+  "descriptor": "Random walk in square; probability of exiting through a vertical edge"
+}

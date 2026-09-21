@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations",
+    "symmetry-arguments",
+    "casework"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Count distinct coefficient selections making two parabolas intersect"
+}

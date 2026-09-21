@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "modular-arithmetic",
+    "divisibility"
+  ],
+  "difficulty": 3,
+  "descriptor": "Maximum remaining integers after replacing quartets with sum or product until all odd."
+}

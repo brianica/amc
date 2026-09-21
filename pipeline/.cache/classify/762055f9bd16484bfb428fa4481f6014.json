@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "coordinate-geometry",
+    "transformations"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find area traced by centroid of triangle as third vertex moves on circle."
+}

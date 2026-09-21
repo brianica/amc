@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "digits-bases",
+    "floor-ceiling"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find missing digits in 19! using divisibility rules for 9 and 11."
+}

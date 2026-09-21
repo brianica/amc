@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "units-digit",
+    "divisibility"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find sign and units digit of product of odd negative integers in range."
+}

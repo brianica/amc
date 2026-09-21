@@ -1,0 +1,10 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "functions",
+    "logs-exponents"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find index where recursively-defined sequence approaches limiting value within exponential bound."
+}

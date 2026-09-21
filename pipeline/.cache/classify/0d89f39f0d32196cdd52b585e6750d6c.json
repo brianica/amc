@@ -1,0 +1,9 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "logic-puzzles",
+    "casework"
+  ],
+  "difficulty": 2,
+  "descriptor": "Determine weekly schedule given constraints on consecutive days"
+}

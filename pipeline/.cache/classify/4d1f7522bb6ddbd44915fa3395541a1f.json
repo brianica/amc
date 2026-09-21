@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems"
+  ],
+  "difficulty": 1,
+  "descriptor": "Find one student's test score given class average information before and after."
+}

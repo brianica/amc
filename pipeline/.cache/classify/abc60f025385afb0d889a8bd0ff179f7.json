@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "linear-systems"
+  ],
+  "difficulty": 2,
+  "descriptor": "Determine the difference of two polynomial coefficients using the remainder theorem."
+}

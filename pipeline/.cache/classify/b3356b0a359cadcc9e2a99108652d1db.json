@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "quadratics-vieta"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the volume of a box whose dimensions are shifted cubic roots."
+}

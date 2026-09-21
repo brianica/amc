@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "radicals",
+    "quadratics-vieta"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find positive integers where sum of square roots equals given radical."
+}

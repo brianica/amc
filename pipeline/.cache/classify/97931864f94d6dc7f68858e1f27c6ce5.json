@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "pigeonhole",
+    "casework"
+  ],
+  "difficulty": 2,
+  "descriptor": "Minimum draws guaranteeing fifteen same-colored balls from mixed box"
+}

@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "area-decomposition",
+    "circles",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Find hexagon area outside six overlapping semicircles on its sides"
+}

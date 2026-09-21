@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations",
+    "conditional-geometric-probability"
+  ],
+  "difficulty": 4,
+  "descriptor": "Probability that exactly two students get same tutor assignment on consecutive days"
+}

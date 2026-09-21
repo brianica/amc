@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "linear-systems"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find staircase steps given toothpick count using pattern formula"
+}

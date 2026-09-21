@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "conditional-geometric-probability",
+    "expected-value"
+  ],
+  "difficulty": 4,
+  "descriptor": "Probability frog lands outside square after random hop from random point"
+}

@@ -1,0 +1,5 @@
+{
+  "page": "2015_AMC_10A_Problems/Problem_1",
+  "wikitext": "{{duplicate|[[2015 AMC 12A Problems|2015 AMC 12A #1]] and [[2015 AMC 10A Problems|2015 AMC 10A #1]]}}\n==Problem==\n\nWhat is the value of <math>(2^0-1+5^2-0)^{-1}\\times5?</math>\n\n<math> \\textbf{(A)}\\ -125\\qquad\\textbf{(B)}\\ -120\\qquad\\textbf{(C)}\\ \\frac{1}{5}\\qquad\\textbf{(D)}\\ \\frac{5}{24}\\qquad\\textbf{(E)}\\ 25</math>\n\n==Solution==\n<math>(2^0-1+5^2-0)^{-1}\\times5 = (1-1+25-0)^{-1} \\times 5 = 25^{-1} \\times 5 = \\frac{1}{25} \\times 5 = \\boxed{\\textbf{(C) } \\, \\frac{1}{5}}</math>.\n\n==Video Solution (CREATIVE THINKING)==\n https://youtu.be/yH4KLfe9p88\n\n~Education, the Study of Everything\n\n\n\n\n==Video Solution==\nhttps://youtu.be/UdENmDoPGHU\n\n~savannahsolver\n\n==See Also==\n{{AMC10 box|year=2015|ab=A|before=First Problem|num-a=2}}\n{{AMC12 box|year=2015|ab=A|before=First Problem|num-a=2}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-14T04:56:12.469Z"
+}

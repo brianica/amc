@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "pigeonhole"
+  ],
+  "difficulty": 3,
+  "descriptor": "Minimize distinct values in list with unique mode appearing exactly 10 times"
+}

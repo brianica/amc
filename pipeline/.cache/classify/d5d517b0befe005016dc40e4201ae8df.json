@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "similar-congruent",
+    "right-triangles",
+    "area-decomposition"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the overlapping area between a tilted square and a rectangle."
+}

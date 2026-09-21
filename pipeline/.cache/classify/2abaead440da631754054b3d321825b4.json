@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems",
+    "rates-work-mixture"
+  ],
+  "difficulty": 1.5,
+  "descriptor": "Two jars with equal totals, given color ratios and green count; find blue difference"
+}

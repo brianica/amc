@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "circles",
+    "triangle-basics"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Sum of inradii of two triangles formed by median in right triangle"
+}

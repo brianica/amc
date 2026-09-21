@@ -1,0 +1,9 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "logic-puzzles",
+    "casework"
+  ],
+  "difficulty": 2,
+  "descriptor": "Determine race positions using relative ordering constraints and one fixed position."
+}

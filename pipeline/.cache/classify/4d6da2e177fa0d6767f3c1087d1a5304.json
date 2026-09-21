@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "inequalities",
+    "absolute-value"
+  ],
+  "difficulty": 1,
+  "descriptor": "Count integer solutions to an absolute value inequality involving pi"
+}

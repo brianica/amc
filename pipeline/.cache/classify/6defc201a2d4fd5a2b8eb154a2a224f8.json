@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "inequalities"
+  ],
+  "difficulty": 2,
+  "descriptor": "minimum number of odd terms to negate to make sum negative"
+}

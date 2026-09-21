@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "diophantine"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count ways to express a number as consecutive positive integer sums"
+}

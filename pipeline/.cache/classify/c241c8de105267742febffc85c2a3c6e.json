@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "functions"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find mean of remaining scores given total and partial class means."
+}

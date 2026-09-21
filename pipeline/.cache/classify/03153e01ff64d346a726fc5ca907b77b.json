@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "area-decomposition"
+  ],
+  "difficulty": 5,
+  "descriptor": "Find perpendicular distance in square with four regions of equal area."
+}

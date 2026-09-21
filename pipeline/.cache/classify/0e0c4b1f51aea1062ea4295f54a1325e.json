@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "diophantine",
+    "divisibility"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find integer perimeters of a right-angled quadrilateral with constraints"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "inclusion-exclusion",
+    "multiplication-principle"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count subsets containing at least one prime using complementary counting."
+}

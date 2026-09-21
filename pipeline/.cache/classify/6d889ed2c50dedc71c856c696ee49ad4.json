@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "primes",
+    "divisibility"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find twin primes from difference of cubes, then identify next prime."
+}

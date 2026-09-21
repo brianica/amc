@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios",
+    "area-decomposition"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find triangle area formed by kites arranged in specific polygon pattern."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "multiplication-principle",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count distinct values from assigning digits to paired products summed."
+}

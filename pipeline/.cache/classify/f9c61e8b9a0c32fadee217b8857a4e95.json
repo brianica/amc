@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "combinatorial-geometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count valid perfect matchings in a cycle graph with restricted edge set."
+}

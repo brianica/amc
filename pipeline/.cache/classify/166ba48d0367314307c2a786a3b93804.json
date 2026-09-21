@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "stars-and-bars"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count bill combinations totaling $800 with minimum one of each denomination."
+}

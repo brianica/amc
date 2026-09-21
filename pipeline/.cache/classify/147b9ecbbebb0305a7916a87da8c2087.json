@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "stars-and-bars",
+    "permutations-combinations"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count multinomial terms with all four variables having positive exponents"
+}

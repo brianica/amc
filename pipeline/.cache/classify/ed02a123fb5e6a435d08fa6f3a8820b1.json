@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "radicals",
+    "quadratics-vieta"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find sum of radical expressions given their difference using algebraic manipulation."
+}

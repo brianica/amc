@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "symmetry-arguments"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count distinct sums of two products using digits 1-4 once each"
+}

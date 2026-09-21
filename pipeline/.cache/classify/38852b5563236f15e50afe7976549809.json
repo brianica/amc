@@ -1,0 +1,8 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "solid-geometry"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the space diagonal of a rectangular box from given dimensions."
+}

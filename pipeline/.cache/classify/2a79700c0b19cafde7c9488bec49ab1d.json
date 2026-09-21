@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios",
+    "area-decomposition"
+  ],
+  "difficulty": 2,
+  "descriptor": "Calculate walkway area by subtracting flower beds from total garden."
+}

@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "similar-congruent",
+    "area-decomposition"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the area of an inscribed right triangle inside a given rectangle."
+}

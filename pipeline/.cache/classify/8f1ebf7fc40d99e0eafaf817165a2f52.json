@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "absolute-value"
+  ],
+  "difficulty": 3,
+  "descriptor": "Minimize digit sum of sum of two three-digit numbers with distinct digits"
+}

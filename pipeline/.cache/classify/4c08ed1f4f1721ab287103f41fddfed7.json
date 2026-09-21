@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "units-digit",
+    "modular-arithmetic",
+    "multiplication-principle"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find probability that odd base to arbitrary power has units digit one."
+}

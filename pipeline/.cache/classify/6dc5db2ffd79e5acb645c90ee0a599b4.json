@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "inequalities"
+  ],
+  "difficulty": 4,
+  "descriptor": "Maximize sum of vertex products on a cube by assigning numbers to faces"
+}

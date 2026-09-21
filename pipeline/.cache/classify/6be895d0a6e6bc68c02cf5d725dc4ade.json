@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "polynomials"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find inner rectangle length given three nested rectangles with areas in arithmetic progression."
+}

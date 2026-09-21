@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations",
+    "modular-arithmetic"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find missing digit in binomial coefficient using modular arithmetic constraints."
+}

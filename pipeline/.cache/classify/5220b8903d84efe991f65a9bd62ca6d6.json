@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "solid-geometry",
+    "coordinate-geometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Volume of solid swept around line segment within fixed distance."
+}

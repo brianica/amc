@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "logs-exponents",
+    "polynomials"
+  ],
+  "difficulty": 2,
+  "descriptor": "Telescoping product of power sums via difference-of-squares factoring"
+}

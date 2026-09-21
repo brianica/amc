@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "primes"
+  ],
+  "difficulty": 1,
+  "descriptor": "Smallest factorial divisible by a given integer using prime factorization"
+}

@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Minimize distinct values with unique mode constraint."
+}

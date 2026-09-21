@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count values of k where quadratic has two distinct integer roots"
+}

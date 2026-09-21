@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "inclusion-exclusion"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count seating arrangements with constraints on adjacent pairs."
+}

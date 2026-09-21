@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations",
+    "casework",
+    "multiplication-principle"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Count arrangements of eight cubes chosen from colored multiset of nine"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "floor-ceiling",
+    "modular-arithmetic"
+  ],
+  "difficulty": 2,
+  "descriptor": "Compute remainder of non-integer values using floor function definition."
+}

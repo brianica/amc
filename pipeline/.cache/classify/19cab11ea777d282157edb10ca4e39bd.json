@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count singular three-by-three binary matrices by casework on linear dependencies."
+}

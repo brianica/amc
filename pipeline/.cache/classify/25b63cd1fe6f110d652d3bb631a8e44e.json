@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find which total cannot satisfy given ratio constraints"
+}

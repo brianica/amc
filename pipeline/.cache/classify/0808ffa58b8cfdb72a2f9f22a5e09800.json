@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Find spiral walker's coordinates after 2020 left turns with increasing steps"
+}

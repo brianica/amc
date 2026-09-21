@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations",
+    "basic-probability",
+    "inclusion-exclusion"
+  ],
+  "difficulty": 3,
+  "descriptor": "Probability that a random permutation of six elements has exactly two fixed points"
+}

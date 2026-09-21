@@ -1,0 +1,9 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "logic-puzzles",
+    "casework"
+  ],
+  "difficulty": 2,
+  "descriptor": "Deduce which specific cards were distributed by using score constraints."
+}

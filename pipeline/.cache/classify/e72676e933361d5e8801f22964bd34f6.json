@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "polynomials"
+  ],
+  "difficulty": 4,
+  "descriptor": "Use the constraint to find a recurrence relation for powers of x."
+}

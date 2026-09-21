@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "coordinate-geometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the crease length when folding a right triangle so one vertex lands on another."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "linear-systems"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find constant given two perpendicular lines meeting at a specified point"
+}

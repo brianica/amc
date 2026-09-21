@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "area-decomposition",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find area of rectangle formed by two pairs of parallel lines"
+}

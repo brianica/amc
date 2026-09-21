@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios",
+    "trigonometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Area of smaller pentagon formed by folding regular pentagon vertices to center"
+}

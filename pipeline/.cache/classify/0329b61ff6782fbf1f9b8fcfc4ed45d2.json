@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases",
+    "divisibility"
+  ],
+  "difficulty": 1.5,
+  "descriptor": "Recover two-digit number from reversed digits of an arithmetic result"
+}

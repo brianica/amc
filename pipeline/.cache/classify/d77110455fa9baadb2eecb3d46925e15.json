@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "divisor-counting"
+  ],
+  "difficulty": 5,
+  "descriptor": "Find largest three-digit n where sum of first n integers does not divide n factorial."
+}

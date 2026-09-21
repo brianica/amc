@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems",
+    "functions"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find constant in perpendicular lines intersecting at given point."
+}

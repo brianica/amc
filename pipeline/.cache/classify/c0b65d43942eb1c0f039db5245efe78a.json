@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases",
+    "divisor-counting"
+  ],
+  "difficulty": 3,
+  "descriptor": "Maximize digit sum of base-seven representation below 2019."
+}

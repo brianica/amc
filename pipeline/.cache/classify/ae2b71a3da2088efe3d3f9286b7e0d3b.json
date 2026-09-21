@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "trigonometry",
+    "right-triangles"
+  ],
+  "difficulty": 3,
+  "descriptor": "Maximize side length of a triangle given an opposite side and angle"
+}

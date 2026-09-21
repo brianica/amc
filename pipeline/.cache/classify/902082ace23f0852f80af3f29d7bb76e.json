@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "units-digit",
+    "divisibility"
+  ],
+  "difficulty": 2,
+  "descriptor": "Determine sign and units digit of product of consecutive odd negatives"
+}

@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find minimum two-digit numbers summing to given value."
+}

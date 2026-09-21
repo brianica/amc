@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "similar-congruent"
+  ],
+  "difficulty": 3,
+  "descriptor": "Ratio of segments formed by intersecting an altitude and a median"
+}

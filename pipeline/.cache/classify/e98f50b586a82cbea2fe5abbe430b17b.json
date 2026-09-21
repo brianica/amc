@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "diophantine"
+  ],
+  "difficulty": 2,
+  "descriptor": "Minimum positive sum of three integers with a given product"
+}

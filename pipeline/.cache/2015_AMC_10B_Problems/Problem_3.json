@@ -1,0 +1,5 @@
+{
+  "page": "2015_AMC_10B_Problems/Problem_3",
+  "wikitext": "==Problem==\nIsaac has written down one integer two times and another integer three times. The sum of the five numbers is <math>100</math>, and one of the numbers is <math>28.</math> What is the other number?\n\n<math>\\textbf{(A) }8\\qquad\\textbf{(B) }11\\qquad\\textbf{(C) }14\\qquad\\textbf{(D) }15\\qquad\\textbf{(E) }18</math>\n\n==Solution==\n\nLet the first number be <math>x</math> and the second be <math>y</math>. We have <math>2x+3y=100</math>. We are given one of the numbers is <math>28</math>. If <math>x</math> were to be <math>28</math>, <math>y</math> would not be an integer, thus <math>y=28</math>.  <math>2x+3(28)=100</math>, which gives <math>x=\\boxed{\\textbf{(A) }8}</math>.\n\n==Video Solution 1==\nhttps://youtu.be/W4eSkC1O-Nk\n\n~Education, the Study of Everything\n\n==Video Solution==\nhttps://youtu.be/KrlMrXVNKTM\n\n~savannahsolver\n\n==See Also==\n{{AMC10 box|year=2015|ab=B|num-b=2|num-a=4}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-18T04:09:08.386Z"
+}

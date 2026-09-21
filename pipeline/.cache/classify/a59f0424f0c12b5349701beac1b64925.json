@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "gcd-lcm",
+    "modular-arithmetic",
+    "divisibility"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find smallest n above 1000 meeting two gcd conditions; sum digits."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases",
+    "divisibility"
+  ],
+  "difficulty": 1.5,
+  "descriptor": "Two numbers summing to 17402 where deleting a zero gives the other"
+}

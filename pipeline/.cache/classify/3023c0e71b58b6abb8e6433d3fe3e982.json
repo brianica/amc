@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "right-triangles"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find rectangle dimensions given diagonal and distance between cut corner vertices."
+}

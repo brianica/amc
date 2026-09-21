@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count four-digit numbers whose consecutive two-digit substrings form arithmetic progression."
+}

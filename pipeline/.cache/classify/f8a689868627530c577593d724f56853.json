@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "functions"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find vertical distance between two points on an implicit curve"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "multiplication-principle",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count cyclic triples in a round-robin tournament with balanced win-loss records."
+}

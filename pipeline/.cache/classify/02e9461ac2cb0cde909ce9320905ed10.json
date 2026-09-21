@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "symmetry-arguments"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find min and max values in specific row of spiral grid pattern."
+}

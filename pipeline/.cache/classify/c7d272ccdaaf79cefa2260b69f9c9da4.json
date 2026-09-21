@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "power-of-a-point",
+    "right-triangles"
+  ],
+  "difficulty": 3.5,
+  "descriptor": "Find circumcircle area given tangent circle touching two equal sides"
+}

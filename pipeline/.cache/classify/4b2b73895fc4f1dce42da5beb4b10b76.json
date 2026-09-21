@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "recursion-states",
+    "casework"
+  ],
+  "difficulty": 5,
+  "descriptor": "Number of valid single closed loops on a grid satisfying edge constraints"
+}

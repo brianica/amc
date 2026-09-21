@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "linear-systems"
+  ],
+  "difficulty": 2,
+  "descriptor": "Use remainder theorem to find polynomial coefficients from division conditions."
+}

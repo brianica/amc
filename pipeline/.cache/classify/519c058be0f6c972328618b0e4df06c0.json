@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "area-decomposition",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Calculate the area enclosed by inwardly reflected circular segments of a regular hexagon."
+}

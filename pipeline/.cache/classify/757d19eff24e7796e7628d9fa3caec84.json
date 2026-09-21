@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations",
+    "basic-probability"
+  ],
+  "difficulty": 3,
+  "descriptor": "Probability that two randomly selected 5-book subsets share exactly 2 books."
+}

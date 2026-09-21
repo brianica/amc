@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "trigonometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find perimeter of equilateral triangle formed by three lines"
+}

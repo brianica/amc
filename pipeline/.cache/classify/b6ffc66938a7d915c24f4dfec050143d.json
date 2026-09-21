@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "coordinate-geometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find a rectangle's area given its diagonal and a modified internal distance."
+}

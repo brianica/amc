@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios",
+    "area-decomposition"
+  ],
+  "difficulty": 1,
+  "descriptor": "Rectangle area after reducing the other dimension by one inch"
+}

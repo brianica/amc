@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "area-decomposition"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find the area enclosed by a curve involving absolute values and distance."
+}

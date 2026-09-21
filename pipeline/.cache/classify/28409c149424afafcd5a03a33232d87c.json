@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "gcd-lcm",
+    "divisibility"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find minimum money amount divisible by four different candy prices."
+}

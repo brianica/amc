@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "inclusion-exclusion"
+  ],
+  "difficulty": 1,
+  "descriptor": "Find the total length of a line given one position from both ends"
+}

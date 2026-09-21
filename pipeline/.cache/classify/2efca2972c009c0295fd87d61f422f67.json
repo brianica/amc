@@ -1,0 +1,8 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "logic-puzzles"
+  ],
+  "difficulty": 2,
+  "descriptor": "Determine race finishing position from relative placement constraints."
+}

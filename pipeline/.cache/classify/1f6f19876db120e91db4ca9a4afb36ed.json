@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "area-decomposition",
+    "polygons-area-ratios",
+    "similar-congruent"
+  ],
+  "difficulty": 2,
+  "descriptor": "Ratio of subregion areas formed inside a parallelogram by a midpoint line"
+}

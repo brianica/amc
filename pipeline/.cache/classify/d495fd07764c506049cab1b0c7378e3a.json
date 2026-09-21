@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "absolute-value"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find integer solutions to equation involving high-degree polynomial and quadratic"
+}

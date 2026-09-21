@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "area-decomposition",
+    "polygons-area-ratios",
+    "coordinate-geometry"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find square side length from disk sweep areas inside and outside."
+}

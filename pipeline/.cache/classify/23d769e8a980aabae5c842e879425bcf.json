@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "expected-value",
+    "basic-probability"
+  ],
+  "difficulty": 3,
+  "descriptor": "Expected number of coins showing heads after multiple conditional flips."
+}

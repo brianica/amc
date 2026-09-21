@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "triangle-basics",
+    "polygons-area-ratios"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find angle using square, isosceles triangle, and angles around a point"
+}

@@ -1,0 +1,10 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisibility",
+    "digits-bases",
+    "modular-arithmetic"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count three-digit multiples of 7 whose digit reversal is divisible by 5."
+}

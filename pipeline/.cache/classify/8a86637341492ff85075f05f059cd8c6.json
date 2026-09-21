@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "solid-geometry",
+    "circles",
+    "right-triangles"
+  ],
+  "difficulty": 4,
+  "descriptor": "Three equal mutually tangent spheres inside a cone; find radius"
+}

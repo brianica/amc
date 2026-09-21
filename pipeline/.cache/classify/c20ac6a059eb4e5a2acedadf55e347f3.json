@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "multiplication-principle",
+    "symmetry-arguments"
+  ],
+  "difficulty": 3.5,
+  "descriptor": "Count non-repeating face paths from top to bottom of dodecahedron"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "modular-arithmetic",
+    "gcd-lcm"
+  ],
+  "difficulty": 3,
+  "descriptor": "Remainder modulo 17 of the numerator of a scaled harmonic sum."
+}

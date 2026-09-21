@@ -1,0 +1,10 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "polynomials",
+    "radicals"
+  ],
+  "difficulty": 2.5,
+  "descriptor": "Evaluate a polynomial expression given x plus reciprocal equals a radical"
+}

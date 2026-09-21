@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "similar-congruent",
+    "triangle-basics"
+  ],
+  "difficulty": 2,
+  "descriptor": "Area of an isosceles triangle containing two stacked squares"
+}

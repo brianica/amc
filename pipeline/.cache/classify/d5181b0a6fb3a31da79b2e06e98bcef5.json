@@ -1,0 +1,9 @@
+{
+  "area": "logic-other",
+  "subtopics": [
+    "logic-puzzles",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find center value in grid where consecutive numbers share edges"
+}

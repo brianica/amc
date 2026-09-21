@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "transformations"
+  ],
+  "difficulty": 3,
+  "descriptor": "Area of a region bounded by nested absolute value inequalities"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "functions",
+    "absolute-value"
+  ],
+  "difficulty": 2,
+  "descriptor": "Evaluate a custom binary operation applied to numbers in different groupings."
+}

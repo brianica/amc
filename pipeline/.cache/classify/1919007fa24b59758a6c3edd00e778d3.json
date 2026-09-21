@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "recursion-states",
+    "sequences-series"
+  ],
+  "difficulty": 2,
+  "descriptor": "Evaluate nested expression by recognizing recursive pattern"
+}

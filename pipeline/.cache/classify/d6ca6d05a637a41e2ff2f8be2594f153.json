@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "absolute-value",
+    "functions"
+  ],
+  "difficulty": 1,
+  "descriptor": "Evaluate an expression defined by an absolute difference operation."
+}

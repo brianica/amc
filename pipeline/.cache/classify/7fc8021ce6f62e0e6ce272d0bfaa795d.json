@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "area-decomposition",
+    "similar-congruent"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the area of intersection between a rectangle and an overlapping square."
+}

@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Probability that a randomly two-colored complete five-vertex graph contains a monochromatic triangle."
+}

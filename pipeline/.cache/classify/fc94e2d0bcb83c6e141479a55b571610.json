@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "stars-and-bars",
+    "casework"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the number of positive integer combinations of bills totaling a value."
+}

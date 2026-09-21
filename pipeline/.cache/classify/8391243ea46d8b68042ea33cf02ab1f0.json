@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "gcd-lcm",
+    "divisor-counting"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count ordered triples satisfying three pairwise LCM conditions"
+}

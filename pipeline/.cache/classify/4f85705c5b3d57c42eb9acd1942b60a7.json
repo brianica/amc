@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "permutations-combinations"
+  ],
+  "difficulty": 1,
+  "descriptor": "Count distinct orderings of seven tiles with repeated colors"
+}

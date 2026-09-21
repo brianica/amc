@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "permutations-combinations",
+    "inclusion-exclusion"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count digit strings satisfying constraints on digit frequency thresholds."
+}

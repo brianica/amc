@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "circles",
+    "trigonometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find a coordinate determining a line of sight tangent to a circular silo."
+}

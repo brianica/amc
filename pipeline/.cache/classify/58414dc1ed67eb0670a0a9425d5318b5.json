@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases",
+    "floor-ceiling"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find leading digits of successive roots of repdigit number."
+}

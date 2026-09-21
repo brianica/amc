@@ -1,0 +1,10 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "recursion-states",
+    "expected-value"
+  ],
+  "difficulty": 2,
+  "descriptor": "Alternating coin tosses; find first player's winning probability via infinite series"
+}

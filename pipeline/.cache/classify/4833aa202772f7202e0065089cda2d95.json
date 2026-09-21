@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "similar-congruent",
+    "right-triangles"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find triangle area using circle diameter, extended chord, perpendicular segment"
+}

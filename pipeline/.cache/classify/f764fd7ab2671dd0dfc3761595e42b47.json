@@ -1,0 +1,8 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "radicals"
+  ],
+  "difficulty": 2,
+  "descriptor": "Evaluate a finite continued fraction by working from innermost to outermost level."
+}

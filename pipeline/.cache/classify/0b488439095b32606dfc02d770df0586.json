@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "functions",
+    "inequalities"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find the maximum difference between iterated function values given a Lipschitz condition."
+}

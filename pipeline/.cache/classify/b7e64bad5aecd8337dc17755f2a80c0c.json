@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "circles",
+    "trigonometry"
+  ],
+  "difficulty": 3.5,
+  "descriptor": "Find the radius of a circle tangent to three mutually tangent circles"
+}

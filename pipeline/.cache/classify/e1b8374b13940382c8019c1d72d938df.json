@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "sequences-series",
+    "diophantine"
+  ],
+  "difficulty": 2,
+  "descriptor": "Longest run of consecutive integers summing to a given value"
+}

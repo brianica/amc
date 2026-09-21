@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "combinatorial-geometry"
+  ],
+  "difficulty": 5,
+  "descriptor": "Count closed non-self-intersecting loops on grid with cell-side constraints."
+}

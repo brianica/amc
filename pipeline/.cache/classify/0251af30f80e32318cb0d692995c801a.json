@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems",
+    "rates-work-mixture"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find fraction of red knights that are magical given proportions and constraints."
+}

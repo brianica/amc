@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "linear-systems",
+    "rates-work-mixture"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find the difference in blue marbles between two jars using ratio constraints."
+}

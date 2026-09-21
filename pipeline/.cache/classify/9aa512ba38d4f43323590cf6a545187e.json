@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "area-decomposition",
+    "triangle-basics"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find pentagon's area built from eleven unit-length-2 segments, expressed as sum of radicals"
+}

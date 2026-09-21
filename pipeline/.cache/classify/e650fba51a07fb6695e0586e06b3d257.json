@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "multiplication-principle"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find probability of randomly answering at least 2 of 3 questions correctly."
+}

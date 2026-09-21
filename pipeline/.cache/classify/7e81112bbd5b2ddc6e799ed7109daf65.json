@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count integers below 1000 with hex representations using only numeric digits."
+}

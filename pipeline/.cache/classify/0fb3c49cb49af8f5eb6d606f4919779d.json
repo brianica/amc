@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "casework",
+    "multiplication-principle"
+  ],
+  "difficulty": 1.5,
+  "descriptor": "Pairing students by shirt color; find count of same-color yellow pairs"
+}

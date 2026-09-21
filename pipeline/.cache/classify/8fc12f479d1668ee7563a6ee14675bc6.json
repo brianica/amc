@@ -1,0 +1,8 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find point set where two of three expressions are equal and third is bounded."
+}

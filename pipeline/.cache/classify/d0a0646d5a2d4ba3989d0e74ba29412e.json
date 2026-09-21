@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "inequalities",
+    "absolute-value"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find distance interval where three false inequality statements hold simultaneously."
+}

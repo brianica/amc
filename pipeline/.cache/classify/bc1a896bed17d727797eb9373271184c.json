@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "absolute-value",
+    "inequalities"
+  ],
+  "difficulty": 1,
+  "descriptor": "Count integers whose absolute value is below three pi"
+}

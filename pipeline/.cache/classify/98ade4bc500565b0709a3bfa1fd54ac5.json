@@ -1,0 +1,8 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "modular-arithmetic"
+  ],
+  "difficulty": 2,
+  "descriptor": "Find total days to read 15 books with increasing duration, determine day of week modulo 7."
+}

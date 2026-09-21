@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "basic-probability",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Probability all even die faces appear before rolling first odd number"
+}

@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "functions"
+  ],
+  "difficulty": 3,
+  "descriptor": "Solve symmetric system of quadratic equations for sum of squares."
+}

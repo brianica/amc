@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "divisor-counting",
+    "inclusion-exclusion"
+  ],
+  "difficulty": 4,
+  "descriptor": "Count divisors of a prime power that are perfect squares or cubes"
+}

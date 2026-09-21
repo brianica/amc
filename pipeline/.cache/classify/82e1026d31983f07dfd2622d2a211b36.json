@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "coordinate-geometry",
+    "combinatorial-geometry",
+    "casework"
+  ],
+  "difficulty": 4,
+  "descriptor": "Label cube vertices with integers 1-8 so each face sum equals constant, counting distinct arrangements up to rotation."
+}

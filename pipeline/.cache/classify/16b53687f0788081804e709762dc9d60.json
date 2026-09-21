@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "right-triangles",
+    "triangle-basics",
+    "coordinate-geometry"
+  ],
+  "difficulty": 5,
+  "descriptor": "Find rectangle partition into triangles with integer side lengths"
+}

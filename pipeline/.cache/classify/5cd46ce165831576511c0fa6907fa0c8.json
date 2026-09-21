@@ -1,0 +1,9 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios",
+    "triangle-basics"
+  ],
+  "difficulty": 2,
+  "descriptor": "Count integer fourth side lengths forming a quadrilateral with three given sides"
+}

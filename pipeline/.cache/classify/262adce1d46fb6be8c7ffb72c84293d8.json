@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "multiplication-principle",
+    "stars-and-bars"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count positive integers with digits forming strictly increasing or strictly decreasing sequences."
+}

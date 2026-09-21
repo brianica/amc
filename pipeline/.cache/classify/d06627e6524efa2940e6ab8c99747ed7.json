@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "conditional-geometric-probability",
+    "basic-probability"
+  ],
+  "difficulty": 4,
+  "descriptor": "Find probability that ant's position exceeds threshold given random stopping conditions."
+}

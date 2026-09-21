@@ -1,0 +1,10 @@
+{
+  "area": "geometry",
+  "subtopics": [
+    "polygons-area-ratios",
+    "area-decomposition",
+    "triangle-basics"
+  ],
+  "difficulty": 3.5,
+  "descriptor": "Find perimeter of equiangular hexagon from two extended-side equilateral triangles' areas"
+}

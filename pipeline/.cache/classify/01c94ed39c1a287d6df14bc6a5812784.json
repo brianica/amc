@@ -1,0 +1,9 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "multiplication-principle",
+    "casework"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count nonnegative integers expressible in balanced ternary with eight digits"
+}

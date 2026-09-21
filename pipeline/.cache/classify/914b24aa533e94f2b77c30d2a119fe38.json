@@ -1,0 +1,9 @@
+{
+  "area": "number-theory",
+  "subtopics": [
+    "digits-bases",
+    "diophantine"
+  ],
+  "difficulty": 3,
+  "descriptor": "Count three-digit integers satisfying an equation involving repeating decimals"
+}

@@ -1,0 +1,10 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "quadratics-vieta",
+    "polynomials",
+    "inequalities"
+  ],
+  "difficulty": 2,
+  "descriptor": "Minimize a product of four consecutive linear factors plus constant"
+}

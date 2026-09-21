@@ -1,0 +1,8 @@
+{
+  "area": "counting-probability",
+  "subtopics": [
+    "combinatorial-geometry"
+  ],
+  "difficulty": 2,
+  "descriptor": "Minimum queries to guarantee intersecting a domino hidden in a grid."
+}

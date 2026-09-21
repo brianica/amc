@@ -1,0 +1,9 @@
+{
+  "area": "algebra",
+  "subtopics": [
+    "polynomials",
+    "functions"
+  ],
+  "difficulty": 3,
+  "descriptor": "Find the distance between two y-values for a fixed x-coordinate on a curve."
+}
