@@ -51,7 +51,11 @@ function loadBundle(): Promise<Record<string, string | null>> {
   if (!bundle) {
     bundle = readFile(BUNDLE_PATH, "utf8")
       .then((text) => JSON.parse(text) as Record<string, string | null>)
-      .catch(() => ({}));
+      .catch((err) => {
+        // TEMP DIAGNOSTIC — remove once the bundle reliably loads in production.
+        console.warn(`[statements debug] failed to load ${BUNDLE_PATH}: ${String(err)}`);
+        return {};
+      });
   }
   return bundle;
 }
