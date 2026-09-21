@@ -9,3 +9,5 @@ data/cache/
 .dev-data/
 next-env.d.ts
 tsconfig.tsbuildinfo
+.vercel
+.env*
