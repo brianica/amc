@@ -48,7 +48,9 @@ async function readCachedWikitext(page: string): Promise<string | null> {
   try {
     const entry = JSON.parse(await readFile(cachePath(page), "utf8")) as { wikitext: string | null };
     return entry.wikitext;
-  } catch {
+  } catch (err) {
+    // TEMP DIAGNOSTIC — remove after tracking down why production can't find the cache.
+    console.warn(`[statements debug] readCachedWikitext failed for ${cachePath(page)}: ${String(err)}`);
     return null;
   }
 }
