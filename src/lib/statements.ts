@@ -1,9 +1,15 @@
 import "server-only";
-import { readFile } from "node:fs/promises";
-import { join } from "node:path";
 import type { ExamFile } from "@pipeline/types";
 import { splitSections } from "@pipeline/extract";
 import { renderStatement, type RenderedStatement } from "./wikitext";
+// Generated TypeScript source, not a JSON file read at runtime: Vercel's serverless
+// deploy was silently dropping pipeline/.cache/ files (thousands of individual
+// entries, then a single merged bundle.json, then even a JSON import of it — Next
+// still compiles a JSON import to a runtime file read for a Node target) despite a
+// clean trace manifest and reasonable upload size each time. Actual .ts source is the
+// only form guaranteed to compile into the bundle with no file reference involved.
+// Run `npm run bundle-cache` after `npm run fetch` to regenerate it.
+import bundle from "./statement-cache.generated";
 
 /**
  * Serves problem statements from the local pipeline cache, for a private instance.
@@ -38,31 +44,8 @@ export function showStatements(): boolean {
   return on;
 }
 
-const BUNDLE_PATH = join(process.cwd(), "pipeline", ".cache", "bundle.json");
-
-// A serverless deploy silently drops files once pipeline/.cache/'s thousands of
-// individual entries are in play, even though `next build`'s own trace manifest lists
-// them and the upload size looks fine — `npm run bundle-cache` merges them into this
-// one file, which stays well inside whatever limit that was. Loaded once per instance
-// and reused, since every request needs it and it never changes at runtime.
-let bundle: Promise<Record<string, string | null>> | null = null;
-
-function loadBundle(): Promise<Record<string, string | null>> {
-  if (!bundle) {
-    bundle = readFile(BUNDLE_PATH, "utf8")
-      .then((text) => JSON.parse(text) as Record<string, string | null>)
-      .catch((err) => {
-        // TEMP DIAGNOSTIC — remove once the bundle reliably loads in production.
-        console.warn(`[statements debug] failed to load ${BUNDLE_PATH}: ${String(err)}`);
-        return {};
-      });
-  }
-  return bundle;
-}
-
-async function readCachedWikitext(page: string): Promise<string | null> {
-  const all = await loadBundle();
-  return all[page] ?? null;
+function readCachedWikitext(page: string): string | null {
+  return bundle[page] ?? null;
 }
 
 /** A MediaWiki redirect stub, e.g. "#redirect [[2025 AMC 12A Problems/Problem 1]]". */
@@ -79,8 +62,8 @@ function redirectTarget(wikitext: string): string | null {
  * offline by design, so this never makes a network call, and a target that was never
  * fetched (rather than fetching the source exam directly) just falls through to null.
  */
-async function cachedWikitext(page: string): Promise<string | null> {
-  const text = await readCachedWikitext(page);
+function cachedWikitext(page: string): string | null {
+  const text = readCachedWikitext(page);
   const target = text ? redirectTarget(text) : null;
   return target ? readCachedWikitext(target) : text;
 }
@@ -101,19 +84,17 @@ export interface StatementSet {
 export async function loadStatements(exam: ExamFile): Promise<StatementSet | null> {
   if (!showStatements()) return null;
 
-  const byQuestion = await Promise.all(
-    exam.problems.map(async (problem) => {
-      const page = `${exam.wikiPage}/Problem_${problem.n}`;
-      const wikitext = await cachedWikitext(page);
-      if (!wikitext) return null;
+  const byQuestion = exam.problems.map((problem) => {
+    const page = `${exam.wikiPage}/Problem_${problem.n}`;
+    const wikitext = cachedWikitext(page);
+    if (!wikitext) return null;
 
-      const { statement } = splitSections(wikitext);
-      if (!statement.trim()) return null;
+    const { statement } = splitSections(wikitext);
+    if (!statement.trim()) return null;
 
-      // Only the problem, never the solutions: the point is to sit the paper.
-      return renderStatement(statement);
-    }),
-  );
+    // Only the problem, never the solutions: the point is to sit the paper.
+    return renderStatement(statement);
+  });
 
   return { byQuestion, available: byQuestion.filter(Boolean).length };
 }
