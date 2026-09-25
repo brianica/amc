@@ -1,5 +1,5 @@
 {
   "page": "2013_AMC_8_Problems/Problem_2",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.399Z"
+  "wikitext": "==Problem==\nA sign at the fish market says, \"50<math>\\%</math> off, today only: half-pound packages for just \\$3 per package.\" What is the regular price for a full pound of fish, in dollars?\n\n<math>\\textbf{(A)}\\ 6 \\qquad \\textbf{(B)}\\ 9 \\qquad \\textbf{(C)}\\ 10 \\qquad \\textbf{(D)}\\ 12 \\qquad \\textbf{(E)}\\ 15</math>\n\n==Solution 1==\n50% off the price of half a pound of fish is \\$3, so 100%, the regular price, of a half pound of fish is \\$6. If half a pound of fish costs \\$6, then a whole pound of fish is <math>\\boxed{\\textbf{(D)}\\ 12}</math> dollars.\n\n==Solution 2==\nSuppose a full pound at normal price costs <math>x</math> dollars. Then, with the 50% off deal, the full pound would cost <math>x/2</math> dollars. A half pound of this would cost <math>x/4</math> dollars (including the 50% off). 50% off half a pound is 3, so we form the equation <math>x/4=3\\Rightarrow x=\\boxed{\\textbf{(D)}\\ 12}</math>.\n\n==Video Solution==\nhttps://youtu.be/om14Kv2jCck ~savannahsolver\n\n==See Also==\n{{AMC8 box|year=2013|num-b=1|num-a=3}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:46:15.204Z"
 }

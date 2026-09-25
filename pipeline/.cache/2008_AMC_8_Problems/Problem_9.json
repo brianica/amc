@@ -1,5 +1,5 @@
 {
   "page": "2008_AMC_8_Problems/Problem_9",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.377Z"
+  "wikitext": "==Problem==\nIn <math>2005</math> Tycoon Tammy invested <math>100</math> dollars for two years. During the first year\nher investment suffered a <math>15\\%</math> loss, but during the second year the remaining\ninvestment showed a <math>20\\%</math> gain. Over the two-year period, what was the change\nin Tammy's investment?\n\n<math>\\textbf{(A)}\\  5\\%\\text{ loss}\\qquad\n\\textbf{(B)}\\ 2\\%\\text{ loss}\\qquad\n\\textbf{(C)}\\ 1\\%\\text{ gain}\\qquad\n\\textbf{(D)}\\ 2\\% \\text{ gain} \\qquad\n\\textbf{(E)}\\  5\\%\\text{ gain}</math>\n\n==Solution==\nAfter the <math>15 \\%</math> loss, Tammy has <math>100 \\cdot 0.85 = 85</math> dollars. After the <math>20 \\%</math> gain, she has <math>85 \\cdot 1.2 = 102</math> dollars. This is an increase in <math>2</math> dollars from her original <math>100</math> dollars, a <math>\\boxed{\\textbf{(D)}\\ 2 \\%\\ \\text{gain}}</math>.\n==See Also==\n{{AMC8 box|year=2008|num-b=8|num-a=10}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:34:04.080Z"
 }

@@ -1,5 +1,5 @@
 {
   "page": "2003_AMC_8_Problems/Problem_7",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.355Z"
+  "wikitext": "==Problem==\nBlake and Jenny each took four <math>100</math>-point tests. Blake averaged <math>78</math> on the four tests. Jenny scored <math>10</math> points higher than Blake on the first test, <math>10</math> points lower than him on the second test, and <math>20</math> points higher on both the third and fourth tests. What is the difference between Jenny's average and Blake's average on these four tests?\n\n<math> \\mathrm{(A)}\\  10  \\qquad\\mathrm{(B)}\\ 15 \\qquad\\mathrm{(C)}\\ 20 \\qquad\\mathrm{(D)}\\ 25 \\qquad\\mathrm{(E)}\\ 40 </math>\n\n==Solution==\n\n===Solution 1===\nBlake scored a total of <math> 4 \\times 78=312 </math> points. Jenny scored <math> 10-10+20+20=40 </math> points higher than Blake, so her average is <math> \\frac{312+40}{4}=88 </math>. \nthe difference is <math> 88-78=\\boxed{\\mathrm{(A)}\\ 10} </math>.\n\n===Solution 2===\nThe total point difference between Blake's and Jenny's scores is <math> 10-10+20+20=40 </math>. The average of it is <math> \\frac{40}{4}=\\boxed{\\mathrm{(A)}\\ 10} </math>.\n\n==See Also==\n{{AMC8 box|year=2003|num-b=6|num-a=8}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:21:14.204Z"
 }

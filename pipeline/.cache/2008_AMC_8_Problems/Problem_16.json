@@ -1,5 +1,5 @@
 {
   "page": "2008_AMC_8_Problems/Problem_16",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.379Z"
+  "wikitext": "==Problem==\nA shape is created by joining seven unit cubes, as shown. What is the ratio of the volume in cubic units to the surface area in square units?\n\n<asy>\nimport three;\ndefaultpen(linewidth(0.8));\nreal r=0.5;\ncurrentprojection=orthographic(1,1/2,1/4);\ndraw(unitcube, white, thick(), nolight);\ndraw(shift(1,0,0)*unitcube, white, thick(), nolight);\ndraw(shift(1,-1,0)*unitcube, white, thick(), nolight);\ndraw(shift(1,0,-1)*unitcube, white, thick(), nolight);\ndraw(shift(2,0,0)*unitcube, white, thick(), nolight);\ndraw(shift(1,1,0)*unitcube, white, thick(), nolight);\ndraw(shift(1,0,1)*unitcube, white, thick(), nolight);</asy>\n\n<math>\\textbf{(A)} \\:1 : 6 \\qquad\\textbf{ (B)}\\: 7 : 36 \\qquad\\textbf{(C)}\\: 1 : 5 \\qquad\\textbf{(D)}\\: 7 : 30\\qquad\\textbf{ (E)}\\: 6 : 25</math>\n\n==Solution==\nThe volume is of seven unit cubes which is <math>7</math>. The surface area is the same for each of the protruding cubes which is <math>5\\cdot 6=30</math>. The ratio of the volume to the surface area is <math>\\boxed{\\textbf{(D)}\\: 7 : 30}</math>.\n\n==See Also==\n{{AMC8 box|year=2008|num-b=15|num-a=17}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:34:40.702Z"
 }

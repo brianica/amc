@@ -1,5 +1,5 @@
 {
   "page": "2006_AMC_8_Problems/Problem_21",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.370Z"
+  "wikitext": "==Problem==\nAn aquarium has a rectangular base that measures <imath>100</imath> cm by <imath>40</imath> cm and has a height of <imath>50</imath> cm. The aquarium is filled with water to a  depth of <imath>37</imath> cm. A rock with volume <imath>1000\\text{cm}^3</imath> is then placed in the aquarium and completely submerged. By how many centimeters does the water level rise? \n\n<imath> \\textbf{(A)}\\ 0.25\\qquad\\textbf{(B)}\\ 0.5\\qquad\\textbf{(C)}\\ 1\\qquad\\textbf{(D)}\\ 1.25\\qquad\\textbf{(E)}\\ 2.5 </imath>\n\n==Solution==\nThe water level will rise <imath>1</imath>cm for every <imath>100 \\cdot 40 = 4000\\text{cm}^2</imath>. Since <imath>1000</imath> is <imath>\\frac{1}{4}</imath> of <imath>4000</imath>, the water will rise <imath>\\frac{1}{4}\\cdot1 = \\boxed{\\textbf{(A)}\\ 0.25}</imath>\n\n~Jobberd\n\n==Video Solution==\n\nhttps://www.youtube.com/watch?v=DNMuW5prOwg   ~David\n\n==Video Solution by WhyMath==\nhttps://youtu.be/lqgpczqRklA\n\n==See Also==\n{{AMC8 box|year=2006|n=II|num-b=20|num-a=22}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:30:07.840Z"
 }

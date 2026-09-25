@@ -1,5 +1,5 @@
 {
   "page": "1999_AMC_8_Problems/Problem_12",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.336Z"
+  "wikitext": "== Problem ==\nThe ratio of the number of games won to the number of games lost (no ties) by the Middle School Middies is <math>11/4</math>. To the nearest whole percent, what percent of its games did the team lose?\n\n<math>\\text{(A)}\\ 24\\% \\qquad \\text{(B)}\\ 27\\% \\qquad \\text{(C)}\\ 36\\% \\qquad \\text{(D)}\\ 45\\% \\qquad \\text{(E)}\\ 73\\%</math>\n\n==Solution==\nThe ratio means that for every <math>11</math> games won, <math>4</math> are lost, so the team has won <math>11x</math> games, lost <math>4x</math> games, and played <math>15x</math> games for some positive integer <math>x</math>. The percentage of games lost is just <math>\\dfrac{4x}{15x}\\times100=\\dfrac{4}{15}\\times 100=26.\\overline{6}\\%\\approx\\boxed{\\text{(B)}\\ 27\\%}</math>\n\n==Alternate Solution==\nThe Won/Lost ratio is 11/4 so, for some number <math>N</math>, the team won <math>11N</math> games and lost <math>4N</math> games. Thus, the team played <math>15N</math> games and the fraction of games lost is <math>\\dfrac{4N}{15N}=\\dfrac{4}{15}\\approx 0.27=\\boxed{27\\%}.</math>\n-Clara Garza\n\n==Video Solution==\nhttps://youtu.be/hF4QIyb7R_4 Soo, DRMS, NM\n\n==See also==\n{{AMC8 box|year=1999|num-b=11|num-a=13}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:11:18.166Z"
 }

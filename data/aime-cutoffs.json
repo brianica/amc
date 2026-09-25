@@ -1,0 +1,430 @@
+{
+  "version": 1,
+  "note": "AIME qualification cutoffs (\"AIME Floor\") and percentile score bands for AMC 10 A/B, sourced by hand from AoPS's AMC historical results page (https://artofproblemsolving.com/wiki/index.php/AMC_historical_results), cross-checked against a locally saved copy of that page on 2026-09-23. Derived metadata only -- official scores and percentages the MAA itself publishes, not copyrighted problem text, matching every other file under data/. Keyed by competition + year + season + form, the same identity fields as an ExamRef, so a row matches an exam file without guessing. Percentile bands vary by year because the source page itself only reports whichever bands that year's report included -- absence of a band here means AoPS didn't publish it that year, not that it was skipped. AMC 12 rows are not yet populated; add them the same way if needed.",
+  "entries": [
+    {
+      "competition": "AMC10",
+      "year": 2015,
+      "season": null,
+      "form": "A",
+      "aimeCutoff": 106.5,
+      "percentiles": [
+        {
+          "top": 1,
+          "score": 115.5
+        }
+      ]
+    },
+    {
+      "competition": "AMC10",
+      "year": 2015,
+      "season": null,
+      "form": "B",
+      "aimeCutoff": 120.0,
+      "percentiles": [
+        {
+          "top": 1,
+          "score": 132.0
+        }
+      ]
+    },
+    {
+      "competition": "AMC10",
+      "year": 2016,
+      "season": null,
+      "form": "A",
+      "aimeCutoff": 111.0,
+      "percentiles": [
+        {
+          "top": 1,
+          "score": 120.0
+        }
+      ]
+    },
+    {
+      "competition": "AMC10",
+      "year": 2016,
+      "season": null,
+      "form": "B",
+      "aimeCutoff": 111.0,
+      "percentiles": [
+        {
+          "top": 1,
+          "score": 124.5
+        }
+      ]
+    },
+    {
+      "competition": "AMC10",
+      "year": 2017,
+      "season": null,
+      "form": "A",
+      "aimeCutoff": 112.5,
+      "percentiles": [
+        {
+          "top": 5,
+          "score": 112.5
+        },
+        {
+          "top": 1,
+          "score": 127.5
+        }
+      ]
+    },
+    {
+      "competition": "AMC10",
+      "year": 2017,
+      "season": null,
+      "form": "B",
+      "aimeCutoff": 120.0,
+      "percentiles": [
+        {
+          "top": 5,
+          "score": 126.66666
+        },
+        {
+          "top": 1,
+          "score": 136.5
+        }
+      ]
+    },
+    {
+      "competition": "AMC10",
+      "year": 2018,
+      "season": null,
+      "form": "A",
+      "aimeCutoff": 111.0,
+      "percentiles": [
+        {
+          "top": 5,
+          "score": 100.5
+        },
+        {
+          "top": 1,
+          "score": 127.5
+        }
+      ]
+    },
+    {
+      "competition": "AMC10",
+      "year": 2018,
+      "season": null,
+      "form": "B",
+      "aimeCutoff": 108.0,
+      "percentiles": [
+        {
+          "top": 5,
+          "score": 97.5
+        },
+        {
+          "top": 1,
+          "score": 123.0
+        }
+      ]
+    },
+    {
+      "competition": "AMC10",
+      "year": 2019,
+      "season": null,
+      "form": "A",
+      "aimeCutoff": 103.5,
+      "percentiles": [
+        {
+          "top": 5,
+          "score": 96.0
+        },
+        {
+          "top": 1,
+          "score": 123.0
+        }
+      ]
+    },
+    {
+      "competition": "AMC10",
+      "year": 2019,
+      "season": null,
+      "form": "B",
+      "aimeCutoff": 108.0,
+      "percentiles": [
+        {
+          "top": 5,
+          "score": 102.0
+        },
+        {
+          "top": 1,
+          "score": 121.5
+        }
+      ]
+    },
+    {
+      "competition": "AMC10",
+      "year": 2020,
+      "season": null,
+      "form": "A",
+      "aimeCutoff": 103.5,
+      "percentiles": [
+        {
+          "top": 5,
+          "score": 105.0
+        },
+        {
+          "top": 1,
+          "score": 124.5
+        }
+      ]
+    },
+    {
+      "competition": "AMC10",
+      "year": 2020,
+      "season": null,
+      "form": "B",
+      "aimeCutoff": 102.0,
+      "percentiles": [
+        {
+          "top": 5,
+          "score": 103.5
+        },
+        {
+          "top": 1,
+          "score": 120.0
+        }
+      ]
+    },
+    {
+      "competition": "AMC10",
+      "year": 2021,
+      "season": null,
+      "form": "A",
+      "aimeCutoff": 103.5,
+      "percentiles": [
+        {
+          "top": 5,
+          "score": 112.5
+        },
+        {
+          "top": 1,
+          "score": 132.0
+        }
+      ]
+    },
+    {
+      "competition": "AMC10",
+      "year": 2021,
+      "season": null,
+      "form": "B",
+      "aimeCutoff": 102.0,
+      "percentiles": [
+        {
+          "top": 5,
+          "score": 108.0
+        },
+        {
+          "top": 1,
+          "score": 126.0
+        }
+      ]
+    },
+    {
+      "competition": "AMC10",
+      "year": 2021,
+      "season": "fall",
+      "form": "A",
+      "aimeCutoff": 96.0,
+      "percentiles": [
+        {
+          "top": 5,
+          "score": 100.5
+        },
+        {
+          "top": 1,
+          "score": 117.0
+        }
+      ]
+    },
+    {
+      "competition": "AMC10",
+      "year": 2021,
+      "season": "fall",
+      "form": "B",
+      "aimeCutoff": 96.0,
+      "percentiles": [
+        {
+          "top": 5,
+          "score": 100.5
+        },
+        {
+          "top": 1,
+          "score": 120.0
+        }
+      ]
+    },
+    {
+      "competition": "AMC10",
+      "year": 2022,
+      "season": null,
+      "form": "A",
+      "aimeCutoff": 93.0,
+      "percentiles": [
+        {
+          "top": 5,
+          "score": 99.0
+        },
+        {
+          "top": 1,
+          "score": 120.0
+        }
+      ]
+    },
+    {
+      "competition": "AMC10",
+      "year": 2022,
+      "season": null,
+      "form": "B",
+      "aimeCutoff": 94.5,
+      "percentiles": [
+        {
+          "top": 5,
+          "score": 100.5
+        },
+        {
+          "top": 1,
+          "score": 114.0
+        }
+      ]
+    },
+    {
+      "competition": "AMC10",
+      "year": 2023,
+      "season": null,
+      "form": "A",
+      "aimeCutoff": 103.5,
+      "percentiles": [
+        {
+          "top": 5,
+          "score": 111.0
+        },
+        {
+          "top": 1,
+          "score": 136.5
+        }
+      ]
+    },
+    {
+      "competition": "AMC10",
+      "year": 2023,
+      "season": null,
+      "form": "B",
+      "aimeCutoff": 105.0,
+      "percentiles": [
+        {
+          "top": 5,
+          "score": 112.5
+        },
+        {
+          "top": 1,
+          "score": 135.0
+        }
+      ]
+    },
+    {
+      "competition": "AMC10",
+      "year": 2024,
+      "season": null,
+      "form": "A",
+      "aimeCutoff": 94.5,
+      "percentiles": [
+        {
+          "top": 5,
+          "score": 105.0
+        },
+        {
+          "top": 2.5,
+          "score": 118.5
+        },
+        {
+          "top": 1,
+          "score": 132.0
+        }
+      ]
+    },
+    {
+      "competition": "AMC10",
+      "year": 2024,
+      "season": null,
+      "form": "B",
+      "aimeCutoff": 105.0,
+      "percentiles": [
+        {
+          "top": 5,
+          "score": 114.0
+        },
+        {
+          "top": 2.5,
+          "score": 126.0
+        },
+        {
+          "top": 1,
+          "score": 138.0
+        }
+      ]
+    },
+    {
+      "competition": "AMC10",
+      "year": 2025,
+      "season": null,
+      "form": "A",
+      "aimeCutoff": 105.0,
+      "percentiles": [
+        {
+          "top": 25,
+          "score": 69.0
+        },
+        {
+          "top": 10,
+          "score": 94.5
+        },
+        {
+          "top": 5,
+          "score": 112.5
+        },
+        {
+          "top": 2.5,
+          "score": 124.5
+        },
+        {
+          "top": 1,
+          "score": 136.5
+        }
+      ]
+    },
+    {
+      "competition": "AMC10",
+      "year": 2025,
+      "season": null,
+      "form": "B",
+      "aimeCutoff": 99.0,
+      "percentiles": [
+        {
+          "top": 25,
+          "score": 66.0
+        },
+        {
+          "top": 10,
+          "score": 87.0
+        },
+        {
+          "top": 5,
+          "score": 105.0
+        },
+        {
+          "top": 2.5,
+          "score": 120.0
+        },
+        {
+          "top": 1,
+          "score": 133.5
+        }
+      ]
+    }
+  ]
+}

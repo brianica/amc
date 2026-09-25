@@ -1,5 +1,5 @@
 {
   "page": "2017_AMC_8_Problems/Problem_6",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.421Z"
+  "wikitext": "==Problem==\n\nIf the degree measures of the angles of a triangle are in the ratio <math>3:3:4</math>, what is the degree measure of the largest angle of the triangle?\n\n<math>\\textbf{(A) }18\\qquad\\textbf{(B) }36\\qquad\\textbf{(C) }60\\qquad\\textbf{(D) }72\\qquad\\textbf{(E) }90</math>\n\n==Solution 1==\n\nThe sum of the ratios is <math>10</math>.  Since the sum of the angles of a triangle is <math>180^{\\circ}</math>, the ratio can be scaled up to <math>54:54:72</math> <math>(3\\cdot 18:3\\cdot 18:4\\cdot 18).</math>  The numbers in the ratio <math>54:54:72</math> represent the angles of the triangle.  The question asks for the largest, so the answer is <math>\\boxed{\\textbf{(D) }72}</math>.\n\n==Solution 2==\nWe can denote the angles of the triangle as <math>3x</math>, <math>3x</math>, <math>4x</math>. Due to the sum of the angles in a triangle, <math>3x+3x+4x=180^{\\circ}\\implies x=18^{\\circ}</math>. The greatest angle is <math>4x</math> and after substitution we get <math>\\boxed{\\textbf{(D) }72}</math>.\n\n~MathFun1000\n\n==Video Solution (CREATIVE THINKING!!!)==\nhttps://youtu.be/2CmjcUwuYoE\n\n~Education, the Study of Everything\n\n==Video Solution==\nhttps://youtu.be/rQUwNC0gqdg?t=635\n\nhttps://youtu.be/ykR1ApGP0Qg\n\n~savannahsolver\n\n==See Also==\n{{AMC8 box|year=2017|num-b=5|num-a=7}}\n\n{{MAA Notice}}\n\n[[Category:Introductory Geometry Problems]]",
+  "fetchedAt": "2026-09-19T04:56:52.991Z"
 }

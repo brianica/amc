@@ -1,5 +1,5 @@
 {
   "page": "2006_AMC_8_Problems/Problem_6",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.368Z"
+  "wikitext": "== Problem ==\nThe letter T is formed by placing two <math> 2 \\times 4 </math> inch rectangles next to each other, as shown. What is the perimeter of the T, in inches? \n\n<asy>\nsize(150);\ndraw((0,6)--(4,6)--(4,4)--(3,4)--(3,0)--(1,0)--(1,4)--(0,4)--cycle, linewidth(1));</asy>\n\n<math> \\textbf{(A)}\\ 12\\qquad\\textbf{(B)}\\ 16\\qquad\\textbf{(C)}\\ 20\\qquad\\textbf{(D)}\\ 22\\qquad\\textbf{(E)}\\ 24 </math>\n\n== Solution ==\nIf the two rectangles were seperate, the perimeter would be <math> 2(2(2+4)=24 </math>. It easy to see that their connection erases 2 from each of the rectangles, so the final perimeter is <math> 24-2 \\times 2 = \\boxed{\\textbf{(C)}\\ 20} </math>.\n\n==Video Solution by OmegaLearn==\nhttps://youtu.be/abSgjn4Qs34?t=1531\n\n~ pi_is_3.14\n\n==Video Solution by WhyMath==\nhttps://youtu.be/KS7M9uzD9SI\n\n==See Also==\n{{AMC8 box|year=2006|num-b=5|num-a=7}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:28:47.487Z"
 }

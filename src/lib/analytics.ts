@@ -1,6 +1,6 @@
 import type { ExamFile, Tier } from "@pipeline/types";
 import { parseAnswers, scoreAttempt } from "@pipeline/score";
-import type { AttemptRecord, ErrorCategory, ProblemLogRecord, TimeBucket } from "./store";
+import type { CompleteAttemptRecord, ErrorCategory, ProblemLogRecord, TimeBucket } from "./store";
 
 export const TIERS: Tier[] = ["T1", "T2", "T3"];
 export const TIER_LABEL: Record<Tier, string> = {
@@ -49,8 +49,8 @@ export interface AttemptOrdinal {
  * Ties on the date fall back to insertion order, so two sittings on one day still
  * come out stable rather than swapping between renders.
  */
-export function attemptOrdinals(attempts: AttemptRecord[]): Map<string, AttemptOrdinal> {
-  const byExam = new Map<string, AttemptRecord[]>();
+export function attemptOrdinals(attempts: CompleteAttemptRecord[]): Map<string, AttemptOrdinal> {
+  const byExam = new Map<string, CompleteAttemptRecord[]>();
   for (const a of attempts) {
     byExam.set(a.exam_id, [...(byExam.get(a.exam_id) ?? []), a]);
   }
@@ -105,7 +105,7 @@ export interface Headline {
 }
 
 /** Every question of every logged paper, with whether it was answered correctly. */
-function questionOutcomes(attempts: AttemptRecord[], lookup: ExamLookup) {
+function questionOutcomes(attempts: CompleteAttemptRecord[], lookup: ExamLookup) {
   return attempts.flatMap((attempt) => {
     const exam = lookup(attempt.exam_id);
     if (!exam) return [];
@@ -131,7 +131,7 @@ function questionOutcomes(attempts: AttemptRecord[], lookup: ExamLookup) {
  * The denominator is what makes this a strength/weakness picture rather than a
  * tally of mistakes, and it is only available because the exams are pre-tagged.
  */
-export function strengthGrid(attempts: AttemptRecord[], lookup: ExamLookup): {
+export function strengthGrid(attempts: CompleteAttemptRecord[], lookup: ExamLookup): {
   areas: string[];
   cells: Cell[];
 } {
@@ -176,7 +176,7 @@ export function strengthGrid(attempts: AttemptRecord[], lookup: ExamLookup): {
  * evidence of a weakness.
  */
 export function subtopicBreakdown(
-  attempts: AttemptRecord[],
+  attempts: CompleteAttemptRecord[],
   lookup: ExamLookup,
   minSeen = 2,
 ): SubtopicRow[] {
@@ -201,9 +201,9 @@ export function subtopicBreakdown(
 }
 
 export function scoreTrend(
-  attempts: AttemptRecord[],
+  attempts: CompleteAttemptRecord[],
   lookup: ExamLookup,
-  label: (exam: ExamFile, attempt: AttemptRecord) => string,
+  label: (exam: ExamFile, attempt: CompleteAttemptRecord) => string,
 ): TrendPoint[] {
   return attempts
     .map((a) => {
@@ -224,10 +224,10 @@ export function scoreTrend(
 }
 
 export function mistakeMix(
-  attempts: AttemptRecord[],
+  attempts: CompleteAttemptRecord[],
   logs: ProblemLogRecord[],
   lookup: ExamLookup,
-  label: (exam: ExamFile, attempt: AttemptRecord) => string,
+  label: (exam: ExamFile, attempt: CompleteAttemptRecord) => string,
 ): MixPoint[] {
   const byAttempt = new Map<string, ProblemLogRecord[]>();
   for (const log of logs) {
@@ -259,7 +259,7 @@ export function mistakeMix(
 }
 
 export function headline(
-  attempts: AttemptRecord[],
+  attempts: CompleteAttemptRecord[],
   logs: ProblemLogRecord[],
   lookup: ExamLookup,
 ): Headline {

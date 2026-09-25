@@ -1,5 +1,5 @@
 {
   "page": "2003_AMC_8_Problems/Problem_23",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.358Z"
+  "wikitext": "==Problem==\nIn the pattern below, the cat moves clockwise through the four squares,  and the mouse moves counterclockwise through the eight exterior segments of the four squares.\n\n<center>\n[[Image:2003amc8prob23a.png|800px]]\n</center>\n\nIf the pattern is continued, where would the cat and mouse be after the 247th move?\n\n<center>\n[[Image:2003amc8prob23b.png|800px]]\n</center>\n\n==Solution==\n\nBreak this problem into two parts: where the cat will be after the <math>247^{\\text{th}}</math> move, and where the mouse will be.\n\nThe cat has four possible positions in 1 cycle which are repeated every four moves. <math>247</math> has a remainder of <math>3</math> when divided by <math>4</math>. This corresponds to the position the cat has after the 3rd move, which is the bottom right corner.\n\nSimilarly, the mouse has eight possible positions in 1 cycle that repeat every eight moves. <math>247</math> has a remainder of <math>7</math> when divided by <math>8</math>. This corresponds to the position the mouse has after the 7th move which is bottom left corner. \n\nThe only arrangement with the mouse in that position and the cat in the bottom right square is <math>\\boxed{\\textbf{(A)}}</math>.\n\n==Video Solution==\n\nhttps://www.youtube.com/watch?v=OxtaQkcJDfU   ~David\n\n==See Also==\n{{AMC8 box|year=2003|num-b=22|num-a=24}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:22:41.773Z"
 }

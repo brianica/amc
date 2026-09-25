@@ -1,5 +1,5 @@
 {
   "page": "2012_AMC_8_Problems/Problem_2",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.395Z"
+  "wikitext": "==Problem==\nIn the country of East Westmore, statisticians estimate there is a baby born every <math> 8 </math> hours and a death every day. To the nearest hundred, how many people are added to the population of East Westmore each year?\n\n<math> \\textbf{(A)}\\hspace{.05in}600\\qquad\\textbf{(B)}\\hspace{.05in}700\\qquad\\textbf{(C)}\\hspace{.05in}800\\qquad\\textbf{(D)}\\hspace{.05in}900\\qquad\\textbf{(E)}\\hspace{.05in}1000 </math>\n\n==Solution==\nThere are <math>24\\text{ hours}\\div8\\text{ hours} = 3</math> births and one death everyday in East Westmore. Therefore, the population increases by <math>3</math> - <math>1</math> = <math>2</math> people everyday. Thus, there are <math>2 \\times 365 = 730</math> people added to the population every year. Rounding, we find the answer is <math>\\boxed{\\textbf{(B)}\\ 700}</math>.\n\n==Video Solution==\nhttps://youtu.be/gpOF59bnzWw ~savannahsolver\n\n==See Also==\n{{AMC8 box|year=2012|num-b=1|num-a=3}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:43:42.922Z"
 }

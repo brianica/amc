@@ -1,5 +1,5 @@
 {
   "page": "2005_AMC_8_Problems/Problem_4",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.364Z"
+  "wikitext": "==Problem==\nA square and a triangle have equal perimeters. The lengths of the three sides of the triangle are 6.1 cm, 8.2 cm and 9.7 cm. What is the area of the square in square centimeters?\n\n<math> \\textbf{(A)}\\ 24\\qquad\\textbf{(B)}\\ 25\\qquad\\textbf{(C)}\\ 36\\qquad\\textbf{(D)}\\ 48\\qquad\\textbf{(E)}\\ 64 </math>\n\n==Solution==\nThe perimeter of the triangle is <math>6.1+8.2+9.7=24</math> cm. A square's perimeter is four times its sidelength, since all its sidelengths are equal. If the square's perimeter is <math>24</math>, the sidelength is <math>24/4=6</math>, and the area is <math>6^2=\\boxed{\\textbf{(C)}\\ 36}</math>.\n\n==See Also==\n{{AMC8 box|year=2005|num-b=3|num-a=5}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:26:00.941Z"
 }

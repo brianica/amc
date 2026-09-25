@@ -1,5 +1,5 @@
 {
   "page": "2009_AMC_8_Problems/Problem_24",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.385Z"
+  "wikitext": "==Problem==\n\nThe letters <math>A</math>, <math>B</math>, <math>C</math> and <math>D</math> represent digits. If  <math> \\begin{tabular}{ccc}&A&B\\\\ +&C&A\\\\ \\hline &D&A\\end{tabular} </math>and <math> \\begin{tabular}{ccc}&A&B\\\\ -&C&A\\\\ \\hline &&A\\end{tabular} </math>,what digit does <math>D</math> represent?\n\n<math> \\textbf{(A)}\\ 5\\qquad\\textbf{(B)}\\ 6\\qquad\\textbf{(C)}\\ 7\\qquad\\textbf{(D)}\\ 8\\qquad\\textbf{(E)}\\ 9 </math>\n\n==Solution==\n\nBecause <imath> B+A=A </imath>, <imath>B</imath> must be <imath>0</imath>.\nNext, because <imath> B-A=A\\implies0-A=A,</imath> we get <imath>A=5</imath> as the \"0\" mentioned above is actually 10 in this case. \n\nNow we can rewrite <imath> \\begin{tabular}{ccc}&A&0\\\\ +&C&A\\\\ \\hline &D&A\\end{tabular} </imath> as <imath> \\begin{tabular}{ccc}&5&0\\\\ +&C&5\\\\ \\hline &D&5\\end{tabular} </imath>. Therefore, <imath>D=5+C.</imath>\n\nFinally, <imath> A-1-C=0\\implies{A=C+1}\\implies{C=4} </imath>, So we have <imath> D=5+C\\implies{D=5+4}=\\boxed{\\textbf{(E)}\\ 9 } </imath>.\n\n\n==Video Solution==\n\n\nhttps://www.youtube.com/watch?v=bfswsEB-kJU \n--WhyMath\n\n==See Also==\n{{AMC8 box|year=2009|num-b=23|num-a=25}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:38:02.568Z"
 }

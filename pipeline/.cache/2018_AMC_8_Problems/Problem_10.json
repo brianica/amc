@@ -1,5 +1,5 @@
 {
   "page": "2018_AMC_8_Problems/Problem_10",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.426Z"
+  "wikitext": "==Problem==\nThe harmonic mean of a set of non-zero numbers is the reciprocal of the average of the reciprocals of the numbers. What is the harmonic mean of 1, 2, and 4?\n\n<math>\\textbf{(A) }\\frac{3}{7}\\qquad\\textbf{(B) }\\frac{7}{12}\\qquad\\textbf{(C) }\\frac{12}{7}\\qquad\\textbf{(D) }\\frac{7}{4}\\qquad \\textbf{(E) }\\frac{7}{3}</math>\n\n== Solution ==\nThe sum of the reciprocals is <imath>\\frac{1}{1} + \\frac{1}{2} + \\frac{1}{4}= \\frac{7}{4}</imath>. Their average is <imath>\\frac{7}{12}</imath>. Taking the reciprocal of this gives <imath>\\boxed{\\textbf{(C) }\\frac{12}{7}}</imath>.\n\n~Flexo3168\n\n== Video Solution (CRITICAL THINKING!!!)==\nhttps://youtu.be/zlmUJMwHpqk\n\n~EzLx\n\n== Video Solution (Detailed)==\nhttps://youtu.be/TkZvMa30Juo?t=2935\n\n~OmegaLearn (Sohil Rathi)\n\n==Video Solution==\nhttps://youtu.be/PA9X-2xLuxY\n\n~savannahsolver\n\n==See Also==\n{{AMC8 box|year=2018|num-b=9|num-a=11}}\n\n{{MAA Notice}}\n\n[[Category:Introductory Algebra Problems]]",
+  "fetchedAt": "2026-09-19T04:59:51.905Z"
 }

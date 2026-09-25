@@ -1,5 +1,5 @@
 {
   "page": "2014_AMC_8_Problems/Problem_19",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.405Z"
+  "wikitext": "==Problem==\nA cube with <math>3</math>-inch edges is to be constructed from <math>27</math> smaller cubes with <math>1</math>-inch edges. Twenty-one of the cubes are colored red and <math>6</math> are colored white. If the <math>3</math>-inch cube is constructed to have the smallest possible white surface area showing, what fraction of the surface area is white?\n\n<math> \\textbf{(A) }\\frac{5}{54}\\qquad\\textbf{(B) }\\frac{1}{9}\\qquad\\textbf{(C) }\\frac{5}{27}\\qquad\\textbf{(D) }\\frac{2}{9}\\qquad\\textbf{(E) }\\frac{1}{3} </math>\n\n==JasonDaGoat Solution==\nIn a <imath>3\\times3\\times3</imath> cube, <imath>26</imath> of the cubes are on the outside. We put one white colored cube on the inside, and we put them in the middle, thus having one square per cube. This means that <imath>\\dfrac{5}{54}</imath> of the squares are white so the answer is <imath>\\boxed{\\textbf{(A) }\\frac{5}{54}}</imath>.\n\n==Solution==\nFor the least possible surface area that is white, we should have 1 cube in the center, and the other 5 with only 1 face exposed. This gives 5 square inches of white, surface area. Since the cube has a surface area of 54 square inches, our answer is <math>\\boxed{\\textbf{(A) }\\frac{5}{54}}</math>.\n\n==Video Solution==\nhttps://youtu.be/dqGi7YtApwo ~savannahsolver\n\n==See Also==\n{{AMC8 box|year=2014|num-b=18|num-a=20}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:50:25.252Z"
 }

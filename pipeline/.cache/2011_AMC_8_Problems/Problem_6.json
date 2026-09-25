@@ -1,5 +1,5 @@
 {
   "page": "2011_AMC_8_Problems/Problem_6",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.391Z"
+  "wikitext": "==Problem==\nIn a town of <math>351</math> adults, every adult owns a car, motorcycle, or both. If <math>331</math> adults own cars and <math>45</math> adults own motorcycles, how many of the car owners do not own a motorcycle?\n\n<math>\\textbf{(A)}\\ 20 \\qquad \\textbf{(B)}\\ 25 \\qquad \\textbf{(C)}\\ 45 \\qquad \\textbf{(D)}\\ 306 \\qquad \\textbf{(E)}\\ 351</math>\n\n\n==Solution 1==\n\nBy [[PIE]], the number of adults who own both cars and motorcycles is <math>331+45-351=25.</math> Out of the <math>331</math> car owners, <math>25</math> of them own motorcycles and <math>331-25=\\boxed{\\textbf{(D)}\\ 306}</math> of them don't.\n\n==Solution 2==\n\nThere are <math>351</math> total adults, and <math>45</math> own a motorcycle. The number of adults that don't own a motorcycle is <math>351 - 45 = 306</math>. Since everyone owns a car or motorcycle and one who doesn't own a motorcycle owns a car, the answer is <math>\\boxed{\\textbf{(D)}\\ 306}</math>.\n\n==Solution 3 (answer choices)==\n\nClearly, we can eliminate answer choice <math>E</math>, for at least one adult owns motorcycles. It is also fairly obvious that the answer must be in the 300 range, giving us <math>\\boxed{\\textbf{(D)}\\ 306}</math>\n\n==Video Solution by WhyMath==\nhttps://youtu.be/y_8-9-k7VuI\n\n==See Also==\n{{AMC8 box|year=2011|num-b=5|num-a=7}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:41:28.563Z"
 }

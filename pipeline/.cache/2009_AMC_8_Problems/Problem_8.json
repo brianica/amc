@@ -1,5 +1,5 @@
 {
   "page": "2009_AMC_8_Problems/Problem_8",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.383Z"
+  "wikitext": "==Problem==\n\nThe length of a rectangle is increased by <math> 10\\%</math> percent and the width is decreased by <math> 10\\%</math> percent. What percent of the old area is the new area?\n\n\n<math> \\textbf{(A)}\\  90  \\qquad\n\\textbf{(B)}\\   99  \\qquad\n\\textbf{(C)}\\   100  \\qquad\n\\textbf{(D)}\\   101  \\qquad\n\\textbf{(E)}\\   110</math>\n\n==Solution==\nIn a rectangle with dimensions <math>10 \\times 10</math>, the new rectangle would have dimensions <math>11 \\times 9</math>. The ratio of the new area to the old area is <math>99/100 = \\boxed{\\textbf{(B)}\\ 99}</math>.\n\n===Solution 2===\nIf you take the length as <math>x</math> and the width as <math>y</math> then\nA(OLD)= <math>xy</math>\nA(NEW)= <math>1.1x\\times.9y</math> = <math>.99xy</math>\n<math>0.99/1=99\\%</math>\n\n==Video Solution==\nhttps://youtu.be/4io4bjzgQKI\n\n~savannahsolver\n\n==Easier to understand Video Solution==\nhttps://www.youtube.com/watch?v=cZUT7lYu474&t=4s\n\n==See Also==\n{{AMC8 box|year=2009|num-b=7|num-a=9}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:36:31.553Z"
 }

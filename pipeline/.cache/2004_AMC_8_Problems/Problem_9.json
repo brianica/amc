@@ -1,5 +1,5 @@
 {
   "page": "2004_AMC_8_Problems/Problem_9",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.360Z"
+  "wikitext": "== Problem ==\nThe average of the five numbers in a list is <math>54</math>. The average of the first two\nnumbers is <math>48</math>. What is the average of the last three numbers?\n\n<math>\\textbf{(A)}\\ 55 \\qquad \\textbf{(B)}\\ 56 \\qquad \\textbf{(C)}\\ 57 \\qquad \\textbf{(D)}\\ 58 \\qquad \\textbf{(E)}\\ 59</math>\n\n== Solution ==\nLet the <math>5</math> numbers be <math>a, b, c, d</math>, and <math>e</math>. Thus <math>\\frac{a+b+c+d+e}{5}=54</math> and <math>a+b+c+d+e=270</math>. Since <math>\\frac{a+b}{2}=48</math>, <math>a+b=96</math>. Substituting back into our original equation, we have <math>96+c+d+e=270</math> and <math>c+d+e=174</math>. Dividing by <math>3</math> gives the average of <math>\\boxed{\\textbf{(D)}\\ 58}</math>.\n\n==See Also==\n{{AMC8 box|year=2004|num-b=8|num-a=10}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:23:57.220Z"
 }

@@ -1,5 +1,5 @@
 {
   "page": "2009_AMC_8_Problems/Problem_11",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.383Z"
+  "wikitext": "==Problem==\n\nThe Amaco Middle School bookstore sells pencils costing a whole number of cents. Some seventh graders each bought a pencil, paying a total of <math>1.43</math> dollars. Some of the <math> 30</math> sixth graders each bought a pencil, and they paid a total of <math>1.95</math> dollars. How many more sixth graders than seventh graders bought a pencil?\n\n<math> \\textbf{(A)}\\  1  \\qquad\n\\textbf{(B)}\\   2  \\qquad\n\\textbf{(C)}\\   3  \\qquad\n\\textbf{(D)}\\   4  \\qquad\n\\textbf{(E)}\\   5</math>\n\n==Solution==\nBecause the pencil costs a whole number of cents, the cost must be a factor of both <math>143</math> and <math>195</math>. They can be factored into <math>11\\cdot13</math> and <math>3\\cdot5\\cdot13</math>. The common factor cannot be <math>1</math> or there would have to be more than <math>30</math> sixth graders, so the pencil costs <math>13</math> cents. The difference in costs that the sixth and seventh graders paid is <math>195-143=52</math> cents, which is equal to <math>52/13 = \\boxed{\\textbf{(D)}\\ 4}</math> sixth graders.\n\n==Video Solution==\nhttps://youtu.be/3sQFlBenwvE\n\n~savannahsolver\n\n==See Also==\n{{AMC8 box|year=2009|num-b=10|num-a=12}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:36:47.476Z"
 }

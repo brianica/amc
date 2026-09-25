@@ -1,5 +1,5 @@
 {
   "page": "2001_AMC_8_Problems/Problem_8",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.347Z"
+  "wikitext": "==Problem==\nTo promote her school's annual Kite Olympics, Genevieve makes a small kite and a large kite for a bulletin board display. The kites look like the one in the diagram. For her small kite Genevieve draws the kite on a one-inch grid. For the large kite she triples both the height and width of the entire grid.\n\n<asy>\nsize(85);\nfor (int a = 0; a < 7; ++a)\n{\nfor (int b = 0; b < 8; ++b)\n{\ndot((a,b));\n}\n}\n\ndraw((3,0)--(0,5)--(3,7)--(6,5)--cycle);\n</asy>\n\nGenevieve puts bracing on her large kite in the form of a cross connecting opposite corners of the kite. How many inches of bracing material does she need?\n\n<math>\\text{(A)}\\ 30 \\qquad \\text{(B)}\\ 32 \\qquad \\text{(C)}\\ 35 \\qquad \\text{(D)}\\ 38 \\qquad \\text{(E)}\\ 39</math>\n\n==Solution==\n\nEach diagonal of the large kite is <math> 3 </math> times the length of the corresponding diagonal of the short kite since it was made with a grid <math> 3 </math> times as long in both height and width. The diagonals of the small kite are <math> 6 </math> and <math> 7 </math>, so the diagonals of the large kite are <math> 3\\cdot6=18 </math> and <math> 3\\cdot7=21 </math>, and the amount of bracing Genevieve needs is the sum of these lengths, which is <math> 39, \\boxed{\\text{E}} </math>\n\n==See Also==\n{{AMC8 box|year=2001|num-b=7|num-a=9}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:16:09.167Z"
 }

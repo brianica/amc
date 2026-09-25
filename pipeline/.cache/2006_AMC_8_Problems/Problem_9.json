@@ -1,5 +1,5 @@
 {
   "page": "2006_AMC_8_Problems/Problem_9",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.368Z"
+  "wikitext": "== Problem ==\n\nWhat is the product of <math> \\frac{3}{2}\\times\\frac{4}{3}\\times\\frac{5}{4}\\times\\cdots\\times\\frac{2006}{2005} </math> ?\n\n<math> \\textbf{(A)}\\ 1\\qquad\\textbf{(B)}\\ 1002\\qquad\\textbf{(C)}\\ 1003\\qquad\\textbf{(D)}\\ 2005\\qquad\\textbf{(E)}\\ 2006 </math>\n\n== Solution ==\nThe numerator in each fraction cancels out with the denominator of the next fraction. There are only two numbers that didn't cancel: <math>\\frac{2006}{2}=\\boxed{\\textbf{(C)}\\ 1003} </math>.\n\n==Video Solution==\n\nhttps://www.youtube.com/watch?v=HrlLDNc4u34   ~David\n\n==Video Solution by WhyMath==\nhttps://youtu.be/yStRsLftX_0\n\n==See Also==\n{{AMC8 box|year=2006|num-b=8|num-a=10}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:29:03.797Z"
 }

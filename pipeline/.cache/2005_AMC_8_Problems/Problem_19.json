@@ -1,5 +1,5 @@
 {
   "page": "2005_AMC_8_Problems/Problem_19",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.366Z"
+  "wikitext": "==Problem==\nWhat is the perimeter of trapezoid <math> ABCD</math>?\n\n<asy>size(3inch, 1.5inch);\npair a=(0,0), b=(18,24), c=(68,24), d=(75,0), f=(68,0), e=(18,0);\ndraw(a--b--c--d--cycle);\ndraw(b--e);\ndraw(shift(0,2)*e--shift(2,2)*e--shift(2,0)*e);\nlabel(\"30\", (9,12), W);\nlabel(\"50\", (43,24), N);\nlabel(\"25\", (71.5, 12), E);\nlabel(\"24\", (18, 12), E);\nlabel(\"$A$\", a, SW);\nlabel(\"$B$\", b, N);\nlabel(\"$C$\", c, N);\nlabel(\"$D$\", d, SE);\nlabel(\"$E$\", e, S);</asy>\n\n<math> \\textbf{(A)}\\ 180\\qquad\\textbf{(B)}\\ 188\\qquad\\textbf{(C)}\\ 196\\qquad\\textbf{(D)}\\ 200\\qquad\\textbf{(E)}\\ 204 </math>\n\n==Solution==\nDraw altitudes from <math>B</math> and <math>C</math> to base <math>AD</math> to create a rectangle and two right triangles. The side opposite <math>BC</math> is equal to <math>50</math>. The bases of the right triangles can be found using Pythagorean or special triangles to be <math>18</math> and <math>7</math>. Add it together to get <math>AD=18+50+7=75</math>. The perimeter is <math>75+30+50+25=\\boxed{\\textbf{(A)}\\ 180}</math>.\n\n==Video Solution==\nhttps://youtu.be/h0V8qcEo0U8 Soo, DRMS, NM\n\n==Video Solution by OmegaLearn==\nhttps://youtu.be/abSgjn4Qs34?t=2362\n\n~ pi_is_3.14\n\n==See Also==\n{{AMC8 box|year=2005|num-b=18|num-a=20}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:27:29.966Z"
 }

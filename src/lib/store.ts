@@ -18,12 +18,20 @@ export interface AttemptRecord {
   mode: "paper" | "timed";
   answers: string;
   duration_min: number | null;
-  score: number;
+  /** Null while status is "in_progress" — an unfinished sitting has no trustworthy score. */
+  score: number | null;
   /** False for a sitting the student chose to keep out of the analytics. */
   include_in_stats: boolean;
   /** Per-question seconds and visits; null for a paper sitting logged afterwards. */
   timings: QuestionTiming[] | null;
   created_at: string;
+  /** "in_progress" rows are incremental saves, not a result — never a finished attempt. */
+  status: "in_progress" | "complete";
+}
+
+/** What listAttempts returns: every complete attempt always has a real score. */
+export interface CompleteAttemptRecord extends AttemptRecord {
+  score: number;
 }
 
 export interface ProblemLogRecord {
@@ -47,7 +55,8 @@ export interface ResolveCardRecord {
 }
 
 export interface Store {
-  listAttempts(userId: string): Promise<AttemptRecord[]>;
+  /** Complete attempts only — an in-progress sitting is never a result. */
+  listAttempts(userId: string): Promise<CompleteAttemptRecord[]>;
   listLogs(userId: string): Promise<ProblemLogRecord[]>;
   createAttempt(input: Omit<AttemptRecord, "id" | "created_at">): Promise<string>;
   setAttemptIncluded(userId: string, attemptId: string, include: boolean): Promise<void>;
@@ -55,16 +64,84 @@ export interface Store {
   listResolveCards(userId: string): Promise<ResolveCardRecord[]>;
   /** Insert or update by (user, exam, question) — a reopened card is the same card. */
   upsertResolveCards(userId: string, cards: ResolveCardRecord[]): Promise<void>;
+
+  /** A user's open in-progress sittings of one exam, newest first — for recovery. */
+  listInProgressAttempts(userId: string, examId: string): Promise<AttemptRecord[]>;
+  /** Patch an in-progress attempt's mutable fields. Never changes status. */
+  patchAttemptProgress(
+    userId: string,
+    attemptId: string,
+    patch: Partial<Pick<AttemptRecord, "answers" | "timings" | "duration_min">>,
+  ): Promise<void>;
+  /** Flip an in-progress attempt to complete with its final, server-scored fields. */
+  finalizeAttempt(
+    userId: string,
+    attemptId: string,
+    patch: Pick<AttemptRecord, "answers" | "score" | "duration_min" | "include_in_stats" | "timings">,
+  ): Promise<void>;
+  /** Delete an attempt the student explicitly abandoned before it was ever complete. */
+  discardInProgressAttempt(userId: string, attemptId: string): Promise<void>;
 }
 
 class SupabaseStore implements Store {
-  async listAttempts(userId: string): Promise<AttemptRecord[]> {
+  async listAttempts(userId: string): Promise<CompleteAttemptRecord[]> {
     const db = await supabaseServer();
     // No user_id filter: row-level security already restricts this to the caller,
     // and relying on the policy rather than the query is the point of using it.
-    const { data, error } = await db.from("attempts").select("*").order("taken_on", { ascending: false });
+    // status is a lifecycle filter, not an isolation one — an in-progress row is
+    // not a result and must never reach a page that treats listAttempts as "what
+    // this student has actually sat."
+    const { data, error } = await db
+      .from("attempts")
+      .select("*")
+      .eq("status", "complete")
+      .order("taken_on", { ascending: false });
+    if (error) throw new Error(error.message);
+    return (data ?? []) as CompleteAttemptRecord[];
+  }
+
+  async listInProgressAttempts(userId: string, examId: string): Promise<AttemptRecord[]> {
+    const db = await supabaseServer();
+    const { data, error } = await db
+      .from("attempts")
+      .select("*")
+      .eq("exam_id", examId)
+      .eq("status", "in_progress")
+      .order("created_at", { ascending: false });
     if (error) throw new Error(error.message);
     return (data ?? []) as AttemptRecord[];
+  }
+
+  async patchAttemptProgress(
+    userId: string,
+    attemptId: string,
+    patch: Partial<Pick<AttemptRecord, "answers" | "timings" | "duration_min">>,
+  ): Promise<void> {
+    const db = await supabaseServer();
+    // Guards against ever patching a row that already finished — a stale attempt
+    // id lingering in client state must not reopen a completed sitting.
+    const { error } = await db.from("attempts").update(patch).eq("id", attemptId).eq("status", "in_progress");
+    if (error) throw new Error(error.message);
+  }
+
+  async finalizeAttempt(
+    userId: string,
+    attemptId: string,
+    patch: Pick<AttemptRecord, "answers" | "score" | "duration_min" | "include_in_stats" | "timings">,
+  ): Promise<void> {
+    const db = await supabaseServer();
+    const { error } = await db
+      .from("attempts")
+      .update({ ...patch, status: "complete" })
+      .eq("id", attemptId)
+      .eq("status", "in_progress");
+    if (error) throw new Error(error.message);
+  }
+
+  async discardInProgressAttempt(userId: string, attemptId: string): Promise<void> {
+    const db = await supabaseServer();
+    const { error } = await db.from("attempts").delete().eq("id", attemptId).eq("status", "in_progress");
+    if (error) throw new Error(error.message);
   }
 
   async listLogs(userId: string): Promise<ProblemLogRecord[]> {
@@ -130,8 +207,14 @@ class DevStore implements Store {
       const db = JSON.parse(await readFile(this.path, "utf8")) as Partial<DevDb>;
       // resolve_cards arrived after the first seeded files, so tolerate its absence.
       return {
-        // include_in_stats arrived later; rows without it were all counted.
-        attempts: (db.attempts ?? []).map((a) => ({ ...a, include_in_stats: a.include_in_stats ?? true })),
+        attempts: (db.attempts ?? []).map((a) => ({
+          ...a,
+          // include_in_stats arrived later; rows without it were all counted.
+          include_in_stats: a.include_in_stats ?? true,
+          // status arrived later still; every row on disk before it existed was
+          // a finished sitting, never an in-progress one.
+          status: a.status ?? "complete",
+        })),
         logs: db.logs ?? [],
         resolveCards: db.resolveCards ?? [],
       };
@@ -145,9 +228,48 @@ class DevStore implements Store {
     await writeFile(this.path, JSON.stringify(db, null, 2));
   }
 
-  async listAttempts(userId: string): Promise<AttemptRecord[]> {
+  async listAttempts(userId: string): Promise<CompleteAttemptRecord[]> {
     const db = await this.read();
-    return db.attempts.filter((a) => a.user_id === userId).sort((a, b) => b.taken_on.localeCompare(a.taken_on));
+    return db.attempts
+      .filter((a) => a.user_id === userId && a.status === "complete")
+      .sort((a, b) => b.taken_on.localeCompare(a.taken_on)) as CompleteAttemptRecord[];
+  }
+
+  async listInProgressAttempts(userId: string, examId: string): Promise<AttemptRecord[]> {
+    const db = await this.read();
+    return db.attempts
+      .filter((a) => a.user_id === userId && a.exam_id === examId && a.status === "in_progress")
+      .sort((a, b) => b.created_at.localeCompare(a.created_at));
+  }
+
+  async patchAttemptProgress(
+    userId: string,
+    attemptId: string,
+    patch: Partial<Pick<AttemptRecord, "answers" | "timings" | "duration_min">>,
+  ): Promise<void> {
+    const db = await this.read();
+    const found = db.attempts.find((a) => a.id === attemptId && a.user_id === userId && a.status === "in_progress");
+    if (found) Object.assign(found, patch);
+    await this.write(db);
+  }
+
+  async finalizeAttempt(
+    userId: string,
+    attemptId: string,
+    patch: Pick<AttemptRecord, "answers" | "score" | "duration_min" | "include_in_stats" | "timings">,
+  ): Promise<void> {
+    const db = await this.read();
+    const found = db.attempts.find((a) => a.id === attemptId && a.user_id === userId && a.status === "in_progress");
+    if (found) Object.assign(found, patch, { status: "complete" as const });
+    await this.write(db);
+  }
+
+  async discardInProgressAttempt(userId: string, attemptId: string): Promise<void> {
+    const db = await this.read();
+    db.attempts = db.attempts.filter(
+      (a) => !(a.id === attemptId && a.user_id === userId && a.status === "in_progress"),
+    );
+    await this.write(db);
   }
 
   async listLogs(userId: string): Promise<ProblemLogRecord[]> {

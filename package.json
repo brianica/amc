@@ -14,7 +14,8 @@
     "seed:dev": "tsx scripts/seed-dev.ts",
     "review": "tsx pipeline/src/review.ts",
     "seed:statements": "tsx scripts/seed-statements.ts",
-    "bundle-cache": "tsx pipeline/src/bundle-cache.ts"
+    "bundle-cache": "tsx pipeline/src/bundle-cache.ts",
+    "render-diagrams": "tsx pipeline/src/render-diagrams.ts"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.3.3",

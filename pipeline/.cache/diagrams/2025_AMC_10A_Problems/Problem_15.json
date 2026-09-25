@@ -1,0 +1,6 @@
+{
+  "page": "2025_AMC_10A_Problems/Problem_15",
+  "svg": null,
+  "renderedAt": "2026-09-25T06:41:27.056Z",
+  "error": "Command failed: asy -f svg -o /tmp/amc-diagram-HCnVAt/diagram.svg /tmp/amc-diagram-HCnVAt/diagram.asy draw(rightanglemark(C, D, E));      ^"
+}

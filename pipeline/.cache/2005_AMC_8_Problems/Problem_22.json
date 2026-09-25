@@ -1,5 +1,5 @@
 {
   "page": "2005_AMC_8_Problems/Problem_22",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.366Z"
+  "wikitext": "==Problem==\nA company sells detergent in three different sized boxes: small (S), medium (M) and large (L). The medium size costs 50% more than the small size and contains 20% less detergent than the large size. The large size contains twice as much detergent as the small size and costs 30% more than the medium size. Rank the three sizes from best to worst buy.\n\n<math>\\text{(A)}\\, SML \\qquad \\text{(B)}\\, LMS \\qquad \\text{(C)}\\, MSL \\qquad \\text{(D)}\\, LSM \\qquad \\text{(E)}\\, MLS</math>\n\n==Solution==\nWLOG (Without Loss of Generality), suppose the small size costs <math>\\textdollar 1</math> and has <math>5</math> oz. The medium size then costs <math>\\textdollar 1.50</math> and has <math>8</math> oz. The large size costs <math>\\textdollar 1.95</math> and has 10 oz. The small, medium, and large sizes cost, respectively, <math>0.200, </math>0.188, and S0.195 per oz. The sizes from best to worst buy are <math>\\boxed{\\textbf{(E)}\\ \\text{MLS}}</math>.\n\n~Edits by WrenMath\n\n==Video Solution==\n\nhttps://www.youtube.com/watch?v=65cfokoNyfA   ~David\n\n==See Also==\n{{AMC8 box|year=2005|num-b=21|num-a=23}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:27:46.589Z"
 }

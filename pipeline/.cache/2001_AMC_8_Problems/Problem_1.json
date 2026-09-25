@@ -1,5 +1,5 @@
 {
   "page": "2001_AMC_8_Problems/Problem_1",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.345Z"
+  "wikitext": "==Problem==\nCasey's shop class is making a golf trophy. He has to paint 300 dimples on a golf ball. If it takes him 2 seconds to paint one dimple, how many minutes will it take for him to finish \n\n<math> \\mathrm{(A) \\ 4 } \\qquad \\mathrm{(B) \\ 6 } \\qquad \\mathrm{(C) \\ 8 } \\qquad \\mathrm{(D) \\ 10 } \\qquad \\mathrm{(E) \\ 12 }  </math>\n\n==Solution==\nIt will take him <math>300\\cdot2=600</math> seconds to paint all the dimples. \n\nThis is equivalent to <math>\\frac{600}{60}=10</math> minutes <math>\\Rightarrow \\boxed{D}</math>.\n\n==See Also==\n{{AMC8 box|year=2001 |before=First<br />Question|num-a=2}}\n\n[[Category:Introductory Algebra Problems]]\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:15:27.902Z"
 }

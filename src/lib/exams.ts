@@ -4,6 +4,8 @@ import { join } from "node:path";
 import type { ExamFile } from "@pipeline/types";
 import { sampleExam } from "./sample-exam";
 
+export { examLabel, isSample } from "./exam-label";
+
 const EXAMS_DIR = join(process.cwd(), "data", "exams");
 
 let cache: ExamFile[] | null = null;
@@ -24,17 +26,6 @@ export function allExams(): ExamFile[] {
   const useSample = real.length === 0 && process.env.SAMPLE_EXAMS === "1";
   cache = useSample ? [sampleExam()] : real;
   return cache;
-}
-
-export function isSample(exam: ExamFile): boolean {
-  return exam.id === "sample-amc10";
-}
-
-export function examLabel(exam: ExamFile): string {
-  if (isSample(exam)) return "SAMPLE EXAM — not real contest data";
-  const contest = exam.competition.replace("AMC", "AMC ");
-  const season = exam.season === "fall" ? " Fall" : "";
-  return `${exam.year}${season} ${contest}${exam.form ?? ""}`;
 }
 
 export function findExam(id: string): ExamFile | undefined {

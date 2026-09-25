@@ -1,5 +1,5 @@
 {
   "page": "2013_AMC_8_Problems/Problem_14",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.401Z"
+  "wikitext": "==Problem==\nAbe holds 1 green and 1 red jelly bean in his hand. Bob holds 1 green, 1 yellow, and 2 red jelly beans in his hand. Each randomly picks a jelly bean to show the other. What is the probability that the colors match?\n\n<math>\\textbf{(A)}\\ \\frac14 \\qquad \\textbf{(B)}\\ \\frac13 \\qquad \\textbf{(C)}\\ \\frac38 \\qquad \\textbf{(D)}\\ \\frac12 \\qquad \\textbf{(E)}\\ \\frac23</math>\n\n==Solution==\nThe favorable responses are either they both show a green bean or they both show a red bean. The probability that both show a green bean is <math>\\frac{1}{2}\\cdot\\frac{1}{4}=\\frac{1}{8}</math>. The probability that both show a red bean is <math>\\frac{1}{2}\\cdot\\frac{2}{4}=\\frac{1}{4}</math>. Therefore the probability is <math>\\frac{1}{4}+\\frac{1}{8}=\\boxed{\\textbf{(C)}\\ \\frac{3}{8}}</math>\n\n==Solution 2==\n\nWe can list out all the combinations and we get this: <math>GG, GY, GR_1, GR_2, RG, RY, RR_1, RR_2</math>. There is a total of 8 combinations and 3 that are the same. Hence, we yield the answer <math>\\boxed{\\textbf{C}}</math>.\n\n==Video Solution==\nhttps://youtu.be/NMpVIy8QxSY ~savannahsolver\n\n==See Also==\n{{AMC8 box|year=2013|num-b=13|num-a=15}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:47:22.543Z"
 }

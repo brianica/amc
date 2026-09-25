@@ -1,5 +1,5 @@
 {
   "page": "2009_AMC_8_Problems/Problem_17",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.384Z"
+  "wikitext": "==Problem==\n\nThe positive integers <math> x</math> and <math> y</math> are the two smallest positive integers for which the product of <math> 360</math> and <math> x</math> is a square and the product of <math> 360</math> and <math> y</math> is a cube. What is the sum of <math> x</math> and <math> y</math>?\n\n<math> \\textbf{(A)}\\   80    \\qquad\n\\textbf{(B)}\\    85   \\qquad\n\\textbf{(C)}\\    115   \\qquad\n\\textbf{(D)}\\    165   \\qquad\n\\textbf{(E)}\\    610</math>\n\n==Solution==\nTake the prime factorization of <imath>360</imath>. <imath>360=2^3*3^2*5</imath>.\nWe want <imath>x</imath> to be as small as possible. And you want <imath>x*360</imath> to be a square.\nSo <imath>x=2*5=10</imath>.\n<imath>y</imath> is similar. <imath>y=3*5^2=3*25=75</imath>\nSo, <imath>x+y=75+10=85</imath>, or <imath>\\boxed{\\textbf{(B)}\\ 85}</imath>.\n\n~ModestFox97\n\n==Video Solution ==\nhttps://www.youtube.com/watch?v=ZuSJdf1zWYw   ~David\n\n==See Also==\n{{AMC8 box|year=2010|num-b=16|num-a=18}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:37:20.568Z"
 }

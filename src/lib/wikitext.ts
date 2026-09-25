@@ -14,8 +14,12 @@ import katex from "katex";
 
 export interface RenderedStatement {
   html: string;
-  /** True when the problem has a diagram that could not be rendered. */
+  /** True when the problem has a diagram, rendered inline or not. */
   hasDiagram: boolean;
+  /** True when that diagram is embedded in `html` as real SVG (see
+   *  render-diagrams.ts) — a caller's own "see the original" fallback text should
+   *  only show when this is false. */
+  diagramRendered: boolean;
 }
 
 function escapeHtml(text: string): string {
@@ -56,12 +60,26 @@ function stripFurniture(text: string): string {
  * never sees prose. `<cmath>` is AoPS's display-maths tag; `<math>` and `<imath>` are
  * both inline — `<imath>`/`<cmath>` are what problem statements actually use, `<math>`
  * shows up mostly in older pages and solution text.
+ *
+ * @param diagramLink Where "[diagram — see the original]" should point when the
+ *   statement has one — this is our own constructed URL, never taken from the
+ *   wikitext, but still escaped like everything else this function emits.
+ * @param diagramSvg A pre-rendered diagram (see render-diagrams.ts), embedded in
+ *   place of the diagram notice when present. This is our own pipeline's compiler
+ *   output, not raw third-party text, so it is trusted the same way KaTeX's own
+ *   HTML output already is.
  */
-export function renderStatement(wikitext: string): RenderedStatement {
+export function renderStatement(wikitext: string, diagramLink?: string, diagramSvg?: string): RenderedStatement {
   const source = stripFurniture(wikitext);
   let hasDiagram = false;
+  let diagramRendered = false;
 
-  const pattern = /<(math|imath|cmath)>([\s\S]*?)<\/\1>|\[asy\][\s\S]*?\[\/asy\]|<asy>[\s\S]*?<\/asy>|\$([^$\n]+)\$/gi;
+  // \$ is TeX for a literal dollar sign, not a maths delimiter — AMC 8 problems are
+  // full of them ("Granny Smith has \$63"). Matched and unescaped to "$" explicitly,
+  // ahead of the bare-$...$ alternative, so a page mixing a real price with real
+  // inline maths on the same line doesn't have the escaped sign treated as an
+  // opening delimiter and swallow everything up to the next "$" as LaTeX.
+  const pattern = /<(math|imath|cmath)>([\s\S]*?)<\/\1>|\[asy\][\s\S]*?\[\/asy\]|<asy>[\s\S]*?<\/asy>|\\\$|\$([^$\n]+)\$/gi;
   let out = "";
   let last = 0;
 
@@ -71,7 +89,16 @@ export function renderStatement(wikitext: string): RenderedStatement {
 
     if (m[0].toLowerCase().startsWith("[asy]") || m[0].toLowerCase().startsWith("<asy>")) {
       hasDiagram = true;
-      out += '<span class="statement-diagram">[diagram — see the original]</span>';
+      if (diagramSvg) {
+        diagramRendered = true;
+        out += `<span class="statement-diagram-svg">${diagramSvg}</span>`;
+      } else {
+        out += diagramLink
+          ? `<a class="statement-diagram" href="${escapeHtml(diagramLink)}" target="_blank" rel="noreferrer">[diagram — see the original]</a>`
+          : '<span class="statement-diagram">[diagram — see the original]</span>';
+      }
+    } else if (m[0] === "\\$") {
+      out += "$";
     } else if (m[1]) {
       out += renderMath(m[2] ?? "", m[1].toLowerCase() === "cmath");
     } else {
@@ -89,5 +116,5 @@ export function renderStatement(wikitext: string): RenderedStatement {
     .map((p) => `<p>${p.replace(/\n/g, " ")}</p>`)
     .join("\n");
 
-  return { html, hasDiagram };
+  return { html, hasDiagram, diagramRendered };
 }

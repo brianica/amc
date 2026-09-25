@@ -1,5 +1,5 @@
 {
   "page": "2004_AMC_8_Problems/Problem_7",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.360Z"
+  "wikitext": "== Problem ==\nAn athlete's target heart rate, in beats per minute, is <math>80\\%</math> of the theoretical maximum heart rate. The maximum heart rate is found by subtracting the athlete's age, in years, from <math>220</math>. To the nearest whole number, what is the target heart rate of an athlete who is <math>26</math> years old?\n\n<math> \\textbf{(A)}\\ 134\\qquad\\textbf{(B)}\\ 155\\qquad\\textbf{(C)}\\ 176\\qquad\\textbf{(D)}\\ 194\\qquad\\textbf{(E)}\\ 243 </math>\n\n== Solution ==\nThe maximum heart rate is <math>220-26=194</math> beats per minute. The target heart rate is then <math>0.8*194 \\approx \\boxed{\\textbf{(B)}\\ 155}</math> beats per minute.\n\n==See Also==\n{{AMC8 box|year=2004|num-b=6|num-a=8}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:23:45.707Z"
 }

@@ -78,6 +78,7 @@ for (const spec of SPECS) {
     include_in_stats: true,
     timings: null,
     created_at: `${spec.date}T12:00:00Z`,
+    status: "complete",
   });
 
   spec.wrong.forEach((q, i) => {

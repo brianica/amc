@@ -1,5 +1,5 @@
 {
   "page": "2008_AMC_8_Problems/Problem_5",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.377Z"
+  "wikitext": "==Problem==\nBarney Schwinn notices that the odometer on his bicycle reads <math>1441</math>, a palindrome, because it reads the same forward and backward. After riding <math>4</math> more hours that day and <math>6</math> the next, he notices that the odometer shows another palindrome, <math>1661</math>. What was his average speed in miles per hour?\n\n<math>\\textbf{(A)}\\ 15\\qquad\n\\textbf{(B)}\\ 16\\qquad\n\\textbf{(C)}\\ 18\\qquad\n\\textbf{(D)}\\ 20\\qquad\n\\textbf{(E)}\\ 22</math>\n\n==Solution==\nBarney travels <math>1661-1441=220</math> miles in <math>4+6=10</math> hours for an average of <math>220/10=\\boxed{\\textbf{(E)}\\ 22}</math> miles per hour.\n\n==See Also==\n{{AMC8 box|year=2008|num-b=4|num-a=6}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:33:40.542Z"
 }

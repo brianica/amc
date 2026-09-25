@@ -1,5 +1,5 @@
 {
   "page": "2014_AMC_8_Problems/Problem_3",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.403Z"
+  "wikitext": "==Problem==\nIsabella had a week to read a book for a school assignment. She read an average of <math>36</math> pages per day for the first three days and an average of <math>44</math> pages per day for the next three days. She then finished the book by reading <math>10</math> pages on the last day. How many pages were in the book?\n\n\n<math>\\textbf{(A) }240\\qquad\\textbf{(B) }250\\qquad\\textbf{(C) }260\\qquad\\textbf{(D) }270\\qquad \\textbf{(E) }280</math>\n==Solution==\nIsabella read <math>3\\cdot 36+3\\cdot 44</math> pages in the first 6 days. Although this can be calculated directly, it is simpler to calculate it as <math>3\\cdot (36+44)=3\\cdot 80</math>, which gives that she read <math>240</math> pages. On her last day, she read <math>10</math> more pages for a total of <math>240+10=\\boxed{\\textbf{(B)}~250}</math> pages.\n\n==Video Solution (CREATIVE THINKING)==\nhttps://youtu.be/ggZxESzZmBQ\n\n~Education, the Study of Everything\n\n\n\n==Video Solution==\nhttps://youtu.be/2x4OVpV87IY\n\n~savannahsolver\n\n==See Also==\n{{AMC8 box|year=2014|num-b=2|num-a=4}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:48:54.347Z"
 }

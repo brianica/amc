@@ -1,5 +1,5 @@
 {
   "page": "2006_AMC_8_Problems/Problem_12",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.369Z"
+  "wikitext": "== Problem ==\n\nAntonette gets <math> 70 \\% </math> on a 10-problem test, <math> 80 \\% </math> on a 20-problem test and <math> 90 \\% </math> on a 30-problem test. If the three tests are combined into one 60-problem test, which percent is closest to her overall score? \n\n<math> \\textbf{(A)}\\ 40\\qquad\\textbf{(B)}\\ 77\\qquad\\textbf{(C)}\\ 80\\qquad\\textbf{(D)}\\ 83\\qquad\\textbf{(E)}\\ 87 </math>\n\n== Solution ==\n\n<math> 70 \\% \\cdot 10=7 </math>\n\n<math> 80 \\% \\cdot 20=16 </math>\n\n<math> 90 \\% \\cdot 30=27 </math>\n\nAdding them up gets <math> 7+16+27=50 </math>. The overall percentage correct would be <math> \\frac{50}{60}=\\frac{5}{6}=5 \\cdot 16.\\overline{6}=83.\\overline{3} \\approx \\boxed{\\textbf{(D)}\\ 83} </math>.\n\n==Video Solution by WhyMath==\nhttps://youtu.be/6GetTV9Mnmo\n\n==See Also==\n{{AMC8 box|year=2006|num-b=11|num-a=13}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:29:21.554Z"
 }

@@ -1,5 +1,5 @@
 {
   "page": "1999_AMC_8_Problems/Problem_11",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.336Z"
+  "wikitext": "==Problem==\n\nEach of the five numbers 1, 4, 7, 10, and 13 is placed in one of the five squares so that the sum of the three numbers in the horizontal row equals the sum of the three numbers in the vertical column. The largest possible value for the horizontal or vertical sum is\n\n<asy>\ndraw((0,0)--(3,0)--(3,1)--(0,1)--cycle);\ndraw((1,-1)--(2,-1)--(2,2)--(1,2)--cycle);\n</asy>\n\n<math>\\text{(A)}\\ 20 \\qquad \\text{(B)}\\ 21 \\qquad \\text{(C)}\\ 22 \\qquad \\text{(D)}\\ 24 \\qquad \\text{(E)}\\ 30</math>\n\n==Solution==\n===Solution 1===\nThe largest sum occurs when <math>13</math> is placed in the center. This sum is <math>13 + 10 + 1 = 13 + 7 + 4 = \\boxed{\\text{(D)}\\ 24}</math>. Note: Two other common sums, <math>18</math> and <math>21</math>, are also possible.\n\n===Solution 2===\n\nSince the horizontal sum equals the vertical sum, twice this sum will be the sum\nof the five numbers plus the number in the center. When the center number is\n<math>13</math>, the sum is the largest, <cmath>[10 + 4 + 1 + 7 + 2(13)]=2S\\\\ 48=2S\\\\ S=\\boxed{\\text{(D)}\\ 24}</cmath>\nThe other\nfour numbers are divided into two pairs with equal sums.\n\n==See Also==\n\n{{AMC8 box|year=1999|num-b=10|num-a=12}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:11:13.594Z"
 }

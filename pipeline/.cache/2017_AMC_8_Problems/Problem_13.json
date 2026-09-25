@@ -1,5 +1,5 @@
 {
   "page": "2017_AMC_8_Problems/Problem_13",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.422Z"
+  "wikitext": "==Problem==\n\nPeter, Emma, and Kyler played chess with each other. Peter won 4 games and lost 2 games. Emma won 3 games and lost 3 games. If Kyler lost 3 games, how many games did he win?\n\n<math>\\textbf{(A) }0\\quad\\textbf{(B) }1\\qquad\\textbf{(C) }2\\qquad\\textbf{(D) }3\\qquad\\textbf{(E) }4</math>\n\n==Solution==\n\nGiven <math>n</math> games, there must be a total of <math>n</math> wins and <math>n</math> losses. Hence, <math>4 + 3 + K = 2 + 3 + 3</math> where <math>K</math> is Kyler's wins. <math>K = 1</math>, so our final answer is <math>\\boxed{\\textbf{(B)}\\ 1}.</math>\n~CHECKMATE2021\n\n==Video Solution (CREATIVE THINKING!!!)==\nhttps://youtu.be/4elGw-Ylsxg\n\n~Education, the Study of Everything\n\n==Video Solution by OmegaLearn==\nhttps://youtu.be/6xNkyDgIhEE?t=459\n\n~ pi_is_3.14\n\n==Video Solution==\n\nhttps://youtu.be/AslL9RYPPy4\n\n~hisolver\n\n==See Also==\n{{AMC8 box|year=2017|num-b=12|num-a=14}}\n\n{{MAA Notice}}\n\n[[Category:Introductory Algebra Problems]]",
+  "fetchedAt": "2026-09-19T04:57:32.448Z"
 }

@@ -1,5 +1,5 @@
 {
   "page": "2011_AMC_8_Problems/Problem_19",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.393Z"
+  "wikitext": "==Problem==\nHow many rectangles are in this figure?\n\n<asy>\npair A,B,C,D,E,F,G,H,I,J,K,L;\nA=(0,0);\nB=(20,0);\nC=(20,20);\nD=(0,20);\ndraw(A--B--C--D--cycle);\nE=(-10,-5);\nF=(13,-5);\nG=(13,5);\nH=(-10,5);\ndraw(E--F--G--H--cycle);\nI=(10,-20);\nJ=(18,-20);\nK=(18,13);\nL=(10,13);\ndraw(I--J--K--L--cycle);</asy>\n\n<math> \\textbf{(A)}\\ 8\\qquad\\textbf{(B)}\\ 9\\qquad\\textbf{(C)}\\ 10\\qquad\\textbf{(D)}\\ 11\\qquad\\textbf{(E)}\\ 12 </math>\n\n==Solution 1 (Splitting It Up)==\nThe figure can be divided into <math>7</math> sections. The number of rectangles with just one section is <math>3.</math> The number of rectangles with two sections is <math>5.</math> There are none with only three sections. The number of rectangles with four sections is <math>3.</math> \n\n<math>3+5+3=\\boxed{\\textbf{(D)}\\ 11}</math>\n\n==Solution 2 (Count by Reduction)==\nWe can remove the 3 big blocks of rectangles one by one. 7 (left) + 3 (bottom) + 1 = 11 are removed in total. \n\n~aliciawu\n\n==Video Solution by WhyMath==\nhttps://youtu.be/IEeJsGh3ltk\n\n==See Also==\n{{AMC8 box|year=2011|num-b=18|num-a=20}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:42:41.271Z"
 }

@@ -1,5 +1,5 @@
 {
   "page": "2006_AMC_8_Problems/Problem_2",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.367Z"
+  "wikitext": "== Problem ==\nOn the AMC 8 contest Billy answers 13 questions correctly, answers 7 questions incorrectly and doesn't answer the last 5. What is his score?\n \n<imath> \\textbf{(A)}\\ 1\\qquad\\textbf{(B)}\\ 6\\qquad\\textbf{(C)}\\ 13\\qquad\\textbf{(D)}\\ 19\\qquad\\textbf{(E)}\\ 26 </imath>\n\n== Solution ==\nAs the AMC 8 only rewards 1 point for each correct answer, everything is irrelevant except the number Billy answered correctly, <imath> \\boxed{\\textbf{(C)}\\ 13} </imath>.\n\n==Video Solution by WhyMath==\nhttps://youtu.be/nr4qf-p65i8\n\n==See Also==\n{{AMC8 box|year=2006|num-b=1|num-a=3}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:28:28.045Z"
 }

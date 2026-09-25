@@ -1,5 +1,5 @@
 {
   "page": "2010_AMC_8_Problems/Problem_1",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.386Z"
+  "wikitext": "==Problem==\nAt Euclid Middle School the mathematics teachers are Mrs. Germain, Mr. Newton, and Mrs. Young. There are <math>11</math> students in Mrs. Germain's class, <math>8</math> students in Mr. Newton's class, and <math>9</math> students in Mrs. Young's class taking the AMC <math>8</math> this year. How many mathematics students at Euclid Middle School are taking the contest? \n\n<math> \\textbf{(A)}\\ 26 \\qquad\\textbf{(B)}\\ 27\\qquad\\textbf{(C)}\\ 28\\qquad\\textbf{(D)}\\ 29\\qquad\\textbf{(E)}\\ 30 </math>\n\n==Solution==\nGiven that these are the only math teachers at Euclid Middle School and we are told how many from each class are taking the AMC 8, we simply add the three given numbers to find the total. <imath>11+8+9=\\boxed{\\textbf{(C)}\\ 28}</imath>\n\n==Video by MathTalks==\n\nhttps://youtu.be/EEbksvfujhk\n\n==Video Solution by WhyMath==\nhttps://youtu.be/XMuirbJA4ZU\n\n==See Also==\n{{AMC8 box|year=2010|before=First Problem|num-a=2}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:38:30.054Z"
 }

@@ -1,5 +1,5 @@
 {
   "page": "2004_AMC_8_Problems/Problem_5",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.359Z"
+  "wikitext": "== Problem ==\nMs. Hamilton's eighth-grade class wants to participate in the annual three-person-team basketball tournament. The losing team of each game is eliminated from the tournament. If sixteen teams compete, how many games will be played to determine the winner?\n\n<math> \\textbf{(A)}\\ 4\\qquad\\textbf{(B)}\\ 7\\qquad\\textbf{(C)}\\ 8\\qquad\\textbf{(D)}\\ 15\\qquad\\textbf{(E)}\\ 16 </math>\n\n==Solution 1==\nNote that the winning team will the be the only team that wins all of the games. Therefore, to find the total number of games to determine the winner has a 1:1 correspondence to the number of ways to determine the losers. ( Think of it this way: If you want to select two balls from a bag of 6 balls, it is analogous to selecting the 4 balls that you don't want to select, both are 6 choose 2.). There are 15 losing teams, and since each round is unique, there are 15 total rounds. \n\n~Brackie1331\n\n==Solution 2==\nThere will be <math>8</math> games the first round, <math>4</math> games the second round, <math>2</math> games the third round, and <math>1</math> game in the final round, giving us a total of <math>8+4+2+1=15</math> games. <math>\\boxed{\\textbf{(D)}\\ 15}</math>.\n\n==See Also==\n{{AMC8 box|year=2004|num-b=4|num-a=6}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:23:34.973Z"
 }

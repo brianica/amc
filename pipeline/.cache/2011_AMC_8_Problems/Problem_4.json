@@ -1,5 +1,5 @@
 {
   "page": "2011_AMC_8_Problems/Problem_4",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.390Z"
+  "wikitext": "==Problem==\nHere is a list of the numbers of fish that Tyler caught in nine outings last summer: <cmath>2,0,1,3,0,3,3,1,2.</cmath> Which statement about the mean, median, and mode is true?\n\n<math>\\textbf{(A)}\\ \\text{median} < \\text{mean} < \\text{mode} \\qquad \\textbf{(B)}\\ \\text{mean} < \\text{mode} < \\text{median} \\\\ \\\\ \\textbf{(C)}\\ \\text{mean} < \\text{median} < \\text{mode} \\qquad \\textbf{(D)}\\ \\text{median} < \\text{mode} < \\text{mean} \\\\ \\\\ \\textbf{(E)}\\ \\text{mode} < \\text{median} < \\text{mean}</math>\n\n==Solution==\n\nFirst, put the numbers in increasing order.\n\n<cmath>0,0,1,1,2,2,3,3,3</cmath>\n\nThe mean is <math>\\frac{0+0+1+1+2+2+3+3+3}{9} = \\frac{15}{9},</math> the median is <math>2,</math> and the mode is <math>3.</math> Because, <math>\\frac{15}{9} < 2 < 3,</math> the answer is <math>\\boxed{\\textbf{(C)}\\ \\text{mean} < \\text{median} < \\text{mode}}</math>\n\n==Video Solution by WhyMath==\nhttps://youtu.be/T9V6PXgaheI\n\n==See Also==\n{{AMC8 box|year=2011|num-b=3|num-a=5}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:41:19.784Z"
 }

@@ -1,5 +1,5 @@
 {
   "page": "2008_AMC_8_Problems/Problem_2",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.376Z"
+  "wikitext": "==Problem==\nThe ten-letter code <math>\\text{BEST OF LUCK}</math> represents the ten digits <math>0-9</math>, in order. What 4-digit number is represented by the code word <math>\\text{CLUE}</math>?\n\n<math>\\textbf{(A)}\\ 8671 \\qquad\n\\textbf{(B)}\\ 8672 \\qquad\n\\textbf{(C)}\\ 9781 \\qquad\n\\textbf{(D)}\\ 9782 \\qquad\n\\textbf{(E)}\\ 9872</math>\n\n==Solution==\nWe can derive that <imath>C=8</imath>, <imath>L=6</imath>, <imath>U=7</imath>, and <imath>E=1</imath>. Therefore, the answer is <imath>\\boxed{\\textbf{(A)}\\ 8671}</imath>\n~edited by OwenTang\n\n==Solution 2==\nWe can easily see that <math>C=8</math>, which makes only <math>(A)</math> <math>8761</math> and <math>(B)</math> <math>8762</math> possible. Since the only difference between answer choices <math>A</math> and <math>B</math> is the last digit and that the last digit in the code word \"CLUE\" is <math>E</math>, we can just find that <math>E=1</math> and that the answer is <math>\\boxed{\\textbf{(A)}\\ 8671}</math>. ~solution by SuperVince1\n\n==See Also==\n{{AMC8 box|year=2008|num-b=1|num-a=3}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:33:23.532Z"
 }

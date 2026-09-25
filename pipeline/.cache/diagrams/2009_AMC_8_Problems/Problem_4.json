@@ -1,0 +1,6 @@
+{
+  "page": "2009_AMC_8_Problems/Problem_4",
+  "svg": null,
+  "renderedAt": "2026-09-25T06:42:15.604Z",
+  "error": "Command failed: asy -f svg -o /tmp/amc-diagram-slQqrQ/diagram.svg /tmp/amc-diagram-slQqrQ/diagram.asy path p=origin--(1,0)--(1,1)--(0,1)--cycle;        ^"
+}

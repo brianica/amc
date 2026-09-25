@@ -1,5 +1,5 @@
 {
   "page": "2006_AMC_8_Problems/Problem_11",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.369Z"
+  "wikitext": "== Problem ==\nHow many two-digit numbers have digits whose sum is a perfect square? \n\n<math> \\textbf{(A)}\\ 13\\qquad\\textbf{(B)}\\ 16\\qquad\\textbf{(C)}\\ 17\\qquad\\textbf{(D)}\\ 18\\qquad\\textbf{(E)}\\ 19 </math>\n\n== Solution ==\nThere is <math> 1 </math> integer whose digits sum to <math> 1 </math>: <math>10</math>.\n\nThere are <math> 4 </math> integers whose digits sum to <math> 4 </math>: <math>13, 22, 31, \\text{and } 40</math>.\n\nThere are <math> 9 </math> integers whose digits sum to <math> 9 </math>: <math>18, 27, 36, 45, 54, 63, 72, 81, \\text{and } 90</math>.\n\nThere are <math> 3</math> integers whose digits sum to <math> 16 </math>: <math>79, 88, \\text{and } 97</math>.\n \nTwo digits cannot sum to <math>25</math> or any greater square since the greatest sum of digits of a two-digit number is <math> 9 + 9 = 18 </math>.\n\nThus, the answer is <math> 1 + 4 + 9 + 3 = \\boxed{\\textbf{(C)} 17} </math>.\n\n==Video Solution by WhyMath==\nhttps://youtu.be/Ke78CmjlqgM\n\n==See Also==\n{{AMC8 box|year=2006|num-b=10|num-a=12}}\n\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:29:17.347Z"
 }

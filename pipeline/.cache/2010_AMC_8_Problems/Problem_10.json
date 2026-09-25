@@ -1,5 +1,5 @@
 {
   "page": "2010_AMC_8_Problems/Problem_10",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.387Z"
+  "wikitext": "==Problem==\nSix pepperoni circles will exactly fit across the diameter of a <math>12</math>-inch pizza when placed. If a total of <math>24</math> circles of pepperoni are placed on this pizza without overlap, what fraction of the pizza is covered by pepperoni?\n\n<math> \\textbf{(A)}\\ \\frac 12 \\qquad\\textbf{(B)}\\ \\frac 23 \\qquad\\textbf{(C)}\\ \\frac 34 \\qquad\\textbf{(D)}\\ \\frac 56 \\qquad\\textbf{(E)}\\ \\frac 78 </math>\n\n==Solution==\nThe pepperoni circles' diameter is <imath>2</imath>, since <imath>\\dfrac{12}{6} = 2</imath>. From that we see that the area of the <imath>24</imath> circles of pepperoni is <imath>\\left ( \\frac{2}{2} \\right )^2 (24\\pi) = 24\\pi</imath>. The large pizza's area is <imath>6^2\\pi</imath>. Therefore, the ratio is <imath>\\frac{24\\pi}{36\\pi} = \\boxed{\\textbf{(B) }\\frac{2}{3}}</imath>\n\n==Video Solution by @MathTalks==\nhttps://youtu.be/RhyRqHMXvq0?si=m1R2q8UnLRD-KksT\n\n\n\n\n==See Also==\n{{AMC8 box|year=2010|num-b=9|num-a=11}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:39:18.851Z"
 }

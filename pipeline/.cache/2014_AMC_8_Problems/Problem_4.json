@@ -1,5 +1,5 @@
 {
   "page": "2014_AMC_8_Problems/Problem_4",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.403Z"
+  "wikitext": "==Problem==\nThe sum of two prime numbers is <math>85</math>. What is the product of these two prime numbers?\n\n<math>\\textbf{(A) }85\\qquad\\textbf{(B) }91\\qquad\\textbf{(C) }115\\qquad\\textbf{(D) }133\\qquad \\textbf{(E) }166</math>\n\n==Solution==\nSince the two prime numbers sum to an odd number, one of them must be even. The only even prime number is <math>2</math>. The other prime number is <math>85-2=83</math>, and the product of these two numbers is <math>83\\cdot2=\\boxed{\\textbf{(E)}~166}</math>.\n\n==Video Solution (CREATIVE THINKING)==\nhttps://youtu.be/NW_rCdTO19w\n\n~Education, the Study of Everything\n\n\n==Video Solution ==\nhttps://youtu.be/6xNkyDgIhEE?t=580\n\n==Video Solution 2==\n\nhttps://youtu.be/abjnpBM1RYg\n\n~savannahsolver\n\n==See Also==\n{{AMC8 box|year=2014|num-b=3|num-a=5}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:49:00.824Z"
 }

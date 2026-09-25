@@ -1,5 +1,5 @@
 {
   "page": "1999_AMC_8_Problems/Problem_1",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.333Z"
+  "wikitext": "==Problem==\n\n<math>(6?3) + 4 - (2 - 1) = 5.</math> To make this statement true, the question mark between the 6 and the 3 should be replaced by\n\n<math>\\text{(A)} \\div \\qquad \\text{(B)}\\ \\times \\qquad \\text{(C)} + \\qquad \\text{(D)}\\ - \\qquad \\text{(E)}\\ \\text{None of these}</math>\n\n==Solution== \n\nSimplifying the given expression, we get: <imath>(6?3)=2.</imath>\n\nAt this point, it becomes clear that it should be <imath>\\boxed{\\mathrm{(A)}\\ \\div}</imath>.\n\n==Video(detailed)==\nhttps://www.youtube.com/watch?v=l6MO9uW2VTA\n\n==See Also==\n{{AMC8 box|year=1999|before=First<br />Question|num-a=2}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:10:13.003Z"
 }

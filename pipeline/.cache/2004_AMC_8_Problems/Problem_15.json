@@ -1,5 +1,5 @@
 {
   "page": "2004_AMC_8_Problems/Problem_15",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.361Z"
+  "wikitext": "==Problem==\nThirteen black and six white hexagonal tiles were used to create the figure below. If a new figure is created by attaching a border of white tiles with the same size and shape as the others, what will be the difference between the total number of white tiles and the total number of black tiles in the new figure?\n\n\n<asy>\ndefaultpen(linewidth(1));\nreal x=sqrt(3)/2;\npath p=rotate(30)*polygon(6);\nfilldraw(p^^shift(0,3)*p^^shift(4x,0)*p^^shift(3x,1.5)*p^^shift(2x,3)*p^^shift(-4x,0)*p^^shift(-3x,1.5)*p^^shift(-2x,3)*p^^shift(3x,-1.5)*p^^shift(-3x,-1.5)*p^^shift(2x,-3)*p^^shift(-2x,-3)*p^^shift(0,-3)*p, black, black);\ndraw(shift(2x,0)*p^^shift(-2x,0)*p^^shift(x,1.5)*p^^shift(-x,1.5)*p^^shift(x,-1.5)*p^^shift(-x,-1.5)*p);\n</asy>\n\n\n<math>\\textbf{(A)}\\ 5\\qquad \\textbf{(B)}\\ 7\\qquad \\textbf{(C)}\\ 11\\qquad \\textbf{(D)}\\ 12 \\qquad \\textbf{(E)}\\ 18</math>\n\n==Solution==\nThe first ring around the middle tile has <math>6</math> tiles, and the second has <math>12</math>. From this pattern, the third ring has <math>18</math> tiles. Of these, <math>6+18=24</math> are white and <math>1+12=13</math> are black, with a difference of <math>24-13 = \\boxed{\\textbf{(C)}\\ 11}</math>.\n\n==See Also==\n{{AMC8 box|year=2004|num-b=14|num-a=16}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:24:31.262Z"
 }

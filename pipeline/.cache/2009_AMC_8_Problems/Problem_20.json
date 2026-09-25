@@ -1,5 +1,5 @@
 {
   "page": "2009_AMC_8_Problems/Problem_20",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.385Z"
+  "wikitext": "==Problem==\nHow many non-congruent triangles have vertices at three of the eight points in the array shown below?\n\n<asy>dot((0,0));\ndot((.5,.5));\ndot((.5,0));\ndot((.0,.5));\ndot((1,0));\ndot((1,.5));\ndot((1.5,0));\ndot((1.5,.5));</asy>\n\n<math> \\textbf{(A)}\\ 5 \\qquad \\textbf{(B)}\\ 6 \\qquad \\textbf{(C)}\\ 7 \\qquad \\textbf{(D)}\\ 8 \\qquad \\textbf{(E)}\\ 9</math>\n\n==Solution==\nAssume the base of the triangle is on the bottom four points because a congruent triangle can be made by reflecting the base on the top four points. For a triangle with a base of length <math>1</math>, there are <math>3</math> triangles. For a triangle with a base of length <math>2</math>, there are <math>3</math> triangles. For length <math>3</math>, there are <math>2</math>. In total, the number of non-congruent triangles is <math>3+3+2=\\boxed{\\textbf{(D)}\\ 8}</math>.\n\n==See Also==\n{{AMC8 box|year=2009|num-b=19|num-a=21}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:37:38.875Z"
 }

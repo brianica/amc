@@ -1,5 +1,5 @@
 {
   "page": "2007_AMC_8_Problems/Problem_3",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.371Z"
+  "wikitext": "== Problem ==\n\nWhat is the sum of the two smallest prime factors of <math>250</math>?\n\n<math>\\mathrm{(A)}\\ 2 \\qquad\\mathrm{(B)}\\ 5 \\qquad\\mathrm{(C)}\\ 7 \\qquad\\mathrm{(D)}\\ 10 \\qquad\\mathrm{(E)}\\ 12</math>\n\n==Video Solution by OmegaLearn==\nhttps://youtu.be/7an5wU9Q5hk?t=272\n\n== Solution ==\n\nThe prime factorization of <math>250</math> is <math>2 \\cdot 5^3</math>. The smallest two are <math>2</math> and <math>5</math>. <math>2+5 = \\boxed{\\text{(C) }7}</math>.\n\n==Video Solution by SpreadTheMathLove==\nhttps://www.youtube.com/watch?v=omFpSGMWhFc\n\n==Video Solution by WhyMath==\nhttps://youtu.be/_8lDRd1FEd4\n\n==See Also==\n{{AMC8 box|year=2007|num-b=2|num-a=4}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:31:02.558Z"
 }

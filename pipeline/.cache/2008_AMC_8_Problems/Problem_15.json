@@ -1,5 +1,5 @@
 {
   "page": "2008_AMC_8_Problems/Problem_15",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.379Z"
+  "wikitext": "==Problem==\nIn Theresa's first <math>8</math> basketball games, she scored <math>7, 4, 3, 6, 8, 3, 1</math> and <math>5</math> points. In her ninth game, she scored fewer than <math>10</math> points and her points-per-game average for the nine games was an integer. Similarly in her tenth game, she scored fewer than <math>10</math> points and her points-per-game average for the <math>10</math> games was also an integer. What is the product of the number of points she scored in the ninth and tenth games?\n\n<math>\\textbf{(A)}\\ 35\\qquad\n\\textbf{(B)}\\ 40\\qquad\n\\textbf{(C)}\\ 48\\qquad\n\\textbf{(D)}\\ 56\\qquad\n\\textbf{(E)}\\ 72</math>\n\n==Solution==\nThe total number of points from the first <math>8</math> games is <math>7+4+3+6+8+3+1+5=37</math>. We have to make this a multiple of <math>9</math> by scoring less than <math>10</math> points. The smallest multiple of <math>9</math> that is greater than <math>37</math> is <math>45</math>. <math>45-37=8</math>. Now we have to add a number to get a multiple of 10. The next multiple of <math>10</math> is <math>50</math>, which means that we add <math>5</math>. Multiplying these together, you get <math>8\\cdot5 = </math> <math>\\boxed{\\textbf{(B)}\\ 40}</math>.\n\n==See Also==\n{{AMC8 box|year=2008|num-b=14|num-a=16}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:34:34.725Z"
 }

@@ -1,5 +1,5 @@
 {
   "page": "2008_AMC_8_Problems/Problem_6",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.377Z"
+  "wikitext": "== Problem ==\nIn the figure, what is the ratio of the area of the gray squares to the area of the white squares?\n\n<asy>\nsize((70));\ndraw((10,0)--(0,10)--(-10,0)--(0,-10)--(10,0));\ndraw((-2.5,-7.5)--(7.5,2.5));\ndraw((-5,-5)--(5,5));\ndraw((-7.5,-2.5)--(2.5,7.5));\ndraw((-7.5,2.5)--(2.5,-7.5));\ndraw((-5,5)--(5,-5));\ndraw((-2.5,7.5)--(7.5,-2.5));\nfill((-10,0)--(-7.5,2.5)--(-5,0)--(-7.5,-2.5)--cycle, gray);\nfill((-5,0)--(0,5)--(5,0)--(0,-5)--cycle, gray);\nfill((5,0)--(7.5,2.5)--(10,0)--(7.5,-2.5)--cycle, gray);\n</asy>\n\n<math> \\textbf{(A)}\\ 3:10 \\qquad\\textbf{(B)}\\ 3:8 \\qquad\\textbf{(C)}\\ 3:7 \\qquad\\textbf{(D)}\\ 3:5 \\qquad\\textbf{(E)}\\ 1:1 </math>\n\n== Solution ==\nDividing the gray square into four smaller squares, there are <math>6</math> gray tiles and <math>10</math> white tiles, giving a ratio of <math>\\boxed{\\textbf{(D)}\\ 3:5}</math>.\n\n== See Also ==\n{{AMC8 box|year=2008|num-b=5|num-a=7}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:33:45.693Z"
 }

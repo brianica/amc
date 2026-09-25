@@ -1,0 +1,451 @@
+{
+  "id": "amc8-2017",
+  "competition": "AMC8",
+  "year": 2017,
+  "season": null,
+  "form": null,
+  "wikiPage": "2017_AMC_8_Problems",
+  "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems",
+  "numQuestions": 25,
+  "scoring": {
+    "correct": 1,
+    "blank": 0,
+    "wrong": 0,
+    "needsVerification": true
+  },
+  "problems": [
+    {
+      "n": 1,
+      "answer": "A",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "A",
+        "A"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
+      "tier": "T1",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_1",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 2,
+      "answer": "E",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "E",
+        "E",
+        "E"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
+      "tier": "T1",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_2",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 3,
+      "answer": "C",
+      "answerConfidence": "medium",
+      "answerEvidence": [
+        "C"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
+      "tier": "T1",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_3",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 4,
+      "answer": "D",
+      "answerConfidence": "medium",
+      "answerEvidence": [
+        "D"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
+      "tier": "T1",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_4",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 5,
+      "answer": "B",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "B",
+        "B",
+        "B"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
+      "tier": "T1",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_5",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 6,
+      "answer": "D",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "D",
+        "D"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
+      "tier": "T1",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_6",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 7,
+      "answer": "A",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
+      "tier": "T1",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_7",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 8,
+      "answer": "D",
+      "answerConfidence": "medium",
+      "answerEvidence": [
+        "D"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
+      "tier": "T1",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_8",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 9,
+      "answer": "D",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "D",
+        "D",
+        "D"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
+      "tier": "T1",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_9",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 10,
+      "answer": "C",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "C",
+        "C",
+        "C"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
+      "tier": "T1",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_10",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 11,
+      "answer": "C",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "C",
+        "C"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
+      "tier": "T2",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_11",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 12,
+      "answer": "D",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "D",
+        "D"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
+      "tier": "T2",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_12",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 13,
+      "answer": "B",
+      "answerConfidence": "medium",
+      "answerEvidence": [
+        "B"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
+      "tier": "T2",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_13",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 14,
+      "answer": "C",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
+      "tier": "T2",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_14",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 15,
+      "answer": "D",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
+      "tier": "T2",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_15",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 16,
+      "answer": "D",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "D",
+        "D",
+        "D"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
+      "tier": "T2",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_16",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 17,
+      "answer": "C",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "C",
+        "C"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
+      "tier": "T2",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_17",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 18,
+      "answer": "B",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "B",
+        "B"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
+      "tier": "T2",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_18",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 19,
+      "answer": "D",
+      "answerConfidence": "medium",
+      "answerEvidence": [
+        "D"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
+      "tier": "T3",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_19",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 20,
+      "answer": "B",
+      "answerConfidence": "medium",
+      "answerEvidence": [
+        "B"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
+      "tier": "T3",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_20",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 21,
+      "answer": "A",
+      "answerConfidence": "medium",
+      "answerEvidence": [
+        "A"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
+      "tier": "T3",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_21",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 22,
+      "answer": "D",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
+      "tier": "T3",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_22",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 23,
+      "answer": "C",
+      "answerConfidence": "medium",
+      "answerEvidence": [
+        "C"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
+      "tier": "T3",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_23",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 24,
+      "answer": "D",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "D",
+        "D",
+        "D"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
+      "tier": "T3",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_24",
+      "tagSource": "auto",
+      "statement": null
+    },
+    {
+      "n": 25,
+      "answer": "B",
+      "answerConfidence": "high",
+      "answerEvidence": [
+        "B",
+        "B"
+      ],
+      "area": null,
+      "subtopics": [],
+      "difficulty": null,
+      "tier": "T3",
+      "descriptor": null,
+      "sourceUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_25",
+      "tagSource": "auto",
+      "statement": null
+    }
+  ]
+}

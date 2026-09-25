@@ -1,5 +1,5 @@
 {
   "page": "2002_AMC_8_Problems/Problem_1",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.350Z"
+  "wikitext": "==Problem==\n\nA circle and two distinct lines are drawn on a sheet of paper. What is the largest possible number of points of intersection of these figures?\n\n<imath>\\textbf {(A)}\\ 2 \\qquad \\textbf {(B)}\\ 3 \\qquad \\textbf{(C)}\\ 4 \\qquad \\textbf{(D)}\\ 5 \\qquad \\textbf{(E)}\\ 6</imath>\n\n==Solution==\n\nEach line may intersect the circle at most twice, while the two lines may intersect each other at most once.  This yields a total of <imath>2\\cdot 2 + 1 = \\boxed{\\textbf{(D)}\\ 5}</imath> intersections.\n\nA possible configuration is shown below:\n\n<asy>\nsize(60);\npair O=(0,0);\npair A=(1,1);\npair B=(-1,-1);\npair C=(1,-1);\npair D=(-1,1);\ndraw(Circle(O,1));\ndraw(A--B);\ndraw(C--D);\ndot(O);\ndot(A * sqrt(2)/2);\ndot(B * sqrt(2)/2);\ndot(C * sqrt(2)/2); \ndot(D * sqrt(2)/2);\n</asy>\n\n==Video Solution by WhyMath==\nhttps://youtu.be/HmpI5StjhNI\n\n==See Also==\n{{AMC8 box|year=2002|before=First<br />Question|num-a=2}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:18:03.393Z"
 }

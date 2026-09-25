@@ -1,5 +1,5 @@
 {
   "page": "2004_AMC_8_Problems/Problem_6",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.359Z"
+  "wikitext": "== Problem ==\nAfter Sally takes <math>20</math> shots, she has made <math>55\\%</math> of her shots. After she takes <math>5</math> more shots, she raises her percentage to <math>56\\%</math>. How many of the last <math>5</math> shots did she make?\n\n<math> \\textbf{(A)}\\ 1\\qquad\\textbf{(B)}\\ 2\\qquad\\textbf{(C)}\\ 3\\qquad\\textbf{(D)}\\ 4\\qquad\\textbf{(E)}\\ 5 </math>\n\n== Solution ==\nSally made <math>0.55*20=11</math> shots originally. Letting <math>x</math> be the number of shots she made, we have <math>\\frac{11+x}{25}=0.56</math>. Solving for <math>x</math> gives us <math>x=\\boxed{\\textbf{(C)}\\ 3}</math>\n\n==Video Solution==\nhttps://youtu.be/8sDu95w3R2I Soo, DRMS, NM\n\n==See Also==\n{{AMC8 box|year=2004|num-b=5|num-a=7}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:23:41.045Z"
 }

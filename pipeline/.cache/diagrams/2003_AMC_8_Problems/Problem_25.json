@@ -1,0 +1,6 @@
+{
+  "page": "2003_AMC_8_Problems/Problem_25",
+  "svg": null,
+  "renderedAt": "2026-09-25T06:42:00.079Z",
+  "error": "Command failed: asy -f svg -o /tmp/amc-diagram-5spHrt/diagram.svg /tmp/amc-diagram-5spHrt/diagram.asy pair Z=origin, W=(0,10), X=(10,10), Y=(10,0), O=(5,5), B=(-4,8), C=(-4,2), A=(-13,5);        ^"
+}

@@ -1,5 +1,5 @@
 {
   "page": "2003_AMC_8_Problems/Problem_19",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.357Z"
+  "wikitext": "==Problem==\n\nHow many integers between 1000 and 2000 have all three of the numbers 15, 20, and 25 as factors?\n\n<math>\\textbf{(A)}\\ 1 \\qquad \\textbf{(B)}\\ 2 \\qquad \\textbf{(C)}\\ 3 \\qquad \\textbf{(D)}\\ 4 \\qquad \\textbf{(E)}\\ 5</math>\n\n==Solution 1==\n\nFind the least common multiple of <imath>15, 20, 25</imath> by turning the numbers into their prime factorization. <cmath>15 = 3 \\cdot 5, 20 = 2^2 \\cdot 5, 25 = 5^2</cmath> Gather all necessary multiples \n<imath>3, 2^2, 5^2</imath> when multiplied gets <imath>300</imath>. The multiples of <imath>300 - 300, 600, 900, 1200, 1500, 1800, 2100</imath>. The number of multiples between 1000 and 2000 is <imath>\\boxed{\\textbf{(C)}\\ 3}</imath>.\n\n==See Also==\n{{AMC8 box|year=2003|num-b=18|num-a=20}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:22:19.357Z"
 }

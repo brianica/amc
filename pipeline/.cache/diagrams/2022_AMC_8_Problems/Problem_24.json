@@ -1,0 +1,6 @@
+{
+  "page": "2022_AMC_8_Problems/Problem_24",
+  "svg": null,
+  "renderedAt": "2026-09-25T06:43:09.891Z",
+  "error": "Command failed: asy -f svg -o /tmp/amc-diagram-jIEbkG/diagram.svg /tmp/amc-diagram-jIEbkG/diagram.asy draw(A--B--C--I--D--E--F--G--J--H--cycle^^rightanglemark(F,I,C)^^rightanglemark(G,J,B));                                           ^"
+}

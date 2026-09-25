@@ -15,6 +15,7 @@ import {
 } from "@/lib/analytics";
 import { problemLink } from "@/lib/wiki-links";
 import { parseAnswers, scoreAttempt } from "@pipeline/score";
+import { cutoffFor, percentileBand } from "@/lib/aime-cutoffs";
 import { ScoreSummary } from "../ScoreSummary";
 import { ScrollToTop } from "../ScrollToTop";
 import { StrengthGrid, TimeSpent, type TimeSpentPoint } from "../../dashboard/charts";
@@ -79,6 +80,12 @@ export default async function AttemptPage({ params }: { params: Promise<{ attemp
     }
   }
 
+  // Not every paper has published cutoffs entered yet (see data/aime-cutoffs.json) —
+  // this section simply doesn't render until that row exists, rather than showing a
+  // guess.
+  const cutoff = cutoffFor(exam);
+  const band = cutoff ? percentileBand(cutoff, scored.score) : null;
+
   const timePoints: TimeSpentPoint[] =
     attempt.mode === "timed" && attempt.timings
       ? attempt.timings
@@ -104,6 +111,35 @@ export default async function AttemptPage({ params }: { params: Promise<{ attemp
       </div>
 
       <ScoreSummary examLabel={label} scored={scored} />
+
+      {cutoff && (cutoff.aimeCutoff !== null || band) && (
+        <section className="rounded-lg border border-border bg-surface p-5">
+          <h2 className="text-lg font-semibold">Against the field</h2>
+          <ul className="mt-4 space-y-1 text-sm">
+            {cutoff.aimeCutoff !== null && (
+              <li className="flex justify-between border-b border-border py-1.5">
+                <span>AIME cutoff that year</span>
+                <span className="tabular-nums">
+                  <span className={scored.score >= cutoff.aimeCutoff ? "text-correct" : "text-muted"}>
+                    {scored.score} / {cutoff.aimeCutoff}
+                  </span>
+                  {scored.score >= cutoff.aimeCutoff ? " — would have qualified" : " — short of qualifying"}
+                </span>
+              </li>
+            )}
+            {band && (
+              <li className="flex justify-between py-1.5">
+                <span>Percentile</span>
+                <span className="tabular-nums">top {band.top}%</span>
+              </li>
+            )}
+          </ul>
+          <p className="mt-3 text-xs text-muted">
+            From that year&rsquo;s published AoPS results, not a live ranking — the field
+            and the cutoff both change every year.
+          </p>
+        </section>
+      )}
 
       {causesShown && (
         <section className="rounded-lg border border-border bg-surface p-5">

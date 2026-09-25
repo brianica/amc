@@ -1,5 +1,5 @@
 {
   "page": "2003_AMC_8_Problems/Problem_5",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.354Z"
+  "wikitext": "==Problem==\nIf <math>20\\%</math> of a number is <math>12</math>, what is <math>30\\%</math> of the same number? \n\n<math> \\textbf{(A)}\\ 15\\qquad\\textbf{(B)}\\ 18\\qquad\\textbf{(C)}\\ 20\\qquad\\textbf{(D)}\\ 24\\qquad\\textbf{(E)}\\ 30 </math>\n\n==Solution==\n<math>20\\%</math> of a number is equal to <math>\\frac{1}{5}</math> of that number. Let <math>n</math>=the number\n\n<math>\\frac{1}{5}n = 12</math> Multiply both sides by 5\n\n<math>n = 60</math>\n\n<math>30\\%</math> of <math>n</math> is equal to <math>\\frac{3}{10}n = \\frac{3}{10}\\cdot60 = 3\\cdot6 = \\boxed{\\textbf{(B)}18}</math>\n\n==See Also==\n{{AMC8 box|year=2003|num-b=4|num-a=6}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:21:04.489Z"
 }

@@ -1,0 +1,6 @@
+{
+  "page": "2021_Fall_AMC_10B_Problems/Problem_15",
+  "svg": null,
+  "renderedAt": "2026-09-25T06:41:12.998Z",
+  "error": "Command failed: asy -f svg -o /tmp/amc-diagram-9Pr3Eq/diagram.svg /tmp/amc-diagram-9Pr3Eq/diagram.asy pair A = origin, B = (5,0), C = (5,5), D = (0,5), P = (0,r), Q = (5-r,0),          ^"
+}

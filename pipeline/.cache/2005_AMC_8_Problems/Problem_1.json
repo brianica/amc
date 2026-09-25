@@ -1,5 +1,5 @@
 {
   "page": "2005_AMC_8_Problems/Problem_1",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.363Z"
+  "wikitext": "==Problem==\nConnie multiplies a number by <math>2</math> and gets <math>60</math> as her answer. However, she should have divided the number by <math>2</math> to get the correct answer. What is the correct answer?\n\n<math> \\textbf{(A)}\\ 7.5\\qquad\\textbf{(B)}\\ 15\\qquad\\textbf{(C)}\\ 30\\qquad\\textbf{(D)}\\ 120\\qquad\\textbf{(E)}\\ 240 </math>\n\n==Solution==\nIf <math>x</math> is the number, then <math>2x=60</math> and <math>x=30</math>. Dividing the number by <math>2</math> yields <math>\\dfrac{30}{2} = \\boxed{\\textbf{(B)}\\ 15}</math>.\n\nA second way to do it is to divide the number by <math>4</math>, as you multiplied by <math>2</math> when you were supposed to divide by <math>2</math>. So, <math>\\dfrac{60}{4} = \\boxed{\\textbf{(B)}\\ 15}</math>.\n\n==See Also==\n{{AMC8 box|year=2005|before=First <br/> Question|num-a=2}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:25:46.743Z"
 }

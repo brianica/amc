@@ -1,5 +1,5 @@
 {
   "page": "2014_AMC_8_Problems/Problem_1",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.403Z"
+  "wikitext": "==Problem==\nHarry and Terry are each told to calculate <math>8-(2+5)</math>. Harry gets the correct answer. Terry ignores the parentheses and calculates <math>8-2+5</math>. If Harry's answer is <math>H</math> and Terry's answer is <math>T</math>, what is <math>H-T</math>?\n\n<math>\\textbf{(A) }-10\\qquad\\textbf{(B) }-6\\qquad\\textbf{(C) }0\\qquad\\textbf{(D) }6\\qquad \\textbf{(E) }10</math>\n\n==Solution==\nWe have <math>H=8-7=1</math> and <math>T=8-2+5=11</math>. Clearly <math>1-11=-10</math>\n, so our answer is <math>\\boxed{\\textbf{(A)}-10}</math>.\n\n\n\n\n==Solution 2==\nWe use PEMDAS, 8-(2+5) is the same as 8-7 which is 1, 8-2+5 is the same as 6+5 because 8-2 comes first, and the sum is 11. H-T is 1-11 which is <imath>\\boxed{\\textbf{(A)}-10}</imath>.\n\n==Solution 3== \nHarry, who calculates it correctly, gets 8 - 7 = 1. Terry, who calculates it without parenthesis gets 8 - 2 + 5 which is 6 + 5 = 11.\n        1 - 11 = -10\n-JasonDaGoat\n\n==Video Solution (CREATIVE THINKING)==\nhttps://youtu.be/dljBE3_G85E\n\n~Education, the Study of Everything\n\n\n\n==Video Solution==\nhttps://youtu.be/6TRHPxBveh0\n\n~savannahsolver\n\n==See Also==\n{{AMC8 box|year=2014|before=First Problem|num-a=2}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:48:44.009Z"
 }

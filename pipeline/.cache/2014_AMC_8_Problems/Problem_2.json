@@ -1,5 +1,5 @@
 {
   "page": "2014_AMC_8_Problems/Problem_2",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.403Z"
+  "wikitext": "==Problem==\nPaul owes Paula <math>35</math> cents and has a pocket full of <math>5</math>-cent coins, <math>10</math>-cent coins, and <math>25</math>-cent coins that he can use to pay her. What is the difference between the largest and the smallest number of coins he can use to pay her?\n\n<math>\\textbf{(A) }1\\qquad\\textbf{(B) }2\\qquad\\textbf{(C) }3\\qquad\\textbf{(D) }4\\qquad \\textbf{(E) }5</math>\n\n\n==Solution==\nThe fewest amount of coins that can be used is <math>2</math> (a quarter and a dime). The greatest amount is <math>7</math>, if he only uses nickels. Therefore we have <math>7-2=\\boxed{\\textbf{(E)}~5}</math>.\n==Solution 2==\nQuarter and Dime 2 coins                      All nickels 35/5 = 7 coins\n             7 coins - 2 coins = 5 coins\n-JasonDaGoat\n\n==Video Solution (CREATIVE THINKING)==\nhttps://youtu.be/Gm7gDXHjnUU\n\n~Education, the Study of Everything\n\n\n\n==Video Solution==\nhttps://youtu.be/OOdK-nOzaII?t=454\n\nhttps://youtu.be/scOob5X-l6g\n\n~savannahsolver\n\n==See Also==\n{{AMC8 box|year=2014|num-b=1|num-a=3}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:48:49.730Z"
 }

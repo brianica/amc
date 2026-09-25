@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState, useTransition } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState, useTransition } from "react";
 import type { ExamFile } from "@pipeline/types";
 import type { ScoredAttempt } from "@pipeline/score";
 import type { ErrorCategory, TimeBucket } from "@/lib/store";
@@ -9,7 +9,11 @@ import type { RenderedStatement } from "@/lib/wikitext";
 import { assessRetake, BIAS_WINDOW_DAYS } from "@/lib/retake";
 import { problemLink } from "@/lib/wiki-links";
 import { ScoreSummary } from "../../attempts/ScoreSummary";
-import { saveAttempt, type TriageInput } from "./actions";
+import { saveAttempt, saveTriageProgress, type TriageInput } from "./actions";
+
+/** How long to let triage edits settle before writing them, so a burst of clicks
+ *  across several problems doesn't fire one request per click. */
+const TRIAGE_SAVE_DEBOUNCE_MS = 2000;
 
 /**
  * Plain wording rather than the A/B/C/D labels of the taxonomy: students reliably
@@ -61,6 +65,7 @@ export function ReviewStep({
   statements,
   onBack,
   backLabel,
+  attemptId: attemptIdProp,
 }: {
   exam: ExamFile;
   examLabel: string;
@@ -73,6 +78,8 @@ export function ReviewStep({
   statements?: (RenderedStatement | null)[];
   onBack?: () => void;
   backLabel?: string;
+  /** Present when a timed sitting already created its in-progress row. */
+  attemptId?: string | null;
 }) {
   const [triage, setTriage] = useState<Record<number, TriageInput>>(() => {
     // A timed sitting already measured how long each problem took, so the student
@@ -107,6 +114,9 @@ export function ReviewStep({
   });
   const [pending, startTransition] = useTransition();
   const [error, setError] = useState<string | null>(null);
+  // Set on the first successful triage save, and thereafter every save targets
+  // the same row. Starts from the timed flow's row when there is one.
+  const [attemptId, setAttemptId] = useState<string | null>(attemptIdProp ?? null);
   const [includeInStats, setIncludeInStats] = useState<boolean | null>(null);
   // Shown by default: deciding between a careless slip and a method you never knew
   // is guesswork without the problem in front of you. Hideable because a paper with
@@ -124,17 +134,55 @@ export function ReviewStep({
     [timings],
   );
 
+  // Triage progress is saved to the database as the student works through each
+  // missed problem, so a crash mid-triage doesn't lose it. Debounced: category
+  // and time-bucket clicks are already discrete, but a burst across several
+  // problems shouldn't fire one request per click.
+  const attemptIdRef = useRef(attemptId);
+  attemptIdRef.current = attemptId;
+  const flushTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const flushTriage = useCallback(
+    (currentTriage: Record<number, TriageInput>) => {
+      saveTriageProgress({
+        attemptId: attemptIdRef.current,
+        examId: exam.id,
+        takenOn,
+        answers: scored.results.map((r) => r.given ?? "-").join(""),
+        durationMin,
+        mode: timings ? "timed" : "paper",
+        triage: Object.values(currentTriage),
+      })
+        .then(({ attemptId: id }) => setAttemptId(id))
+        .catch(() => {
+          // The save failed — the student can keep triaging, and the final
+          // "Save attempt" click still writes everything in one shot.
+        });
+    },
+    [exam.id, takenOn, scored, durationMin, timings],
+  );
+
+  useEffect(() => () => {
+    if (flushTimer.current) clearTimeout(flushTimer.current);
+  }, []);
+
   function updateTriage(q: number, patch: Partial<TriageInput>) {
-    setTriage((prev) => ({
-      ...prev,
-      [q]: { q, errorCategory: null, timeBucket: null, note: "", ...prev[q], ...patch },
-    }));
+    setTriage((prev) => {
+      const next = {
+        ...prev,
+        [q]: { q, errorCategory: null, timeBucket: null, note: "", ...prev[q], ...patch },
+      };
+      if (flushTimer.current) clearTimeout(flushTimer.current);
+      flushTimer.current = setTimeout(() => flushTriage(next), TRIAGE_SAVE_DEBOUNCE_MS);
+      return next;
+    });
   }
 
   function submit() {
     startTransition(async () => {
       try {
         await saveAttempt({
+          attemptId,
           examId: exam.id,
           takenOn,
           answers: scored.results.map((r) => r.given ?? "-").join(""),
@@ -218,7 +266,7 @@ export function ReviewStep({
                     // source and emits only its own markup plus KaTeX output.
                     dangerouslySetInnerHTML={{ __html: statements[r.n - 1]!.html }}
                   />
-                  {statements[r.n - 1]!.hasDiagram && (
+                  {statements[r.n - 1]!.hasDiagram && !statements[r.n - 1]!.diagramRendered && (
                     <p className="mt-1 text-sm text-muted">
                       This problem has a diagram that cannot be drawn here — see the
                       Problem link above, or check your paper.
@@ -284,6 +332,10 @@ export function ReviewStep({
               <input
                 value={triage[r.n]?.note ?? ""}
                 onChange={(e) => updateTriage(r.n, { note: e.target.value })}
+                onBlur={() => {
+                  if (flushTimer.current) clearTimeout(flushTimer.current);
+                  flushTriage(triage);
+                }}
                 maxLength={500}
                 placeholder="One line on what you missed (optional)"
                 className="mt-3 w-full rounded-md border border-border bg-bg px-3 py-1.5 text-sm"

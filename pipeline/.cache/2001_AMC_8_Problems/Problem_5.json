@@ -1,5 +1,5 @@
 {
   "page": "2001_AMC_8_Problems/Problem_5",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.346Z"
+  "wikitext": "==Problem==\n\nOn a dark and stormy night Snoopy suddenly saw a flash of lightning. Ten seconds later he heard the sound of thunder. The speed of sound is 1088 feet per second and one mile is 5280 feet. Estimate, to the nearest half-mile, how far Snoopy was from the flash of lightning.\n\n<math>\\text{(A)}\\ 1 \\qquad \\text{(B)}\\ 1\\frac{1}{2} \\qquad \\text{(C)}\\ 2 \\qquad \\text{(D)}\\ 2\\frac{1}{2} \\qquad \\text{(E)}\\ 3</math>\n\n==Solution==\nDuring the <math> 10 </math> seconds, the sound traveled <math> 1088\\times10=10880 </math> feet from the lightning to Snoopy. This is equivalent to <math> \\frac{10880}{5280}\\approx2 </math> miles, <math> \\boxed{\\text{C}} </math>.\n\n==See Also==\n{{AMC8 box|year=2001|num-b=4|num-a=6}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:15:51.297Z"
 }

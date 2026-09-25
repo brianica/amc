@@ -1,5 +1,5 @@
 {
   "page": "2003_AMC_8_Problems/Problem_16",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.356Z"
+  "wikitext": "==Problem==\nAli, Bonnie, Carlo, and Dianna are going to drive together to a nearby theme park. The car they are using has <math>4</math> seats: <math>1</math> Driver seat, <math>1</math> front passenger seat, and <math>2</math> back passenger seats. Bonnie and Carlo are the only ones who know how to drive the car. How many possible seating arrangements are there?\n\n<math> \\textbf{(A)}\\ 2\\qquad\\textbf{(B)}\\ 4\\qquad\\textbf{(C)}\\ 6\\qquad\\textbf{(D)}\\ 12\\qquad\\textbf{(E)}\\ 24 </math>\n\n==Solution==\nThere are only <math>2</math> people who can go in the driver's seat--Bonnie and Carlo. Any of the <math>3</math> remaining people can go in the front passenger seat. There are <math>2</math> people who can go in the first back passenger seat, and the remaining person must go in the last seat. Thus, there are <math>2\\cdot3\\cdot2</math> or <math>12</math> ways. The answer is then <math>\\boxed{\\textbf{(D)}\\ 12}</math>.\n\n==Solution 2 (Quick)==\nIf there weren't any extra requirements, there would be 24 combinations. However, there are only 2, which is half of 4, ways to put the people for the first seat by restriction. Therefore, half of 24 is <math>\\boxed{\\textbf{(D)}\\ 12}</math>.\n\nSolution by [[User:ILoveMath31415926535|ILoveMath31415926535]]\n\n==See Also==\n{{AMC8 box|year=2003|num-b=15|num-a=17}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:22:03.283Z"
 }

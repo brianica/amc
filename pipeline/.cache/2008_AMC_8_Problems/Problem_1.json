@@ -1,5 +1,5 @@
 {
   "page": "2008_AMC_8_Problems/Problem_1",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.376Z"
+  "wikitext": "==Problem==\nSusan had 50 dollars to spend at the carnival. She spent 12 dollars on food and twice as much on rides. How many dollars did she have left to spend?\n\n<math>\\textbf{(A)}\\ 12 \\qquad\n\\textbf{(B)}\\ 14 \\qquad\n\\textbf{(C)}\\ 26 \\qquad\n\\textbf{(D)}\\ 38 \\qquad\n\\textbf{(E)}\\ 50</math>\n\n==Solution==\nIf Susan spent 12 dollars, then twice that much on rides, then she spent <math>12+12 \\times 2=36</math> dollars in total. We subtract <math>36</math> from <math>50</math> to get <math>\\boxed{\\textbf{(B)}\\ 14}</math>\n\n==See Also==\n{{AMC8 box|year=2008|before=First Problem|num-a=2}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:33:16.668Z"
 }

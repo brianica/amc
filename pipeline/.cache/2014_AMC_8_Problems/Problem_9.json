@@ -1,5 +1,5 @@
 {
   "page": "2014_AMC_8_Problems/Problem_9",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.404Z"
+  "wikitext": "==Problem==\nIn <math>\\bigtriangleup ABC</math>, <math>D</math> is a point on side <math>\\overline{AC}</math> such that <math>BD=DC</math> and <math>\\angle BCD</math> measures <math>70^\\circ</math>. What is the degree measure of <math>\\angle ADB</math>?\n\n<asy>\nsize(300);\ndefaultpen(linewidth(0.8));\npair A=(-1,0),C=(1,0),B=dir(40),D=origin;\ndraw(A--B--C--A);\ndraw(D--B);\ndot(\"$A$\", A, SW);\ndot(\"$B$\", B, NE);\ndot(\"$C$\", C, SE);\ndot(\"$D$\", D, S);\nlabel(\"$70^\\circ$\",C,2*dir(180-35));</asy>\n\n<math>\\textbf{(A) }100\\qquad\\textbf{(B) }120\\qquad\\textbf{(C) }135\\qquad\\textbf{(D) }140\\qquad \\textbf{(E) }150</math>\n\n==Video Solution (CREATIVE THINKING)==\nhttps://youtu.be/jLnqUOe0HPE\n\n~Education, the Study of Everything\n\n\n\n==Video Solution==\nhttps://www.youtube.com/watch?v=HP-lBKohxhE   ~David\n\nhttps://youtu.be/j5KrHM81HZ8 ~savannahsolver\n\n==Video Solution ==\nhttps://youtu.be/abSgjn4Qs34?t=3140\n\n==Solution==\nUsing angle chasing is a good way to solve this problem. <math>BD = DC</math>, so <math>\\angle DBC = \\angle DCB = 70</math>, because it is an isosceles triangle. Then <math>\\angle CDB = 180-(70+70) = 40</math>. Since <math>\\angle ADB</math> and <math>\\angle BDC</math> are supplementary, <math>\\angle ADB = 180 - 40 = \\boxed{\\textbf{(D)}~140}</math>.\n\n==See Also==\n{{AMC8 box|year=2014|num-b=8|num-a=10}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:49:28.519Z"
 }

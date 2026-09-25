@@ -1,5 +1,5 @@
 {
   "page": "2001_AMC_8_Problems/Problem_9",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.347Z"
+  "wikitext": "\n\n==Problem==\nTo promote her school's annual Kite Olympics, Genevieve makes a small kite and a large kite for a bulletin board display. The kites look like the one in the diagram. For her small kite Genevieve draws the kite on a one-inch grid. For the large kite she triples both the height and width of the entire grid.\n\n<asy>\nfor (int a = 0; a < 7; ++a)\n{\nfor (int b = 0; b < 8; ++b)\n{\ndot((a,b));\n}\n}\n\ndraw((3,0)--(0,5)--(3,7)--(6,5)--cycle);\n</asy>\n\nThe large kite is covered with gold foil. The foil is cut from a rectangular piece that just covers the entire grid. How many square inches of waste material are cut off from the four corners?\n\n<math>\\textbf{(A)}\\ 63 \\qquad \\textbf{(B)}\\ 72 \\qquad \\textbf{(C)}\\ 180 \\qquad \\textbf{(D)}\\ 189 \\qquad \\textbf{(E)}\\ 264</math>\n\n==Solution==\n\n\nThe large grid has dimensions three times that of the small grid, so its dimensions are <math> 3(6)\\times3(7) </math>, or <math> 18\\times21 </math>, so the area is <math> (18)(21)=378 </math>. The area of the kite is half of the area of the rectangle as you can see, so the area of the waste material is also half the area of the rectangle.  Thus, the area of the waste material is <math> 378/2=\\boxed{189\\textbf{ (D)}} </math>.\n\n==See Also==\n{{AMC8 box|year=2001|num-b=8|num-a=10}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:16:15.677Z"
 }

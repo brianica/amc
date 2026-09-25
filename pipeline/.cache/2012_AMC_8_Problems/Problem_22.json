@@ -1,5 +1,5 @@
 {
   "page": "2012_AMC_8_Problems/Problem_22",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.398Z"
+  "wikitext": "==Problem==\n<!-- don't remove the following tag, for PoTW on the Wiki front page--><onlyinclude>Let <math>R</math>  be a set of nine distinct integers. Six of the elements are <math>2</math>, <math>3</math>, <math>4</math>, <math>6</math>, <math>9</math>, and <math>14</math>. What is the number of possible values of the median of <math>R</math>?<!-- don't remove the following tag, for PoTW on the Wiki front page--></onlyinclude>\n\n<math> \\textbf{(A)}\\hspace{.05in}4\\qquad\\textbf{(B)}\\hspace{.05in}5\\qquad\\textbf{(C)}\\hspace{.05in}6\\qquad\\textbf{(D)}\\hspace{.05in}7\\qquad\\textbf{(E)}\\hspace{.05in}8 </math>\n\n==Solution 1==\nLet the values of the missing integers be <imath>x, y, z</imath>. We will find the bound of the possible medians. \n\nThe smallest possible median will happen when we order the set as <imath>\\{x, y, z, 2, 3, 4, 6, 9, 14\\}</imath>. The median is <imath>3</imath>. \n\nThe largest possible median will happen when we order the set as <imath>\\{2, 3, 4, 6, 9, 14, x, y, z\\}</imath>. The median is <imath>9</imath>.\n\nTherefore, all possible medians must be between <imath>3</imath> and <imath>9</imath> inclusive, yielding <imath>\\boxed{\\textbf{(D)}\\ 7}</imath> possible medians.\n\n~superagh\n\n==Video Solution==\nhttps://youtu.be/yBSrLxv0LbY ~savannahsolver\n\n==",
+  "fetchedAt": "2026-09-19T04:45:33.256Z"
 }

@@ -1,5 +1,5 @@
 {
   "page": "2005_AMC_8_Problems/Problem_16",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.365Z"
+  "wikitext": "==Problem==\nA five-legged Martian has a drawer full of socks, each of which is red, white or blue, and there are at least five socks of each color. The Martian pulls out one sock at a time without looking. How many socks must the Martian remove from the drawer to be certain there will be 5 socks of the same color?\n\n<math> \\textbf{(A)}\\ 6\\qquad\\textbf{(B)}\\ 9\\qquad\\textbf{(C)}\\ 12\\qquad\\textbf{(D)}\\ 13\\qquad\\textbf{(E)}\\ 15 </math>\n\n==Solution==\nThe Martian can pull out <math>12</math> socks, <math>4</math> of each color, without having <math>5</math> of the same kind yet. However, the next one he pulls out must be the fifth of one of the colors so he must remove <math>\\boxed{\\textbf{(D)}\\ 13}</math> socks.\n\n==See Also==\n{{AMC8 box|year=2005|num-b=15|num-a=17}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:27:12.932Z"
 }

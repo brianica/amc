@@ -1,5 +1,5 @@
 {
   "page": "2002_AMC_8_Problems/Problem_5",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.350Z"
+  "wikitext": "==Problem==\nCarlos Montado was born on Saturday, November 9, 2002. On what day of the week will Carlos be <imath>706</imath> days old? \n\n<imath> \\text{(A)}\\ \\text{Monday}\\qquad\\text{(B)}\\ \\text{Wednesday}\\qquad\\text{(C)}\\ \\text{Friday}\\qquad\\text{(D)}\\ \\text{Saturday}\\qquad\\text{(E)}\\ \\text{Sunday} </imath>\n\n==Solution 1==\n\nAfter <imath>700</imath> days, or <imath>100</imath> weeks, it will be Saturday.  Thus after <imath>706</imath> days, it will be <imath>6</imath> days after Saturday, which is <imath>\\boxed{\\textbf{(C)}\\ \\text{Friday}}</imath>.\n\n==Solution 2==\n\nAfter <imath>707</imath> days, or <imath>101</imath> weeks, it will be Saturday.  Thus after <imath>706</imath> days, it will be <imath>1</imath> day before Saturday, which is <imath>\\boxed{\\textbf{(C)}\\ \\text{Friday}}</imath>.\n\n==Video Solution by WhyMath==\nhttps://youtu.be/ze0yDOAGL4Y\n\n==See Also==\n{{AMC8 box|year=2002|num-b=4|num-a=6}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:18:23.401Z"
 }

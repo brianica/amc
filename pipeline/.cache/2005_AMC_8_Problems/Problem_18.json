@@ -1,5 +1,5 @@
 {
   "page": "2005_AMC_8_Problems/Problem_18",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.366Z"
+  "wikitext": "==Problem==\nHow many three-digit numbers are divisible by 13?\n\n<imath> \\textbf{(A)}\\ 7\\qquad\\textbf{(B)}\\ 67\\qquad\\textbf{(C)}\\ 69\\qquad\\textbf{(D)}\\ 76\\qquad\\textbf{(E)}\\ 77</imath>\n\n\n==Solution 1==\nLet <imath>k</imath> be any positive integer so that <imath>13k</imath> is a multiple of <imath>13</imath>. For the smallest three-digit number, <imath>13k>100</imath> and <imath>k>\\frac{100}{13} \\approx 7.7</imath>. For the greatest three-digit number, <imath>13k<999</imath> and <imath>k<\\frac{999}{13} \\approx 76.8</imath>. The number <imath>k</imath> can range from <imath>8</imath> to <imath>76</imath> so there are <imath>\\boxed{\\textbf{(C)}\\ 69}</imath> three-digit numbers.\n\n\n==Solution 2==\n3 digits number start from 100 and ends at 999.\n1 to 100 total multiple of <imath>13 =\\frac{100}{13}</imath> \n\n1 to 999 total multple of <imath>13 =\\frac{999}{13}</imath> \n\nHence <imath>\\frac{999}{13}-\\frac{100}{13}</imath>\n=76-7\n=69\n\n\n~KENJAKURA\n\n==Video Solution by OmegaLearn==\nhttps://youtu.be/7an5wU9Q5hk?t=393\n\n==Video Solution 2==\nhttps://youtu.be/101Rgutx1R0 Soo, DRMS, NM\n\n\n==See Also==\n{{AMC8 box|year=2005|num-b=17|num-a=19}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:27:24.958Z"
 }

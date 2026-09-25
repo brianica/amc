@@ -1,5 +1,5 @@
 {
   "page": "2011_AMC_8_Problems/Problem_10",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.391Z"
+  "wikitext": "==Problem==\nThe taxi fare in Gotham City is <nowiki>$2.40</nowiki> for the first <math>\\frac12</math> mile and additional mileage charged at the rate <nowiki>$0.20</nowiki> for each additional 0.1 mile. You plan to give the driver a <nowiki>$2</nowiki> tip. How many miles can you ride for <nowiki>$10</nowiki>?\n\n<math> \\textbf{(A) }3.0\\qquad\\textbf{(B) }3.25\\qquad\\textbf{(C) }3.3\\qquad\\textbf{(D) }3.5\\qquad\\textbf{(E) }3.75 </math>\n\n==Solution 1 (Algebra)==\nLet <math>x</math> be the number of miles you ride. The number of miles you ride after the first half mile is <math>x-0.5.</math> We can write this equation:\n\n\n\n<cmath>\\begin{align*} 10 &= 2.4 + 0.2 \\times \\frac{x-0.5}{0.1} + 2\\\\\n5.6 &= 2(x-0.5)\\\\\n2.8 &= x-0.5\\\\\nx &= \\boxed{\\textbf{(C)}\\ 3.3}\\end{align*}</cmath>\n\n==Solution 2 (Table)==\n\n\\begin{array}{|c|c|c|}\nMiles & Money & Remark\\\\\n\\hline\n0 & 8 & \\text{2  for  tip} \\\\\n\\hline\n0.5 & 5.6 & \\text{-2.4  for  first  0.5  mi} \\\\\n\\hline\n3.3 & 0 & \\text{-5.6  for  2.8  mi}\n\\end{array}\n\nMiles travelled = <math>\\boxed{\\textbf{(C)}\\ 3.3}</math>\n\nSolution by Anshulb, formatted by Cheetahboy93\n\n==Video Solution==\nhttps://youtu.be/2TYKNdpOvok\n\n~savannahsolver\n\n==See Also==\n{{AMC8 box|year=2011|num-b=9|num-a=11}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:41:50.246Z"
 }

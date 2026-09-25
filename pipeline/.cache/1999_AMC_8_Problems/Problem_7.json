@@ -1,5 +1,5 @@
 {
   "page": "1999_AMC_8_Problems/Problem_7",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.335Z"
+  "wikitext": "==Problem==\n\nThe third exit on a highway is located at milepost 40 and the tenth exit is at milepost 160. There is a service center on the highway located three-fourths of the way from the third exit to the tenth exit. At what milepost would you expect to find this   service center?\n\n\n\n<math>\\text{(A)}\\ 90 \\qquad \\text{(B)}\\ 100 \\qquad \\text{(C)}\\ 110 \\qquad \\text{(D)}\\ 120 \\qquad \\text{(E)}\\ 130</math>\n\n==Solution==\n\nThere are <math>160-40=120</math> miles between the third and tenth exits, so the service center is at milepost <math>40+(3/4)(120) = 40+90=\\boxed{\\text{(E)}\\ 130}</math>.\n\n==Video Solution==\n\nhttps://youtu.be/TFVzjTKrC5w Soo, DRMS, NM\n\n==Video Solution 2==\nhttps://www.youtube.com/watch?v=qiumqqi4l9c\nBy YippieMath\n\n==See Also==\n\n{{AMC8 box|year=1999|num-b=6|num-a=8}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:10:48.610Z"
 }

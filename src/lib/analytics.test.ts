@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { attemptOrdinals, headline, mistakeMix, scoreTrend, strengthGrid, subtopicBreakdown } from "./analytics";
-import type { AttemptRecord, ProblemLogRecord } from "./store";
+import type { CompleteAttemptRecord, ProblemLogRecord } from "./store";
 import { tierOf, type ExamFile, type Letter } from "@pipeline/types";
 
 const KEY = "ABCDEABCDEABCDEABCDEABCDE";
@@ -41,10 +41,11 @@ const EXAMS: Record<string, ExamFile> = {
 const lookup = (id: string) => EXAMS[id];
 const label = (e: ExamFile) => e.id;
 
-function attempt(id: string, examId: string, takenOn: string, answers: string, score: number): AttemptRecord {
+function attempt(id: string, examId: string, takenOn: string, answers: string, score: number): CompleteAttemptRecord {
   return {
     id, user_id: "u1", exam_id: examId, taken_on: takenOn, mode: "paper",
     answers, duration_min: 75, score, include_in_stats: true, timings: null, created_at: `${takenOn}T00:00:00Z`,
+    status: "complete",
   };
 }
 

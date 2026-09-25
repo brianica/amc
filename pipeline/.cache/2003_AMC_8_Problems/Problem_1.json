@@ -1,5 +1,5 @@
 {
   "page": "2003_AMC_8_Problems/Problem_1",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.354Z"
+  "wikitext": "==Problem 1==\nJamie counted the number of edges of a cube, Jimmy counted the numbers of corners, and Judy counted the number of faces. They then added the three numbers. What was the resulting sum?\n\n==Solution==\nOn a cube, there are <math> 12 </math> edges, <math> 8 </math> corners, and <math> 6 </math> faces. Adding them up gets <math> 12+8+6= \\boxed{\\mathrm{(E)}\\ 26} </math>.\n\n==See Also==\n{{AMC8 box|year=2003|before=First <br />Question|num-a=2}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:20:40.089Z"
 }

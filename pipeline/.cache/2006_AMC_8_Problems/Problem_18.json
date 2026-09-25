@@ -1,5 +1,5 @@
 {
   "page": "2006_AMC_8_Problems/Problem_18",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.370Z"
+  "wikitext": "==Problem==\nA cube with 3-inch edges is made using 27 cubes with 1-inch edges. Nineteen of the smaller cubes are white and eight are black. If the eight black cubes are placed at the corners of the larger cube, what fraction of the surface area of the larger cube is white? \n\n<math> \\textbf{(A)}\\ \\frac{1}{9}\\qquad\\textbf{(B)}\\ \\frac{1}{4}\\qquad\\textbf{(C)}\\ \\frac{4}{9}\\qquad\\textbf{(D)}\\ \\frac{5}{9}\\qquad\\textbf{(E)}\\ \\frac{19}{27} </math>\n\n==Solution==\n\nThe surface area of the cube is <math>6(3)(3)=54</math>. Each of the eight black cubes has 3 faces on the outside, making <math>3(8)=24</math> black faces. Therefore there are <math>54-24=30</math> white faces. To find the ratio, we evaluate <math>\\frac{30}{54}= \\boxed{\\textbf{(D)}\\ \\frac{5}{9}}</math>.\n\n\n==Video Solution by WhyMath==\nhttps://youtu.be/nDkpGeJcTd8\n\n==See Also==\n\n{{AMC8 box|year=2006|num-b=17|num-a=19}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:29:53.162Z"
 }

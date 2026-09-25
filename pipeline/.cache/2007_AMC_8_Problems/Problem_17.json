@@ -1,5 +1,5 @@
 {
   "page": "2007_AMC_8_Problems/Problem_17",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.374Z"
+  "wikitext": "==Problem==\n\nA mixture of <math>30</math> liters of paint is <math>25\\%</math> red tint, <math>30\\%</math> yellow\ntint and <math>45\\%</math> water. Five liters of yellow tint are added to\nthe original mixture. What is the percent of yellow tint\nin the new mixture?\n\n<math>\\mathrm{(A)}\\ 25 \\qquad \\mathrm{(B)}\\ 35 \\qquad \\mathrm{(C)}\\ 40 \\qquad \\mathrm{(D)}\\ 45 \\qquad \\mathrm{(E)}\\ 50</math>\n\n==Solution==\nSince <math>30\\%</math> of the original <math>30</math> liters of paint was yellow, and <math>5</math> liters of yellow paint were added to make the new mixture, there are <math>9+5=14</math> liters of yellow tint in the new mixture. Since only <math>5</math> liters of paint were added to the original <math>30</math>, there are a total of <math>35</math> liters of paint in the new mixture. This gives <math>40\\%</math> of yellow tint in the new mixture, which is <math>\\boxed{\\textbf{(C) 40}}</math>.\n\n==Video Solution by WhyMath==\nhttps://youtu.be/5MfwBvLHUCw\n\n~savannahsolver\n\n==Video Solution==\nhttps://youtu.be/StRqfN7yYE8   Soo, DRMS, NM\n\n==See Also==\n{{AMC8 box|year=2007|num-b=16|num-a=18}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:32:18.697Z"
 }

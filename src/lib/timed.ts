@@ -27,6 +27,12 @@ export interface TimedState {
   submitted: boolean;
   /** When the current pause began, or null while running. */
   pausedAt: number | null;
+  /**
+   * When this state last changed, for reconciling a localStorage copy against a
+   * server-side in-progress row recovered on another device. Optional so state
+   * saved before this field existed still parses.
+   */
+  updatedAt?: number;
 }
 
 export function startSession(count: number, durationMin: number, now: number): TimedState {
@@ -41,6 +47,7 @@ export function startSession(count: number, durationMin: number, now: number): T
     enteredAt: now,
     submitted: false,
     pausedAt: null,
+    updatedAt: now,
   };
 }
 

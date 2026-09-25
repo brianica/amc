@@ -1,5 +1,5 @@
 {
   "page": "2005_AMC_8_Problems/Problem_11",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.365Z"
+  "wikitext": "==Problem==\nThe sales tax rate in Rubenenkoville is 6%. During a sale at the Bergville Coat Closet, the price of a coat is discounted 20% from its &#36;90.00 price. Two clerks, Jack and Jill, calculate the bill independently. Jack rings up &#36;90.00 and adds 6% sales tax, then subtracts 20% from this total. Jill rings up &#36;90.00, subtracts 20% of the price, then adds 6% of the discounted price for sales tax. What is Jack's total minus Jill's total?\n\n<math> \\textbf{(A)}\\ -\\textdollar 1.06\\qquad\\textbf{(B)}\\ -\\textdollar 0.53 \\qquad\\textbf{(C)}\\ \\textdollar 0\\qquad\\textbf{(D)}\\ \\textdollar 0.53\\qquad\\textbf{(E)}\\ \\textdollar 1.06 </math>\n\n==Solution==\nThe price Jack rings up is <math>\\textdollar{(90.00)(1.06)(0.80)}</math>. The price Jill rings up is <math>\\textdollar{(90.00)(0.80)(1.06)}</math>. By the commutative property of multiplication, these quantities are the same, and the difference is <math>\\boxed{\\textbf{(C)}\\ \\textdollar 0}</math>.\n\n\nReminder: Commutative states abc = bac= acb =..... and is the same in any order. This only works for addition and multiplication.\n\n==See Also==\n{{AMC8 box|year=2005|num-b=10|num-a=12}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:26:40.814Z"
 }

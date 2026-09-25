@@ -1,5 +1,5 @@
 {
   "page": "2004_AMC_8_Problems/Problem_19",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.361Z"
+  "wikitext": "==Problem==\nA whole number larger than <math>2</math> leaves a remainder of <math>2</math> when divided by each of the numbers <math>3, 4, 5,</math> and <math>6</math>. The smallest such number lies between which two numbers?\n\n<math>\\textbf{(A)}\\ 40\\ \\text{and}\\ 49 \\qquad \\textbf{(B)}\\ 60 \\text{ and } 79 \\qquad \\textbf{(C)}\\ 100\\ \\text{and}\\ 129 \\qquad \\textbf{(D)}\\ 210\\ \\text{and}\\ 249\\qquad \\textbf{(E)}\\ 320\\ \\text{and}\\ 369</math>\n\n==Solution==\nThe smallest number divisible by <math>3,4,5,</math> and <math>6</math>, or their least common multiple, can be found to be <math>60</math>. When <math>2</math> is added to a multiple of number, its remainder when divided by that number is <math>2</math>. The number we are looking for is therefore <math>62</math>, and between <math>\\boxed{\\textbf{(B)}\\ 60\\ \\text{and}\\ 79}</math>.\n\n==See Also==\n{{AMC8 box|year=2004|num-b=18|num-a=20}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:24:53.160Z"
 }

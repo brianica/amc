@@ -1,5 +1,5 @@
 {
   "page": "2002_AMC_8_Problems/Problem_12",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.352Z"
+  "wikitext": "== Problem ==\n\nA board game spinner is divided into three regions labeled <imath>A</imath>, <imath>B</imath> and <imath>C</imath>. The probability of the arrow stopping on region <imath>A</imath> is <imath>\\frac{1}{3}</imath> and on region <imath>B</imath> is <imath>\\frac{1}{2}</imath>. The probability of the arrow stopping on region <imath>C</imath> is:\n\n\n<imath> \\textbf{(A)}\\ \\frac{1}{12}\\qquad\\textbf{(B)}\\ \\frac{1}{6}\\qquad\\textbf{(C)}\\ \\frac{1}{5}\\qquad\\textbf{(D)}\\ \\frac{1}{3}\\qquad\\textbf{(E)}\\ \\frac{2}{5} </imath>\n\n==Solution==\nThe total of the probabilities of the arrow stopping on <imath>A</imath>, <imath>B</imath>, and <imath>C</imath> is <imath>1</imath>, so the probability of the arrow stopping on <imath>C</imath> is <imath>1-\\frac{1}{2}-\\frac{1}{3}=\\boxed{\\textbf{(B)}\\ \\frac16}</imath>.\n\n==Video Solution by WhyMath==\nhttps://youtu.be/ODY-ycmPvPE\n\n==See Also==\n{{AMC8 box|year=2002|num-b=11|num-a=13}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:19:04.556Z"
 }

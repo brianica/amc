@@ -1,5 +1,5 @@
 {
   "page": "2009_AMC_8_Problems/Problem_13",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.383Z"
+  "wikitext": "==Problem==\n\nA three-digit integer contains one of each of the digits <math> 1</math>, <math> 3</math>, and <math> 5</math>. What is the probability that the integer is divisible by <math> 5</math>?\n\n<math> \\textbf{(A)}\\  \\frac{1}{6}  \\qquad\n\\textbf{(B)}\\   \\frac{1}{3}  \\qquad\n\\textbf{(C)}\\   \\frac{1}{2}  \\qquad\n\\textbf{(D)}\\  \\frac{2}{3}   \\qquad\n\\textbf{(E)}\\   \\frac{5}{6}</math>\n\n==Solution 1==\nThe three digit numbers are <math>135,153,351,315,513,531</math>. The numbers that end in <math>5</math> are divisible are <math>5</math>, and the probability of choosing those numbers is <math>\\boxed{\\textbf{(B)}\\ \\frac13}</math>.\n\n==Solution 2==\nThe number is divisible by 5 if and only if the number ends in <math>5</math> (also <math>0</math>, but that case can be ignored, as none of the digits are <math>0</math>)\nIf we randomly arrange the three digits, the probability of the last digit being <math>5</math> is <math>\\boxed{\\textbf{(B)}\\ \\frac13}</math>.\n\nNote: The last sentence is true because there are <math>3</math> randomly-arrangeable numbers)\n\n==See Also==\n{{AMC8 box|year=2009|num-b=12|num-a=14}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:36:57.109Z"
 }

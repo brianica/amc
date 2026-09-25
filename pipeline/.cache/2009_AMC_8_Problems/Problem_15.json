@@ -1,5 +1,5 @@
 {
   "page": "2009_AMC_8_Problems/Problem_15",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.384Z"
+  "wikitext": "==Problem==\n\nA recipe that makes <math> 5</math> servings of hot chocolate requires <math> 2</math> squares of chocolate, <math> \\frac{1}{4}</math> cup sugar, <math> 1</math> cup water and <math> 4</math> cups milk. Jordan has <math> 5</math> squares of chocolate, <math> 2</math> cups of sugar, lots of water, and <math> 7</math> cups of milk. If he maintains the same ratio of ingredients, what is the greatest number of servings of hot chocolate he can make?\n\n\n<math> \\textbf{(A)}\\ 5 \\frac18   \\qquad\n\\textbf{(B)}\\    6\\frac14 \\qquad\n\\textbf{(C)}\\  7\\frac12   \\qquad\n\\textbf{(D)}\\  8 \\frac34   \\qquad\n\\textbf{(E)}\\   9\\frac78</math>\n\n==Solution==\nAssuming excesses of the other ingredients, the chocolate can make <math>\\frac52 \\cdot 5=12.5</math> servings, the sugar can make <math>\\frac{2}{1/4} \\cdot 5 = 40</math> servings, the water can make unlimited servings, and the milk can make <math>\\frac74 \\cdot 5 = 8.75</math> servings. Limited by the amount of milk, Jordan can make at most <math>\\boxed{\\textbf{(D)}\\ 8 \\frac34}</math> servings.\n\n==See Also==\n{{AMC8 box|year=2009|num-b=14|num-a=16}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:37:09.595Z"
 }

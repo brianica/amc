@@ -1,5 +1,5 @@
 {
   "page": "2017_AMC_8_Problems/Problem_4",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.420Z"
+  "wikitext": "==Problem==\nWhen <math>0.000315</math> is multiplied by <math>7,928,564</math> the product is closest to which of the following?\n\n<math>\\textbf{(A) }210\\qquad\\textbf{(B) }240\\qquad\\textbf{(C) }2100\\qquad\\textbf{(D) }2400\\qquad\\textbf{(E) }24000</math>\n\n==Solution==\nWe can approximate <imath>7,928,564</imath> to <imath>8,000,000</imath> and <imath>0.000315</imath> to <imath>0.0003.</imath> Multiplying the two yields <imath>2400. </imath> Thus, it shows our answer is <imath>\\boxed{\\textbf{(D)}\\ 2400}.</imath>\n\n~edits by Tarmac-boy\n\n==Video Solution (CREATIVE THINKING!!!)==\nhttps://youtu.be/5wa99PngBSo\n\n~Education, the Study of Everything\n\n==Video Solution==\nhttps://youtu.be/cY4NYSAD0vQ\n\nhttps://youtu.be/wau6o6XP8hY\n\n~savannahsolver\n\n==See Also==\n{{AMC8 box|year=2017|num-b=3|num-a=5}}\n\n{{MAA Notice}}\n\n[[Category:Introductory Algebra Problems]]",
+  "fetchedAt": "2026-09-19T04:56:40.451Z"
 }

@@ -1,5 +1,5 @@
 {
   "page": "2000_AMC_8_Problems/Problem_10",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.341Z"
+  "wikitext": "==Problem==\n\nAra and Shea were once the same height. Since then Shea has grown 20% while Ara has grown half as many inches as Shea. Shea is now 60 inches tall. How tall, in inches, is Ara now?\n\n<math>\\text{(A)}\\ 48 \\qquad \\text{(B)}\\ 51 \\qquad \\text{(C)}\\ 52 \\qquad \\text{(D)}\\ 54 \\qquad \\text{(E)}\\ 55</math>\n\n==Solution==\n\nShea has grown <math>20\\%</math>, if x was her original height, then <math>1.2x = 60</math>, so she was originally <math>\\frac{60}{1.2}=50</math> inches tall which is a <math>60 - 50 = 10</math> inch increase.  Ara also started off at <math>50</math> inches.  Since Ara grew half as much as Shea, Ara grew <math>\\frac{10}{2} = 5</math> inches.  Therefore, Ara is now <math>50+5=55</math> inches tall which is choice <math>\\boxed{E}.</math>\n\n==See Also==\n\n{{AMC8 box|year=2000|num-b=9|num-a=11}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:13:42.265Z"
 }

@@ -1,5 +1,5 @@
 {
   "page": "2006_AMC_8_Problems/Problem_24",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.370Z"
+  "wikitext": "==Problem==\n\nIn the multiplication problem below <imath>A</imath>, <imath>B</imath>, <imath>C</imath>, <imath>D</imath> are different digits. What is <imath>A+B</imath>? \n\n<cmath> \\begin{array}{cccc}& A & B & A\\\\ \\times & & C & D\\\\ \\hline C & D & C & D\\\\ \\end{array} </cmath>\n\n<imath> \\textbf{(A)}\\ 1\\qquad\\textbf{(B)}\\ 2\\qquad\\textbf{(C)}\\ 3\\qquad\\textbf{(D)}\\ 4\\qquad\\textbf{(E)}\\ 9 </imath>\n\n==Solution 1==\n\n<imath>CDCD = CD \\odot 101</imath>, so <imath>ABA = 101</imath>. Therefore, <imath>A = 1</imath> and <imath>B = 0</imath>, so <imath>A+B=1+0=\\boxed{\\textbf{(A)}\\ 1}</imath>.\n\n==Video Solution by OmegaLearn==\nhttps://youtu.be/7an5wU9Q5hk?t=3080\n\n==Video Solution==\n\n\nhttps://www.youtube.com/watch?v=Y4DXkhYthhs   ~David\n\n==Video Solution by WhyMath==\nhttps://youtu.be/IC_2SxI821c\n\n\n==See Also==\n{{AMC8 box|year=2006|n=II|num-b=23|num-a=25}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:30:23.987Z"
 }

@@ -1,5 +1,5 @@
 {
   "page": "2001_AMC_8_Problems/Problem_21",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.349Z"
+  "wikitext": "==Problem==\n\nThe mean of a set of five different positive integers is 15. The median is 18. The maximum possible value of the largest of these five integers is\n\n<math>\\text{(A)}\\ 19 \\qquad \\text{(B)}\\ 24 \\qquad \\text{(C)}\\ 32 \\qquad \\text{(D)}\\ 35 \\qquad \\text{(E)}\\ 40</math>\n\n==Solution==\nSince there is an odd number of terms, the median is the number in the middle, specifically, the third largest number is <math> 18 </math>, and there are <math> 2 </math> numbers less than <math> 18 </math> and <math> 2 </math> numbers greater than <math> 18 </math>. The sum of these integers is <math> 5(15)=75 </math>, since the mean is <math> 15 </math>. To make the largest possible number with a given sum, the other numbers must be as small as possible. The two numbers less than <math> 18 </math> must be positive and distinct, so the smallest possible numbers for these are <math> 1 </math> and <math> 2 </math>. The number right after <math> 18 </math> also needs to be as small as possible, so it must be <math> 19 </math>. This means that the remaining number, the maximum possible value for a number in the set, is <math> 75-1-2-18-19=35, \\boxed{\\text{(D) 35}} </math>.\n\n== Video Solution by OmegaLearn==\nhttps://youtu.be/TkZvMa30Juo?t=2795\n\n~ pi_is_3.14\n\n==See Also==\n{{AMC8 box|year=2001|num-b=20|num-a=22}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:17:22.065Z"
 }

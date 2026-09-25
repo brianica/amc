@@ -1,5 +1,5 @@
 {
   "page": "2005_AMC_8_Problems/Problem_21",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.366Z"
+  "wikitext": "==Problem==\nHow many distinct triangles can be drawn using three of the dots below as vertices?\n\n<asy>dot(origin^^(1,0)^^(2,0)^^(0,1)^^(1,1)^^(2,1));</asy>\n\n<math> \\textbf{(A)}\\ 9\\qquad\\textbf{(B)}\\ 12\\qquad\\textbf{(C)}\\ 18\\qquad\\textbf{(D)}\\ 20\\qquad\\textbf{(E)}\\ 24 </math>\n\n==Solution 1==\nThe number of ways to choose three points to make a triangle is <math>\\binom 63 = 20</math>. However, two* of these are a straight line so we subtract <math>2</math> to get <math>\\boxed{\\textbf{(C)}\\ 18}</math>.\n\n*Note:  We are assuming that there are no degenerate triangles in this problem, and that is why we subtract two.\n==Solution 2==\n'''Case 1: One vertex is on the top 3 points'''\n\nHere, there is <imath>\\binom 31 =3</imath> ways to choose the vertex on the top and <imath>\\binom 32 =3</imath> ways the choose the <imath>2</imath> on the bottom, so there is <imath>3 \\cdot 3=9</imath> triangles.\n\n'''Case 2: One vertex is on the bottom 3 points'''\n\nBy symmetry, there is <imath>9</imath> triangles.\n\nOtherwise, the triangle is degenerate. \n\nOur final answer is <imath>9+9=\\boxed{\\text{(C) 18}}</imath> ~[[Bobbert]]\n\n==Video solution==\n\nhttps://www.youtube.com/watch?v=XQS-KVW1O6M   ~David\n\n==See Also==\n{{AMC8 box|year=2005|num-b=20|num-a=22}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:27:41.405Z"
 }

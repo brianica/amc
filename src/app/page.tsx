@@ -1,8 +1,10 @@
 import Link from "next/link";
 import { currentUser } from "@/lib/auth";
-import { allExams, examLabel, findExam, isSample } from "@/lib/exams";
+import { allExams, findExam } from "@/lib/exams";
+import { examLabel } from "@/lib/exam-label";
 import { getStore } from "@/lib/store";
 import { IncludeToggle } from "./IncludeToggle";
+import { ExamList } from "./ExamList";
 import { attemptOrdinals } from "@/lib/analytics";
 import { summarise, today } from "@/lib/resolve";
 import { toCard } from "@/lib/resolve-cards";
@@ -72,55 +74,18 @@ export default async function Home() {
         </Link>
       )}
 
-      <section>
-        <h1 className="text-2xl font-semibold">Log a paper</h1>
-        {exams.length === 0 ? (
+      {exams.length === 0 ? (
+        <section>
+          <h1 className="text-2xl font-semibold">Log a paper</h1>
           <p className="mt-3 max-w-prose text-muted">
             No exams in the database yet. Run the pipeline (<code>npm run fetch</code>,{" "}
             <code>npm run extract</code>) to populate <code>data/exams/</code>, or set{" "}
             <code>SAMPLE_EXAMS=1</code> to try the app with a sample paper.
           </p>
-        ) : (
-          <ul className="mt-4 grid gap-2 sm:grid-cols-2">
-            {exams.map((exam) => {
-              const taken = (sittings.get(exam.id) ?? 0) > 0;
-              return (
-                <li key={exam.id} className="pb-1">
-                  <Link
-                    href={`/log/${exam.id}`}
-                    className={`block rounded-md border px-4 py-3 ${
-                      taken
-                        ? "border-border bg-surface/50 text-muted hover:border-accent"
-                        : "border-border bg-surface hover:border-accent"
-                    }`}
-                  >
-                    <span className={taken ? "font-medium text-muted" : "font-medium"}>
-                      {examLabel(exam)}
-                    </span>
-                    {isSample(exam) && (
-                      <span className="ml-2 text-xs text-blank">invented answer key</span>
-                    )}
-                    {taken && (
-                      <span className="ml-2 text-xs text-muted">
-                        taken {lastTaken.get(exam.id)}
-                        {(sittings.get(exam.id) ?? 0) > 1 && ` · sat ${sittings.get(exam.id)}×`}
-                      </span>
-                    )}
-                  </Link>
-                  <div className="mt-1 flex gap-3 px-4 text-xs text-muted">
-                    <Link href={`/log/${exam.id}`} className="hover:text-text">
-                      Log answers from paper
-                    </Link>
-                    <Link href={`/log/${exam.id}/timed`} className="hover:text-text">
-                      Sit it on the clock
-                    </Link>
-                  </div>
-                </li>
-              );
-            })}
-          </ul>
-        )}
-      </section>
+        </section>
+      ) : (
+        <ExamList exams={exams} sittings={sittings} lastTaken={lastTaken} />
+      )}
 
       <section>
         <h2 className="text-lg font-semibold">Recent attempts</h2>

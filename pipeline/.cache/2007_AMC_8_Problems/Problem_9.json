@@ -1,5 +1,5 @@
 {
   "page": "2007_AMC_8_Problems/Problem_9",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.372Z"
+  "wikitext": "== Problem ==\n\nTo complete the grid below, each of the digits 1 through 4 must occur once\nin each row and once in each column. What number will occupy the lower\nright-hand square?\n\n<cmath> \\begin{tabular}{|c|c|c|c|}\\hline 1 & & 2 &\\\\ \\hline 2 & 3 & &\\\\ \\hline & &&4\\\\ \\hline & &&\\\\ \\hline\\end{tabular} </cmath>\n\n<math>\\mathrm{(A)}\\ 1 \\qquad \\mathrm{(B)}\\ 2 \\qquad \\mathrm{(C)}\\ 3 \\qquad \\mathrm{(D)}\\ 4 \\qquad\\textbf{(E)}\\ \\text{cannot be determined}</math>\n\n== Solution ==\n\nThe number in the first row, last column must be a <math>3</math> due to the fact if a <math>3</math> was in the first row, second column, there would be two threes in that column. By the same reasoning, the number in the second row, last column has to be a <math>1</math>. Therefore the number in the lower right-hand square is <math>\\boxed{\\textbf{(B)}\\ 2}</math>.\n\n== Solution 2 ==\nNote how the first and second row already contain a <math>2</math>. Since the third row, last column already has a <math>4</math>, the only possible place a <math>2</math> could be in is the bottom right square. Thus our answer is <math>\\boxed{\\textbf{(B)}\\ 2}</math>.\n==Video Solution by SpreadTheMathLove==\nhttps://www.youtube.com/watch?v=omFpSGMWhFc\n\n==Video Solution by WhyMath==\nhttps://youtu.be/E8pV_WO_u9E\n\n==See Also==\n{{AMC8 box|year=2007|num-b=8|num-a=10}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:31:32.254Z"
 }

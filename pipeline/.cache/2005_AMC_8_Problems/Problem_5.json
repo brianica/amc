@@ -1,5 +1,5 @@
 {
   "page": "2005_AMC_8_Problems/Problem_5",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.364Z"
+  "wikitext": "==Problem==\nSoda is sold in packs of 6, 12 and 24 cans. What is the minimum number of packs needed to buy exactly 90 cans of soda?\n\n<math> \\textbf{(A)}\\ 4\\qquad\\textbf{(B)}\\ 5\\qquad\\textbf{(C)}\\ 6\\qquad\\textbf{(D)}\\ 8\\qquad\\textbf{(E)}\\ 15 </math>\n\n==Solution==\nStart by buying the largest packs first. After three <math>24</math>-packs, <math>90-3(24)=18</math> cans are left. After one <math>12</math>-pack, <math>18-12=6</math> cans are left. Then buy one more <math>6</math>-pack. The total number of packs is <math>3+1+1=\\boxed{\\textbf{(B)}\\ 5}</math>.\n\n==See Also==\n{{AMC8 box|year=2005|num-b=4|num-a=6}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:26:06.648Z"
 }

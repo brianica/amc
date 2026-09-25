@@ -2,6 +2,7 @@ import "server-only";
 import type { ExamFile } from "@pipeline/types";
 import { splitSections } from "@pipeline/extract";
 import { renderStatement, type RenderedStatement } from "./wikitext";
+import { problemLink } from "./wiki-links";
 // Generated TypeScript source, not a JSON file read at runtime: Vercel's serverless
 // deploy was silently dropping pipeline/.cache/ files (thousands of individual
 // entries, then a single merged bundle.json, then even a JSON import of it — Next
@@ -10,6 +11,10 @@ import { renderStatement, type RenderedStatement } from "./wikitext";
 // only form guaranteed to compile into the bundle with no file reference involved.
 // Run `npm run bundle-cache` after `npm run fetch` to regenerate it.
 import bundle from "./statement-cache.generated";
+// Same reasoning and same regeneration command as the statement bundle above —
+// see render-diagrams.ts for how this cache is built and bundle-cache.ts for how
+// it is compiled into source.
+import diagramBundle from "./diagram-cache.generated";
 
 /**
  * Serves problem statements from the local pipeline cache, for a private instance.
@@ -93,7 +98,8 @@ export async function loadStatements(exam: ExamFile): Promise<StatementSet | nul
     if (!statement.trim()) return null;
 
     // Only the problem, never the solutions: the point is to sit the paper.
-    return renderStatement(statement);
+    const svg = diagramBundle[page];
+    return renderStatement(statement, problemLink(exam.wikiPage, problem.n), svg);
   });
 
   return { byQuestion, available: byQuestion.filter(Boolean).length };

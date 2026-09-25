@@ -1,5 +1,5 @@
 {
   "page": "2011_AMC_8_Problems/Problem_1",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.390Z"
+  "wikitext": "==Problem==\nMargie bought <imath> 3 </imath> apples at a cost of <imath> 50 </imath> cents per apple. She paid with a 5-dollar bill. How much change did Margie receive?\n\n<imath>\\textbf{(A)}\\ \\textdollar 1.50 \\qquad \\textbf{(B)}\\ \\textdollar 2.00 \\qquad \\textbf{(C)}\\ \\textdollar 2.50 \\qquad \\textbf{(D)}\\ \\textdollar 3.00 \\qquad \\textbf{(E)}\\ \\textdollar 3.50</imath>\n\n==Solution==\n\n<math>50</math> cents is equivalent to <math>\\textdollar 0.50.</math> Then the three apples cost <math>3 \\times \\textdollar 0.50 = \\textdollar 1.50.</math> The change Margie receives is <math>\\textdollar 5.00 - \\textdollar 1.50 = \\boxed{\\textbf{(E)}\\ \\textdollar 3.50}</math>\n\n-Mathloveraldoxxx5223\n\n==Video Solution by WhyMath==\nhttps://youtu.be/fOjqS0hU5Rc\n\n==See Also==\n{{AMC8 box|year=2011|before=First Problem|num-a=2}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:41:03.431Z"
 }

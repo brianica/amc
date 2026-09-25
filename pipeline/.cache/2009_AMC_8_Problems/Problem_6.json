@@ -1,5 +1,5 @@
 {
   "page": "2009_AMC_8_Problems/Problem_6",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.382Z"
+  "wikitext": "==Problem 6==\n\nSteve's empty swimming pool will hold <math> 24,000</math> gallons of water when full. It will be filled by <math> 4</math> hoses, each of which supplies <math> 2.5</math> gallons of water per minute. How many hours will it take to fill Steve's pool?\n\n<math> \\textbf{(A)}\\  40  \\qquad\n\\textbf{(B)}\\   42  \\qquad\n\\textbf{(C)}\\  44   \\qquad\n\\textbf{(D)}\\  46   \\qquad\n\\textbf{(E)}\\   48</math>\n\n==Solution==\nEach of the four hoses hose fills <math>24,000/4 = 6,000</math> gallons of water. At the rate it goes at it will take <math>6,000/2.5 = 2400</math> minutes, or <math>\\boxed{\\textbf{(A)}\\ 40}</math> hours.\n\n==Solution 2==\nIf all four hoses fill <math>2.5</math> gallons a minute, every minute <math>10</math> gallons would be added. Since every hour has <math>60</math> minutes, <math>600</math> gallons of water would be added every hour. <math>24000/600=\\boxed{\\textbf{(A)}\\ 40}</math> hours.\n\n~Trex226\n\n==Video Solution==\nhttps://youtu.be/USVVURBLaAc?t=288\n\n==Video Solution 2==\nhttps://youtu.be/UkMGKf172E0\n\n~savannahsolver\n\n==See Also==\n{{AMC8 box|year=2009|num-b=5|num-a=7}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:36:18.055Z"
 }

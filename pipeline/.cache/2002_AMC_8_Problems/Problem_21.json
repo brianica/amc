@@ -1,5 +1,5 @@
 {
   "page": "2002_AMC_8_Problems/Problem_21",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.353Z"
+  "wikitext": "==Problem==\nHarold tosses a coin four times. The probability that he gets at least as many heads as tails is\n\n<math> \\text{(A)}\\ \\frac{5}{16}\\qquad\\text{(B)}\\ \\frac{3}{8}\\qquad\\text{(C)}\\ \\frac{1}{2}\\qquad\\text{(D)}\\ \\frac{5}{8}\\qquad\\text{(E)}\\ \\frac{11}{16} </math>\n\n==Solution 1==\nCase 1: There are two heads and two tails. There are <math>\\binom{4}{2} = 6</math> ways to choose which two tosses are heads, and the other two must be tails.\n\nCase 2: There are three heads, one tail. There are <math>\\binom{4}{1} = 4</math> ways to choose which of the four tosses is a tail.\n\nCase 3: There are four heads and no tails. This can only happen <math>1</math> way.\n\nThere are a total of <math>2^4=16</math> possible configurations, giving a probability of <math>\\frac{6+4+1}{16} = \\boxed{\\text{(E)}\\ \\frac{11}{16}}</math>.\n\n==Video Solution==\n\nhttps://www.youtube.com/watch?v=4vLTPszBLeg  ~David\n\n==Video Solution by WhyMath==\nhttps://youtu.be/q-G5nLcc4kE\n\n==See Also==\n{{AMC8 box|year=2002|num-b=20|num-a=22}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:19:53.430Z"
 }

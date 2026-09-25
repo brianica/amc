@@ -1,5 +1,5 @@
 {
   "page": "2008_AMC_8_Problems/Problem_4",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.377Z"
+  "wikitext": "== Problem ==\nIn the figure, the outer equilateral triangle has area <math>16</math>, the inner equilateral triangle has area <math>1</math>, and the three trapezoids are congruent. What is the area of one of the trapezoids?\n\n<asy>\nsize((70));\ndraw((0,0)--(7.5,13)--(15,0)--(0,0));\ndraw((1.88,3.25)--(9.45,3.25));\ndraw((11.2,0)--(7.5,6.5));\ndraw((9.4,9.7)--(5.6,3.25));\n</asy>\n\n<math>\\textbf{(A)}\\ 3 \\qquad \\textbf{(B)}\\ 4 \\qquad  \\textbf{(C)}\\ 5 \\qquad \\textbf{(D)}\\ 6 \\qquad \\textbf{(E)}\\ 7</math>\n\n\n==Video Solution==\nhttps://www.youtube.com/watch?v=43JZqmiUeLw   ~David\n\n== Solution ==\nThe area outside the small triangle but inside the large triangle is <imath>16-1=15</imath>. This is equally distributed between the three trapezoids. Each trapezoid has an area of <imath>15/3 = \\boxed{\\textbf{(C)}\\ 5}</imath>.\n\n== Solution 2 ==\nYou can roughly see that 1 trapezoid = 5 triangles = 5 Area since 1 triangle is 1 area so <imath>\\boxed{\\textbf{(C)}\\ 5}</imath>\n\n==Video Solution by OmegaLearn==\nhttps://youtu.be/abSgjn4Qs34?t=479\n\n~ pi_is_3.14\n\n\n== See Also ==\n{{AMC8 box|year=2008|num-b=3|num-a=5}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:33:33.632Z"
 }

@@ -1,5 +1,5 @@
 {
   "page": "1999_AMC_8_Problems/Problem_6",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.335Z"
+  "wikitext": "==Problem==\n\nBo, Coe, Flo, Jo, and Moe have different amounts of money. Neither Jo nor Bo has as much money as Flo. Both Bo and Coe have more than Moe. Jo has more than Moe, but less than Bo. Who has the least amount of money? \n\n<math> \\text{(A)}\\ \\text{Bo}\\qquad\\text{(B)}\\ \\text{Coe}\\qquad\\text{(C)}\\ \\text{Flo}\\qquad\\text{(D)}\\ \\text{Jo}\\qquad\\text{(E)}\\ \\text{Moe} </math>\n\n==Solution==\n\nUse logic to solve this problem. You don't actually need to use any equations.\n\nNeither Jo nor Bo has as much money as Flo. So Flo clearly does not have the least amount of money. Rule out Flo.\n\nBoth Bo and Coe have more than Moe. Rule out Bo and Coe; they clearly do not have the least amount of money.\n\nJo has more than Moe. Rule out Jo. \n\nThe only person who has not been ruled out is Moe. So <math>\\boxed{\\text{(E)}}</math> is the answer.\n\n\n==Video(By YippieMath)==\nhttps://www.youtube.com/watch?v=liJf550775M\n\n==See Also==\n\n{{AMC8 box|year=1999|num-b=5|num-a=7}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:10:44.133Z"
 }

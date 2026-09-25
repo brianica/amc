@@ -1,5 +1,5 @@
 {
   "page": "2003_AMC_8_Problems/Problem_4",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.354Z"
+  "wikitext": "==Problem==\nA group of children riding on bicycles and tricycles rode past Billy Bob's house. Billy Bob counted <math>7</math> children and <math>19</math> wheels. How many tricycles were there?\n\n<math>\\mathrm{(A)}\\ 2 \\qquad\\mathrm{(B)}\\ 4 \\qquad\\mathrm{(C)}\\ 5 \\qquad\\mathrm{(D)}\\ 6 \\qquad\\mathrm{(E)}\\ 7</math>\n\n==Solution==\n===Solution 1===\nIf all the children were riding bicycles, there would be <math> 2 \\times 7=14 </math> wheels. Each tricycle adds an extra wheel and <math> 19-14=5 </math> extra wheels are needed, so there are <math> \\boxed{\\mathrm{(C)}\\ 5} </math> tricycles.\n\n===Solution 2===\nSetting up an equation, we have <math>a+b=7</math> children and <math>3a+2b=19</math>. Solving for the variables, we get, <math>a=\\boxed{\\mathrm{(C)}\\ 5} </math> tricycles.\n\n~AllezW\n\n==See Also==\n{{AMC8 box|year=2003|num-b=3|num-a=5}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:20:57.882Z"
 }

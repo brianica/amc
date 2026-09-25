@@ -44,6 +44,22 @@ describe("renderStatement — maths", () => {
     expect(html).toContain("katex");
   });
 
+  it("treats an escaped dollar sign as a literal dollar, not a maths delimiter", () => {
+    // AMC 8 problems are full of these ("Granny Smith has \$63") — \$ is TeX for a
+    // literal dollar, and must not be read as the opening of a $...$ maths span
+    // that swallows everything up to the next dollar sign in the sentence.
+    const { html } = renderStatement("Granny Smith has \\$63. Elberta has \\$2 more.");
+    expect(html).toContain("$63");
+    expect(html).toContain("$2");
+    expect(html).not.toContain("katex");
+  });
+
+  it("does not let an escaped dollar consume real maths later in the sentence", () => {
+    const { html } = renderStatement("It costs \\$5, and $n+1$ is even.");
+    expect(html).toContain("$5");
+    expect(html).toContain("katex");
+  });
+
   it("renders a real LaTeX macro rather than leaving it as text", () => {
     const { html } = renderStatement(String.raw`<cmath>r = \frac{a+b-c}{2}</cmath>`);
     // KaTeX emits a fraction element; the raw source also survives in its
@@ -85,6 +101,38 @@ describe("renderStatement — diagrams", () => {
 
   it("reports no diagram when there is none", () => {
     expect(renderStatement("A purely verbal problem.").hasDiagram).toBe(false);
+  });
+
+  it("links the diagram notice to the original problem when a link is given", () => {
+    const { html } = renderStatement(
+      "In the figure below, [asy]draw((0,0)--(1,1));[/asy] find the area.",
+      "https://artofproblemsolving.com/wiki/index.php?title=2022_AMC_8_Problems#Problem_1",
+    );
+    expect(html).toContain('<a class="statement-diagram"');
+    expect(html).toContain(
+      'href="https://artofproblemsolving.com/wiki/index.php?title=2022_AMC_8_Problems#Problem_1"',
+    );
+    expect(html).toContain('target="_blank"');
+  });
+
+  it("falls back to a plain span when no link is given", () => {
+    const { html, diagramRendered } = renderStatement("In the figure, [asy]draw((0,0)--(1,1));[/asy] find the area.");
+    expect(html).toContain('<span class="statement-diagram"');
+    expect(diagramRendered).toBe(false);
+  });
+
+  it("embeds a pre-rendered SVG in place of the link when one is given", () => {
+    const svg = "<svg><circle r='1'/></svg>";
+    const { html, hasDiagram, diagramRendered } = renderStatement(
+      "In the figure, [asy]draw((0,0)--(1,1));[/asy] find the area.",
+      "https://artofproblemsolving.com/wiki/index.php?title=2022_AMC_8_Problems#Problem_1",
+      svg,
+    );
+    expect(html).toContain('<span class="statement-diagram-svg">');
+    expect(html).toContain(svg);
+    expect(html).not.toContain('<a class="statement-diagram"');
+    expect(hasDiagram).toBe(true);
+    expect(diagramRendered).toBe(true);
   });
 });
 

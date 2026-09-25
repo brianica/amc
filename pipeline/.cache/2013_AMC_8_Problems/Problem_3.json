@@ -1,5 +1,5 @@
 {
   "page": "2013_AMC_8_Problems/Problem_3",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.399Z"
+  "wikitext": "==Problem==\nWhat is the value of <math>4 \\cdot (-1+2-3+4-5+6-7+\\cdots+1000)</math>?\n\n<math>\\textbf{(A)}\\ -10 \\qquad \\textbf{(B)}\\ 0 \\qquad \\textbf{(C)}\\ 1 \\qquad \\textbf{(D)}\\ 500 \\qquad \\textbf{(E)}\\ 2000</math>\n\n==Solution 1==\nWe group the addends inside the parentheses two at a time: \n<cmath>\n\\begin{align*}\n-1 + 2 - 3 + 4 - 5 + 6 - 7 + \\ldots + 1000 &= (-1 + 2) + (-3 + 4) + (-5 + 6) + \\ldots + (-999 + 1000) \\\\\n&= \\underbrace{1+1+1+\\ldots + 1}_{\\text{500 1's}} \\\\\n&= 500.\n\\end{align*}\n</cmath>\nThen the desired answer is <imath>4 \\times 500 = \\boxed{\\textbf{(E)}\\ 2000}</imath>.\n\n==Solution 2(Solution 1 Worded Differently)==\n\nBasically 4 x (-1+2-3+4...-999+1000) is just 4 x (1+1+1+1+...+1+1) [There are 500 1's because 1000/2] so 4x500 = <imath>4 \\times 500 = \\boxed{\\textbf{(E)}\\ 2000}</imath>.\n\n==Video Solution==\nhttps://youtu.be/4Gy1CrYTDHA ~savannahsolver\n\n==Video Solution by OmegaLearn==\nhttps://youtu.be/TkZvMa30Juo?t=3074\n\n~ pi_is_3.14\n\n\n==See Also==\n{{AMC8 box|year=2013|num-b=2|num-a=4}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:46:21.334Z"
 }

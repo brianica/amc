@@ -1,5 +1,5 @@
 {
   "page": "2010_AMC_8_Problems/Problem_2",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.386Z"
+  "wikitext": "==Problem==\nIf <math>a @ b = \\frac{a\\times b}{a+b}</math> for <math>a,b</math> positive integers, then what is <math>5 @10</math>? \n\n<math>\\textbf{(A)}\\ \\frac{3}{10} \\qquad\\textbf{(B)}\\ 1 \\qquad\\textbf{(C)}\\ 2 \\qquad\\textbf{(D)}\\ \\frac{10}{3} \\qquad\\textbf{(E)}\\ 50</math>\n\n==Solution==\nSubstitute <math>a=5</math> and <math>b=10</math> into the expression for <math>a @ b</math> to get:\n\n<math>5 @ 10 = \\frac{5\\times 10}{5+10} = \\frac{50}{15} = \\frac{10}{3}</math>\n\nThus, answer choice <math>\\boxed{\\textbf{(D)}\\ \\frac{10}{3}}</math> is correct.\n\n\n==Video by MathTalks==\n\nhttps://youtu.be/EEbksvfujhk\n\n==Video Solution by WhyMath==\nhttps://youtu.be/ZCpSVVCejpU\n\n==See Also==\n{{AMC8 box|year=2010|num-b=1|num-a=3}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:38:35.132Z"
 }

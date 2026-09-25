@@ -1,5 +1,5 @@
 {
   "page": "2003_AMC_8_Problems/Problem_20",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.357Z"
+  "wikitext": "==Problem==\n\nWhat is the measure of the acute angle formed by the hands of the clock at 4:20 PM?\n\n<math>\\textbf{(A)}\\ 0 \\qquad \\textbf{(B)}\\ 5 \\qquad \\textbf{(C)}\\ 8 \\qquad \\textbf{(D)}\\ 10 \\qquad \\textbf{(E)}\\ 12</math>\n\n==Solution 1==\n\nImagine the clock as a circle. The minute hand will be at the 4 at 20 minutes past the  hour. The central angle formed between <math>4</math> and <math>5</math> is <math>30</math> degrees (since it is 1/12 of a full circle, 360). By <math>4:20</math>, the hour hand would have moved <math>\\frac{1}{3}</math> way from 4 to 5 since <math>\\frac{20}{60}</math> is reducible to <math>\\frac{1}{3}</math>. One third of the way from 4 to 5 is one third of 30 degrees, which is 10 degrees past the 4. Recall that the minute hand is at the 4, so the angle between them is <math>\\boxed{(D)  10}</math>.\n\n==Video Solution==\nhttps://www.youtube.com/watch?v=6FdbHSooYSA\n\n~David\n\n==See Also==\n{{AMC8 box|year=2003|num-b=19|num-a=21}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:22:25.391Z"
 }

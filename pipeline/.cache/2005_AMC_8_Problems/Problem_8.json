@@ -1,5 +1,5 @@
 {
   "page": "2005_AMC_8_Problems/Problem_8",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.364Z"
+  "wikitext": "==Problem==\nSuppose m and n are positive odd integers. Which of the following must also be an odd integer?\n\n<math> \\textbf{(A)}\\ m+3n\\qquad\\textbf{(B)}\\ 3m-n\\qquad\\textbf{(C)}\\ 3m^2 + 3n^2\\qquad\\textbf{(D)}\\ (nm + 3)^2\\qquad\\textbf{(E)}\\ 3mn </math>\n\n==Solution==\nAssume [[WLOG]] that <math>m</math> and <math>n</math> are both <math>1</math>. Plugging into each of the choices, we get <math>4, 2, 6, 16,</math> and <math>3</math>. The only odd integer is <math>\\boxed{\\textbf{(E)}\\ 3mn}</math>.\n\n==See Also==\n{{AMC8 box|year=2005|num-b=7|num-a=9}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:26:23.110Z"
 }

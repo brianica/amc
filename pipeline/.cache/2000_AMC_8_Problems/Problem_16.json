@@ -1,5 +1,5 @@
 {
   "page": "2000_AMC_8_Problems/Problem_16",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.343Z"
+  "wikitext": "==Problem==\n\nIn order for Mateen to walk a kilometer (1000m) in his rectangular backyard, he must walk the length 25 times or walk its perimeter 10 times. What is the area of Mateen's backyard in square meters?\n\n<math>\\text{(A)}\\ 40 \\qquad \\text{(B)}\\ 200 \\qquad \\text{(C)}\\ 400 \\qquad \\text{(D)}\\ 500 \\qquad \\text{(E)}\\ 1000</math>\n\n==Solution==\n\nThe length <math>L</math> of the rectangle is <math>\\frac{1000}{25}=40</math> meters. The perimeter <math>P</math> is <math>\\frac{1000}{10}=100</math> meters. Since <math>P_{rect} = 2L + 2W</math>, we plug values in to get:\n\n<math>100 = 2\\cdot 40 + 2W</math>\n\n<math>100 = 80 + 2W</math>\n\n<math>2W = 20</math>\n\n<math>W = 10</math> meters\n\nSince <math>A_{rect} = LW</math>, the area is <math>40\\cdot 10=400</math> square meters or <math>\\boxed{C}</math>.\n\n== Video Solution ==\n\nhttps://www.youtube.com/watch?v=ib2x_b3LNj8    ~David\n\n==See Also==\n\n{{AMC8 box|year=2000|num-b=15|num-a=17}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:14:17.218Z"
 }

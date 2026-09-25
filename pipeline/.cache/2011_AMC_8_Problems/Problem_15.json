@@ -1,5 +1,5 @@
 {
   "page": "2011_AMC_8_Problems/Problem_15",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.392Z"
+  "wikitext": "==Problem==\nHow many digits are in the product <math>4^5 \\cdot 5^{10}</math>?\n\n<math> \\textbf{(A) } 8 \\qquad\\textbf{(B) } 9 \\qquad\\textbf{(C) } 10 \\qquad\\textbf{(D) } 11 \\qquad\\textbf{(E) } 12 </math>\n\n==Video Solution by OmegaLearn==\nhttps://youtu.be/rQUwNC0gqdg?t=440\n\n==Solution==\n\n<cmath>4^5 \\cdot 5^{10} = 2^{10} \\cdot 5^{10} = 10^{10}.</cmath>\n\nThat is one <math>1</math> followed by ten <math>0</math>'s, which is <math>\\boxed{\\textbf{(D)}\\ 11}</math> digits.\n\n==Solution 2==\n\n<math>4^5</math> has <math>4</math> digits while <math>5^{10}</math> has <math>7</math> digits. This means that <math>4^5 \\cdot 5^{10}</math> has a total of <math>7+4=\\boxed{\\textbf{(D)} 11}</math> digits.\n\n==Video Solution 1 by SpreadTheMathLove==\nhttps://www.youtube.com/watch?v=mYn6tNxrWBU\n\n==Video Solution by WhyMath==\nhttps://youtu.be/q7AUTz2i938\n\n==See Also==\n{{AMC8 box|year=2011|num-b=14|num-a=16}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:42:20.396Z"
 }

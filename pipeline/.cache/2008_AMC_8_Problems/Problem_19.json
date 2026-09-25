@@ -1,5 +1,5 @@
 {
   "page": "2008_AMC_8_Problems/Problem_19",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.380Z"
+  "wikitext": "==Problem==\nEight points are spaced around at intervals of one unit around a <math>2 \\times 2</math> square, as shown. Two of the <math>8</math> points are chosen at random. What is the probability that the two points are one unit apart?\n<asy>\nsize((50));\ndot((5,0));\ndot((5,5));\ndot((0,5));\ndot((-5,5));\ndot((-5,0));\ndot((-5,-5));\ndot((0,-5));\ndot((5,-5));\n</asy>\n<math> \\textbf{(A)}\\ \\frac{1}{4}\\qquad\\textbf{(B)}\\ \\frac{2}{7}\\qquad\\textbf{(C)}\\ \\frac{4}{11}\\qquad\\textbf{(D)}\\ \\frac{1}{2}\\qquad\\textbf{(E)}\\ \\frac{4}{7} </math>\n\n==Solution 1==\nThe two points are one unit apart at <math>8</math> places around the edge of the square. There are <math>8 \\choose 2</math><math> = 28</math> ways to choose two points. The probability is\n\n<cmath>\\frac{8}{28} = \\boxed{\\textbf{(B)}\\ \\frac27}</cmath>\n\n==Solution 2==\nArbitrarily pick a point in the grid. Clearly, we see two options for the other point to be placed, so the answer is <math>\\boxed{\\textbf{(B)}\\ \\frac27}</math>.\n\n==Video Solution==\n\nhttps://www.youtube.com/watch?v=ZVD_PZYjonQ   ~David\n\n==Video Solution 2==\nhttps://youtu.be/PeI8YSHCdlM  Soo, DRMS, NM\n\n==See Also==\n{{AMC8 box|year=2008|num-b=18|num-a=20}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:34:57.791Z"
 }

@@ -1,0 +1,6 @@
+{
+  "page": "2021_Fall_AMC_10B_Problems/Problem_18",
+  "svg": null,
+  "renderedAt": "2026-09-25T06:41:13.141Z",
+  "error": "Command failed: asy -f svg -o /tmp/amc-diagram-NpxcsL/diagram.svg /tmp/amc-diagram-NpxcsL/diagram.asy real x=45, y=90, z=60; O=origin;                           ^"
+}

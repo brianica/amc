@@ -1,5 +1,5 @@
 {
   "page": "2001_AMC_8_Problems/Problem_6",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.346Z"
+  "wikitext": "==Problem==\n\nSix trees are equally spaced along one side of a straight road. The distance from the first tree to the fourth is 60 feet. What is the distance in feet between the first and last trees?\n\n<math>\\text{(A)}\\ 90 \\qquad \\text{(B)}\\ 100 \\qquad \\text{(C)}\\ 105 \\qquad \\text{(D)}\\ 120 \\qquad \\text{(E)}\\ 140</math>\n\n==Solution==\n\nThere are <math> 3 </math> spaces between the 1st and 4th trees, so each of these spaces has <math> \\frac{60}{3}=20 </math> feet. Between the first and last trees there are <math> 5 </math> spaces, so the distance between them is <math> 20\\times5=100 </math> feet, <math> \\boxed{\\text{B}} </math>.\n\n==See Also==\n{{AMC8 box|year=2001|num-b=5|num-a=7}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:15:57.650Z"
 }

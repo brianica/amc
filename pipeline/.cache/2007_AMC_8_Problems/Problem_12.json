@@ -1,5 +1,5 @@
 {
   "page": "2007_AMC_8_Problems/Problem_12",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.373Z"
+  "wikitext": "==Problem==\nA unit hexagram is composed of a regular hexagon of side length <math>1</math> and its <math>6</math>\nequilateral triangular extensions, as shown in the diagram. What is the ratio of\nthe area of the extensions to the area of the original hexagon?\n\n<asy>\ndefaultpen(linewidth(0.7));\ndraw(polygon(3));\npair D=origin+1*dir(270), E=origin+1*dir(150), F=1*dir(30);\ndraw(D--E--F--cycle);\n</asy>\n\n<math>\\mathrm{(A)}\\ 1:1 \\qquad \\mathrm{(B)}\\ 6:5  \\qquad \\mathrm{(C)}\\ 3:2 \\qquad \\mathrm{(D)}\\ 2:1 \\qquad \\mathrm{(E)}\\ 3:1</math>\n\n==Solution==\nThe six equilateral triangular extensions fit perfectly into the hexagon meaning the answer is <math>\\boxed{\\textbf{(A) }1:1}</math>\n\n==Solution 2==\nSplit the hexagon into six small equilateral triangles. You will see that the six outer triangles can be folded to the hexagon, so the answer is <math>\\boxed{\\textbf{(A) }1:1}.</math>\n\n==Video Solution by OmegaLearn==\nhttps://youtu.be/abSgjn4Qs34?t=349\n\n~ pi_is_3.14\n==Video Solution by SpreadTheMathLove==\nhttps://www.youtube.com/watch?v=omFpSGMWhFc\n\n==Video Solution by AliceWang==\nhttps://youtu.be/tQXbFzxItPI\n\n==Video Solution by WhyMath==\nhttps://youtu.be/a7yMd17hP3o\n\n==See Also==\n{{AMC8 box|year=2007|num-b=11|num-a=13}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:31:51.492Z"
 }

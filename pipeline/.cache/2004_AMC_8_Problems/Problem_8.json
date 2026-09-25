@@ -1,5 +1,5 @@
 {
   "page": "2004_AMC_8_Problems/Problem_8",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.360Z"
+  "wikitext": "== Problem ==\nFind the number of two-digit positive integers whose digits total <math>7</math>.\n\n<math> \\textbf{(A)}\\ 6\\qquad\\textbf{(B)}\\ 7\\qquad\\textbf{(C)}\\ 8\\qquad\\textbf{(D)}\\ 9\\qquad\\textbf{(E)}\\ 10</math>\n\n== Solution ==\nThe numbers are <math>16, 25, 34, 43, 52, 61, 70</math> which gives us a total of <math>\\boxed{\\textbf{(B)}\\ 7}</math>.\n\n==See Also==\n{{AMC8 box|year=2004|num-b=7|num-a=9}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:23:52.565Z"
 }

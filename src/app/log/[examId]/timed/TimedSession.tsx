@@ -25,6 +25,8 @@ import {
 } from "@/lib/timed";
 import type { RenderedStatement } from "@/lib/wikitext";
 import { problemLink } from "@/lib/wiki-links";
+import type { AttemptRecord } from "@/lib/store";
+import { discardInProgressAttempt, listInProgressAttemptsForExam, saveTimedProgress, startTimedAttempt } from "../actions";
 import { ReviewStep } from "../ReviewStep";
 
 const LETTERS: Letter[] = ["A", "B", "C", "D", "E"];
@@ -41,6 +43,11 @@ function loadSaved(examId: string): TimedState | null {
   }
 }
 
+/** How often to write the running session to the database. localStorage stays the
+ *  fast, synchronous safety net; this is the slower one that survives a cleared
+ *  cache or a different device. */
+const PROGRESS_SAVE_MS = 20_000;
+
 export function TimedSession({
   exam,
   examLabel,
@@ -56,14 +63,35 @@ export function TimedSession({
   statements?: (RenderedStatement | null)[];
 }) {
   const [minutes, setMinutes] = useState(defaultMinutes);
-  const [state, setState] = useState<TimedState | null>(null);
+  const [state, setRawState] = useState<TimedState | null>(null);
+  // Every state change is stamped with when it happened, so a localStorage copy
+  // can be compared against a server-side in-progress row recovered on another
+  // device and the newer one can be trusted.
+  const setState = useCallback((updater: TimedState | null | ((s: TimedState | null) => TimedState | null)) => {
+    setRawState((prev) => {
+      const next = typeof updater === "function" ? updater(prev) : updater;
+      return next ? { ...next, updatedAt: Date.now() } : next;
+    });
+  }, []);
   const [resumable, setResumable] = useState<TimedState | null>(null);
+  const [dbResumable, setDbResumable] = useState<AttemptRecord | null>(null);
+  const [attemptId, setAttemptId] = useState<string | null>(null);
   const [now, setNow] = useState(() => Date.now());
   const [confirmingEnd, setConfirmingEnd] = useState(false);
   const gridRef = useRef<HTMLDivElement>(null);
   const hasStatements = (statements?.filter(Boolean).length ?? 0) > 0;
 
   useEffect(() => setResumable(loadSaved(exam.id)), [exam.id]);
+
+  // A second, async check alongside the synchronous localStorage one above — this
+  // is what makes a sitting recoverable from a cleared cache or a different
+  // device. It's fine for this to resolve after paint; the local check already
+  // covers the common (same-device) case immediately.
+  useEffect(() => {
+    listInProgressAttemptsForExam(exam.id)
+      .then((rows) => setDbResumable(rows[0] ?? null))
+      .catch(() => setDbResumable(null));
+  }, [exam.id]);
 
   // One ticker for the clock display. Elapsed time per problem is banked on
   // navigation instead, so nothing depends on this firing. Paused, both clocks are
@@ -85,7 +113,47 @@ export function TimedSession({
     }
   }, [state, exam.id]);
 
-  const end = useCallback(() => setState((s) => (s && !s.submitted ? finish(s, Date.now()) : s)), []);
+  // Independent of the localStorage mirror above: that one is synchronous and
+  // stays the fast path. This is the slower, network-backed copy that survives a
+  // cleared cache or a different device — throttled, because it's a request, not
+  // a local write.
+  const stateRef = useRef(state);
+  stateRef.current = state;
+  const attemptIdRef = useRef(attemptId);
+  attemptIdRef.current = attemptId;
+
+  const flushProgress = useCallback(() => {
+    const s = stateRef.current;
+    const id = attemptIdRef.current;
+    if (!s || s.submitted || !id) return;
+    saveTimedProgress({ attemptId: id, answers: answerString(s), timings: timings(s) }).catch(() => {
+      // The DB write failed — localStorage remains the safety net, and the
+      // student is never blocked from continuing.
+    });
+  }, []);
+
+  useEffect(() => {
+    if (!state || state.submitted) return;
+    const id = setInterval(flushProgress, PROGRESS_SAVE_MS);
+    return () => clearInterval(id);
+  }, [state?.submitted, state !== null, flushProgress]);
+
+  useEffect(() => {
+    function onHide() {
+      if (document.visibilityState === "hidden") flushProgress();
+    }
+    document.addEventListener("visibilitychange", onHide);
+    window.addEventListener("pagehide", onHide);
+    return () => {
+      document.removeEventListener("visibilitychange", onHide);
+      window.removeEventListener("pagehide", onHide);
+    };
+  }, [flushProgress]);
+
+  const end = useCallback(() => {
+    flushProgress();
+    setState((s) => (s && !s.submitted ? finish(s, Date.now()) : s));
+  }, [flushProgress]);
 
   // Out of time ends the paper, exactly as it would in the hall.
   useEffect(() => {
@@ -98,9 +166,12 @@ export function TimedSession({
   const togglePause = useCallback(() => {
     setState((s) => {
       if (!s || s.submitted) return s;
-      return s.pausedAt !== null ? resume(s, Date.now()) : pause(s, Date.now());
+      const willPause = s.pausedAt === null;
+      const next = willPause ? pause(s, Date.now()) : resume(s, Date.now());
+      if (willPause) flushProgress();
+      return next;
     });
-  }, []);
+  }, [flushProgress]);
 
   useEffect(() => {
     if (!state || state.submitted) return;
@@ -131,6 +202,42 @@ export function TimedSession({
   // --- Start screen -------------------------------------------------------
 
   if (!state) {
+    // Reconciling two possible saved copies: prefer whichever changed more
+    // recently. localStorage carries its own updatedAt; the DB row's created_at
+    // is coarser (it's only ever inserted once, then patched in place) but is the
+    // best signal available for a row this browser has no local record of.
+    const localTime = resumable?.updatedAt ?? resumable?.startedAt ?? 0;
+    const dbTime = dbResumable ? new Date(dbResumable.created_at).getTime() : 0;
+    const preferDb = dbResumable !== null && (resumable === null || dbTime > localTime);
+
+    const resumeFromDb = () => {
+      if (!dbResumable) return;
+      const count = dbResumable.answers.length;
+      const answers = dbResumable.answers.split("").map((c) => (c === "-" ? null : (c as Letter)));
+      const timingsByQ = new Map((dbResumable.timings ?? []).map((t) => [t.q, t]));
+      const now = Date.now();
+      setNow(now);
+      setAttemptId(dbResumable.id);
+      setState({
+        startedAt: now,
+        durationMs: minutes * 60_000,
+        current: 0,
+        answers,
+        flagged: Array(count).fill(false),
+        spentMs: Array.from({ length: count }, (_, i) => (timingsByQ.get(i + 1)?.seconds ?? 0) * 1000),
+        visits: Array.from({ length: count }, (_, i) => (timingsByQ.get(i + 1)?.visits ?? 0)),
+        enteredAt: now,
+        submitted: false,
+        pausedAt: null,
+        updatedAt: now,
+      });
+    };
+
+    const discardDb = () => {
+      if (dbResumable) discardInProgressAttempt(dbResumable.id).catch(() => {});
+      setDbResumable(null);
+    };
+
     return (
       <div className="space-y-6">
         <p className="max-w-prose text-muted">
@@ -139,13 +246,16 @@ export function TimedSession({
           cost of an easier one later.
         </p>
 
-        {resumable && (
+        {resumable && !preferDb && (
           <div className="rounded-md border border-blank/50 bg-blank/10 px-4 py-3 text-sm">
             <p>An unfinished sitting of this paper is saved on this device.</p>
             <div className="mt-2 flex gap-3">
               <button
                 type="button"
-                onClick={() => setState(resumable)}
+                onClick={() => {
+                  setAttemptId(dbResumable?.id ?? null);
+                  setState(resumable);
+                }}
                 className="rounded-md bg-accent px-3 py-1.5 font-medium text-white"
               >
                 Resume it
@@ -158,6 +268,28 @@ export function TimedSession({
                 }}
                 className="rounded-md border border-border px-3 py-1.5"
               >
+                Discard
+              </button>
+            </div>
+          </div>
+        )}
+
+        {preferDb && dbResumable && (
+          <div className="rounded-md border border-blank/50 bg-blank/10 px-4 py-3 text-sm">
+            <p>An unfinished sitting of this paper was saved to your account.</p>
+            <p className="mt-1 text-muted">
+              This will restore your answers, but not exactly where you left off on the
+              clock.
+            </p>
+            <div className="mt-2 flex gap-3">
+              <button
+                type="button"
+                onClick={resumeFromDb}
+                className="rounded-md bg-accent px-3 py-1.5 font-medium text-white"
+              >
+                Resume it
+              </button>
+              <button type="button" onClick={discardDb} className="rounded-md border border-border px-3 py-1.5">
                 Discard
               </button>
             </div>
@@ -188,8 +320,15 @@ export function TimedSession({
           type="button"
           onClick={() => {
             const t = Date.now();
+            const takenOn = new Date(t).toISOString().slice(0, 10);
             setNow(t);
             setState(startSession(exam.problems.length, minutes, t));
+            // Fire-and-forget: the clock and localStorage mirror are already
+            // running and never wait on this. A failure here just means the
+            // session has no DB-backed copy until the next successful flush.
+            startTimedAttempt({ examId: exam.id, takenOn })
+              .then(({ attemptId: id }) => setAttemptId(id))
+              .catch(() => {});
           }}
           className="rounded-md bg-accent px-4 py-2 font-medium text-white"
         >
@@ -221,6 +360,7 @@ export function TimedSession({
           previousDates={previousDates}
           timings={timings(state)}
           statements={statements}
+          attemptId={attemptId}
         />
       </div>
     );
@@ -328,7 +468,7 @@ export function TimedSession({
                   // and emits only its own markup plus KaTeX output.
                   dangerouslySetInnerHTML={{ __html: statements[q]!.html }}
                 />
-                {statements[q]!.hasDiagram && (
+                {statements[q]!.hasDiagram && !statements[q]!.diagramRendered && (
                   <p className="text-base text-muted">
                     This problem has a diagram that cannot be drawn here — see the
                     original problem link above, or check your paper.

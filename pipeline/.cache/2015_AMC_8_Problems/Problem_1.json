@@ -1,5 +1,5 @@
 {
   "page": "2015_AMC_8_Problems/Problem_1",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.407Z"
+  "wikitext": "==Problem==\n\nOnkon wants to cover his room's floor with his favourite red carpet. How many square yards of red carpet are required to cover a rectangular floor that is <math>12</math> feet long and <math>9</math> feet wide? (There are 3 feet in a yard.)\n\n<math>\\textbf{(A) }12\\qquad\\textbf{(B) }36\\qquad\\textbf{(C) }108\\qquad\\textbf{(D) }324\\qquad \\textbf{(E) }972</math>\n\n== Solution 1 ==\n\nWe need <math>12\\cdot9</math> square feet of carpet to cover the floor.  Since there are <math>9</math> square feet in a square yard, we divide this by <math>9</math> to get <math>\\bold{\\boxed{\\textbf{(A) }12}}</math> square yards.\n\n== Solution 2 ==\n\nSince there are <math>3</math> feet in a yard, we divide <math>9</math> by <math>3</math> to get <math>3</math> yards, and <math>12</math> by <math>3</math> to get <math>4</math> yards. To find the area of the carpet, we then multiply these two values together to get <math>3\\cdot4=\\boxed{\\textbf{(A) }12}</math> square yards.\n\n==Video Solution 1 (HOW TO THINK CRITICALLY)==\n\nhttps://youtu.be/8mpjdpKcFs8\n\n~Education, the Study of Everything\n\n==Video Solution 2==\n\nhttps://youtu.be/758_W_eK81g\n\n~savannahsolver\n\n==See Also==\n{{AMC8 box|year=2015|before=First Problem|num-a=2}}\n{{MAA Notice}}\n[[Category:Introductory Geometry Problems]]",
+  "fetchedAt": "2026-09-19T04:51:17.322Z"
 }

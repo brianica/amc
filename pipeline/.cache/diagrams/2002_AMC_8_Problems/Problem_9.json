@@ -1,0 +1,6 @@
+{
+  "page": "2002_AMC_8_Problems/Problem_9",
+  "svg": null,
+  "renderedAt": "2026-09-25T06:41:50.243Z",
+  "error": "Command failed: asy -f svg -o /tmp/amc-diagram-Eje6vm/diagram.svg /tmp/amc-diagram-Eje6vm/diagram.asy for ( int y = 0; y &lt;= 5; ++y )                        ^"
+}

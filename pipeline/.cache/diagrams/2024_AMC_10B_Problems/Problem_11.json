@@ -1,0 +1,6 @@
+{
+  "page": "2024_AMC_10B_Problems/Problem_11",
+  "svg": null,
+  "renderedAt": "2026-09-25T06:41:24.763Z",
+  "error": "Command failed: asy -f svg -o /tmp/amc-diagram-9uY5Rq/diagram.svg /tmp/amc-diagram-9uY5Rq/diagram.asy markscalefactor = 0.05; ^"
+}

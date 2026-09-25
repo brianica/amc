@@ -1,5 +1,5 @@
 {
   "page": "2014_AMC_8_Problems/Problem_22",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.406Z"
+  "wikitext": "==Problem 22==\nA <math>2</math>-digit number is such that the product of the digits plus the sum of the digits is equal to the number. What is the units digit of the number?\n\n<math>\\textbf{(A) }1\\qquad\\textbf{(B) }3\\qquad\\textbf{(C) }5\\qquad\\textbf{(D) }7\\qquad \\textbf{(E) }9</math>\n\n==Video Solution by OmegaLearn==\nhttps://youtu.be/7an5wU9Q5hk?t=2226\n\n==Video Solution 3==\nhttps://youtu.be/AR3Ke23N1I8 ~savannahsolver\n\n==Solution==\nWe can think of the number as <math>10a+b</math>, where a is the tens digit and b is the unit digit. Since the number is equal to the product of the digits (<math>ab</math>) plus the sum of the digits (<math>a+b</math>), we can say that <math>10a+b=ab+a+b</math>. We can simplify this to <math>10a=ab+a</math>, which factors to <math>(10)a=(b+1)a</math>. Dividing by <math>a</math>, we have that <math>b+1=10</math>. Therefore, the units digit, <math>b</math>, is <math>\\boxed{\\textbf{(E) }9}</math>\n\n==See Also==\n{{AMC8 box|year=2014|num-b=21|num-a=23}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:50:39.870Z"
 }

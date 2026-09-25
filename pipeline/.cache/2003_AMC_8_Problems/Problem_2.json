@@ -1,5 +1,5 @@
 {
   "page": "2003_AMC_8_Problems/Problem_2",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.354Z"
+  "wikitext": "==Problem==\nWhich of the following numbers has the smallest prime factor?\n\n<math>\\mathrm{(A)}\\ 55 \\qquad\\mathrm{(B)}\\ 57 \\qquad\\mathrm{(C)}\\ 58 \\qquad\\mathrm{(D)}\\ 59 \\qquad\\mathrm{(E)}\\ 61</math>\n\n==Solution==\nThe smallest prime factor is <math> 2 </math>, and since <math> 58 </math> is the only multiple of <math> 2 </math>, the answer is <math> \\boxed{\\mathrm{(C)}\\ 58} </math>.\n\n== Video Solution by OmegaLearn ==\nhttps://youtu.be/7an5wU9Q5hk?t=152\n\n~ pi_is_3.14\n\n==See Also==\n{{AMC8 box|year=2003|num-b=1|num-a=3}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:20:47.179Z"
 }

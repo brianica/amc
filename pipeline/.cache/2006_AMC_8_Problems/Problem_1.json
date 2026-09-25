@@ -1,5 +1,5 @@
 {
   "page": "2006_AMC_8_Problems/Problem_1",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.367Z"
+  "wikitext": "== Problem ==\nMindy made three purchases for <math> \\textdollar 1.98</math> dollars, <math> \\textdollar 5.04 </math> dollars, and <math> \\textdollar 9.89</math> dollars. What was her total, to the nearest dollar? \n\n<math> \\textbf{(A)}\\ 10\\qquad\\textbf{(B)}\\ 15\\qquad\\textbf{(C)}\\ 16\\qquad\\textbf{(D)}\\ 17\\qquad\\textbf{(E)}\\ 18 </math>\n\n== Solution ==\nThe three prices round to <math> \\textdollar 2 </math>, <math> \\textdollar 5 </math>, and <math> \\textdollar 10 </math>, which have a sum of <math> \\boxed{\\textbf{(D)}\\ 17} </math>.\n\nWe know that there will not be a rounding error, as the total amount rounded is clearly less than <math> \\textdollar 0.50 </math>.\n\n==Video Solution by WhyMath==\nhttps://youtu.be/ZVg9Rva8ZIg\n\n==See Also==\n{{AMC8 box|year=2006|before=First <br />Question|num-a=2}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:28:22.163Z"
 }

@@ -1,5 +1,5 @@
 {
   "page": "2004_AMC_8_Problems/Problem_4",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.359Z"
+  "wikitext": "== Problem ==\nMs. Hamilton’s eighth-grade class wants to participate in the annual three-person-team basketball tournament.\n\nLance, Sally, Joy, and Fred are chosen for the team. In how many ways can the three starters be chosen?\n\n<math> \\textbf{(A)}\\ 2\\qquad\\textbf{(B)}\\ 4\\qquad\\textbf{(C)}\\ 6\\qquad\\textbf{(D)}\\ 8\\qquad\\textbf{(E)}\\ 10 </math>\n\n== Solution ==\nThere are <math>\\binom{4}{3}</math> ways to choose three starters. Thus the answer is <math>\\boxed{\\textbf{(B)}\\ 4}</math>.\n\n== Solution 2 ==\nWe can choose <math>3</math> people by eliminating one from a set of <math>4</math> one at a time and the other three get selected. There are <math>4</math> ways to remove a person from a group of four (without considering order), so there are <math>\\boxed{\\textbf{(B)}\\ 4}</math> ways to choose three people, where order doesn't matter.\n\n==See Also==\n{{AMC8 box|year=2004|num-b=3|num-a=5}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:23:30.428Z"
 }

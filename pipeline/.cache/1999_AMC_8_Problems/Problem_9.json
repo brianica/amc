@@ -1,5 +1,5 @@
 {
   "page": "1999_AMC_8_Problems/Problem_9",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.336Z"
+  "wikitext": "==Problem==\n\nThree flower beds overlap as shown. Bed A has 500 plants, bed B has 450 plants, and bed C has 350 plants. Beds A and B share 50 plants, while beds A and C share 100. The total number of plants is\n\n<asy>\ndraw((0,0)--(3,0)--(3,1)--(0,1)--cycle);\ndraw(circle((.3,-.1),.7));\ndraw(circle((2.8,-.2),.8));\nlabel(\"A\",(1.3,.5),N);\nlabel(\"B\",(3.1,-.2),S);\nlabel(\"C\",(.6,-.2),S);\n</asy>\n\n<math>\\text{(A)}\\ 850 \\qquad \\text{(B)}\\ 1000 \\qquad \\text{(C)}\\ 1150 \\qquad \\text{(D)}\\ 1300 \\qquad \\text{(E)}\\ 1450</math>\n\n==Solution==\n===Solution 1===\n\nPlants shared by two beds have been counted\ntwice, so the total is <math>500 + 450 + 350 - 50 - 100 = \\boxed{\\text{(C)}\\ 1150}</math>.\n\n===Solution 2===\nBed A has <math>350</math> plants it doesn't\nshare with B or C. Bed B has <math>400</math> plants it doesn't\nshare with A or C. And C has <math>250</math> it doesn't share\nwith A or B. The total is <math>350 + 400 + 250 + 50 +\n100 = \\boxed{\\text{(C)}\\ 1150}</math> plants.\n\n==Video Solution==\n\nhttps://youtu.be/lajfUn8R6M4 ~DSA_Catachu\n\n==Video Solution 2==\n\nhttps://youtu.be/UGElt-v9n7A Soo, DRMS, NM\n\n==Video Solution 3==\nhttps://www.youtube.com/watch?v=oWkBtswXl1A by YippieMath\n\n==See Also==  \n\n{{AMC8 box|year=1999|num-b=8|num-a=10}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:11:00.749Z"
 }

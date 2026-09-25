@@ -1,5 +1,5 @@
 {
   "page": "2006_AMC_8_Problems/Problem_7",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.368Z"
+  "wikitext": "== Problem 7 ==\n\n\nCircle <imath> X </imath> has a radius of <imath> \\pi </imath>. Circle <imath> Y </imath> has a circumference of <imath> 8 \\pi </imath>. Circle <imath> Z </imath> has an area of <imath> 9 \\pi </imath>. List the circles in order from smallest to the largest radius. \n\n<imath> \\textbf{(A)}\\ X, Y, Z\\qquad\\textbf{(B)}\\ Z, X, Y\\qquad\\textbf{(C)}\\ Y, X, Z\\qquad\\textbf{(D)}\\ Z, Y, X\\qquad\\textbf{(E)}\\ X, Z, Y </imath>\n\n== Solution ==\n\nNot using the formulas of circles, <imath> C=2 \\pi r </imath> and <imath> A= \\pi r^2 </imath>, we find that circle <imath> Y </imath> has a radius of <imath> 4 </imath> and circle <imath> Z </imath> has a radius of <imath> 3 </imath>. Also, circle X has a radius of <imath> \\pi </imath>. Thus, the order from smallest to largest radius is <imath> \\boxed{\\textbf{(B)}\\ Z, X, Y} </imath>.\n\n==Video Solution by OmegaLearn==\nhttps://youtu.be/J5-hDWd28tM\n\n==See Also==\n{{AMC8 box|year=2006|num-b=6|num-a=8}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:28:52.107Z"
 }

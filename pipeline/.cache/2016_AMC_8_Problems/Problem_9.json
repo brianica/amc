@@ -1,5 +1,5 @@
 {
   "page": "2016_AMC_8_Problems/Problem_9",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.414Z"
+  "wikitext": "== Problem ==\n\nWhat is the sum of the distinct prime integer divisors of <math>2016</math>?\n\n<math>\\textbf{(A) }9\\qquad\\textbf{(B) }12\\qquad\\textbf{(C) }16\\qquad\\textbf{(D) }49\\qquad \\textbf{(E) }63</math>\n\n==Solutions==\n\n===Solution 1===\n\nThe prime factorization is <math>2016=2^5\\times3^2\\times7</math>.  Since the problem is only asking us for the distinct prime factors, we have <math>2,3,7</math>.  Their desired sum is then <math>\\boxed{\\textbf{(B) }12}</math>.\n\n==Video Solution==\n\nhttps://youtu.be/I_jevKp3Kyg?si=qKDYbUmjFkioeIvE\n\n~Elijahman~\n\n==Video Solution (CREATIVE THINKING!!!)==\nhttps://youtu.be/GNFnta9MF9E\n\n~Education, the Study of Everything\n\n==Video Solution==\nhttps://youtu.be/1KN7OTG3k-0\n\n~savannahsolver\n\n==See Also==\n{{AMC8 box|year=2016|num-b=8|num-a=10}}\n{{MAA Notice}}\n[[Category:Introductory Number Theory Problems]]",
+  "fetchedAt": "2026-09-19T04:54:38.066Z"
 }

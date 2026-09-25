@@ -1,5 +1,5 @@
 {
   "page": "2016_AMC_8_Problems/Problem_17",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.418Z"
+  "wikitext": "== Problem ==\n\nAn ATM password at Fred's Bank is composed of four digits from <math>0</math> to <math>9</math>, with repeated digits allowable. If no password may begin with the sequence <math>9,1,1,</math> then how many passwords are possible?\n\n<math>\\textbf{(A)}\\mbox{ }30\\qquad\\textbf{(B)}\\mbox{ }7290\\qquad\\textbf{(C)}\\mbox{ }9000\\qquad\\textbf{(D)}\\mbox{ }9990\\qquad\\textbf{(E)}\\mbox{ }9999</math>\n\n==Solutions==\n===Solution 1===\nFor the first three digits, there are <math>10^3-1=999</math> combinations since <math>911</math> is not allowed. For the final digit, any of the <math>10</math> numbers are allowed. <math>999 \\cdot 10 = 9990 \\rightarrow \\boxed{\\textbf{(D)}\\ 9990}</math>.\n\n~CHECKMATE2021\n\n===Solution 2===\nCounting the prohibited cases, we find that there are 10 of them. This is because, when we start with 9,1, and 1, we can have any of the 10 digits for the last digit. So, our answer is <math>10^4-10=\\boxed{\\textbf{(D)}\\ 9990}.</math>\n\n~CHECKMATE2021\n\n==Video Solution 1==\n[https://youtu.be/bP2698xypP0 (HOW TO THINK CREATIVELY!!!)]\n\n~Education, the Study of Everything\n\nhttps://youtu.be/slvWHYXz-20\n\n~savannahsolver\n\n==See Also==\n{{AMC8 box|year=2016|num-b=16|num-a=18}}\n{{MAA Notice}}\n[[Category:Introductory Combinatorics Problems]]",
+  "fetchedAt": "2026-09-19T04:55:23.300Z"
 }

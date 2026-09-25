@@ -1,0 +1,6 @@
+{
+  "page": "2025_AMC_8_Problems/Problem_24",
+  "svg": null,
+  "renderedAt": "2026-09-25T06:43:28.981Z",
+  "error": "Command failed: asy -f svg -o /tmp/amc-diagram-VGWk40/diagram.svg /tmp/amc-diagram-VGWk40/diagram.asy error: could not load module 'olympiad' "
+}

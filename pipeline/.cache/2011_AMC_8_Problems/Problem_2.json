@@ -1,5 +1,5 @@
 {
   "page": "2011_AMC_8_Problems/Problem_2",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.390Z"
+  "wikitext": "==Problem==\nKarl's rectangular vegetable garden is <math> 20 </math> feet by <math> 45 </math> feet, and Makenna's is <math> 25 </math> feet by <math> 40 </math> feet. Whose garden is larger in area?\n\n<math>\\textbf{(A)}\\ \\text{Karl's garden is larger by 100 square feet.}</math>\n\n<math>\\textbf{(B)}\\ \\text{Karl's garden is larger by 25 square feet.}</math>\n \n<math>\\textbf{(C)}\\ \\text{The gardens are the same size.}</math> \n\n<math>\\textbf{(D)}\\ \\text{Makenna's garden is larger by 25 square feet.}</math>\n\n<math>\\textbf{(E)}\\ \\text{Makenna's garden is larger by 100 square feet.}</math>\n\n==Solution==\n\nThe area of a rectangle is given by the formula length times width. Karl's garden is <math>20 \\times 45 = 900</math> square feet and Makenna's garden is <math>25 \\times 40 = 1000</math> square feet. Since <math>1000 > 900,</math> Makenna's garden is larger by <math>1000-900=100</math> square feet. <math>\\Rightarrow \\boxed{ \\textbf{(E)}\\ \\text{Makenna's garden is larger by 100 square feet.} }</math>\n\n==Video Solution by WhyMath==\nhttps://youtu.be/CzAPGrFs0xs\n\n==See Also==\n{{AMC8 box|year=2011|num-b=1|num-a=3}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:41:07.794Z"
 }

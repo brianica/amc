@@ -1,5 +1,5 @@
 {
   "page": "2005_AMC_8_Problems/Problem_7",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.364Z"
+  "wikitext": "==Problem==\nBill walks <math>\\tfrac12</math> mile south, then <math>\\tfrac34</math> mile east, and finally <math>\\tfrac12</math> mile south. How many miles is he, in a direct line, from his starting point?\n\n<math> \\textbf{(A)}\\ 1\\qquad\\textbf{(B)}\\ 1\\tfrac14\\qquad\\textbf{(C)}\\ 1\\tfrac12\\qquad\\textbf{(D)}\\ 1\\tfrac34\\qquad\\textbf{(E)}\\ 2 </math>\n\n==Solution==\nWe have a right-angle triangle with sides 3/4 and 1. We can divide the simple pythagorean theorem identity 3,4,5 by 4 to get 3/4, 1, 5/4. This shows us the answer is <math>\\boxed{\\textbf{B}\\ 1\\tfrac{1}{4}}</math>.\n\n==See Also==\n{{AMC8 box|year=2005|num-b=6|num-a=8}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:26:16.890Z"
 }

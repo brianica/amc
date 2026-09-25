@@ -1,5 +1,5 @@
 {
   "page": "2012_AMC_8_Problems/Problem_21",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.397Z"
+  "wikitext": "==Problem==\nMarla has a large white cube that has an edge of 10 feet. She also has enough green paint to cover 300 square feet. Marla uses all the paint to create a white square centered on each face, surrounded by a green border. What is the area of one of the white squares, in square feet?\n<math> \\textbf{(A)}\\hspace{.05in}5\\sqrt2\\qquad\\textbf{(B)}\\hspace{.05in}10\\qquad\\textbf{(C)}\\hspace{.05in}10\\sqrt2\\qquad\\textbf{(D)}\\hspace{.05in}50\\qquad\\textbf{(E)}\\hspace{.05in}50\\sqrt2 </math>\n\n==Solution==\nIf Marla evenly distributes her <math>300</math> square feet of paint between the 6 faces, each face will get <math>300\\div6 = 50</math> square feet of paint. The surface area of one of the faces of the cube is <math>10^2 = 100 </math> square feet. Therefore, there will be <math>100-50 = \\boxed{\\textbf{(D)}\\ 50} </math> square feet of white on each side.\n\n==Video Solution==\nhttps://youtu.be/LSmDtefPpps ~WhyMath\n\n==See Also ==\n{{AMC8 box|year=2012|num-b=20|num-a=22}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:45:28.224Z"
 }

@@ -1,5 +1,5 @@
 {
   "page": "2004_AMC_8_Problems/Problem_11",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.360Z"
+  "wikitext": "==Problem==\n\nThe numbers <math>-2, 4, 6, 9</math> and <math>12</math> are rearranged according to these rules:\n        \n         1. The largest isn't first, but it is in one of the first three places. \n         2. The smallest isn't last, but it is in one of the last three places. \n         3. The median isn't first or last.\n\nWhat is the average of the first and last numbers?\n\n<math>\\textbf{(A)}\\ 3.5 \\qquad \\textbf{(B)}\\ 5 \\qquad \\textbf{(C)}\\ 6.5 \\qquad \\textbf{(D)}\\ 7.5 \\qquad \\textbf{(E)}\\ 8</math>\n\n==Solution==\nFrom rule 1, the largest number, <math>12</math>, can be second or third. From rule 2, because there are five places, the smallest number <math>-2</math> can either be third or fourth. The median, <math>6</math> can be second, third, or fourth. Because we know the middle three numbers, the first and last numbers are <math>4</math> and <math>9</math>, disregarding their order. Their average is <math>(4+9)/2 = \\boxed{\\textbf{(C)}\\ 6.5}</math>.\n\n==See Also==\n{{AMC8 box|year=2004|num-b=10|num-a=12}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:24:09.838Z"
 }

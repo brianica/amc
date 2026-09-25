@@ -1,5 +1,5 @@
 {
   "page": "2008_AMC_8_Problems/Problem_7",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.377Z"
+  "wikitext": "==Problem==\nIf <math>\\frac{3}{5}=\\frac{M}{45}=\\frac{60}{N}</math>, what is <math>M+N</math>?\n\n<math>\\textbf{(A)}\\ 27\\qquad\n\\textbf{(B)}\\ 29 \\qquad\n\\textbf{(C)}\\ 45 \\qquad\n\\textbf{(D)}\\ 105\\qquad\n\\textbf{(E)}\\ 127</math>\n\n==Solution==\nSeparate into two equations <math>\\frac35 = \\frac{M}{45}</math> and <math>\\frac35 = \\frac{60}{N}</math> and solve for the unknowns. <math>M=27</math> and <math>N=100</math>, therefore <math>M+N=\\boxed{\\textbf{(E)}\\ 127}</math>.\n\n==See Also==\n{{AMC8 box|year=2008|num-b=6|num-a=8}}\n[[Category:Introductory Algebra Problems]]\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:33:51.550Z"
 }

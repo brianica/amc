@@ -1,5 +1,5 @@
 {
   "page": "2017_AMC_8_Problems/Problem_3",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.420Z"
+  "wikitext": "==Problem==\n\nWhat is the value of the expression <imath>\\sqrt{16\\sqrt{8\\sqrt{4}}}</imath>?\n\n<imath>\\textbf{(A) }4\\qquad\\textbf{(B) }4\\sqrt{2}\\qquad\\textbf{(C) }8\\qquad\\textbf{(D) }8\\sqrt{2}\\qquad\\textbf{(E) }16</imath>\n\n==Solution 1==\n\n<math>\\sqrt{16\\sqrt{8\\sqrt{4}}}</math> = <math>\\sqrt{16\\sqrt{8\\cdot 2}}</math> = <math>\\sqrt{16\\sqrt{16}}</math> = <math>\\sqrt{16\\cdot 4}</math> = <math>\\sqrt{64}</math> = <math>\\boxed{\\textbf{(C)}\\ 8}</math>.\n\n==Worse Solution==\n~ Sahan\n\nWe solve the general form expression <math>\\sqrt{a\\sqrt{b\\sqrt{c}}}</math>. Note, \n<cmath>\\sqrt{a\\sqrt{b\\sqrt{c}}}=(a^4b^2c^1)^\\frac{1}{8}</cmath>\nThus our answer is, \n<cmath>(16^4\\cdot8^24^1)^\\frac{1}{8}=16777216^{\\frac{1}{8}}=8</cmath>\n\n==Video Solution (CREATIVE THINKING!!!)==\nhttps://youtu.be/elN5lYfeKnw\n\n~Education, the Study of Everything\n\n==Video Solution==\nhttps://youtu.be/cY4NYSAD0vQ\n\nhttps://youtu.be/H0WHiLy1cFg\n\n~savannahsolver\n\n==See Also==\n{{AMC8 box|year=2017|num-b=2|num-a=4}}\n\n{{MAA Notice}}\n\n[[Category:Introductory Algebra Problems]]",
+  "fetchedAt": "2026-09-19T04:56:35.640Z"
 }

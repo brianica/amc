@@ -1,5 +1,5 @@
 {
   "page": "2006_AMC_8_Problems/Problem_3",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.368Z"
+  "wikitext": "== Problem ==\n\nElisa swims laps in the pool. When she first started, she completed 10 laps in 25 minutes. Now, she can finish 12 laps in 24 minutes. By how many minutes has she improved her lap time?\n\n<math> \\textbf{(A)}\\ \\frac{1}{2}\\qquad\\textbf{(B)}\\ \\frac{3}{4}\\qquad\\textbf{(C)}\\ 1\\qquad\\textbf{(D)}\\ 2\\qquad\\textbf{(E)}\\ 3 </math>\n\n== Solution ==\nWhen Elisa started, she finished a lap in <math> \\frac{25}{10}=2.5 </math> minutes. Now, she finishes a lap is <math> \\frac{24}{12}= 2 </math> minutes. The difference is <math> 2.5-2=\\boxed{\\textbf{(A)}\\ \\frac{1}{2}} </math>.\n\n==Video Solution by WhyMath==\nhttps://youtu.be/7L-_NCF3DPQ\n\n==See Also==\n{{AMC8 box|year=2006|num-b=2|num-a=4}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:28:32.256Z"
 }

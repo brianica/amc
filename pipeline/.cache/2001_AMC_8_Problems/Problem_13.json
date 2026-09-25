@@ -1,5 +1,5 @@
 {
   "page": "2001_AMC_8_Problems/Problem_13",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.348Z"
+  "wikitext": "==Problem==\n\nOf the 36 students in Richelle's class, 12 prefer chocolate pie, 8 prefer apple, and 6 prefer blueberry. Half of the remaining students prefer cherry pie and half prefer lemon. For Richelle's pie graph showing this data, how many degrees should she use for cherry pie?\n\n<math>\\text{(A)}\\ 10 \\qquad \\text{(B)}\\ 20 \\qquad \\text{(C)}\\ 30 \\qquad \\text{(D)}\\ 50 \\qquad \\text{(E)}\\ 72</math>\n\n==Solution==\n\nThere are <math> 36 </math> students in the class: <math> 12 </math> prefer chocolate pie, <math> 8 </math> prefer apple pie, and <math> 6 </math> prefer blueberry pie. Therefore, <math> 36-12-8-6=10 </math> students prefer cherry pie or lemon pie. Half of these prefer each, so <math> 5 </math> students prefer cherry pie. This means that <math> \\frac{5}{36} </math> of the students prefer cherry pie, so <math> \\frac{5}{36} </math> of the full <math> 360^\\circ </math> should be used for cherry pie. This is <math> (\\frac{5}{36})(360^\\circ)=50^\\circ, \\boxed{\\text{D}} </math>\n\n==Video Solution==\nhttps://youtu.be/4dhUeOdXvUk\nSoo, DRMS, NM\n\n==See Also==\n{{AMC8 box|year=2001|num-b=12|num-a=14}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:16:39.400Z"
 }

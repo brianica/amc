@@ -1,5 +1,5 @@
 {
   "page": "2015_AMC_8_Problems/Problem_4",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.407Z"
+  "wikitext": "==Problem==\n\nThe Centerville Middle School chess team consists of two boys and three girls. A photographer wants to take a picture of the team to appear in the local newspaper. She decides to have them sit in a row with a boy at each end and the three girls in the middle. How many such arrangements are possible?\n\n<imath>\\textbf{(A) }2\\qquad\\textbf{(B) }4\\qquad\\textbf{(C) }5\\qquad\\textbf{(D) }6\\qquad \\textbf{(E) }12</imath>\n\n==Solution==\nThere are <imath>2! = 2</imath> ways to order the boys on the ends, and there are <imath>3!=6</imath> ways to order the girls in the middle. We get the answer to be <imath>2 \\cdot 6 = \\boxed{\\textbf{(E) }12}</imath>.\n\n==Video Solution (HOW TO THINK CRITICALLY!!!)==\nhttps://youtu.be/srGyMofBMsE\n\n~Education, the Study of Everything\n\n==Video Solution==\nhttps://youtu.be/Zhsb5lv6jCI\n\n==Video Solution 2==\nhttps://youtu.be/4sUA1029D14\n\n~savannahsolver\n\n==See Also==\n\n{{AMC8 box|year=2015|num-b=3|num-a=5}}\n{{MAA Notice}}\n[[Category:Introductory Combinatorics Problems]]",
+  "fetchedAt": "2026-09-19T04:51:31.996Z"
 }

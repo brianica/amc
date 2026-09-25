@@ -1,5 +1,5 @@
 {
   "page": "2006_AMC_8_Problems/Problem_14",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.369Z"
+  "wikitext": "==Problem==\nProblems 14, 15 and 16 involve Mrs. Reed's English assignment. \n\nA Novel Assignment \n\nThe students in Mrs. Reed's English class are reading the same <math>760</math>-page novel. Three friends, Alice, Bob and Chandra, are in the class. Alice reads a page in 20 seconds, Bob reads a page in <math>45</math> seconds and Chandra reads a page in <math>30</math> seconds. \n\nIf Bob and Chandra both read the whole book, Bob will spend how many more seconds reading than Chandra? \n\n<math> \\textbf{(A)}\\ 7,600\\qquad\\textbf{(B)}\\ 11,400\\qquad\\textbf{(C)}\\ 12,500\\qquad\\textbf{(D)}\\ 15,200\\qquad\\textbf{(E)}\\ 22,800 </math>\n\n==Solution==\nThe information is the same for Problems 14,15, and 16. Therefore, we shall only use the information we need. All we need for this problem is that there's 760 pages, Bob reads a page in 45 seconds and Chandra reads a page in 30 seconds. A lot of people will find how long it takes Bob to read the book, how long it takes Chandra to read the book, and then find the seconds. However, if we just set up the expression, we can find an easier way.\n\n<math>760\\cdot45 - 760\\cdot30 = 760(45-30) = 760(15) = \\boxed{\\textbf{(B)}11,400}</math>\n\n==Video Solution by WhyMath==\nhttps://youtu.be/EpLQTEi0pLo\n\n==See Also==\n{{AMC8 box|year=2006|num-b=13|num-a=15}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:29:33.799Z"
 }

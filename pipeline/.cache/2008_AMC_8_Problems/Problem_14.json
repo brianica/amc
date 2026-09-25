@@ -1,5 +1,5 @@
 {
   "page": "2008_AMC_8_Problems/Problem_14",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.378Z"
+  "wikitext": "==Problem 14== \nThree <imath>\\text{A's}</imath>, three <imath>\\text{B's}</imath>, and three  <imath>\\text{C's}</imath> are placed in the nine spaces so that each row and column contain one of each letter. If <imath>\\text{A}</imath> is placed in the upper left corner, how many arrangements are possible?\n<asy>\nsize((80));\ndraw((0,0)--(9,0)--(9,9)--(0,9)--(0,0));\ndraw((3,0)--(3,9));\ndraw((6,0)--(6,9));\ndraw((0,3)--(9,3));\ndraw((0,6)--(9,6));\nlabel(\"A\", (1.5,7.5));\n</asy>\n<imath> \\textbf{(A)}\\ 2\\qquad\\textbf{(B)}\\ 3\\qquad\\textbf{(C)}\\ 4\\qquad\\textbf{(D)}\\ 5\\qquad\\textbf{(E)}\\ 6 </imath>\n\n[[2008 AMC 8 Problems/Problem 14|Solution]]\n\n\n== Solution ==\nThere are <imath>2</imath> ways to place the remaining <imath>\\text{As}</imath>, <imath>2</imath> ways to place the remaining <imath>\\text{Bs}</imath>, and <imath>1</imath> way to place the remaining <imath>\\text{Cs}</imath> for a total of <imath>(2)(2)(1) = \\boxed{\\textbf{(C)}\\ 4}</imath>.\n\n==Video Solution==\n\nhttps://www.youtube.com/watch?v=8qzMymleTIg   ~David\n\n==Video Solution 2==\nhttps://youtu.be/1m_c_iMvxKo  Soo, DRMS, NM\n\n== See Also ==\n{{AMC8 box|year=2008|num-b=13|num-a=15}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:34:28.948Z"
 }

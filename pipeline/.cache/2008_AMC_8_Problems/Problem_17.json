@@ -1,5 +1,5 @@
 {
   "page": "2008_AMC_8_Problems/Problem_17",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.379Z"
+  "wikitext": "==Problem==\nMs.Osborne asks each student in her class to draw a rectangle with integer side lengths and a perimeter of <math>50</math> units. All of her students calculate the area of the rectangle they draw. What is the difference between the largest and smallest possible areas of the rectangles?\n\n<math>\\textbf{(A)}\\ 76\\qquad\n\\textbf{(B)}\\ 120\\qquad\n\\textbf{(C)}\\ 128\\qquad\n\\textbf{(D)}\\ 132\\qquad\n\\textbf{(E)}\\ 136</math>\n\n==Solution==\nA rectangle's area is maximized when its length and width are equivalent, or the two side lengths are closest together in this case with integer lengths. This occurs with the sides <math>12 \\times 13 = 156</math>. Likewise, the area is smallest when the side lengths have the greatest difference, which is <math>1 \\times 24 = 24</math>. The difference in area is <math>156-24=\\boxed{\\textbf{(D)}\\ 132}</math>.\n\n\n==Video Solution==\nhttps://youtu.be/9bVwSsWa8IY Soo, DRMS, NM\n\n==See Also==\n{{AMC8 box|year=2008|num-b=16|num-a=18}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:34:47.108Z"
 }

@@ -1,0 +1,6 @@
+{
+  "page": "2025_AMC_8_Problems/Problem_1",
+  "svg": null,
+  "renderedAt": "2026-09-25T06:43:23.832Z",
+  "error": "Command failed: asy -f svg -o /tmp/amc-diagram-SgEGQX/diagram.svg /tmp/amc-diagram-SgEGQX/diagram.asy add(grid(4,4));     ^"
+}

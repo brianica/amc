@@ -1,5 +1,5 @@
 {
   "page": "2013_AMC_8_Problems/Problem_13",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.400Z"
+  "wikitext": "==Problem==\nWhen Clara totaled her scores, she inadvertently reversed the units digit and the tens digit of one score. By which of the following might her incorrect sum have differed from the correct one?\n\n<math>\\textbf{(A)}\\ 45 \\qquad \\textbf{(B)}\\ 46 \\qquad \\textbf{(C)}\\ 47 \\qquad \\textbf{(D)}\\ 48 \\qquad \\textbf{(E)}\\ 49</math>\n\n\n==Video Solution==\nhttps://www.youtube.com/watch?v=9FkjSCcdTqY   ~David\n\nhttps://youtu.be/KBM2YN4kKGA ~savannahsolver\n\n==Solution(educated guess)==\nLet the two digits be <math>a</math> and <math>b</math>.\n\nThe correct score was <math>10a+b</math>. Clara misinterpreted it as <math>10b+a</math>. The difference between the two is <math>|9a-9b|</math> which factors into <math>|9(a-b)|</math>. Therefore, since the difference is a multiple of 9, the only answer choice that is a multiple of 9 is  <math>\\boxed{\\textbf{(A)}\\ 45}</math>.\n\n==Solution 2(brute force elimination)  ==\n\nWe can simply test out numbers to see which one works. We can see that Clara’s score can’t be a multiple of ten because the reverse of the score is a one-digit number, which is too small for the answer choices. After testing multiples, the answer should be <imath>\\boxed{\\textbf{(A)}\\ 45}</imath>.\n\n==See Also==\n{{AMC8 box|year=2013|num-b=12|num-a=14}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:47:16.538Z"
 }

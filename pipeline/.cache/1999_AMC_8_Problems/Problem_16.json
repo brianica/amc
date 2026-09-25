@@ -1,5 +1,5 @@
 {
   "page": "1999_AMC_8_Problems/Problem_16",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.337Z"
+  "wikitext": "== Problem ==\nTori's mathematics test had 75 problems: 10 arithmetic, 30 algebra, and 35 geometry problems. Although she answered 70% of the arithmetic, 40% of the algebra, and 60% of the geometry problems correctly, she did not pass the test because she got less than 60% of the problems right. How many more problems would she have needed to answer correctly to earn a 60% passing grade?\n\n<math>\\text{(A)}\\ 1 \\qquad \\text{(B)}\\ 5 \\qquad \\text{(C)}\\ 7 \\qquad \\text{(D)}\\ 9 \\qquad \\text{(E)}\\ 11</math>\n==Solution==\nFirst, calculate how many of each type of problem she got right:\n\nArithmetic:  <math>70\\% \\cdot 10 = 0.70 \\cdot 10 = 7</math>\n\nAlgebra:  <math>40\\% \\cdot 30 = 0.40 \\cdot 30 = 12</math>\n\nGeometry:  <math>60\\% \\cdot 35 = 0.60 \\cdot 35 =  21</math>\n\nAltogether, Tori answered <math>7 + 12 + 21 = 40</math> questions correct.\nTo get a <math>60\\%</math> on her test overall, she needed to get <math>60\\% \\cdot 75 = 0.60 \\cdot 75 = 45</math> questions right.\n\nTherefore, she needed to answer <math>45 - 40 = 5</math> more questions to pass, so the correct answer is <math>\\boxed{(B) 5}</math>\n\n==Video Solution==\nhttps://youtu.be/3sBMI9cVhNs Soo, DRMS, NM\n\n==See Also==\n{{AMC8 box|year=1999|num-b=15|num-a=17}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:11:41.838Z"
 }

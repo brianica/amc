@@ -1,5 +1,5 @@
 {
   "page": "2014_AMC_8_Problems/Problem_5",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.403Z"
+  "wikitext": "==Problem==\nMargie's car can go <math>32</math> miles on a gallon of gas, and gas currently costs \\$<math>4</math> per gallon. How many miles can Margie drive on <math>\\textdollar 20</math> worth of gas?\n\n<math>\\textbf{(A) }64\\qquad\\textbf{(B) }128\\qquad\\textbf{(C) }160\\qquad\\textbf{(D) }320\\qquad \\textbf{(E) }640</math>\n\n==Solution==\nMargie can afford <math>20/4=5</math> gallons of gas. She can go <math>32\\cdot5=\\boxed{\\textbf{(C)}~160}</math> miles on this amount of gas.\n\n==Video Solution (CREATIVE THINKING)==\nhttps://youtu.be/YNNTewVLbyU\n\n~Education, the Study of Everything\n\n\n\n==Video Solution==\nhttps://youtu.be/mav136CA3eQ ~savannahsolver\n\n==See Also==\n{{AMC8 box|year=2014|num-b=4|num-a=6}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:49:06.430Z"
 }

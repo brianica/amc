@@ -1,5 +1,5 @@
 {
   "page": "2012_AMC_8_Problems/Problem_17",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.397Z"
+  "wikitext": "==Problem==\nA square with integer side length is cut into 10 squares, all of which have integer side length and at least 8 of which have area 1. What is the smallest possible value of the length of the side of the original square?\n\n<math> \\text{(A)}\\hspace{.05in}3\\qquad\\text{(B)}\\hspace{.05in}4\\qquad\\text{(C)}\\hspace{.05in}5\\qquad\\text{(D)}\\hspace{.05in}6\\qquad\\text{(E)}\\hspace{.05in}7 </math>\n\n==Solution==\nThe first answer choice <imath> {\\textbf{(A)}\\ 3} </imath>, can be eliminated since there must be <imath> 10 </imath> squares with integer side lengths. We then test the next smallest side length, which is <imath> 4 </imath>. The square with area <imath> 16 </imath> can be partitioned into <imath> 8 </imath> squares with area <imath> 1 </imath> and two squares with area <imath> 4 </imath>, which satisfies all the conditions of the problem. Therefore, the smallest possible value of the length of the side of the original square is <imath> \\boxed{\\textbf{(B)}\\ 4} </imath>.\n\n==See Also==\n{{AMC8 box|year=2012|num-b=16|num-a=18}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:45:06.438Z"
 }

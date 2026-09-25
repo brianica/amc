@@ -1,0 +1,6 @@
+{
+  "page": "2015_AMC_10B_Problems/Problem_9",
+  "svg": null,
+  "renderedAt": "2026-09-25T06:40:52.127Z",
+  "error": "Command failed: asy -f svg -o /tmp/amc-diagram-MBdwpD/diagram.svg /tmp/amc-diagram-MBdwpD/diagram.asy error: could not load module 'cse5' "
+}

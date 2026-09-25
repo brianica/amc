@@ -1,5 +1,5 @@
 {
   "page": "2009_AMC_8_Problems/Problem_5",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.382Z"
+  "wikitext": "==Problem==\n\nA sequence of numbers starts with <math> 1</math>, <math> 2</math>, and <math> 3</math>. The fourth number of the sequence is the sum of the previous three numbers in the sequence: <math> 1+2+3=6</math>. In the same way, every number after the fourth is the sum of the previous three numbers. What is the eighth number in the sequence? \n\n<math> \\textbf{(A)}\\  11  \\qquad\n\\textbf{(B)}\\   20  \\qquad\n\\textbf{(C)}\\   37  \\qquad\n\\textbf{(D)}\\   68  \\qquad\n\\textbf{(E)}\\    99</math>\n\n==Solution==\nList them out, adding the three previous numbers to get the next number,\n\n<cmath>1,2,3,6,11,20,37,\\boxed{\\textbf{(D)}\\ 68}</cmath>\n\n==Video Solution ==\nhttps://youtu.be/USVVURBLaAc?t=221\n\n==Video Solution 2==\nhttps://youtu.be/bsqdmV1x9aM\n\n~savannahsolver\n\n==See Also==\n{{AMC8 box|year=2009|num-b=4|num-a=6}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:36:13.263Z"
 }

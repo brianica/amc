@@ -1,5 +1,5 @@
 {
   "page": "2009_AMC_8_Problems/Problem_21",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.385Z"
+  "wikitext": "==Problem==\n\nAndy and Bethany have a rectangular array of numbers with <math> 40</math> rows and <math> 75</math> columns. Andy adds the numbers in each row. The average of his <math> 40</math> sums is <math> A</math>. Bethany adds the numbers in each column. The average of her <math> 75</math> sums is <math> B</math>. What is the value of <math> \\frac{A}{B}</math>?\n\n<math> \\textbf{(A)}\\ \\frac{64}{225}     \\qquad\n\\textbf{(B)}\\   \\frac{8}{15}    \\qquad\n\\textbf{(C)}\\    1   \\qquad\n\\textbf{(D)}\\   \\frac{15}{8}    \\qquad\n\\textbf{(E)}\\    \\frac{225}{64}</math>\n\n==Solution==\nNote that <imath>40A=75B=\\text{sum of the numbers in the array}</imath>. This means that <imath>\\frac{A}{B}=\\boxed{\\text{(D) } \\frac{15}{8}}</imath> using basic algebraic    manipulation.\n\n==See Also==\n{{AMC8 box|year=2009|num-b=20|num-a=22}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:37:43.901Z"
 }

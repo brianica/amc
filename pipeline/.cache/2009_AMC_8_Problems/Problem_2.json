@@ -1,5 +1,5 @@
 {
   "page": "2009_AMC_8_Problems/Problem_2",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.382Z"
+  "wikitext": "==Problem==\n\nOn average, for every 4 sports cars sold at the local dealership, 7 sedans are sold. The dealership predicts that it will sell 28 sports cars next month. How many sedans does it expect to sell? \n\n<math> \\textbf{(A)}\\ 7\\qquad\\textbf{(B)}\\ 32\\qquad\\textbf{(C)}\\ 35\\qquad\\textbf{(D)}\\ 49\\qquad\\textbf{(E)}\\ 112 </math>\n\n==Solution==\nThis means the ratio is <math>4:7</math>. If the ratio now is <math>28:x</math>, then that means <math>x= \\boxed{\\textbf{(D) }49}</math>.\n\n==Video Solution==\nhttps://youtu.be/USVVURBLaAc?t=59\n\n==Video Solution 2==\nhttps://youtu.be/kQfc1PFwbBE\n\n~savannahsolver\n\n==See Also==\n{{AMC8 box|year=2009|num-b=1|num-a=3}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:35:56.076Z"
 }

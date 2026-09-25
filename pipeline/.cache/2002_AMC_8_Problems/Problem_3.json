@@ -1,5 +1,5 @@
 {
   "page": "2002_AMC_8_Problems/Problem_3",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.350Z"
+  "wikitext": "==Problem==\n\nWhat is the smallest possible average of four distinct positive even integers?\n\n<imath>\\textbf{(A)}\\ 3 \\qquad \\textbf{(B)}\\ 4 \\qquad \\textbf{(C)}\\ 5 \\qquad \\textbf{(D)}\\ 6 \\qquad \\textbf{(E)}\\ 7</imath>\n\n\n==Solution==\nThe smallest average is achieved by using the four smallest positive even integers, which are <imath>2</imath>, <imath>4</imath>, <imath>6</imath>, and <imath>8</imath>. \nTheir average is <imath>\\frac{2+4+6+8}{4}=\\frac{20}{4}=\\boxed{\\textbf{(C)}\\ 5}</imath>.\n\n==Video Solution by WhyMath==\nhttps://youtu.be/JN5-YpUPeso\n\n==See Also==\n{{AMC8 box|year=2002|num-b=2|num-a=4}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:18:14.416Z"
 }

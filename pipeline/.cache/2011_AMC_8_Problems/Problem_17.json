@@ -1,5 +1,5 @@
 {
   "page": "2011_AMC_8_Problems/Problem_17",
-  "wikitext": null,
-  "fetchedAt": "2026-09-14T05:08:49.393Z"
+  "wikitext": "==Problem==\nLet <math>w</math>, <math>x</math>, <math>y</math>, and <math>z</math> be whole numbers. If <math>2^w \\cdot 3^x \\cdot 5^y \\cdot 7^z = 588</math>, then what does <math>2w + 3x + 5y + 7z</math> equal?\n\n<math> \\textbf{(A) } 21\\qquad\\textbf{(B) }25\\qquad\\textbf{(C) }27\\qquad\\textbf{(D) }35\\qquad\\textbf{(E) }56 </math>\n\n==Solution==\nThe [[prime factorization]] of <math>588</math> is <math>2^2\\cdot3\\cdot7^2.</math> We can see <math>w=2, x=1,</math> and <math>z=2.</math> Because <math>5^0=1, y=0.</math>\n\n<cmath>2w+3x+5y+7z=4+3+0+14=\\boxed{\\textbf{(A)}\\ 21}</cmath>\n\n==Video Solution==\nhttps://youtu.be/PxBKpg-HKu8   ~David\n\n==Video Solution 2==\nhttps://youtu.be/5vpKkAue8Is. Soo, DRMS, NM\n\n==Video Solution 3==\nhttps://youtu.be/_4KL96b9vbY\n\n~savannahsolver\n\n==Video Solution 4 by SpreadTheMathLove==\nhttps://www.youtube.com/watch?v=mYn6tNxrWBU\n\n==See Also==\n{{AMC8 box|year=2011|num-b=16|num-a=18}}\n{{MAA Notice}}",
+  "fetchedAt": "2026-09-19T04:42:30.642Z"
 }
