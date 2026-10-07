@@ -21,12 +21,15 @@ export function supabaseConfigured(): boolean {
  */
 const DEV_USER: SessionUser = { id: "dev-user", email: "dev@localhost", isDev: true };
 
-export function assertAuthConfigured(): void {
-  if (!supabaseConfigured() && process.env.NODE_ENV === "production") {
-    throw new Error(
-      "Supabase is not configured. Set NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY.",
-    );
-  }
+/**
+ * True when this is a production deployment with no Supabase project behind it.
+ *
+ * The root layout turns this into an explanatory page. It is reported rather than
+ * thrown because throwing from every page produced a bare 500 whose cause was only
+ * visible in the server log — a missing setting should say which setting.
+ */
+export function authUnconfiguredInProduction(): boolean {
+  return !supabaseConfigured() && process.env.NODE_ENV === "production";
 }
 
 export async function supabaseServer() {
@@ -51,7 +54,9 @@ export async function supabaseServer() {
 }
 
 export async function currentUser(): Promise<SessionUser | null> {
-  assertAuthConfigured();
+  // Never the development account in production: that would hand every visitor the
+  // same data. Signed out is the safe answer, and the layout explains why.
+  if (authUnconfiguredInProduction()) return null;
   if (!supabaseConfigured()) return DEV_USER;
 
   const supabase = await supabaseServer();
